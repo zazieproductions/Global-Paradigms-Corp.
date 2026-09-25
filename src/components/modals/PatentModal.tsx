@@ -27,14 +27,14 @@ export const PatentModal: React.FC<PatentModalProps> = ({
         <div className="flex items-center justify-between px-6 py-4 bg-[#0d121c] border-b border-slate-800 print:hidden">
           <div className="flex items-center gap-3">
             <span className="font-insignia text-lg text-slate-100 font-bold tracking-wider">
-              OFFICIAL SPECULATIVE PATENT DOSSIER
+              OFFICIAL PATENT FILING DOSSIER
             </span>
             <span className={`px-2 py-0.5 text-[10px] rounded font-bold ${
               patent.status === 'Granted'
                 ? 'bg-emerald-950 text-emerald-400 border border-emerald-800'
-                : patent.status === 'Speculative Embargo'
-                ? 'bg-amber-950 text-amber-400 border border-amber-800'
-                : 'bg-cyan-950 text-cyan-300 border border-cyan-800'
+                : patent.status === 'Classification Embargo'
+                ? 'bg-cyan-950 text-cyan-400 border border-cyan-800'
+                : 'bg-amber-950 text-amber-300 border border-amber-800'
             }`}>
               {patent.status.toUpperCase()}
             </span>
@@ -45,7 +45,7 @@ export const PatentModal: React.FC<PatentModalProps> = ({
               className="py-1 px-3 bg-slate-800 hover:bg-slate-700 text-slate-200 rounded flex items-center gap-1.5 transition-colors cursor-pointer"
               title="Print formal patent specification document"
             >
-              <Printer className="w-3.5 h-3.5 text-amber-400" /> PRINT DOSSIER
+              <Printer className="w-3.5 h-3.5 text-cyan-400" /> PRINT DOSSIER
             </button>
             <button
               onClick={onClose}
@@ -62,8 +62,8 @@ export const PatentModal: React.FC<PatentModalProps> = ({
           <div className="border-2 border-slate-700 p-5 bg-[#07090f] print:border-black print:bg-white">
             <div className="grid grid-cols-1 md:grid-cols-2 gap-4 pb-4 border-b border-slate-800 print:border-black">
               <div>
-                <div className="text-[10px] text-slate-400 print:text-slate-600">SPECULATIVE PATENT PUBLICATION</div>
-                <div className="text-xl font-bold text-amber-400 print:text-black font-mono-code tracking-wider">
+                <div className="text-[10px] text-slate-400 print:text-slate-600">PATENT FILING PUBLICATION</div>
+                <div className="text-xl font-bold text-cyan-400 print:text-black font-mono-code tracking-wider">
                   {patent.patentNumber}
                 </div>
                 <div className="text-[11px] text-slate-400 print:text-slate-700 mt-1">
@@ -73,11 +73,11 @@ export const PatentModal: React.FC<PatentModalProps> = ({
 
               <div className="text-right print:text-right">
                 <div className="text-[10px] text-slate-400 print:text-slate-600">CPC CLASSIFICATION</div>
-                <div className="text-sm font-bold text-cyan-400 print:text-black font-mono-code">
+                <div className="text-sm font-bold text-amber-400 print:text-black font-mono-code">
                   {patent.cpcClassification}
                 </div>
                 <div className="text-[11px] text-slate-400 print:text-slate-700 mt-1">
-                  JURISDICTION: <strong>INTERNATIONAL SPECULATIVE ACOUSTICS REGISTRY</strong>
+                  JURISDICTION: <strong>WIPO CONVENTION STATES // GPC INTERNAL REGISTRY</strong>
                 </div>
               </div>
             </div>
@@ -110,7 +110,7 @@ export const PatentModal: React.FC<PatentModalProps> = ({
 
           {/* Technical Drawing FIG 1 */}
           <div className="space-y-2">
-            <h3 className="font-insignia text-xs text-amber-400 print:text-black tracking-wider font-bold">
+            <h3 className="font-insignia text-xs text-cyan-400 print:text-black tracking-wider font-bold">
               PATENT DRAWING // {patent.diagramTitle}
             </h3>
             <PatentSchematic
@@ -126,7 +126,7 @@ export const PatentModal: React.FC<PatentModalProps> = ({
 
           {/* Abstract */}
           <div className="space-y-2">
-            <h3 className="font-insignia text-xs text-cyan-400 print:text-black tracking-wider font-bold">
+            <h3 className="font-insignia text-xs text-amber-400 print:text-black tracking-wider font-bold">
               ABSTRACT
             </h3>
             <p className="font-academic text-base text-slate-300 print:text-black leading-relaxed bg-[#0c1018] print:bg-transparent p-4 rounded border border-slate-800/80 print:border-none">
@@ -143,7 +143,7 @@ export const PatentModal: React.FC<PatentModalProps> = ({
             <div className="space-y-3 font-academic text-sm text-slate-300 print:text-black">
               {patent.independentClaims.map((claim, idx) => (
                 <div key={idx} className="p-3 bg-[#0a0e16] print:bg-transparent border border-slate-800 print:border-slate-300 rounded leading-relaxed">
-                  <span className="font-bold text-amber-400 print:text-black font-mono-code text-xs block mb-1">
+                  <span className="font-bold text-cyan-400 print:text-black font-mono-code text-xs block mb-1">
                     INDEPENDENT CLAIM {idx + 1}:
                   </span>
                   {claim}
@@ -152,7 +152,7 @@ export const PatentModal: React.FC<PatentModalProps> = ({
 
               {patent.dependentClaims.map((claim, idx) => (
                 <div key={idx} className="p-3 bg-[#080b12] print:bg-transparent border border-slate-800/60 print:border-slate-300 rounded leading-relaxed">
-                  <span className="font-bold text-cyan-400 print:text-black font-mono-code text-xs block mb-1">
+                  <span className="font-bold text-amber-400 print:text-black font-mono-code text-xs block mb-1">
                     DEPENDENT CLAIM {idx + 3}:
                   </span>
                   {claim}
@@ -175,14 +175,14 @@ export const PatentModal: React.FC<PatentModalProps> = ({
 
           {/* Linked Prototype */}
           {patent.linkedPrototypeId && onSelectPrototype && (
-            <div className="p-4 bg-cyan-950/20 border border-cyan-900/50 rounded flex items-center justify-between print:hidden">
+            <div className="p-4 bg-amber-950/20 border border-amber-900/50 rounded flex items-center justify-between print:hidden">
               <div>
-                <span className="text-[10px] text-cyan-400 font-bold">CORRELATED PROTOTYPE APPARATUS</span>
+                <span className="text-[10px] text-amber-400 font-bold">CORRELATED PROTOTYPE APPARATUS</span>
                 <div className="text-slate-200 font-semibold">{patent.linkedPrototypeId.toUpperCase()}</div>
               </div>
               <button
                 onClick={() => onSelectPrototype(patent.linkedPrototypeId)}
-                className="py-1.5 px-3 bg-cyan-600 hover:bg-cyan-500 text-slate-950 font-bold rounded flex items-center gap-1 text-[11px] cursor-pointer"
+                className="py-1.5 px-3 bg-amber-600 hover:bg-amber-500 text-slate-950 font-bold rounded flex items-center gap-1 text-[11px] cursor-pointer"
               >
                 Inspect Prototype Dossier →
               </button>
@@ -193,7 +193,7 @@ export const PatentModal: React.FC<PatentModalProps> = ({
         {/* Modal Footer */}
         <div className="flex items-center justify-between px-6 py-4 bg-[#0d121c] border-t border-slate-800 print:hidden">
           <div className="text-[10px] text-slate-400">
-            ZAZIE INSTITUTE OF APPLIED ANOMALIES // CONFIDENTIAL PATENT STUDY
+            GLOBAL PARADIGMS CORP. // CONFIDENTIAL FILING STUDY
           </div>
           <button
             onClick={onClose}

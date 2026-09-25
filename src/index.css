@@ -3,7 +3,7 @@
 @layer base {
   :root {
     --font-academic: 'Newsreader', Garamond, Georgia, serif;
-    --font-insignia: 'Cinzel', serif;
+    --font-insignia: 'Oswald', 'Arial Narrow', sans-serif;
     --font-mono: 'JetBrains Mono', monospace;
   }
 
@@ -21,7 +21,9 @@
 }
 
 .font-insignia {
-  font-family: 'Cinzel', serif;
+  font-family: 'Oswald', 'Arial Narrow', sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
 }
 
 .font-mono-code {
@@ -47,7 +49,7 @@
   color: #ff4d4d;
   text-transform: uppercase;
   letter-spacing: 0.15em;
-  font-family: 'Cinzel', serif;
+  font-family: 'Oswald', 'Arial Narrow', sans-serif;
   transform: rotate(-3deg);
   display: inline-block;
   padding: 2px 8px;
@@ -59,7 +61,7 @@
   color: #d4a359;
   text-transform: uppercase;
   letter-spacing: 0.15em;
-  font-family: 'Cinzel', serif;
+  font-family: 'Oswald', 'Arial Narrow', sans-serif;
   transform: rotate(2deg);
   display: inline-block;
   padding: 2px 8px;
@@ -71,7 +73,7 @@
   color: #10b981;
   text-transform: uppercase;
   letter-spacing: 0.15em;
-  font-family: 'Cinzel', serif;
+  font-family: 'Oswald', 'Arial Narrow', sans-serif;
   display: inline-block;
   padding: 2px 8px;
   font-weight: 700;

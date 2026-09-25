@@ -219,10 +219,10 @@ export const Prototype3MarkovMatrix: React.FC = () => {
         <div className="flex items-center gap-3">
           <div className="w-2.5 h-2.5 rounded-full bg-emerald-400 animate-pulse" />
           <span className="font-insignia text-sm tracking-wider text-slate-100 font-bold">
-            PROTOTYPE BENCH 03 // MARKOV CELLULAR ACOUSTIC AUTOMATA
+            SYSTEMS BENCH 03 // CROWD-FLOW CELLULAR AUTOMATA
           </span>
           <span className="px-2 py-0.5 text-[10px] bg-emerald-950 text-emerald-300 border border-emerald-800 rounded">
-            ZIAA-PR-049
+            GPC-PR-065
           </span>
         </div>
         <div className="flex items-center gap-2">
@@ -258,7 +258,7 @@ export const Prototype3MarkovMatrix: React.FC = () => {
                                   ? 'bg-emerald-300 border-white shadow-lg shadow-emerald-400/50 scale-105'
                                   : 'bg-emerald-600/60 border-emerald-400/80 hover:bg-emerald-500/70'
                                 : isCurrentCol
-                                ? 'bg-slate-800/80 border-cyan-500/40'
+                                ? 'bg-slate-800/80 border-amber-500/40'
                                 : 'bg-slate-900/60 border-slate-800/80 hover:border-slate-700'
                             }`}
                           >
@@ -285,7 +285,7 @@ export const Prototype3MarkovMatrix: React.FC = () => {
                     key={i}
                     className={`py-0.5 rounded font-bold ${
                       currentStep === i && isPlaying
-                        ? 'bg-cyan-500 text-black'
+                        ? 'bg-amber-500 text-black'
                         : 'text-slate-400'
                     }`}
                   >
@@ -335,7 +335,7 @@ export const Prototype3MarkovMatrix: React.FC = () => {
           <div>
             <div className="flex justify-between text-slate-300 mb-1">
               <span className="text-slate-400">ACOUSTIC RING DECAY:</span>
-              <span className="text-cyan-400 font-bold">{(decayTime * 1000).toFixed(0)} ms</span>
+              <span className="text-amber-400 font-bold">{(decayTime * 1000).toFixed(0)} ms</span>
             </div>
             <input
               type="range"
@@ -344,14 +344,14 @@ export const Prototype3MarkovMatrix: React.FC = () => {
               step="0.05"
               value={decayTime}
               onChange={(e) => setDecayTime(parseFloat(e.target.value))}
-              className="w-full accent-cyan-400 cursor-pointer h-1.5 bg-slate-800 rounded"
+              className="w-full accent-amber-400 cursor-pointer h-1.5 bg-slate-800 rounded"
             />
           </div>
 
           <div>
             <div className="flex justify-between text-slate-300 mb-1">
               <span className="text-slate-400">ENTROPY MUTATION DRIFT:</span>
-              <span className="text-amber-400 font-bold">{stochasticDrift}% / STEP</span>
+              <span className="text-cyan-400 font-bold">{stochasticDrift}% / STEP</span>
             </div>
             <input
               type="range"
@@ -359,7 +359,7 @@ export const Prototype3MarkovMatrix: React.FC = () => {
               max="60"
               value={stochasticDrift}
               onChange={(e) => setStochasticDrift(parseInt(e.target.value))}
-              className="w-full accent-amber-400 cursor-pointer h-1.5 bg-slate-800 rounded"
+              className="w-full accent-cyan-400 cursor-pointer h-1.5 bg-slate-800 rounded"
             />
           </div>
 
@@ -376,7 +376,7 @@ export const Prototype3MarkovMatrix: React.FC = () => {
               onClick={randomizeGrid}
               className="py-1.5 px-2 bg-slate-800 hover:bg-slate-700 text-slate-200 rounded border border-slate-700 flex items-center justify-center gap-1.5 cursor-pointer"
             >
-              <Shuffle className="w-3.5 h-3.5 text-cyan-400" /> RANDOMIZE
+              <Shuffle className="w-3.5 h-3.5 text-amber-400" /> RANDOMIZE
             </button>
           </div>
 

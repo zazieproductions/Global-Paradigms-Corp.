@@ -35,21 +35,21 @@ export const PatentsView: React.FC<PatentsViewProps> = ({ onSelectPatent }) => {
       <div className="border border-slate-700 bg-[#0a0e16] p-5 rounded-sm flex flex-col md:flex-row md:items-center md:justify-between gap-4">
         <div>
           <div className="flex items-center gap-2 mb-1">
-            <span className="text-amber-400 font-bold uppercase tracking-widest text-[11px]">
-              INTELLECTUAL SPECULATION REGISTRY // 78 LEGAL DOSSIERS
+            <span className="text-cyan-400 font-bold uppercase tracking-widest text-[11px]">
+              INTELLECTUAL PROPERTY REGISTRY // 78 FILING DOSSIERS
             </span>
           </div>
           <h1 className="font-academic text-2xl sm:text-3xl font-bold text-slate-100">
-            Speculative Patent Studies (2021–2026)
+            Patent Filings (1998–2006)
           </h1>
           <p className="font-academic text-sm text-slate-400 mt-1 max-w-2xl">
-            Legal claims, phononic boundary conditions, and device disclosures filed by Zazie Productions LLC. Each dossier contains independent and dependent claims, technical vector blueprints, and prior art trees.
+            Claims, contingency boundary conditions, and device disclosures filed by Global Paradigms Corp. Each dossier contains independent and dependent claims, technical vector blueprints, and prior art trees. Several filings remain under classification embargo; the corporation lapsed before answering its last office actions.
           </p>
         </div>
 
         <div className="text-right shrink-0">
           <div className="text-[10px] text-slate-400">REGISTERED PATENTS</div>
-          <div className="text-xl font-bold text-amber-400 font-insignia">
+          <div className="text-xl font-bold text-cyan-400 font-insignia">
             {filteredPatents.length} / {PATENTS_ARCHIVE.length}
           </div>
         </div>
@@ -62,10 +62,10 @@ export const PatentsView: React.FC<PatentsViewProps> = ({ onSelectPatent }) => {
             <Search className="absolute left-3 top-2.5 w-4 h-4 text-slate-400" />
             <input
               type="text"
-              placeholder="Search patent title, number (e.g. ZIAA-PAT-2023-018), inventor..."
+              placeholder="Search patent title, number (e.g. GPC-PAT-2003-018), inventor..."
               value={searchQuery}
               onChange={(e) => setSearchQuery(e.target.value)}
-              className="w-full bg-[#04060a] border border-slate-800 rounded pl-9 pr-4 py-2 text-slate-200 placeholder-slate-400 outline-none focus:border-amber-500 text-xs"
+              className="w-full bg-[#04060a] border border-slate-800 rounded pl-9 pr-4 py-2 text-slate-200 placeholder-slate-400 outline-none focus:border-cyan-500 text-xs"
             />
           </div>
 
@@ -78,8 +78,8 @@ export const PatentsView: React.FC<PatentsViewProps> = ({ onSelectPatent }) => {
               <option value="all">All Legal Statuses</option>
               <option value="Granted">Granted</option>
               <option value="Under Defense">Under Defense</option>
-              <option value="Speculative Embargo">Speculative Embargo</option>
-              <option value="Public Domain Study">Public Domain Study</option>
+              <option value="Classification Embargo">Classification Embargo</option>
+              <option value="Lapsed — Public Domain">Lapsed — Public Domain</option>
             </select>
 
             <select
@@ -88,7 +88,7 @@ export const PatentsView: React.FC<PatentsViewProps> = ({ onSelectPatent }) => {
               className="bg-[#05080f] border border-slate-800 text-slate-200 rounded p-2 text-[11px] outline-none flex-1 sm:flex-none"
             >
               <option value="all">All Filing Years</option>
-              {[2021, 2022, 2023, 2024, 2025, 2026].map((y) => (
+              {[1998, 1999, 2000, 2001, 2002, 2003, 2004, 2005, 2006].map((y) => (
                 <option key={y} value={y.toString()}>{y}</option>
               ))}
             </select>
@@ -102,28 +102,28 @@ export const PatentsView: React.FC<PatentsViewProps> = ({ onSelectPatent }) => {
           <div
             key={pat.patentNumber}
             onClick={() => onSelectPatent(pat)}
-            className="p-5 bg-[#090d14] border border-slate-800 hover:border-amber-500/70 rounded-sm transition-all cursor-pointer flex flex-col justify-between group hover:bg-[#0c111a]"
+            className="p-5 bg-[#090d14] border border-slate-800 hover:border-cyan-500/70 rounded-sm transition-all cursor-pointer flex flex-col justify-between group hover:bg-[#0c111a]"
           >
             <div>
               <div className="flex items-center justify-between text-[10px] mb-2">
-                <span className="font-bold text-amber-400 font-mono-code">{pat.patentNumber}</span>
+                <span className="font-bold text-cyan-400 font-mono-code">{pat.patentNumber}</span>
                 <span className={`px-2 py-0.5 rounded text-[9px] font-bold ${
                   pat.status === 'Granted'
                     ? 'bg-emerald-950 text-emerald-400 border border-emerald-800'
-                    : pat.status === 'Speculative Embargo'
-                    ? 'bg-amber-950 text-amber-400 border border-amber-800'
-                    : 'bg-cyan-950 text-cyan-300 border border-cyan-800'
+                    : pat.status === 'Classification Embargo'
+                    ? 'bg-cyan-950 text-cyan-400 border border-cyan-800'
+                    : 'bg-amber-950 text-amber-300 border border-amber-800'
                 }`}>
                   {pat.status.toUpperCase()}
                 </span>
               </div>
 
-              <h3 className="font-academic text-lg font-bold text-slate-100 group-hover:text-amber-300 transition-colors mb-2 leading-snug">
+              <h3 className="font-academic text-lg font-bold text-slate-100 group-hover:text-cyan-300 transition-colors mb-2 leading-snug">
                 {pat.title}
               </h3>
 
               <div className="text-[10px] text-slate-400 mb-2 flex flex-wrap items-center gap-3">
-                <span>CPC: <strong className="text-cyan-400">{pat.cpcClassification}</strong></span>
+                <span>CPC: <strong className="text-amber-400">{pat.cpcClassification}</strong></span>
                 <span>FILED: {pat.filingDate}</span>
               </div>
 
@@ -136,7 +136,7 @@ export const PatentsView: React.FC<PatentsViewProps> = ({ onSelectPatent }) => {
               <span className="text-slate-400 truncate max-w-[200px]">
                 {pat.inventors.join(', ')}
               </span>
-              <span className="text-amber-400 font-bold group-hover:translate-x-1 transition-transform flex items-center gap-1">
+              <span className="text-cyan-400 font-bold group-hover:translate-x-1 transition-transform flex items-center gap-1">
                 INSPECT DOSSIER <ChevronRight className="w-3.5 h-3.5" />
               </span>
             </div>

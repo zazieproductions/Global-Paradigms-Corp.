@@ -60,7 +60,7 @@ export const InteractiveBenchView: React.FC<InteractiveBenchViewProps> = ({
           const val = dataArray[i * 2] || 0;
           const barHeight = (val / 255) * height;
 
-          // Gradient color from cyan to amber
+          // Gradient color from amber to cyan
           const r = Math.floor((val / 255) * 255);
           const g = Math.floor(180 + (val / 255) * 50);
           const b = Math.floor(255 - (val / 255) * 200);
@@ -72,7 +72,7 @@ export const InteractiveBenchView: React.FC<InteractiveBenchViewProps> = ({
         }
       } else {
         // Flatline
-        ctx.strokeStyle = 'rgba(0, 229, 255, 0.2)';
+        ctx.strokeStyle = 'rgba(255, 176, 0, 0.2)';
         ctx.beginPath();
         ctx.moveTo(0, height - 2);
         ctx.lineTo(width, height - 2);
@@ -87,12 +87,12 @@ export const InteractiveBenchView: React.FC<InteractiveBenchViewProps> = ({
   }, []);
 
   const benches = [
-    { id: 'cavitation', name: '01 // Cavitation Synth', code: 'ZIAA-PR-003', icon: Activity },
-    { id: 'archaeology', name: '02 // Signal Demodulator', code: 'ZIAA-PR-017', icon: Radio },
-    { id: 'markov', name: '03 // Markov Automata', code: 'ZIAA-PR-049', icon: Cpu },
-    { id: 'shepard', name: '04 // Pitch Spiral', code: 'ZIAA-PR-033', icon: Compass },
-    { id: 'raytracer', name: '05 // Ray-Tracer Convolver', code: 'ZIAA-PR-065', icon: Layers },
-    { id: 'microtonal', name: '06 // Bio-Transducer', code: 'ZIAA-PR-081', icon: Zap }
+    { id: 'cavitation', name: '01 // Consensus Oscillator', code: 'GPC-PR-002', icon: Activity },
+    { id: 'archaeology', name: '02 // Emergency Demodulator', code: 'GPC-PR-049', icon: Radio },
+    { id: 'markov', name: '03 // Crowd-Flow Automata', code: 'GPC-PR-065', icon: Cpu },
+    { id: 'shepard', name: '04 // Hold-Tone Spiral', code: 'GPC-PR-033', icon: Compass },
+    { id: 'raytracer', name: '05 // Atrium Ray-Tracer', code: 'GPC-PR-097', icon: Layers },
+    { id: 'microtonal', name: '06 // Compliance Keyboard', code: 'GPC-PR-081', icon: Zap }
   ];
 
   return (
@@ -100,13 +100,13 @@ export const InteractiveBenchView: React.FC<InteractiveBenchViewProps> = ({
       {/* Master Institutional Audio Telemetry Bar */}
       <div className="border border-slate-700 bg-[#0a0e16] p-4 rounded-sm flex flex-col md:flex-row md:items-center md:justify-between gap-4 shadow-xl">
         <div className="flex items-center gap-3">
-          <div className="p-2 bg-cyan-950/60 border border-cyan-800 rounded">
-            <Volume2 className="w-5 h-5 text-cyan-400" />
+          <div className="p-2 bg-amber-950/60 border border-amber-800 rounded">
+            <Volume2 className="w-5 h-5 text-amber-400" />
           </div>
           <div>
             <div className="flex items-center gap-2">
               <span className="font-insignia text-sm text-slate-100 font-bold">
-                MASTER ACOUSTIC TELEMETRY CONSOLE
+                MASTER AUDIO TELEMETRY CONSOLE
               </span>
               <span className="px-1.5 py-0.5 text-[9px] bg-emerald-950 text-emerald-400 border border-emerald-800 rounded font-bold">
                 LOW-LATENCY DSP
@@ -145,7 +145,7 @@ export const InteractiveBenchView: React.FC<InteractiveBenchViewProps> = ({
               step="0.05"
               value={isMuted ? 0 : masterVol}
               onChange={(e) => handleVolumeChange(parseFloat(e.target.value))}
-              className="w-24 accent-cyan-400 cursor-pointer h-1.5 bg-slate-800 rounded"
+              className="w-24 accent-amber-400 cursor-pointer h-1.5 bg-slate-800 rounded"
               title={`Master Gain: ${(masterVol * 100).toFixed(0)}%`}
             />
           </div>
@@ -154,7 +154,7 @@ export const InteractiveBenchView: React.FC<InteractiveBenchViewProps> = ({
             onClick={() => audioService.playAnomalyPing()}
             className="py-1.5 px-3 bg-slate-800 hover:bg-slate-700 text-slate-200 rounded border border-slate-700 flex items-center gap-1.5 transition-colors cursor-pointer text-[11px]"
           >
-            <Zap className="w-3.5 h-3.5 text-amber-400" /> INJECT TEST TONE
+            <Zap className="w-3.5 h-3.5 text-cyan-400" /> INJECT TEST TONE
           </button>
         </div>
       </div>
@@ -170,13 +170,13 @@ export const InteractiveBenchView: React.FC<InteractiveBenchViewProps> = ({
               onClick={() => setActiveBench(b.id)}
               className={`p-3 text-left rounded-sm border transition-all cursor-pointer flex flex-col justify-between ${
                 isActive
-                  ? 'bg-[#101726] border-cyan-500 shadow-md shadow-cyan-950/40 text-white'
+                  ? 'bg-[#101726] border-amber-500 shadow-md shadow-amber-950/40 text-white'
                   : 'bg-[#090d14] border-slate-800 text-slate-400 hover:text-slate-200 hover:border-slate-700'
               }`}
             >
               <div className="flex items-center justify-between text-[10px] mb-1">
-                <span className="font-bold text-cyan-400">{b.code}</span>
-                <IconC className={`w-3.5 h-3.5 ${isActive ? 'text-cyan-400' : 'text-slate-400'}`} />
+                <span className="font-bold text-amber-400">{b.code}</span>
+                <IconC className={`w-3.5 h-3.5 ${isActive ? 'text-amber-400' : 'text-slate-400'}`} />
               </div>
               <div className="font-bold text-[11px] truncate">
                 {b.name}
@@ -200,7 +200,7 @@ export const InteractiveBenchView: React.FC<InteractiveBenchViewProps> = ({
       <div className="border border-slate-800/80 bg-[#070a10] p-4 rounded-sm text-[11px] text-slate-400 flex items-start gap-3">
         <ShieldCheck className="w-5 h-5 text-emerald-400 shrink-0 mt-0.5" />
         <div>
-          <strong className="text-slate-200">LABORATORY EXPERIMENTATION PROTOCOL:</strong> All six audio engines synthesize waveforms in real time using the client Web Audio graph without external server streaming. Click any parameter slider or toggle keys to modulate acoustic phase boundaries. Ensure master volume is set to a comfortable level before engaging continuous high-Q resonances.
+          <strong className="text-slate-200">SYSTEMS BENCH PROTOCOL:</strong> All six engines are recovered apparatus, synthesized in real time on the client Web Audio graph without external streaming. These engines were found in a runnable state in the 2006 archive image; the caretaker has made no modifications. Ensure master volume is set to a comfortable level before engaging continuous high-Q resonances — particularly the hold tone, which is noted for its retention characteristics.
         </div>
       </div>
     </div>

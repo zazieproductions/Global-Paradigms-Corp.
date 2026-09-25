@@ -22,21 +22,21 @@ export const FieldReportsView: React.FC = () => {
         <div>
           <div className="flex items-center gap-2 mb-1">
             <span className="text-sky-400 font-bold uppercase tracking-widest text-[11px]">
-              GLOBAL LISTENING POST NETWORK // 14 CONTINENTAL STATIONS
+              GLOBAL FIELD STATION NETWORK // 14 REGISTERED SITES
             </span>
           </div>
           <h1 className="font-academic text-2xl sm:text-3xl font-bold text-slate-100">
-            Field Telemetry & Remote Acoustic Posts
+            Field Stations & Site Telemetry
           </h1>
           <p className="font-academic text-sm text-slate-400 mt-1 max-w-2xl">
-            Autonomous hydrophone buoys, VLF loop arrays, and subterranean mine geophones deployed across polar ice shelves, deep ocean trenches, and abandoned military radomes.
+            Instrumented client estates and corporate annexes: transit terminals, retail floors, broadcast relays, a dam control room, a continuity bunker, and the quietest room we ever built. Four stations lost telemetry at termination; one has never stopped transmitting.
           </p>
         </div>
 
         <div className="text-right shrink-0">
-          <div className="text-[10px] text-slate-400">ACTIVE STATIONS</div>
+          <div className="text-[10px] text-slate-400">REGISTERED STATIONS</div>
           <div className="text-xl font-bold text-sky-400 font-insignia">
-            14 POSTS DEPLOYED
+            14 SITES
           </div>
         </div>
       </div>
@@ -49,7 +49,7 @@ export const FieldReportsView: React.FC = () => {
             <Search className="absolute left-3 top-2.5 w-4 h-4 text-slate-400" />
             <input
               type="text"
-              placeholder="Search post code or location..."
+              placeholder="Search station code (e.g. GPC-FS-14) or location..."
               value={searchQuery}
               onChange={(e) => setSearchQuery(e.target.value)}
               className="w-full bg-[#05080f] border border-slate-800 rounded pl-9 pr-3 py-2 text-slate-200 placeholder-slate-400 outline-none focus:border-sky-500 text-xs"
@@ -75,7 +75,7 @@ export const FieldReportsView: React.FC = () => {
                       station.status === 'Continuous Stream'
                         ? 'bg-emerald-950 text-emerald-400 border border-emerald-800'
                         : station.status === 'Autonomous Beacon'
-                        ? 'bg-cyan-950 text-cyan-300 border border-cyan-800'
+                        ? 'bg-amber-950 text-amber-300 border border-amber-800'
                         : station.status === 'Telemetry Lost'
                         ? 'bg-red-950 text-red-400 border border-red-800'
                         : 'bg-slate-800 text-slate-300'
@@ -104,7 +104,7 @@ export const FieldReportsView: React.FC = () => {
             <div className="p-6 bg-[#090d14] border border-slate-800 rounded-sm space-y-5">
               <div className="border-b border-slate-800 pb-4">
                 <div className="flex items-center justify-between text-[10px] text-sky-400 font-bold mb-1">
-                  <span>EXPEDITION DOSSIER // {selectedStation.stationCode}</span>
+                  <span>SITE DOSSIER // {selectedStation.stationCode}</span>
                   <span>RECORDED: {selectedStation.date}</span>
                 </div>
 
@@ -131,7 +131,7 @@ export const FieldReportsView: React.FC = () => {
               {/* Acoustic Findings */}
               <div className="space-y-2">
                 <h3 className="font-insignia text-xs text-sky-400 tracking-wider font-bold">
-                  ACOUSTIC ABSTRACT & SURVEY FINDINGS
+                  SITE ABSTRACT & SURVEY FINDINGS
                 </h3>
                 <p className="font-academic text-base text-slate-300 leading-relaxed bg-[#0c1018] p-4 rounded border border-slate-800/80">
                   {selectedStation.findings}
@@ -141,15 +141,15 @@ export const FieldReportsView: React.FC = () => {
               {/* Ambient Noise Floor & Bandwidth */}
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
                 <div className="p-3 bg-black/60 border border-slate-800 rounded">
-                  <span className="text-slate-400 text-[10px] block">AMBIENT NOISE FLOOR:</span>
-                  <div className="text-lg font-bold text-cyan-400 font-insignia mt-0.5">
+                  <span className="text-slate-400 text-[10px] block">MEASURED AMBIENT FLOOR:</span>
+                  <div className="text-lg font-bold text-amber-400 font-insignia mt-0.5">
                     {selectedStation.ambientDecibels}
                   </div>
                 </div>
 
                 <div className="p-3 bg-black/60 border border-slate-800 rounded">
                   <span className="text-slate-400 text-[10px] block">SPECTRAL DETECTION BAND:</span>
-                  <div className="text-lg font-bold text-amber-400 font-insignia mt-0.5">
+                  <div className="text-lg font-bold text-cyan-400 font-insignia mt-0.5">
                     {selectedStation.frequencyRange}
                   </div>
                 </div>

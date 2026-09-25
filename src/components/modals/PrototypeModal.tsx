@@ -22,7 +22,7 @@ export const PrototypeModal: React.FC<PrototypeModalProps> = ({
 }) => {
   if (!prototype) return null;
 
-  const isRestricted = prototype.clearance.includes('Restricted') || prototype.clearance.includes('Black Vault');
+  const isRestricted = prototype.clearance.includes('Restricted') || prototype.clearance.includes('Continuity Vault');
 
   return (
     <div className="fixed inset-0 z-50 flex items-center justify-center p-4 bg-black/85 backdrop-blur-sm overflow-y-auto">
@@ -31,14 +31,14 @@ export const PrototypeModal: React.FC<PrototypeModalProps> = ({
         <div className="flex items-center justify-between px-6 py-4 bg-[#0d121c] border-b border-slate-800">
           <div className="flex items-center gap-3">
             <span className="font-insignia text-lg text-slate-100 font-bold tracking-wider">
-              ZIAA ARCHIVAL DOSSIER // {prototype.code}
+              GPC PROGRAM DOSSIER // {prototype.code}
             </span>
             <span className={`px-2 py-0.5 text-[10px] rounded font-bold ${
-              prototype.clearance.includes('Black Vault')
+              prototype.clearance.includes('Continuity Vault')
                 ? 'bg-red-950 text-red-400 border border-red-800'
                 : prototype.clearance.includes('Restricted')
-                ? 'bg-amber-950 text-amber-400 border border-amber-800'
-                : 'bg-cyan-950 text-cyan-300 border border-cyan-800'
+                ? 'bg-cyan-950 text-cyan-400 border border-cyan-800'
+                : 'bg-amber-950 text-amber-300 border border-amber-800'
             }`}>
               {prototype.clearance}
             </span>
@@ -55,7 +55,7 @@ export const PrototypeModal: React.FC<PrototypeModalProps> = ({
         <div className="p-6 max-h-[80vh] overflow-y-auto space-y-6">
           {/* Title & Division Info */}
           <div>
-            <div className="text-[11px] text-cyan-400 uppercase tracking-widest font-bold mb-1">
+            <div className="text-[11px] text-amber-400 uppercase tracking-widest font-bold mb-1">
               {prototype.domain} • FISCAL YEAR {prototype.year}
             </div>
             <h2 className="text-2xl font-academic font-bold text-slate-100 mb-2">
@@ -72,7 +72,7 @@ export const PrototypeModal: React.FC<PrototypeModalProps> = ({
           {isRestricted && (
             <div className="p-3 bg-red-950/20 border-l-4 border-red-500 text-red-200/90 rounded-r text-[11px] flex items-center justify-between">
               <div>
-                <strong className="text-red-400 tracking-wider">RESTRICTED DISCLOSURE:</strong> This prototype is subject to ZIAA Directive Sec-IV. Acoustic output requires containment baffles.
+                <strong className="text-red-400 tracking-wider">RESTRICTED DISCLOSURE:</strong> This program is subject to Vault procedure D-99. Output requires containment baffles and an engagement letter.
               </div>
               <div className="stamp-classified text-[10px]">RESTRICTED</div>
             </div>
@@ -80,26 +80,26 @@ export const PrototypeModal: React.FC<PrototypeModalProps> = ({
 
           {/* Abstract / Summary */}
           <div className="space-y-2">
-            <h3 className="font-insignia text-xs text-amber-400 tracking-wider font-bold">
-              1.0 SCIENTIFIC ABSTRACT & OPERATIONAL MANDATE
+            <h3 className="font-insignia text-xs text-cyan-400 tracking-wider font-bold">
+              1.0 PROGRAM ABSTRACT & OPERATIONAL MANDATE
             </h3>
             <p className="font-academic text-base text-slate-300 leading-relaxed bg-[#0c1018] p-4 rounded border border-slate-800/80">
-              {prototype.summary} Developed under the auspices of Zazie Productions LLC experimental R&D initiatives, this apparatus evaluates the interplay between physical acoustic impedance, sub-wavelength resonators, and non-linear harmonic feedback across extreme pressure differentials.
+              {prototype.summary} Certified against Charter Standard ES-77 under the Applied Futures Directorate, this apparatus evaluates the interplay between institutional impedance, anticipatory resonance, and non-linear directive feedback across extreme contingency differentials.
             </p>
           </div>
 
           {/* Technical Schematic Drawing */}
           <div className="space-y-2">
-            <h3 className="font-insignia text-xs text-cyan-400 tracking-wider font-bold">
+            <h3 className="font-insignia text-xs text-amber-400 tracking-wider font-bold">
               2.0 TECHNICAL VECTOR SCHEMATIC
             </h3>
             <PatentSchematic
               type={prototype.schematicType as any}
-              patentNumber={prototype.crossReferences[0] || 'ZIAA-PAT-2023-018'}
+              patentNumber={prototype.crossReferences[0] || 'GPC-PAT-2003-018'}
               figureNumber={1}
               title={`${prototype.name} [Assembly Layout]`}
             />
-            {prototype.domain === 'Acoustic Metamaterials' && (
+            {prototype.domain === 'Ambient Soundscaping' && (
               <div className="mt-4">
                 <AcousticMetamaterialSchematic />
               </div>
@@ -122,7 +122,7 @@ export const PrototypeModal: React.FC<PrototypeModalProps> = ({
                       <td className="px-4 py-2.5 font-bold text-slate-400 w-1/3 border-b border-slate-800/60">
                         {key}
                       </td>
-                      <td className="px-4 py-2.5 text-cyan-300 border-b border-slate-800/60">
+                      <td className="px-4 py-2.5 text-amber-300 border-b border-slate-800/60">
                         {val}
                       </td>
                     </tr>
@@ -135,37 +135,37 @@ export const PrototypeModal: React.FC<PrototypeModalProps> = ({
           {/* Cross References */}
           <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
             <div className="p-3 bg-[#0c1019] border border-slate-800 rounded">
-              <div className="text-[11px] text-amber-400 font-bold mb-2 flex items-center gap-1.5">
-                <FileText className="w-3.5 h-3.5" /> SPECULATIVE PATENT DOSSIER
+              <div className="text-[11px] text-cyan-400 font-bold mb-2 flex items-center gap-1.5">
+                <FileText className="w-3.5 h-3.5" /> LINKED PATENT FILING
               </div>
               <div className="text-slate-300 font-semibold">{prototype.crossReferences[0]}</div>
               <p className="text-[10px] text-slate-400 mt-1">
-                Formal legal claim filing containing non-reciprocal acoustic boundary descriptions.
+                Formal filing containing contingency boundary descriptions and device claims.
               </p>
               {onSelectPatent && (
                 <button
                   onClick={() => onSelectPatent(prototype.crossReferences[0])}
-                  className="mt-2 text-[10px] text-amber-400 hover:underline flex items-center gap-1 cursor-pointer"
+                  className="mt-2 text-[10px] text-cyan-400 hover:underline flex items-center gap-1 cursor-pointer"
                 >
-                  Inspect Patent Study →
+                  Inspect Filing Dossier →
                 </button>
               )}
             </div>
 
             <div className="p-3 bg-[#0c1019] border border-slate-800 rounded">
-              <div className="text-[11px] text-cyan-400 font-bold mb-2 flex items-center gap-1.5">
-                <Cpu className="w-3.5 h-3.5" /> PRIMARY LAB NOTEBOOK RUN
+              <div className="text-[11px] text-amber-400 font-bold mb-2 flex items-center gap-1.5">
+                <Cpu className="w-3.5 h-3.5" /> PRIMARY LEDGER ENTRY
               </div>
               <div className="text-slate-300 font-semibold">{prototype.crossReferences[1]}</div>
               <p className="text-[10px] text-slate-400 mt-1">
-                Primary chronological instrumentation record and harmonic anomaly readings.
+                Primary chronological instrumentation record and deviation readings.
               </p>
               {onSelectLog && (
                 <button
                   onClick={() => onSelectLog(prototype.crossReferences[1])}
-                  className="mt-2 text-[10px] text-cyan-400 hover:underline flex items-center gap-1 cursor-pointer"
+                  className="mt-2 text-[10px] text-amber-400 hover:underline flex items-center gap-1 cursor-pointer"
                 >
-                  View Chronological Logbook →
+                  View Ledger Entry →
                 </button>
               )}
             </div>
@@ -185,7 +185,7 @@ export const PrototypeModal: React.FC<PrototypeModalProps> = ({
         {/* Footer Actions */}
         <div className="flex items-center justify-between px-6 py-4 bg-[#0d121c] border-t border-slate-800">
           <div className="text-[10px] text-slate-400">
-            ZAZIE INSTITUTE // R&D DIVISION OF ZAZIE PRODUCTIONS LLC
+            
           </div>
           <div className="flex items-center gap-3">
             {prototype.audioEnginePreset && onLaunchBench && (
@@ -194,9 +194,9 @@ export const PrototypeModal: React.FC<PrototypeModalProps> = ({
                   onLaunchBench(prototype.audioEnginePreset!);
                   onClose();
                 }}
-                className="py-2 px-4 bg-cyan-600 hover:bg-cyan-500 text-slate-950 font-bold rounded flex items-center gap-2 cursor-pointer transition-all shadow-md shadow-cyan-950"
+                className="py-2 px-4 bg-amber-600 hover:bg-amber-500 text-slate-950 font-bold rounded flex items-center gap-2 cursor-pointer transition-all shadow-md shadow-amber-950"
               >
-                <Play className="w-4 h-4 fill-slate-950" /> LAUNCH IN AUDIO LAB BENCH
+                <Play className="w-4 h-4 fill-slate-950" /> LAUNCH IN SYSTEMS BENCH
               </button>
             )}
             <button

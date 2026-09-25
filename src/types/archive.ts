@@ -1,16 +1,16 @@
-export type Domain = 
-  | 'Acoustic Metamaterials'
-  | 'Signal Archaeology'
-  | 'Perceptual Interfaces'
-  | 'Generative Composition'
-  | 'Public Infrastructure'
-  | 'Bio-Magnetic Transduction'
-  | 'Infrasonics & Seismology'
-  | 'Quantum-Stochastic Acoustics';
+export type Domain =
+  | 'Predictive Modeling'
+  | 'Scenario Architecture'
+  | 'Continuity Logistics'
+  | 'Emergency Broadcast Systems'
+  | 'Behavioral Compliance'
+  | 'Opinion Topology'
+  | 'Ambient Soundscaping'
+  | 'Subliminal Acoustics';
 
-export type ClearanceLevel = 'Level I (Public)' | 'Level II (Internal)' | 'Level III (Restricted)' | 'Level IV (Black Vault)';
+export type ClearanceLevel = 'Level I (Public)' | 'Level II (Internal)' | 'Level III (Restricted)' | 'Level IV (Continuity Vault)';
 
-export type PrototypeStatus = 'Active Lab Stage' | 'Field Tested' | 'Archived' | 'Decommissioned' | 'Public Installation';
+export type PrototypeStatus = 'Active Program' | 'Field Verified' | 'Archived' | 'Decommissioned' | 'Client Deployment';
 
 export interface PrototypeRecord {
   id: string;
@@ -34,7 +34,7 @@ export interface PatentDossier {
   title: string;
   filingDate: string;
   grantDate: string;
-  status: 'Granted' | 'Under Defense' | 'Speculative Embargo' | 'Public Domain Study';
+  status: 'Granted' | 'Under Defense' | 'Classification Embargo' | 'Lapsed — Public Domain';
   cpcClassification: string;
   inventors: string[];
   assignee: string;
@@ -137,7 +137,7 @@ export interface RevisionEntry {
   commitHash: string;
   date: string;
   author: string;
-  category: 'FIRMWARE' | 'SAFETY_AUDIT' | 'PATENT_FILING' | 'CONTAINMENT' | 'HARDWARE_REV' | 'FIELD_LOG';
+  category: 'SYSTEMS' | 'AUDIT' | 'DIRECTIVE' | 'CONTAINMENT' | 'BULLETIN' | 'FIELD_SURVEY' | 'PATENT_FILING' | 'INFRASTRUCTURE';
   message: string;
   impactScore: 'NOMINAL' | 'ELEVATED' | 'CRITICAL';
 }

@@ -9,7 +9,7 @@ interface PatentSchematicProps {
 
 export const PatentSchematic: React.FC<PatentSchematicProps> = ({
   type = 'transducer',
-  patentNumber = 'ZIAA-PAT-2021-001',
+  patentNumber = 'GPC-PAT-1998-001',
   figureNumber = 1,
   title = 'Acoustic Wavefront Manipulation Assembly'
 }) => {
@@ -20,11 +20,11 @@ export const PatentSchematic: React.FC<PatentSchematicProps> = ({
         <div>
           <span className="font-bold text-slate-200">FIG. {figureNumber}</span> — SPECIFICATION SHEET
         </div>
-        <div className="text-amber-400/90 font-bold tracking-widest font-mono-code">
+        <div className="text-cyan-400/90 font-bold tracking-widest font-mono-code">
           {patentNumber}
         </div>
         <div className="text-[10px] text-slate-400">
-          ZAZIE PRODUCTIONS LLC // CLASSIFIED
+          GLOBAL PARADIGMS CORP. // CLASSIFIED
         </div>
       </div>
 
@@ -34,7 +34,7 @@ export const PatentSchematic: React.FC<PatentSchematicProps> = ({
         <svg className="absolute inset-0 w-full h-full pointer-events-none opacity-20">
           <defs>
             <pattern id={`pat-grid-${type}`} width="20" height="20" patternUnits="userSpaceOnUse">
-              <path d="M 20 0 L 0 0 0 20" fill="none" stroke="#00e5ff" strokeWidth="0.5" />
+              <path d="M 20 0 L 0 0 0 20" fill="none" stroke="#ffb000" strokeWidth="0.5" />
             </pattern>
           </defs>
           <rect width="100%" height="100%" fill={`url(#pat-grid-${type})`} />
@@ -48,11 +48,11 @@ export const PatentSchematic: React.FC<PatentSchematicProps> = ({
             <text x="80" y="125" fill="#94a3b8" fontSize="10" fontFamily="JetBrains Mono">10</text>
             
             {/* Piezoelectric stack 12 */}
-            <rect x="120" y="80" width="50" height="80" fill="#0f172a" stroke="#00e5ff" strokeWidth="1.5" />
-            <line x1="130" y1="80" x2="130" y2="160" stroke="#00e5ff" strokeDasharray="3 3" />
-            <line x1="145" y1="80" x2="145" y2="160" stroke="#00e5ff" strokeDasharray="3 3" />
-            <line x1="160" y1="80" x2="160" y2="160" stroke="#00e5ff" strokeDasharray="3 3" />
-            <text x="140" y="125" fill="#00e5ff" fontSize="10" fontFamily="JetBrains Mono">12</text>
+            <rect x="120" y="80" width="50" height="80" fill="#0f172a" stroke="#ffb000" strokeWidth="1.5" />
+            <line x1="130" y1="80" x2="130" y2="160" stroke="#ffb000" strokeDasharray="3 3" />
+            <line x1="145" y1="80" x2="145" y2="160" stroke="#ffb000" strokeDasharray="3 3" />
+            <line x1="160" y1="80" x2="160" y2="160" stroke="#ffb000" strokeDasharray="3 3" />
+            <text x="140" y="125" fill="#ffb000" fontSize="10" fontFamily="JetBrains Mono">12</text>
 
             {/* Horn transformer 14 */}
             <path d="M 170 80 L 320 30 L 320 210 L 170 160 Z" fill="#131d2e" stroke="#cbd5e1" strokeWidth="1.5" />
@@ -63,10 +63,10 @@ export const PatentSchematic: React.FC<PatentSchematicProps> = ({
             <text x="330" y="125" fill="#d4a359" fontSize="10" fontFamily="JetBrains Mono">16</text>
 
             {/* Radiated acoustic beam lines 18 */}
-            <path d="M 360 40 Q 420 120 360 200" fill="none" stroke="#00e5ff" strokeWidth="1.5" strokeDasharray="4 4" />
-            <path d="M 390 30 Q 460 120 390 210" fill="none" stroke="#00e5ff" strokeWidth="1.5" strokeDasharray="4 4" />
-            <path d="M 420 20 Q 500 120 420 220" fill="none" stroke="#00e5ff" strokeWidth="1.5" strokeDasharray="4 4" />
-            <text x="440" y="125" fill="#00e5ff" fontSize="10" fontFamily="JetBrains Mono">18</text>
+            <path d="M 360 40 Q 420 120 360 200" fill="none" stroke="#ffb000" strokeWidth="1.5" strokeDasharray="4 4" />
+            <path d="M 390 30 Q 460 120 390 210" fill="none" stroke="#ffb000" strokeWidth="1.5" strokeDasharray="4 4" />
+            <path d="M 420 20 Q 500 120 420 220" fill="none" stroke="#ffb000" strokeWidth="1.5" strokeDasharray="4 4" />
+            <text x="440" y="125" fill="#ffb000" fontSize="10" fontFamily="JetBrains Mono">18</text>
 
             {/* Electrodes & Callout pointers */}
             <line x1="145" y1="80" x2="145" y2="40" stroke="#cbd5e1" strokeWidth="1" />
@@ -89,8 +89,8 @@ export const PatentSchematic: React.FC<PatentSchematicProps> = ({
             <text x="150" y="125" fill="#cbd5e1" fontSize="11" fontFamily="JetBrains Mono">CAV-01</text>
             
             {/* Neck / Iris Waveguide */}
-            <rect x="240" y="95" width="70" height="50" fill="#0f172a" stroke="#00e5ff" strokeWidth="1.5" />
-            <text x="268" y="125" fill="#00e5ff" fontSize="10" fontFamily="JetBrains Mono">32</text>
+            <rect x="240" y="95" width="70" height="50" fill="#0f172a" stroke="#ffb000" strokeWidth="1.5" />
+            <text x="268" y="125" fill="#ffb000" fontSize="10" fontFamily="JetBrains Mono">32</text>
 
             {/* Secondary Resonant Cavity */}
             <circle cx="370" cy="120" r="60" fill="#1e293b" stroke="#d4a359" strokeWidth="1.5" />
@@ -102,17 +102,17 @@ export const PatentSchematic: React.FC<PatentSchematicProps> = ({
             <text x="105" y="42" fill="#94a3b8" fontSize="10" fontFamily="JetBrains Mono">34</text>
 
             {/* Standing wave visualization inside Cavity 1 */}
-            <path d="M 80 120 Q 120 70 160 120 Q 200 170 240 120" fill="none" stroke="#00e5ff" strokeWidth="1.5" opacity="0.8" />
-            <text x="145" y="175" fill="#00e5ff" fontSize="9" fontFamily="JetBrains Mono">λ/2 STANDING MODE</text>
+            <path d="M 80 120 Q 120 70 160 120 Q 200 170 240 120" fill="none" stroke="#ffb000" strokeWidth="1.5" opacity="0.8" />
+            <text x="145" y="175" fill="#ffb000" fontSize="9" fontFamily="JetBrains Mono">λ/2 STANDING MODE</text>
           </svg>
         )}
 
         {type === 'interferometer' && (
           <svg viewBox="0 0 500 240" className="w-full h-full p-2">
             {/* Acoustic Input */}
-            <line x1="40" y1="120" x2="130" y2="120" stroke="#00e5ff" strokeWidth="2" />
-            <polygon points="120,115 130,120 120,125" fill="#00e5ff" />
-            <text x="50" y="105" fill="#00e5ff" fontSize="10" fontFamily="JetBrains Mono">IN (k_0)</text>
+            <line x1="40" y1="120" x2="130" y2="120" stroke="#ffb000" strokeWidth="2" />
+            <polygon points="120,115 130,120 120,125" fill="#ffb000" />
+            <text x="50" y="105" fill="#ffb000" fontSize="10" fontFamily="JetBrains Mono">IN (k_0)</text>
 
             {/* Beam Splitter 40 */}
             <line x1="110" y1="140" x2="150" y2="100" stroke="#d4a359" strokeWidth="2.5" />
@@ -133,9 +133,9 @@ export const PatentSchematic: React.FC<PatentSchematicProps> = ({
             <text x="375" y="90" fill="#d4a359" fontSize="10" fontFamily="JetBrains Mono">46</text>
 
             {/* Output Detectors */}
-            <line x1="370" y1="120" x2="450" y2="120" stroke="#00e5ff" strokeWidth="2" />
-            <rect x="450" y="105" width="30" height="30" fill="#0f172a" stroke="#00e5ff" strokeWidth="1.5" />
-            <text x="455" y="124" fill="#00e5ff" fontSize="10" fontFamily="JetBrains Mono">DET</text>
+            <line x1="370" y1="120" x2="450" y2="120" stroke="#ffb000" strokeWidth="2" />
+            <rect x="450" y="105" width="30" height="30" fill="#0f172a" stroke="#ffb000" strokeWidth="1.5" />
+            <text x="455" y="124" fill="#ffb000" fontSize="10" fontFamily="JetBrains Mono">DET</text>
           </svg>
         )}
 
@@ -154,8 +154,8 @@ export const PatentSchematic: React.FC<PatentSchematicProps> = ({
             <line x1="330" y1="40" x2="330" y2="120" stroke="#cbd5e1" strokeWidth="1.5" />
 
             {/* Resistor in Feedback */}
-            <rect x="220" y="32" width="50" height="16" fill="#1e293b" stroke="#00e5ff" strokeWidth="1.5" />
-            <text x="232" y="44" fill="#00e5ff" fontSize="9" fontFamily="JetBrains Mono">R_f (52)</text>
+            <rect x="220" y="32" width="50" height="16" fill="#1e293b" stroke="#ffb000" strokeWidth="1.5" />
+            <text x="232" y="44" fill="#ffb000" fontSize="9" fontFamily="JetBrains Mono">R_f (52)</text>
 
             {/* Input Resistor and Piezo Source */}
             <line x1="60" y1="95" x2="110" y2="95" stroke="#cbd5e1" strokeWidth="1.5" />
@@ -172,23 +172,23 @@ export const PatentSchematic: React.FC<PatentSchematicProps> = ({
             <line x1="157" y1="185" x2="163" y2="185" stroke="#cbd5e1" strokeWidth="1.5" />
 
             {/* Output */}
-            <line x1="280" y1="120" x2="420" y2="120" stroke="#00e5ff" strokeWidth="2" />
-            <circle cx="420" cy="120" r="3" fill="#00e5ff" />
-            <text x="428" y="124" fill="#00e5ff" fontSize="10" fontFamily="JetBrains Mono">V_OUT</text>
+            <line x1="280" y1="120" x2="420" y2="120" stroke="#ffb000" strokeWidth="2" />
+            <circle cx="420" cy="120" r="3" fill="#ffb000" />
+            <text x="428" y="124" fill="#ffb000" fontSize="10" fontFamily="JetBrains Mono">V_OUT</text>
           </svg>
         )}
 
         {type === 'waveguide' && (
           <svg viewBox="0 0 500 240" className="w-full h-full p-2">
             {/* Pentamode Metamaterial Lattice */}
-            <g stroke="#00e5ff" strokeWidth="1.5" opacity="0.8">
+            <g stroke="#ffb000" strokeWidth="1.5" opacity="0.8">
               {[0, 1, 2, 3, 4].map((col) =>
                 [0, 1, 2].map((row) => {
                   const cx = 80 + col * 80;
                   const cy = 60 + row * 60;
                   return (
                     <g key={`${col}-${row}`}>
-                      <polygon points={`${cx},${cy-22} ${cx+20},${cy-10} ${cx+20},${cy+14} ${cx},${cy+26} ${cx-20},${cy+14} ${cx-20},${cy-10}`} fill="#101726" stroke="#00e5ff" />
+                      <polygon points={`${cx},${cy-22} ${cx+20},${cy-10} ${cx+20},${cy+14} ${cx},${cy+26} ${cx-20},${cy+14} ${cx-20},${cy-10}`} fill="#101726" stroke="#ffb000" />
                       <circle cx={cx} cy={cy} r="3" fill="#d4a359" />
                     </g>
                   );
@@ -218,7 +218,7 @@ export const PatentSchematic: React.FC<PatentSchematicProps> = ({
             {/* Active Nodes */}
             {[[60, 50], [160, 95], [260, 140], [360, 185], [110, 185], [310, 50], [410, 95]].map(([nx, ny], k) => (
               <g key={`node-${k}`}>
-                <circle cx={nx} cy={ny} r="7" fill="#0f172a" stroke="#00e5ff" strokeWidth="2" />
+                <circle cx={nx} cy={ny} r="7" fill="#0f172a" stroke="#ffb000" strokeWidth="2" />
                 <circle cx={nx} cy={ny} r="2.5" fill="#d4a359" />
               </g>
             ))}

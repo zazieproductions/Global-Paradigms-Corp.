@@ -3,3970 +3,3970 @@ import { PrototypeRecord } from '../types/archive';
 export const PROTOTYPES_ARCHIVE: PrototypeRecord[] = [
   {
     "id": "proto-001",
-    "code": "ZIAA-PR-001",
-    "name": "Negative-Index Phononic Prism",
-    "domain": "Acoustic Metamaterials",
-    "year": 2021,
-    "status": "Active Lab Stage",
-    "clearance": "Level III (Restricted)",
-    "lead": "Dr. Elena Rostova",
-    "summary": "Experimental apparatus developed under ZIAA Directive ZIAA-PR-001. Investigates acoustic metamaterials through high-precision physical prototyping, speculative boundary conditions, and real-time acoustic signal transduction.",
-    "specifications": {
-      "Operational Bandwidth": "0.1 Hz — 20.0 kHz",
-      "Acoustic Impedance": "400 Rayls (air/substate matched)",
-      "Signal-to-Noise Floor": "-72.0 dBV",
-      "Primary Transducer": "Beryllium Copper Bimorph Cantilever",
-      "Power / Drive Rail": "±12V Dual Linear Laboratory Rail",
-      "Containment Protocol": "Standard Laboratory B-12 Safety Shielding"
-    },
-    "schematicType": "transducer",
-    "audioEnginePreset": "cavitation",
-    "crossReferences": [
-      "ZIAA-PAT-2021-001",
-      "LOG-2021-001"
-    ],
-    "tags": [
-      "Acoustic",
-      "ZIAA-Archive",
-      "Active-Lab Stage",
-      "Class-III"
-    ]
-  },
-  {
-    "id": "proto-002",
-    "code": "ZIAA-PR-002",
-    "name": "Pentamode Acoustic Cloaking Shroud",
-    "domain": "Acoustic Metamaterials",
-    "year": 2022,
-    "status": "Field Tested",
+    "code": "GPC-PR-001",
+    "name": "Bayesian Consensus Consolidation Engine",
+    "domain": "Predictive Modeling",
+    "year": 1998,
+    "status": "Active Program",
     "clearance": "Level II (Internal)",
-    "lead": "Dr. Kieran Vance",
-    "summary": "Experimental apparatus developed under ZIAA Directive ZIAA-PR-002. Investigates acoustic metamaterials through high-precision physical prototyping, speculative boundary conditions, and real-time acoustic signal transduction.",
+    "lead": "Dr. Kenji Watabe",
+    "summary": "Program initiated under GPC Directive GPC-PR-001. Advances predictive modeling for the Division A: Strategic Forecasting through anticipatory calibration, controlled procedural exposure, and real-time institutional signal conditioning. Built to client-grade tolerances in the Geneva Annex workshops and certified against Charter Standard ES-77.",
     "specifications": {
-      "Operational Bandwidth": "1.7 Hz — 23.4 kHz",
-      "Acoustic Impedance": "423 Rayls (air/substate matched)",
-      "Signal-to-Noise Floor": "-74.0 dBV",
-      "Primary Transducer": "Non-Linear Ferroelectric Metamaterial Film",
-      "Power / Drive Rail": "±24V Dual Linear Laboratory Rail",
-      "Containment Protocol": "Standard Laboratory B-12 Safety Shielding"
-    },
-    "schematicType": "resonator",
-    "audioEnginePreset": "cavitation",
-    "crossReferences": [
-      "ZIAA-PAT-2022-002",
-      "LOG-2022-003"
-    ],
-    "tags": [
-      "Acoustic",
-      "ZIAA-Archive",
-      "Field-Tested",
-      "Class-II"
-    ]
-  },
-  {
-    "id": "proto-003",
-    "code": "ZIAA-PR-003",
-    "name": "Non-Hermitian Resonant Waveguide B-12",
-    "domain": "Acoustic Metamaterials",
-    "year": 2023,
-    "status": "Active Lab Stage",
-    "clearance": "Level III (Restricted)",
-    "lead": "Maya Lindqvist",
-    "summary": "Experimental apparatus developed under ZIAA Directive ZIAA-PR-003. Investigates acoustic metamaterials through high-precision physical prototyping, speculative boundary conditions, and real-time acoustic signal transduction.",
-    "specifications": {
-      "Operational Bandwidth": "3.4 Hz — 26.8 kHz",
-      "Acoustic Impedance": "446 Rayls (air/substate matched)",
-      "Signal-to-Noise Floor": "-76.0 dBV",
-      "Primary Transducer": "Ultra-Low Induction Cryogenic Coils",
-      "Power / Drive Rail": "±36V Dual Linear Laboratory Rail",
-      "Containment Protocol": "Standard Laboratory B-12 Safety Shielding"
-    },
-    "schematicType": "interferometer",
-    "audioEnginePreset": "cavitation",
-    "crossReferences": [
-      "ZIAA-PAT-2023-003",
-      "LOG-2023-005"
-    ],
-    "tags": [
-      "Acoustic",
-      "ZIAA-Archive",
-      "Active-Lab Stage",
-      "Class-III"
-    ]
-  },
-  {
-    "id": "proto-004",
-    "code": "ZIAA-PR-004",
-    "name": "Sub-Wavelength Sonic Crystal Deflector",
-    "domain": "Acoustic Metamaterials",
-    "year": 2024,
-    "status": "Public Installation",
-    "clearance": "Level I (Public)",
-    "lead": "Dr. Tariq Al-Mansoor",
-    "summary": "Experimental apparatus developed under ZIAA Directive ZIAA-PR-004. Investigates acoustic metamaterials through high-precision physical prototyping, speculative boundary conditions, and real-time acoustic signal transduction.",
-    "specifications": {
-      "Operational Bandwidth": "5.1 Hz — 30.2 kHz",
-      "Acoustic Impedance": "469 Rayls (air/substate matched)",
-      "Signal-to-Noise Floor": "-78.0 dBV",
-      "Primary Transducer": "Beryllium Copper Bimorph Cantilever",
-      "Power / Drive Rail": "±48V Dual Linear Laboratory Rail",
-      "Containment Protocol": "Standard Laboratory B-12 Safety Shielding"
+      "Operational Bandwidth": "0.1 Hz — 16.0 kHz",
+      "Ambient Floor Target": "-72.0 dBV (room-tone referenced)",
+      "Signal-to-Noise Floor": "-70.0 dBV",
+      "Primary Transducer": "Electro-Voice RE20 Dynamic Element, Impedance Matched",
+      "Power / Drive Rail": "±12V Dual Linear Laboratory Rail",
+      "Continuity Protocol": "Standard Annex B-4 Safe Storage"
     },
     "schematicType": "circuit",
     "audioEnginePreset": "cavitation",
     "crossReferences": [
-      "ZIAA-PAT-2024-004",
-      "LOG-2024-007"
+      "GPC-PAT-1998-001",
+      "LOG-1998-001"
     ],
     "tags": [
-      "Acoustic",
-      "ZIAA-Archive",
-      "Public-Installation",
-      "Class-I ("
-    ]
-  },
-  {
-    "id": "proto-005",
-    "code": "ZIAA-PR-005",
-    "name": "Helmholtz-Fractal Trap Array",
-    "domain": "Acoustic Metamaterials",
-    "year": 2025,
-    "status": "Field Tested",
-    "clearance": "Level II (Internal)",
-    "lead": "Svenja Dahl",
-    "summary": "Experimental apparatus developed under ZIAA Directive ZIAA-PR-005. Investigates acoustic metamaterials through high-precision physical prototyping, speculative boundary conditions, and real-time acoustic signal transduction.",
-    "specifications": {
-      "Operational Bandwidth": "6.8 Hz — 33.6 kHz",
-      "Acoustic Impedance": "492 Rayls (air/substate matched)",
-      "Signal-to-Noise Floor": "-80.0 dBV",
-      "Primary Transducer": "Non-Linear Ferroelectric Metamaterial Film",
-      "Power / Drive Rail": "±12V Dual Linear Laboratory Rail",
-      "Containment Protocol": "Standard Laboratory B-12 Safety Shielding"
-    },
-    "schematicType": "waveguide",
-    "audioEnginePreset": "cavitation",
-    "crossReferences": [
-      "ZIAA-PAT-2025-005",
-      "LOG-2025-009"
-    ],
-    "tags": [
-      "Acoustic",
-      "ZIAA-Archive",
-      "Field-Tested",
+      "GPC-Archive",
+      "Predictive",
+      "FY-1998",
       "Class-II"
     ]
   },
   {
-    "id": "proto-006",
-    "code": "ZIAA-PR-006",
-    "name": "Asymmetric Acoustic Diode Pipe",
-    "domain": "Acoustic Metamaterials",
-    "year": 2026,
-    "status": "Active Lab Stage",
-    "clearance": "Level II (Internal)",
-    "lead": "Marcus Holloway",
-    "summary": "Experimental apparatus developed under ZIAA Directive ZIAA-PR-006. Investigates acoustic metamaterials through high-precision physical prototyping, speculative boundary conditions, and real-time acoustic signal transduction.",
+    "id": "proto-002",
+    "code": "GPC-PR-002",
+    "name": "Bayesian Consensus Oscillator Array",
+    "domain": "Predictive Modeling",
+    "year": 1999,
+    "status": "Archived",
+    "clearance": "Level III (Restricted)",
+    "lead": "Dr. Margarethe Voll",
+    "summary": "Program initiated under GPC Directive GPC-PR-002. Advances predictive modeling for the Division A: Strategic Forecasting through anticipatory calibration, controlled procedural exposure, and real-time institutional signal conditioning. Built to client-grade tolerances in the Geneva Annex workshops and certified against Charter Standard ES-77.",
     "specifications": {
-      "Operational Bandwidth": "8.5 Hz — 37.0 kHz",
-      "Acoustic Impedance": "515 Rayls (air/substate matched)",
-      "Signal-to-Noise Floor": "-82.0 dBV",
-      "Primary Transducer": "Ultra-Low Induction Cryogenic Coils",
+      "Operational Bandwidth": "0.8 Hz — 17.3 kHz",
+      "Ambient Floor Target": "-73.0 dBV (room-tone referenced)",
+      "Signal-to-Noise Floor": "-73.0 dBV",
+      "Primary Transducer": "Neumann KK-105 Capsule on Custom Geneva Flange",
       "Power / Drive Rail": "±24V Dual Linear Laboratory Rail",
-      "Containment Protocol": "Standard Laboratory B-12 Safety Shielding"
+      "Continuity Protocol": "Standard Annex B-4 Safe Storage"
+    },
+    "schematicType": "circuit",
+    "audioEnginePreset": "cavitation",
+    "crossReferences": [
+      "GPC-PAT-1998-002",
+      "LOG-1999-006"
+    ],
+    "tags": [
+      "GPC-Archive",
+      "Predictive",
+      "FY-1999",
+      "Class-III"
+    ]
+  },
+  {
+    "id": "proto-003",
+    "code": "GPC-PR-003",
+    "name": "Retail Velocity Forecasting Terminal",
+    "domain": "Predictive Modeling",
+    "year": 2000,
+    "status": "Client Deployment",
+    "clearance": "Level II (Internal)",
+    "lead": "Cassius Wren",
+    "summary": "Program initiated under GPC Directive GPC-PR-003. Advances predictive modeling for the Division A: Strategic Forecasting through anticipatory calibration, controlled procedural exposure, and real-time institutional signal conditioning. Built to client-grade tolerances in the Geneva Annex workshops and certified against Charter Standard ES-77.",
+    "specifications": {
+      "Operational Bandwidth": "1.5 Hz — 18.6 kHz",
+      "Ambient Floor Target": "-74.0 dBV (room-tone referenced)",
+      "Signal-to-Noise Floor": "-76.0 dBV",
+      "Primary Transducer": "Piezo-Ceramic Bimorph Cantilever, Beryllium Copper Shim",
+      "Power / Drive Rail": "±12V Dual Linear Laboratory Rail",
+      "Continuity Protocol": "Standard Annex B-4 Safe Storage"
     },
     "schematicType": "matrix",
     "audioEnginePreset": "cavitation",
     "crossReferences": [
-      "ZIAA-PAT-2026-006",
-      "LOG-2026-011"
+      "GPC-PAT-1998-003",
+      "LOG-2000-011"
     ],
     "tags": [
-      "Acoustic",
-      "ZIAA-Archive",
-      "Active-Lab Stage",
+      "GPC-Archive",
+      "Predictive",
+      "FY-2000",
+      "Class-II"
+    ]
+  },
+  {
+    "id": "proto-004",
+    "code": "GPC-PR-004",
+    "name": "Delphi Panel Response Integrator",
+    "domain": "Predictive Modeling",
+    "year": 2001,
+    "status": "Field Verified",
+    "clearance": "Level I (Public)",
+    "lead": "Dr. Kenji Watabe",
+    "summary": "Program initiated under GPC Directive GPC-PR-004. Advances predictive modeling for the Division A: Strategic Forecasting through anticipatory calibration, controlled procedural exposure, and real-time institutional signal conditioning. Built to client-grade tolerances in the Geneva Annex workshops and certified against Charter Standard ES-77.",
+    "specifications": {
+      "Operational Bandwidth": "2.2 Hz — 19.9 kHz",
+      "Ambient Floor Target": "-75.0 dBV (room-tone referenced)",
+      "Signal-to-Noise Floor": "-79.0 dBV",
+      "Primary Transducer": "Tannoy Dual-Concentric Driver in Sealed Governance Baffle",
+      "Power / Drive Rail": "±24V Dual Linear Laboratory Rail",
+      "Continuity Protocol": "Standard Annex B-4 Safe Storage"
+    },
+    "schematicType": "circuit",
+    "audioEnginePreset": "cavitation",
+    "crossReferences": [
+      "GPC-PAT-1998-004",
+      "LOG-2001-016"
+    ],
+    "tags": [
+      "GPC-Archive",
+      "Predictive",
+      "FY-2001",
+      "Class-I"
+    ]
+  },
+  {
+    "id": "proto-005",
+    "code": "GPC-PR-005",
+    "name": "Monte Carlo Scenario Shuffler Mk II",
+    "domain": "Predictive Modeling",
+    "year": 2002,
+    "status": "Active Program",
+    "clearance": "Level III (Restricted)",
+    "lead": "Dr. Margarethe Voll",
+    "summary": "Program initiated under GPC Directive GPC-PR-005. Advances predictive modeling for the Division A: Strategic Forecasting through anticipatory calibration, controlled procedural exposure, and real-time institutional signal conditioning. Built to client-grade tolerances in the Geneva Annex workshops and certified against Charter Standard ES-77.",
+    "specifications": {
+      "Operational Bandwidth": "2.9 Hz — 21.2 kHz",
+      "Ambient Floor Target": "-76.0 dBV (room-tone referenced)",
+      "Signal-to-Noise Floor": "-82.0 dBV",
+      "Primary Transducer": "Bone-Contact Exciter Panel, Lacquered Birch Substrate",
+      "Power / Drive Rail": "±12V Dual Linear Laboratory Rail",
+      "Continuity Protocol": "Standard Annex B-4 Safe Storage"
+    },
+    "schematicType": "matrix",
+    "audioEnginePreset": "cavitation",
+    "crossReferences": [
+      "GPC-PAT-1998-005",
+      "LOG-2002-021"
+    ],
+    "tags": [
+      "GPC-Archive",
+      "Predictive",
+      "FY-2002",
+      "Class-III"
+    ]
+  },
+  {
+    "id": "proto-006",
+    "code": "GPC-PR-006",
+    "name": "Commodity Shock Propagation Map",
+    "domain": "Predictive Modeling",
+    "year": 2003,
+    "status": "Archived",
+    "clearance": "Level II (Internal)",
+    "lead": "Cassius Wren",
+    "summary": "Program initiated under GPC Directive GPC-PR-006. Advances predictive modeling for the Division A: Strategic Forecasting through anticipatory calibration, controlled procedural exposure, and real-time institutional signal conditioning. Built to client-grade tolerances in the Geneva Annex workshops and certified against Charter Standard ES-77.",
+    "specifications": {
+      "Operational Bandwidth": "3.6 Hz — 16.5 kHz",
+      "Ambient Floor Target": "-77.0 dBV (room-tone referenced)",
+      "Signal-to-Noise Floor": "-71.0 dBV",
+      "Primary Transducer": "Sennheiser MD 421 Element in Transit Housing",
+      "Power / Drive Rail": "±24V Dual Linear Laboratory Rail",
+      "Continuity Protocol": "Standard Annex B-4 Safe Storage"
+    },
+    "schematicType": "matrix",
+    "audioEnginePreset": "cavitation",
+    "crossReferences": [
+      "GPC-PAT-1998-006",
+      "LOG-2003-026"
+    ],
+    "tags": [
+      "GPC-Archive",
+      "Predictive",
+      "FY-2003",
       "Class-II"
     ]
   },
   {
     "id": "proto-007",
-    "code": "ZIAA-PR-007",
-    "name": "Bismuth-Coated Whispering Gallery Spheres",
-    "domain": "Acoustic Metamaterials",
-    "year": 2021,
-    "status": "Active Lab Stage",
+    "code": "GPC-PR-007",
+    "name": "Millennial Turnover Projection Frame",
+    "domain": "Predictive Modeling",
+    "year": 2004,
+    "status": "Client Deployment",
     "clearance": "Level III (Restricted)",
-    "lead": "Dr. Christine Abele",
-    "summary": "Experimental apparatus developed under ZIAA Directive ZIAA-PR-007. Investigates acoustic metamaterials through high-precision physical prototyping, speculative boundary conditions, and real-time acoustic signal transduction.",
+    "lead": "Dr. Kenji Watabe",
+    "summary": "Program initiated under GPC Directive GPC-PR-007. Advances predictive modeling for the Division A: Strategic Forecasting through anticipatory calibration, controlled procedural exposure, and real-time institutional signal conditioning. Built to client-grade tolerances in the Geneva Annex workshops and certified against Charter Standard ES-77.",
     "specifications": {
-      "Operational Bandwidth": "10.2 Hz — 40.4 kHz",
-      "Acoustic Impedance": "538 Rayls (air/substate matched)",
-      "Signal-to-Noise Floor": "-84.0 dBV",
-      "Primary Transducer": "Beryllium Copper Bimorph Cantilever",
-      "Power / Drive Rail": "±36V Dual Linear Laboratory Rail",
-      "Containment Protocol": "Standard Laboratory B-12 Safety Shielding"
+      "Operational Bandwidth": "0.3 Hz — 17.8 kHz",
+      "Ambient Floor Target": "-78.0 dBV (room-tone referenced)",
+      "Signal-to-Noise Floor": "-74.0 dBV",
+      "Primary Transducer": "Electro-Voice RE20 Dynamic Element, Impedance Matched",
+      "Power / Drive Rail": "±12V Dual Linear Laboratory Rail",
+      "Continuity Protocol": "Standard Annex B-4 Safe Storage"
     },
-    "schematicType": "transducer",
+    "schematicType": "matrix",
     "audioEnginePreset": "cavitation",
     "crossReferences": [
-      "ZIAA-PAT-2021-007",
-      "LOG-2021-013"
+      "GPC-PAT-1998-007",
+      "LOG-2004-002"
     ],
     "tags": [
-      "Acoustic",
-      "ZIAA-Archive",
-      "Active-Lab Stage",
+      "GPC-Archive",
+      "Predictive",
+      "FY-2004",
       "Class-III"
     ]
   },
   {
     "id": "proto-008",
-    "code": "ZIAA-PR-008",
-    "name": "Acoustic Hyperbolic Metasurface Plate",
-    "domain": "Acoustic Metamaterials",
-    "year": 2022,
-    "status": "Field Tested",
-    "clearance": "Level II (Internal)",
-    "lead": "Renata Osei",
-    "summary": "Experimental apparatus developed under ZIAA Directive ZIAA-PR-008. Investigates acoustic metamaterials through high-precision physical prototyping, speculative boundary conditions, and real-time acoustic signal transduction.",
+    "code": "GPC-PR-008",
+    "name": "Electoral Drift Estimation Console",
+    "domain": "Predictive Modeling",
+    "year": 2005,
+    "status": "Field Verified",
+    "clearance": "Level I (Public)",
+    "lead": "Dr. Margarethe Voll",
+    "summary": "Program initiated under GPC Directive GPC-PR-008. Advances predictive modeling for the Division A: Strategic Forecasting through anticipatory calibration, controlled procedural exposure, and real-time institutional signal conditioning. Built to client-grade tolerances in the Geneva Annex workshops and certified against Charter Standard ES-77.",
     "specifications": {
-      "Operational Bandwidth": "11.9 Hz — 43.8 kHz",
-      "Acoustic Impedance": "561 Rayls (air/substate matched)",
-      "Signal-to-Noise Floor": "-86.0 dBV",
-      "Primary Transducer": "Non-Linear Ferroelectric Metamaterial Film",
-      "Power / Drive Rail": "±48V Dual Linear Laboratory Rail",
-      "Containment Protocol": "Standard Laboratory B-12 Safety Shielding"
-    },
-    "schematicType": "resonator",
-    "audioEnginePreset": "cavitation",
-    "crossReferences": [
-      "ZIAA-PAT-2022-008",
-      "LOG-2022-015"
-    ],
-    "tags": [
-      "Acoustic",
-      "ZIAA-Archive",
-      "Field-Tested",
-      "Class-II"
-    ]
-  },
-  {
-    "id": "proto-009",
-    "code": "ZIAA-PR-009",
-    "name": "Topological Acoustic Edge State Lens",
-    "domain": "Acoustic Metamaterials",
-    "year": 2023,
-    "status": "Active Lab Stage",
-    "clearance": "Level III (Restricted)",
-    "lead": "Joon-Ho Park",
-    "summary": "Experimental apparatus developed under ZIAA Directive ZIAA-PR-009. Investigates acoustic metamaterials through high-precision physical prototyping, speculative boundary conditions, and real-time acoustic signal transduction.",
-    "specifications": {
-      "Operational Bandwidth": "13.6 Hz — 47.2 kHz",
-      "Acoustic Impedance": "584 Rayls (air/substate matched)",
-      "Signal-to-Noise Floor": "-88.0 dBV",
-      "Primary Transducer": "Ultra-Low Induction Cryogenic Coils",
-      "Power / Drive Rail": "±12V Dual Linear Laboratory Rail",
-      "Containment Protocol": "Standard Laboratory B-12 Safety Shielding"
-    },
-    "schematicType": "interferometer",
-    "audioEnginePreset": "cavitation",
-    "crossReferences": [
-      "ZIAA-PAT-2023-009",
-      "LOG-2023-017"
-    ],
-    "tags": [
-      "Acoustic",
-      "ZIAA-Archive",
-      "Active-Lab Stage",
-      "Class-III"
-    ]
-  },
-  {
-    "id": "proto-010",
-    "code": "ZIAA-PR-010",
-    "name": "Coiling-Up-Space Acoustic Delayer Mk IV",
-    "domain": "Acoustic Metamaterials",
-    "year": 2024,
-    "status": "Archived",
-    "clearance": "Level II (Internal)",
-    "lead": "Dr. Lyra Sterling",
-    "summary": "Experimental apparatus developed under ZIAA Directive ZIAA-PR-010. Investigates acoustic metamaterials through high-precision physical prototyping, speculative boundary conditions, and real-time acoustic signal transduction.",
-    "specifications": {
-      "Operational Bandwidth": "15.3 Hz — 50.6 kHz",
-      "Acoustic Impedance": "607 Rayls (air/substate matched)",
-      "Signal-to-Noise Floor": "-90.0 dBV",
-      "Primary Transducer": "Beryllium Copper Bimorph Cantilever",
+      "Operational Bandwidth": "1.0 Hz — 19.1 kHz",
+      "Ambient Floor Target": "-79.0 dBV (room-tone referenced)",
+      "Signal-to-Noise Floor": "-77.0 dBV",
+      "Primary Transducer": "Neumann KK-105 Capsule on Custom Geneva Flange",
       "Power / Drive Rail": "±24V Dual Linear Laboratory Rail",
-      "Containment Protocol": "Standard Laboratory B-12 Safety Shielding"
+      "Continuity Protocol": "Standard Annex B-4 Safe Storage"
     },
     "schematicType": "circuit",
     "audioEnginePreset": "cavitation",
     "crossReferences": [
-      "ZIAA-PAT-2024-010",
-      "LOG-2024-019"
+      "GPC-PAT-1998-008",
+      "LOG-2005-007"
     ],
     "tags": [
-      "Acoustic",
-      "ZIAA-Archive",
-      "Archived",
+      "GPC-Archive",
+      "Predictive",
+      "FY-2005",
+      "Class-I"
+    ]
+  },
+  {
+    "id": "proto-009",
+    "code": "GPC-PR-009",
+    "name": "Pandemic Horizon Calculator",
+    "domain": "Predictive Modeling",
+    "year": 2006,
+    "status": "Active Program",
+    "clearance": "Level II (Internal)",
+    "lead": "Cassius Wren",
+    "summary": "Program initiated under GPC Directive GPC-PR-009. Advances predictive modeling for the Division A: Strategic Forecasting through anticipatory calibration, controlled procedural exposure, and real-time institutional signal conditioning. Built to client-grade tolerances in the Geneva Annex workshops and certified against Charter Standard ES-77.",
+    "specifications": {
+      "Operational Bandwidth": "1.7 Hz — 20.4 kHz",
+      "Ambient Floor Target": "-80.0 dBV (room-tone referenced)",
+      "Signal-to-Noise Floor": "-80.0 dBV",
+      "Primary Transducer": "Piezo-Ceramic Bimorph Cantilever, Beryllium Copper Shim",
+      "Power / Drive Rail": "±12V Dual Linear Laboratory Rail",
+      "Continuity Protocol": "Standard Annex B-4 Safe Storage"
+    },
+    "schematicType": "circuit",
+    "audioEnginePreset": "cavitation",
+    "crossReferences": [
+      "GPC-PAT-1999-001",
+      "LOG-2006-012"
+    ],
+    "tags": [
+      "GPC-Archive",
+      "Predictive",
+      "FY-2006",
       "Class-II"
     ]
   },
   {
-    "id": "proto-011",
-    "code": "ZIAA-PR-011",
-    "name": "Tunable Elastic Metamaterial Truss",
-    "domain": "Acoustic Metamaterials",
-    "year": 2025,
-    "status": "Active Lab Stage",
-    "clearance": "Level II (Internal)",
-    "lead": "Dr. Alexei Voronov",
-    "summary": "Experimental apparatus developed under ZIAA Directive ZIAA-PR-011. Investigates acoustic metamaterials through high-precision physical prototyping, speculative boundary conditions, and real-time acoustic signal transduction.",
+    "id": "proto-010",
+    "code": "GPC-PR-010",
+    "name": "Insurance Cascade Failure Simulator",
+    "domain": "Predictive Modeling",
+    "year": 1998,
+    "status": "Archived",
+    "clearance": "Level III (Restricted)",
+    "lead": "Dr. Kenji Watabe",
+    "summary": "Program initiated under GPC Directive GPC-PR-010. Advances predictive modeling for the Division A: Strategic Forecasting through anticipatory calibration, controlled procedural exposure, and real-time institutional signal conditioning. Built to client-grade tolerances in the Geneva Annex workshops and certified against Charter Standard ES-77.",
     "specifications": {
-      "Operational Bandwidth": "17.0 Hz — 54.0 kHz",
-      "Acoustic Impedance": "630 Rayls (air/substate matched)",
-      "Signal-to-Noise Floor": "-92.0 dBV",
-      "Primary Transducer": "Non-Linear Ferroelectric Metamaterial Film",
-      "Power / Drive Rail": "±36V Dual Linear Laboratory Rail",
-      "Containment Protocol": "Standard Laboratory B-12 Safety Shielding"
+      "Operational Bandwidth": "2.4 Hz — 21.7 kHz",
+      "Ambient Floor Target": "-81.0 dBV (room-tone referenced)",
+      "Signal-to-Noise Floor": "-83.0 dBV",
+      "Primary Transducer": "Tannoy Dual-Concentric Driver in Sealed Governance Baffle",
+      "Power / Drive Rail": "±24V Dual Linear Laboratory Rail",
+      "Continuity Protocol": "Standard Annex B-4 Safe Storage"
     },
-    "schematicType": "waveguide",
+    "schematicType": "matrix",
     "audioEnginePreset": "cavitation",
     "crossReferences": [
-      "ZIAA-PAT-2025-011",
-      "LOG-2025-021"
+      "GPC-PAT-1999-002",
+      "LOG-1998-017"
     ],
     "tags": [
-      "Acoustic",
-      "ZIAA-Archive",
-      "Active-Lab Stage",
+      "GPC-Archive",
+      "Predictive",
+      "FY-1998",
+      "Class-III"
+    ]
+  },
+  {
+    "id": "proto-011",
+    "code": "GPC-PR-011",
+    "name": "Weather-Derivative Pricing Bench",
+    "domain": "Predictive Modeling",
+    "year": 1999,
+    "status": "Client Deployment",
+    "clearance": "Level II (Internal)",
+    "lead": "Dr. Margarethe Voll",
+    "summary": "Program initiated under GPC Directive GPC-PR-011. Advances predictive modeling for the Division A: Strategic Forecasting through anticipatory calibration, controlled procedural exposure, and real-time institutional signal conditioning. Built to client-grade tolerances in the Geneva Annex workshops and certified against Charter Standard ES-77.",
+    "specifications": {
+      "Operational Bandwidth": "3.1 Hz — 17.0 kHz",
+      "Ambient Floor Target": "-82.0 dBV (room-tone referenced)",
+      "Signal-to-Noise Floor": "-72.0 dBV",
+      "Primary Transducer": "Bone-Contact Exciter Panel, Lacquered Birch Substrate",
+      "Power / Drive Rail": "±12V Dual Linear Laboratory Rail",
+      "Continuity Protocol": "Standard Annex B-4 Safe Storage"
+    },
+    "schematicType": "interferometer",
+    "audioEnginePreset": "cavitation",
+    "crossReferences": [
+      "GPC-PAT-1999-003",
+      "LOG-1999-022"
+    ],
+    "tags": [
+      "GPC-Archive",
+      "Predictive",
+      "FY-1999",
       "Class-II"
     ]
   },
   {
     "id": "proto-012",
-    "code": "ZIAA-PR-012",
-    "name": "Phononic Bandgap Membrane Resonator",
-    "domain": "Acoustic Metamaterials",
-    "year": 2026,
-    "status": "Field Tested",
+    "code": "GPC-PR-012",
+    "name": "Supply Chain Stress Resonance Table",
+    "domain": "Predictive Modeling",
+    "year": 2000,
+    "status": "Field Verified",
     "clearance": "Level I (Public)",
-    "lead": "Beatrix Thorne",
-    "summary": "Experimental apparatus developed under ZIAA Directive ZIAA-PR-012. Investigates acoustic metamaterials through high-precision physical prototyping, speculative boundary conditions, and real-time acoustic signal transduction.",
+    "lead": "Cassius Wren",
+    "summary": "Program initiated under GPC Directive GPC-PR-012. Advances predictive modeling for the Division A: Strategic Forecasting through anticipatory calibration, controlled procedural exposure, and real-time institutional signal conditioning. Built to client-grade tolerances in the Geneva Annex workshops and certified against Charter Standard ES-77.",
     "specifications": {
-      "Operational Bandwidth": "18.7 Hz — 57.4 kHz",
-      "Acoustic Impedance": "653 Rayls (air/substate matched)",
-      "Signal-to-Noise Floor": "-94.0 dBV",
-      "Primary Transducer": "Ultra-Low Induction Cryogenic Coils",
-      "Power / Drive Rail": "±48V Dual Linear Laboratory Rail",
-      "Containment Protocol": "Standard Laboratory B-12 Safety Shielding"
+      "Operational Bandwidth": "3.8 Hz — 18.3 kHz",
+      "Ambient Floor Target": "-83.0 dBV (room-tone referenced)",
+      "Signal-to-Noise Floor": "-75.0 dBV",
+      "Primary Transducer": "Sennheiser MD 421 Element in Transit Housing",
+      "Power / Drive Rail": "±24V Dual Linear Laboratory Rail",
+      "Continuity Protocol": "Standard Annex B-4 Safe Storage"
     },
-    "schematicType": "matrix",
+    "schematicType": "resonator",
     "audioEnginePreset": "cavitation",
     "crossReferences": [
-      "ZIAA-PAT-2026-012",
-      "LOG-2026-023"
+      "GPC-PAT-1999-004",
+      "LOG-2000-027"
     ],
     "tags": [
-      "Acoustic",
-      "ZIAA-Archive",
-      "Field-Tested",
-      "Class-I ("
+      "GPC-Archive",
+      "Predictive",
+      "FY-2000",
+      "Class-I"
     ]
   },
   {
     "id": "proto-013",
-    "code": "ZIAA-PR-013",
-    "name": "Zero-Mass Acoustic Reflector Core",
-    "domain": "Acoustic Metamaterials",
-    "year": 2021,
-    "status": "Decommissioned",
-    "clearance": "Level IV (Black Vault)",
-    "lead": "Dr. Elena Rostova",
-    "summary": "Experimental apparatus developed under ZIAA Directive ZIAA-PR-013. Investigates acoustic metamaterials through high-precision physical prototyping, speculative boundary conditions, and real-time acoustic signal transduction.",
+    "code": "GPC-PR-013",
+    "name": "Black Swan Event Registry Terminal",
+    "domain": "Predictive Modeling",
+    "year": 2001,
+    "status": "Active Program",
+    "clearance": "Level IV (Continuity Vault)",
+    "lead": "Dr. Kenji Watabe",
+    "summary": "Program initiated under GPC Directive GPC-PR-013. Advances predictive modeling for the Division A: Strategic Forecasting through anticipatory calibration, controlled procedural exposure, and real-time institutional signal conditioning. Built to client-grade tolerances in the Geneva Annex workshops and certified against Charter Standard ES-77.",
     "specifications": {
-      "Operational Bandwidth": "20.4 Hz — 60.8 kHz",
-      "Acoustic Impedance": "676 Rayls (air/substate matched)",
-      "Signal-to-Noise Floor": "-96.0 dBV",
-      "Primary Transducer": "Beryllium Copper Bimorph Cantilever",
+      "Operational Bandwidth": "0.5 Hz — 19.6 kHz",
+      "Ambient Floor Target": "-72.0 dBV (room-tone referenced)",
+      "Signal-to-Noise Floor": "-78.0 dBV",
+      "Primary Transducer": "Electro-Voice RE20 Dynamic Element, Impedance Matched",
       "Power / Drive Rail": "±12V Dual Linear Laboratory Rail",
-      "Containment Protocol": "ZIAA-SEC-IV Vault Enclosure with Acoustic Damping Gel"
+      "Continuity Protocol": "Vault Seal Procedure D-99 (irrevocable)"
     },
-    "schematicType": "transducer",
+    "schematicType": "matrix",
     "audioEnginePreset": "cavitation",
     "crossReferences": [
-      "ZIAA-PAT-2021-013",
-      "LOG-2021-025"
+      "GPC-PAT-1999-005",
+      "LOG-2001-003"
     ],
     "tags": [
-      "Acoustic",
-      "ZIAA-Archive",
-      "Decommissioned",
+      "GPC-Archive",
+      "Predictive",
+      "FY-2001",
       "Class-IV"
     ]
   },
   {
     "id": "proto-014",
-    "code": "ZIAA-PR-014",
-    "name": "Piezo-Shunted Acoustic Gradient Panel",
-    "domain": "Acoustic Metamaterials",
-    "year": 2022,
-    "status": "Active Lab Stage",
+    "code": "GPC-PR-014",
+    "name": "Confidence Interval Projection Dome",
+    "domain": "Predictive Modeling",
+    "year": 2002,
+    "status": "Archived",
     "clearance": "Level II (Internal)",
-    "lead": "Dr. Kieran Vance",
-    "summary": "Experimental apparatus developed under ZIAA Directive ZIAA-PR-014. Investigates acoustic metamaterials through high-precision physical prototyping, speculative boundary conditions, and real-time acoustic signal transduction.",
+    "lead": "Dr. Margarethe Voll",
+    "summary": "Program initiated under GPC Directive GPC-PR-014. Advances predictive modeling for the Division A: Strategic Forecasting through anticipatory calibration, controlled procedural exposure, and real-time institutional signal conditioning. Built to client-grade tolerances in the Geneva Annex workshops and certified against Charter Standard ES-77.",
     "specifications": {
-      "Operational Bandwidth": "22.1 Hz — 64.2 kHz",
-      "Acoustic Impedance": "699 Rayls (air/substate matched)",
-      "Signal-to-Noise Floor": "-98.0 dBV",
-      "Primary Transducer": "Non-Linear Ferroelectric Metamaterial Film",
+      "Operational Bandwidth": "1.2 Hz — 20.9 kHz",
+      "Ambient Floor Target": "-73.0 dBV (room-tone referenced)",
+      "Signal-to-Noise Floor": "-81.0 dBV",
+      "Primary Transducer": "Neumann KK-105 Capsule on Custom Geneva Flange",
       "Power / Drive Rail": "±24V Dual Linear Laboratory Rail",
-      "Containment Protocol": "Standard Laboratory B-12 Safety Shielding"
+      "Continuity Protocol": "Standard Annex B-4 Safe Storage"
     },
-    "schematicType": "resonator",
+    "schematicType": "waveguide",
     "audioEnginePreset": "cavitation",
     "crossReferences": [
-      "ZIAA-PAT-2022-014",
-      "LOG-2022-027"
+      "GPC-PAT-1999-006",
+      "LOG-2002-008"
     ],
     "tags": [
-      "Acoustic",
-      "ZIAA-Archive",
-      "Active-Lab Stage",
+      "GPC-Archive",
+      "Predictive",
+      "FY-2002",
       "Class-II"
     ]
   },
   {
     "id": "proto-015",
-    "code": "ZIAA-PR-015",
-    "name": "Super-Oscillatory Acoustic Micro-Probe",
-    "domain": "Acoustic Metamaterials",
-    "year": 2023,
-    "status": "Active Lab Stage",
+    "code": "GPC-PR-015",
+    "name": "Expert Disagreement Quantifier",
+    "domain": "Predictive Modeling",
+    "year": 2003,
+    "status": "Client Deployment",
     "clearance": "Level III (Restricted)",
-    "lead": "Maya Lindqvist",
-    "summary": "Experimental apparatus developed under ZIAA Directive ZIAA-PR-015. Investigates acoustic metamaterials through high-precision physical prototyping, speculative boundary conditions, and real-time acoustic signal transduction.",
+    "lead": "Cassius Wren",
+    "summary": "Program initiated under GPC Directive GPC-PR-015. Advances predictive modeling for the Division A: Strategic Forecasting through anticipatory calibration, controlled procedural exposure, and real-time institutional signal conditioning. Built to client-grade tolerances in the Geneva Annex workshops and certified against Charter Standard ES-77.",
     "specifications": {
-      "Operational Bandwidth": "23.8 Hz — 67.6 kHz",
-      "Acoustic Impedance": "722 Rayls (air/substate matched)",
-      "Signal-to-Noise Floor": "-100.0 dBV",
-      "Primary Transducer": "Ultra-Low Induction Cryogenic Coils",
-      "Power / Drive Rail": "±36V Dual Linear Laboratory Rail",
-      "Containment Protocol": "Standard Laboratory B-12 Safety Shielding"
+      "Operational Bandwidth": "1.9 Hz — 16.2 kHz",
+      "Ambient Floor Target": "-74.0 dBV (room-tone referenced)",
+      "Signal-to-Noise Floor": "-70.0 dBV",
+      "Primary Transducer": "Piezo-Ceramic Bimorph Cantilever, Beryllium Copper Shim",
+      "Power / Drive Rail": "±12V Dual Linear Laboratory Rail",
+      "Continuity Protocol": "Standard Annex B-4 Safe Storage"
     },
     "schematicType": "interferometer",
     "audioEnginePreset": "cavitation",
     "crossReferences": [
-      "ZIAA-PAT-2023-015",
-      "LOG-2023-029"
+      "GPC-PAT-1999-007",
+      "LOG-2003-013"
     ],
     "tags": [
-      "Acoustic",
-      "ZIAA-Archive",
-      "Active-Lab Stage",
+      "GPC-Archive",
+      "Predictive",
+      "FY-2003",
       "Class-III"
     ]
   },
   {
     "id": "proto-016",
-    "code": "ZIAA-PR-016",
-    "name": "Anomalous Reflection Parabolic Dish",
-    "domain": "Acoustic Metamaterials",
-    "year": 2024,
-    "status": "Field Tested",
+    "code": "GPC-PR-016",
+    "name": "Long-Range Fiscal Oracle Array",
+    "domain": "Predictive Modeling",
+    "year": 2004,
+    "status": "Field Verified",
     "clearance": "Level II (Internal)",
-    "lead": "Dr. Tariq Al-Mansoor",
-    "summary": "Experimental apparatus developed under ZIAA Directive ZIAA-PR-016. Investigates acoustic metamaterials through high-precision physical prototyping, speculative boundary conditions, and real-time acoustic signal transduction.",
+    "lead": "Dr. Kenji Watabe",
+    "summary": "Program initiated under GPC Directive GPC-PR-016. Advances predictive modeling for the Division A: Strategic Forecasting through anticipatory calibration, controlled procedural exposure, and real-time institutional signal conditioning. Built to client-grade tolerances in the Geneva Annex workshops and certified against Charter Standard ES-77.",
     "specifications": {
-      "Operational Bandwidth": "1.5 Hz — 71.0 kHz",
-      "Acoustic Impedance": "745 Rayls (air/substate matched)",
-      "Signal-to-Noise Floor": "-102.0 dBV",
-      "Primary Transducer": "Beryllium Copper Bimorph Cantilever",
-      "Power / Drive Rail": "±48V Dual Linear Laboratory Rail",
-      "Containment Protocol": "Standard Laboratory B-12 Safety Shielding"
+      "Operational Bandwidth": "2.6 Hz — 17.5 kHz",
+      "Ambient Floor Target": "-75.0 dBV (room-tone referenced)",
+      "Signal-to-Noise Floor": "-73.0 dBV",
+      "Primary Transducer": "Tannoy Dual-Concentric Driver in Sealed Governance Baffle",
+      "Power / Drive Rail": "±24V Dual Linear Laboratory Rail",
+      "Continuity Protocol": "Standard Annex B-4 Safe Storage"
     },
-    "schematicType": "circuit",
+    "schematicType": "matrix",
     "audioEnginePreset": "cavitation",
     "crossReferences": [
-      "ZIAA-PAT-2024-016",
-      "LOG-2024-031"
+      "GPC-PAT-1999-008",
+      "LOG-2004-018"
     ],
     "tags": [
-      "Acoustic",
-      "ZIAA-Archive",
-      "Field-Tested",
+      "GPC-Archive",
+      "Predictive",
+      "FY-2004",
       "Class-II"
     ]
   },
   {
     "id": "proto-017",
-    "code": "ZIAA-PR-017",
-    "name": "Lost Carrier Heterodyne Demodulator",
-    "domain": "Signal Archaeology",
-    "year": 2025,
-    "status": "Active Lab Stage",
+    "code": "GPC-PR-017",
+    "name": "Branching Future Corridor Renderer",
+    "domain": "Scenario Architecture",
+    "year": 2005,
+    "status": "Field Verified",
     "clearance": "Level II (Internal)",
-    "lead": "Svenja Dahl",
-    "summary": "Experimental apparatus developed under ZIAA Directive ZIAA-PR-017. Investigates signal archaeology through high-precision physical prototyping, speculative boundary conditions, and real-time acoustic signal transduction.",
+    "lead": "Dr. Margarethe Voll",
+    "summary": "Program initiated under GPC Directive GPC-PR-017. Advances scenario architecture for the Division A: Strategic Forecasting through anticipatory calibration, controlled procedural exposure, and real-time institutional signal conditioning. Built to client-grade tolerances in the Geneva Annex workshops and certified against Charter Standard ES-77.",
     "specifications": {
-      "Operational Bandwidth": "3.2 Hz — 74.4 kHz",
-      "Acoustic Impedance": "768 Rayls (air/substate matched)",
-      "Signal-to-Noise Floor": "-104.0 dBV",
-      "Primary Transducer": "Non-Linear Ferroelectric Metamaterial Film",
+      "Operational Bandwidth": "3.3 Hz — 18.8 kHz",
+      "Ambient Floor Target": "-76.0 dBV (room-tone referenced)",
+      "Signal-to-Noise Floor": "-76.0 dBV",
+      "Primary Transducer": "Bone-Contact Exciter Panel, Lacquered Birch Substrate",
       "Power / Drive Rail": "±12V Dual Linear Laboratory Rail",
-      "Containment Protocol": "Standard Laboratory B-12 Safety Shielding"
+      "Continuity Protocol": "Standard Annex B-4 Safe Storage"
     },
     "schematicType": "waveguide",
     "audioEnginePreset": "archaeology",
     "crossReferences": [
-      "ZIAA-PAT-2025-017",
-      "LOG-2025-033"
+      "GPC-PAT-2000-001",
+      "LOG-2005-023"
     ],
     "tags": [
-      "Signal",
-      "ZIAA-Archive",
-      "Active-Lab Stage",
+      "GPC-Archive",
+      "Scenario",
+      "FY-2005",
       "Class-II"
     ]
   },
   {
     "id": "proto-018",
-    "code": "ZIAA-PR-018",
-    "name": "Cold War VLF Ground-Loop Tape Transcriber",
-    "domain": "Signal Archaeology",
-    "year": 2026,
-    "status": "Field Tested",
-    "clearance": "Level II (Internal)",
-    "lead": "Marcus Holloway",
-    "summary": "Experimental apparatus developed under ZIAA Directive ZIAA-PR-018. Investigates signal archaeology through high-precision physical prototyping, speculative boundary conditions, and real-time acoustic signal transduction.",
-    "specifications": {
-      "Operational Bandwidth": "4.9 Hz — 77.8 kHz",
-      "Acoustic Impedance": "791 Rayls (air/substate matched)",
-      "Signal-to-Noise Floor": "-106.0 dBV",
-      "Primary Transducer": "Ultra-Low Induction Cryogenic Coils",
-      "Power / Drive Rail": "±24V Dual Linear Laboratory Rail",
-      "Containment Protocol": "Standard Laboratory B-12 Safety Shielding"
-    },
-    "schematicType": "matrix",
-    "audioEnginePreset": "archaeology",
-    "crossReferences": [
-      "ZIAA-PAT-2026-018",
-      "LOG-2026-035"
-    ],
-    "tags": [
-      "Signal",
-      "ZIAA-Archive",
-      "Field-Tested",
-      "Class-II"
-    ]
-  },
-  {
-    "id": "proto-019",
-    "code": "ZIAA-PR-019",
-    "name": "Numbers Station Automated Triangulator",
-    "domain": "Signal Archaeology",
-    "year": 2021,
-    "status": "Field Tested",
+    "code": "GPC-PR-018",
+    "name": "Tabletop Crisis Simulation Chamber",
+    "domain": "Scenario Architecture",
+    "year": 2006,
+    "status": "Active Program",
     "clearance": "Level III (Restricted)",
-    "lead": "Dr. Christine Abele",
-    "summary": "Experimental apparatus developed under ZIAA Directive ZIAA-PR-019. Investigates signal archaeology through high-precision physical prototyping, speculative boundary conditions, and real-time acoustic signal transduction.",
+    "lead": "Elias Brandt",
+    "summary": "Program initiated under GPC Directive GPC-PR-018. Advances scenario architecture for the Division A: Strategic Forecasting through anticipatory calibration, controlled procedural exposure, and real-time institutional signal conditioning. Built to client-grade tolerances in the Geneva Annex workshops and certified against Charter Standard ES-77.",
     "specifications": {
-      "Operational Bandwidth": "6.6 Hz — 81.2 kHz",
-      "Acoustic Impedance": "814 Rayls (air/substate matched)",
-      "Signal-to-Noise Floor": "-108.0 dBV",
-      "Primary Transducer": "Beryllium Copper Bimorph Cantilever",
-      "Power / Drive Rail": "±36V Dual Linear Laboratory Rail",
-      "Containment Protocol": "Standard Laboratory B-12 Safety Shielding"
-    },
-    "schematicType": "transducer",
-    "audioEnginePreset": "archaeology",
-    "crossReferences": [
-      "ZIAA-PAT-2021-019",
-      "LOG-2021-037"
-    ],
-    "tags": [
-      "Signal",
-      "ZIAA-Archive",
-      "Field-Tested",
-      "Class-III"
-    ]
-  },
-  {
-    "id": "proto-020",
-    "code": "ZIAA-PR-020",
-    "name": "Atmospheric Sferics & Tweek Phonograph",
-    "domain": "Signal Archaeology",
-    "year": 2022,
-    "status": "Public Installation",
-    "clearance": "Level I (Public)",
-    "lead": "Renata Osei",
-    "summary": "Experimental apparatus developed under ZIAA Directive ZIAA-PR-020. Investigates signal archaeology through high-precision physical prototyping, speculative boundary conditions, and real-time acoustic signal transduction.",
-    "specifications": {
-      "Operational Bandwidth": "8.3 Hz — 84.6 kHz",
-      "Acoustic Impedance": "837 Rayls (air/substate matched)",
-      "Signal-to-Noise Floor": "-110.0 dBV",
-      "Primary Transducer": "Non-Linear Ferroelectric Metamaterial Film",
-      "Power / Drive Rail": "±48V Dual Linear Laboratory Rail",
-      "Containment Protocol": "Standard Laboratory B-12 Safety Shielding"
+      "Operational Bandwidth": "4.0 Hz — 20.1 kHz",
+      "Ambient Floor Target": "-77.0 dBV (room-tone referenced)",
+      "Signal-to-Noise Floor": "-79.0 dBV",
+      "Primary Transducer": "Sennheiser MD 421 Element in Transit Housing",
+      "Power / Drive Rail": "±24V Dual Linear Laboratory Rail",
+      "Continuity Protocol": "Standard Annex B-4 Safe Storage"
     },
     "schematicType": "resonator",
     "audioEnginePreset": "archaeology",
     "crossReferences": [
-      "ZIAA-PAT-2022-020",
-      "LOG-2022-039"
+      "GPC-PAT-2000-002",
+      "LOG-2006-028"
     ],
     "tags": [
-      "Signal",
-      "ZIAA-Archive",
-      "Public-Installation",
-      "Class-I ("
+      "GPC-Archive",
+      "Scenario",
+      "FY-2006",
+      "Class-III"
+    ]
+  },
+  {
+    "id": "proto-019",
+    "code": "GPC-PR-019",
+    "name": "Red Cell Adversary Behavior Console",
+    "domain": "Scenario Architecture",
+    "year": 1998,
+    "status": "Archived",
+    "clearance": "Level II (Internal)",
+    "lead": "Ingrid Sahl",
+    "summary": "Program initiated under GPC Directive GPC-PR-019. Advances scenario architecture for the Division A: Strategic Forecasting through anticipatory calibration, controlled procedural exposure, and real-time institutional signal conditioning. Built to client-grade tolerances in the Geneva Annex workshops and certified against Charter Standard ES-77.",
+    "specifications": {
+      "Operational Bandwidth": "0.7 Hz — 21.4 kHz",
+      "Ambient Floor Target": "-78.0 dBV (room-tone referenced)",
+      "Signal-to-Noise Floor": "-82.0 dBV",
+      "Primary Transducer": "Electro-Voice RE20 Dynamic Element, Impedance Matched",
+      "Power / Drive Rail": "±12V Dual Linear Laboratory Rail",
+      "Continuity Protocol": "Standard Annex B-4 Safe Storage"
+    },
+    "schematicType": "circuit",
+    "audioEnginePreset": "archaeology",
+    "crossReferences": [
+      "GPC-PAT-2000-003",
+      "LOG-1998-004"
+    ],
+    "tags": [
+      "GPC-Archive",
+      "Scenario",
+      "FY-1998",
+      "Class-II"
+    ]
+  },
+  {
+    "id": "proto-020",
+    "code": "GPC-PR-020",
+    "name": "Continuity Decision Tree Loom",
+    "domain": "Scenario Architecture",
+    "year": 1999,
+    "status": "Client Deployment",
+    "clearance": "Level I (Public)",
+    "lead": "Dr. Margarethe Voll",
+    "summary": "Program initiated under GPC Directive GPC-PR-020. Advances scenario architecture for the Division A: Strategic Forecasting through anticipatory calibration, controlled procedural exposure, and real-time institutional signal conditioning. Built to client-grade tolerances in the Geneva Annex workshops and certified against Charter Standard ES-77.",
+    "specifications": {
+      "Operational Bandwidth": "1.4 Hz — 16.7 kHz",
+      "Ambient Floor Target": "-79.0 dBV (room-tone referenced)",
+      "Signal-to-Noise Floor": "-71.0 dBV",
+      "Primary Transducer": "Neumann KK-105 Capsule on Custom Geneva Flange",
+      "Power / Drive Rail": "±24V Dual Linear Laboratory Rail",
+      "Continuity Protocol": "Standard Annex B-4 Safe Storage"
+    },
+    "schematicType": "matrix",
+    "audioEnginePreset": "archaeology",
+    "crossReferences": [
+      "GPC-PAT-2000-004",
+      "LOG-1999-009"
+    ],
+    "tags": [
+      "GPC-Archive",
+      "Scenario",
+      "FY-1999",
+      "Class-I"
     ]
   },
   {
     "id": "proto-021",
-    "code": "ZIAA-PR-021",
-    "name": "Decommissioned Submarine Sonar Coil Tap",
-    "domain": "Signal Archaeology",
-    "year": 2023,
-    "status": "Archived",
+    "code": "GPC-PR-021",
+    "name": "Pre-Mortem Narrative Generator",
+    "domain": "Scenario Architecture",
+    "year": 2000,
+    "status": "Field Verified",
     "clearance": "Level III (Restricted)",
-    "lead": "Joon-Ho Park",
-    "summary": "Experimental apparatus developed under ZIAA Directive ZIAA-PR-021. Investigates signal archaeology through high-precision physical prototyping, speculative boundary conditions, and real-time acoustic signal transduction.",
+    "lead": "Elias Brandt",
+    "summary": "Program initiated under GPC Directive GPC-PR-021. Advances scenario architecture for the Division A: Strategic Forecasting through anticipatory calibration, controlled procedural exposure, and real-time institutional signal conditioning. Built to client-grade tolerances in the Geneva Annex workshops and certified against Charter Standard ES-77.",
     "specifications": {
-      "Operational Bandwidth": "10.0 Hz — 88.0 kHz",
-      "Acoustic Impedance": "860 Rayls (air/substate matched)",
-      "Signal-to-Noise Floor": "-112.0 dBV",
-      "Primary Transducer": "Ultra-Low Induction Cryogenic Coils",
+      "Operational Bandwidth": "2.1 Hz — 18.0 kHz",
+      "Ambient Floor Target": "-80.0 dBV (room-tone referenced)",
+      "Signal-to-Noise Floor": "-74.0 dBV",
+      "Primary Transducer": "Piezo-Ceramic Bimorph Cantilever, Beryllium Copper Shim",
       "Power / Drive Rail": "±12V Dual Linear Laboratory Rail",
-      "Containment Protocol": "Standard Laboratory B-12 Safety Shielding"
+      "Continuity Protocol": "Standard Annex B-4 Safe Storage"
     },
-    "schematicType": "interferometer",
+    "schematicType": "circuit",
     "audioEnginePreset": "archaeology",
     "crossReferences": [
-      "ZIAA-PAT-2023-021",
-      "LOG-2023-041"
+      "GPC-PAT-2000-005",
+      "LOG-2000-014"
     ],
     "tags": [
-      "Signal",
-      "ZIAA-Archive",
-      "Archived",
+      "GPC-Archive",
+      "Scenario",
+      "FY-2000",
       "Class-III"
     ]
   },
   {
     "id": "proto-022",
-    "code": "ZIAA-PR-022",
-    "name": "Phosphor-Screen Spectral Fossilizer",
-    "domain": "Signal Archaeology",
-    "year": 2024,
-    "status": "Active Lab Stage",
+    "code": "GPC-PR-022",
+    "name": "War Room Projection Table Mk III",
+    "domain": "Scenario Architecture",
+    "year": 2001,
+    "status": "Active Program",
     "clearance": "Level II (Internal)",
-    "lead": "Dr. Lyra Sterling",
-    "summary": "Experimental apparatus developed under ZIAA Directive ZIAA-PR-022. Investigates signal archaeology through high-precision physical prototyping, speculative boundary conditions, and real-time acoustic signal transduction.",
+    "lead": "Ingrid Sahl",
+    "summary": "Program initiated under GPC Directive GPC-PR-022. Advances scenario architecture for the Division A: Strategic Forecasting through anticipatory calibration, controlled procedural exposure, and real-time institutional signal conditioning. Built to client-grade tolerances in the Geneva Annex workshops and certified against Charter Standard ES-77.",
     "specifications": {
-      "Operational Bandwidth": "11.7 Hz — 91.4 kHz",
-      "Acoustic Impedance": "883 Rayls (air/substate matched)",
-      "Signal-to-Noise Floor": "-114.0 dBV",
-      "Primary Transducer": "Beryllium Copper Bimorph Cantilever",
+      "Operational Bandwidth": "2.8 Hz — 19.3 kHz",
+      "Ambient Floor Target": "-81.0 dBV (room-tone referenced)",
+      "Signal-to-Noise Floor": "-77.0 dBV",
+      "Primary Transducer": "Tannoy Dual-Concentric Driver in Sealed Governance Baffle",
       "Power / Drive Rail": "±24V Dual Linear Laboratory Rail",
-      "Containment Protocol": "Standard Laboratory B-12 Safety Shielding"
+      "Continuity Protocol": "Standard Annex B-4 Safe Storage"
     },
-    "schematicType": "circuit",
+    "schematicType": "matrix",
     "audioEnginePreset": "archaeology",
     "crossReferences": [
-      "ZIAA-PAT-2024-022",
-      "LOG-2024-043"
+      "GPC-PAT-2000-006",
+      "LOG-2001-019"
     ],
     "tags": [
-      "Signal",
-      "ZIAA-Archive",
-      "Active-Lab Stage",
+      "GPC-Archive",
+      "Scenario",
+      "FY-2001",
       "Class-II"
     ]
   },
   {
     "id": "proto-023",
-    "code": "ZIAA-PR-023",
-    "name": "Ionospheric Dawn Chorus Harvester",
-    "domain": "Signal Archaeology",
-    "year": 2025,
-    "status": "Active Lab Stage",
-    "clearance": "Level I (Public)",
-    "lead": "Dr. Alexei Voronov",
-    "summary": "Experimental apparatus developed under ZIAA Directive ZIAA-PR-023. Investigates signal archaeology through high-precision physical prototyping, speculative boundary conditions, and real-time acoustic signal transduction.",
+    "code": "GPC-PR-023",
+    "name": "Stress Case Cascade Board",
+    "domain": "Scenario Architecture",
+    "year": 2002,
+    "status": "Archived",
+    "clearance": "Level III (Restricted)",
+    "lead": "Dr. Margarethe Voll",
+    "summary": "Program initiated under GPC Directive GPC-PR-023. Advances scenario architecture for the Division A: Strategic Forecasting through anticipatory calibration, controlled procedural exposure, and real-time institutional signal conditioning. Built to client-grade tolerances in the Geneva Annex workshops and certified against Charter Standard ES-77.",
     "specifications": {
-      "Operational Bandwidth": "13.4 Hz — 94.8 kHz",
-      "Acoustic Impedance": "906 Rayls (air/substate matched)",
-      "Signal-to-Noise Floor": "-116.0 dBV",
-      "Primary Transducer": "Non-Linear Ferroelectric Metamaterial Film",
-      "Power / Drive Rail": "±36V Dual Linear Laboratory Rail",
-      "Containment Protocol": "Standard Laboratory B-12 Safety Shielding"
-    },
-    "schematicType": "waveguide",
-    "audioEnginePreset": "archaeology",
-    "crossReferences": [
-      "ZIAA-PAT-2025-023",
-      "LOG-2025-045"
-    ],
-    "tags": [
-      "Signal",
-      "ZIAA-Archive",
-      "Active-Lab Stage",
-      "Class-I ("
-    ]
-  },
-  {
-    "id": "proto-024",
-    "code": "ZIAA-PR-024",
-    "name": "Magnetic Wire Sound-Print Restorer Mk II",
-    "domain": "Signal Archaeology",
-    "year": 2026,
-    "status": "Active Lab Stage",
-    "clearance": "Level II (Internal)",
-    "lead": "Beatrix Thorne",
-    "summary": "Experimental apparatus developed under ZIAA Directive ZIAA-PR-024. Investigates signal archaeology through high-precision physical prototyping, speculative boundary conditions, and real-time acoustic signal transduction.",
-    "specifications": {
-      "Operational Bandwidth": "15.1 Hz — 98.2 kHz",
-      "Acoustic Impedance": "929 Rayls (air/substate matched)",
-      "Signal-to-Noise Floor": "-118.0 dBV",
-      "Primary Transducer": "Ultra-Low Induction Cryogenic Coils",
-      "Power / Drive Rail": "±48V Dual Linear Laboratory Rail",
-      "Containment Protocol": "Standard Laboratory B-12 Safety Shielding"
+      "Operational Bandwidth": "3.5 Hz — 20.6 kHz",
+      "Ambient Floor Target": "-82.0 dBV (room-tone referenced)",
+      "Signal-to-Noise Floor": "-80.0 dBV",
+      "Primary Transducer": "Bone-Contact Exciter Panel, Lacquered Birch Substrate",
+      "Power / Drive Rail": "±12V Dual Linear Laboratory Rail",
+      "Continuity Protocol": "Standard Annex B-4 Safe Storage"
     },
     "schematicType": "matrix",
     "audioEnginePreset": "archaeology",
     "crossReferences": [
-      "ZIAA-PAT-2026-024",
-      "LOG-2026-047"
+      "GPC-PAT-2000-007",
+      "LOG-2002-024"
     ],
     "tags": [
-      "Signal",
-      "ZIAA-Archive",
-      "Active-Lab Stage",
-      "Class-II"
+      "GPC-Archive",
+      "Scenario",
+      "FY-2002",
+      "Class-III"
     ]
   },
   {
-    "id": "proto-025",
-    "code": "ZIAA-PR-025",
-    "name": "Opto-Acoustic Shellac Groove Laser Reader",
-    "domain": "Signal Archaeology",
-    "year": 2021,
-    "status": "Field Tested",
+    "id": "proto-024",
+    "code": "GPC-PR-024",
+    "name": "Counterfactual History Sandbox",
+    "domain": "Scenario Architecture",
+    "year": 2003,
+    "status": "Client Deployment",
     "clearance": "Level I (Public)",
-    "lead": "Dr. Elena Rostova",
-    "summary": "Experimental apparatus developed under ZIAA Directive ZIAA-PR-025. Investigates signal archaeology through high-precision physical prototyping, speculative boundary conditions, and real-time acoustic signal transduction.",
+    "lead": "Elias Brandt",
+    "summary": "Program initiated under GPC Directive GPC-PR-024. Advances scenario architecture for the Division A: Strategic Forecasting through anticipatory calibration, controlled procedural exposure, and real-time institutional signal conditioning. Built to client-grade tolerances in the Geneva Annex workshops and certified against Charter Standard ES-77.",
     "specifications": {
-      "Operational Bandwidth": "16.8 Hz — 101.6 kHz",
-      "Acoustic Impedance": "952 Rayls (air/substate matched)",
-      "Signal-to-Noise Floor": "-72.0 dBV",
-      "Primary Transducer": "Beryllium Copper Bimorph Cantilever",
-      "Power / Drive Rail": "±12V Dual Linear Laboratory Rail",
-      "Containment Protocol": "Standard Laboratory B-12 Safety Shielding"
-    },
-    "schematicType": "transducer",
-    "audioEnginePreset": "archaeology",
-    "crossReferences": [
-      "ZIAA-PAT-2021-025",
-      "LOG-2021-049"
-    ],
-    "tags": [
-      "Signal",
-      "ZIAA-Archive",
-      "Field-Tested",
-      "Class-I ("
-    ]
-  },
-  {
-    "id": "proto-026",
-    "code": "ZIAA-PR-026",
-    "name": "Sub-Surface Ground Penetrating Audio Radar",
-    "domain": "Signal Archaeology",
-    "year": 2022,
-    "status": "Field Tested",
-    "clearance": "Level III (Restricted)",
-    "lead": "Dr. Kieran Vance",
-    "summary": "Experimental apparatus developed under ZIAA Directive ZIAA-PR-026. Investigates signal archaeology through high-precision physical prototyping, speculative boundary conditions, and real-time acoustic signal transduction.",
-    "specifications": {
-      "Operational Bandwidth": "18.5 Hz — 105.0 kHz",
-      "Acoustic Impedance": "975 Rayls (air/substate matched)",
-      "Signal-to-Noise Floor": "-74.0 dBV",
-      "Primary Transducer": "Non-Linear Ferroelectric Metamaterial Film",
+      "Operational Bandwidth": "0.2 Hz — 21.9 kHz",
+      "Ambient Floor Target": "-83.0 dBV (room-tone referenced)",
+      "Signal-to-Noise Floor": "-83.0 dBV",
+      "Primary Transducer": "Sennheiser MD 421 Element in Transit Housing",
       "Power / Drive Rail": "±24V Dual Linear Laboratory Rail",
-      "Containment Protocol": "Standard Laboratory B-12 Safety Shielding"
+      "Continuity Protocol": "Standard Annex B-4 Safe Storage"
     },
     "schematicType": "resonator",
     "audioEnginePreset": "archaeology",
     "crossReferences": [
-      "ZIAA-PAT-2022-026",
-      "LOG-2022-051"
+      "GPC-PAT-2000-008",
+      "LOG-2003-029"
     ],
     "tags": [
-      "Signal",
-      "ZIAA-Archive",
-      "Field-Tested",
+      "GPC-Archive",
+      "Scenario",
+      "FY-2003",
+      "Class-I"
+    ]
+  },
+  {
+    "id": "proto-025",
+    "code": "GPC-PR-025",
+    "name": "Stakeholder Friction Mapper",
+    "domain": "Scenario Architecture",
+    "year": 2004,
+    "status": "Field Verified",
+    "clearance": "Level II (Internal)",
+    "lead": "Ingrid Sahl",
+    "summary": "Program initiated under GPC Directive GPC-PR-025. Advances scenario architecture for the Division A: Strategic Forecasting through anticipatory calibration, controlled procedural exposure, and real-time institutional signal conditioning. Built to client-grade tolerances in the Geneva Annex workshops and certified against Charter Standard ES-77.",
+    "specifications": {
+      "Operational Bandwidth": "0.9 Hz — 17.2 kHz",
+      "Ambient Floor Target": "-72.0 dBV (room-tone referenced)",
+      "Signal-to-Noise Floor": "-72.0 dBV",
+      "Primary Transducer": "Electro-Voice RE20 Dynamic Element, Impedance Matched",
+      "Power / Drive Rail": "±12V Dual Linear Laboratory Rail",
+      "Continuity Protocol": "Standard Annex B-4 Safe Storage"
+    },
+    "schematicType": "interferometer",
+    "audioEnginePreset": "archaeology",
+    "crossReferences": [
+      "GPC-PAT-2000-009",
+      "LOG-2004-005"
+    ],
+    "tags": [
+      "GPC-Archive",
+      "Scenario",
+      "FY-2004",
+      "Class-II"
+    ]
+  },
+  {
+    "id": "proto-026",
+    "code": "GPC-PR-026",
+    "name": "Escalation Ladder Synthesizer",
+    "domain": "Scenario Architecture",
+    "year": 2005,
+    "status": "Active Program",
+    "clearance": "Level III (Restricted)",
+    "lead": "Dr. Margarethe Voll",
+    "summary": "Program initiated under GPC Directive GPC-PR-026. Advances scenario architecture for the Division A: Strategic Forecasting through anticipatory calibration, controlled procedural exposure, and real-time institutional signal conditioning. Built to client-grade tolerances in the Geneva Annex workshops and certified against Charter Standard ES-77.",
+    "specifications": {
+      "Operational Bandwidth": "1.6 Hz — 18.5 kHz",
+      "Ambient Floor Target": "-73.0 dBV (room-tone referenced)",
+      "Signal-to-Noise Floor": "-75.0 dBV",
+      "Primary Transducer": "Neumann KK-105 Capsule on Custom Geneva Flange",
+      "Power / Drive Rail": "±24V Dual Linear Laboratory Rail",
+      "Continuity Protocol": "Standard Annex B-4 Safe Storage"
+    },
+    "schematicType": "circuit",
+    "audioEnginePreset": "archaeology",
+    "crossReferences": [
+      "GPC-PAT-2001-001",
+      "LOG-2005-010"
+    ],
+    "tags": [
+      "GPC-Archive",
+      "Scenario",
+      "FY-2005",
       "Class-III"
     ]
   },
   {
     "id": "proto-027",
-    "code": "ZIAA-PR-027",
-    "name": "Telluric Electric Current Audio Sniffer",
-    "domain": "Signal Archaeology",
-    "year": 2023,
-    "status": "Active Lab Stage",
+    "code": "GPC-PR-027",
+    "name": "Wildcard Event Injection Deck",
+    "domain": "Scenario Architecture",
+    "year": 2006,
+    "status": "Archived",
     "clearance": "Level II (Internal)",
-    "lead": "Maya Lindqvist",
-    "summary": "Experimental apparatus developed under ZIAA Directive ZIAA-PR-027. Investigates signal archaeology through high-precision physical prototyping, speculative boundary conditions, and real-time acoustic signal transduction.",
+    "lead": "Elias Brandt",
+    "summary": "Program initiated under GPC Directive GPC-PR-027. Advances scenario architecture for the Division A: Strategic Forecasting through anticipatory calibration, controlled procedural exposure, and real-time institutional signal conditioning. Built to client-grade tolerances in the Geneva Annex workshops and certified against Charter Standard ES-77.",
     "specifications": {
-      "Operational Bandwidth": "20.2 Hz — 108.4 kHz",
-      "Acoustic Impedance": "998 Rayls (air/substate matched)",
-      "Signal-to-Noise Floor": "-76.0 dBV",
-      "Primary Transducer": "Ultra-Low Induction Cryogenic Coils",
-      "Power / Drive Rail": "±36V Dual Linear Laboratory Rail",
-      "Containment Protocol": "Standard Laboratory B-12 Safety Shielding"
+      "Operational Bandwidth": "2.3 Hz — 19.8 kHz",
+      "Ambient Floor Target": "-74.0 dBV (room-tone referenced)",
+      "Signal-to-Noise Floor": "-78.0 dBV",
+      "Primary Transducer": "Piezo-Ceramic Bimorph Cantilever, Beryllium Copper Shim",
+      "Power / Drive Rail": "±12V Dual Linear Laboratory Rail",
+      "Continuity Protocol": "Standard Annex B-4 Safe Storage"
     },
-    "schematicType": "interferometer",
+    "schematicType": "circuit",
     "audioEnginePreset": "archaeology",
     "crossReferences": [
-      "ZIAA-PAT-2023-027",
-      "LOG-2023-053"
+      "GPC-PAT-2001-002",
+      "LOG-2006-015"
     ],
     "tags": [
-      "Signal",
-      "ZIAA-Archive",
-      "Active-Lab Stage",
+      "GPC-Archive",
+      "Scenario",
+      "FY-2006",
       "Class-II"
     ]
   },
   {
     "id": "proto-028",
-    "code": "ZIAA-PR-028",
-    "name": "Ghost Signal Envelope Extrapolator",
-    "domain": "Signal Archaeology",
-    "year": 2024,
-    "status": "Active Lab Stage",
-    "clearance": "Level III (Restricted)",
-    "lead": "Dr. Tariq Al-Mansoor",
-    "summary": "Experimental apparatus developed under ZIAA Directive ZIAA-PR-028. Investigates signal archaeology through high-precision physical prototyping, speculative boundary conditions, and real-time acoustic signal transduction.",
-    "specifications": {
-      "Operational Bandwidth": "21.9 Hz — 111.8 kHz",
-      "Acoustic Impedance": "1021 Rayls (air/substate matched)",
-      "Signal-to-Noise Floor": "-78.0 dBV",
-      "Primary Transducer": "Beryllium Copper Bimorph Cantilever",
-      "Power / Drive Rail": "±48V Dual Linear Laboratory Rail",
-      "Containment Protocol": "Standard Laboratory B-12 Safety Shielding"
-    },
-    "schematicType": "circuit",
-    "audioEnginePreset": "archaeology",
-    "crossReferences": [
-      "ZIAA-PAT-2024-028",
-      "LOG-2024-055"
-    ],
-    "tags": [
-      "Signal",
-      "ZIAA-Archive",
-      "Active-Lab Stage",
-      "Class-III"
-    ]
-  },
-  {
-    "id": "proto-029",
-    "code": "ZIAA-PR-029",
-    "name": "Barkhausen Noise Ferromagnetic Pickup",
-    "domain": "Signal Archaeology",
-    "year": 2025,
-    "status": "Field Tested",
-    "clearance": "Level II (Internal)",
-    "lead": "Svenja Dahl",
-    "summary": "Experimental apparatus developed under ZIAA Directive ZIAA-PR-029. Investigates signal archaeology through high-precision physical prototyping, speculative boundary conditions, and real-time acoustic signal transduction.",
-    "specifications": {
-      "Operational Bandwidth": "23.6 Hz — 115.2 kHz",
-      "Acoustic Impedance": "1044 Rayls (air/substate matched)",
-      "Signal-to-Noise Floor": "-80.0 dBV",
-      "Primary Transducer": "Non-Linear Ferroelectric Metamaterial Film",
-      "Power / Drive Rail": "±12V Dual Linear Laboratory Rail",
-      "Containment Protocol": "Standard Laboratory B-12 Safety Shielding"
-    },
-    "schematicType": "waveguide",
-    "audioEnginePreset": "archaeology",
-    "crossReferences": [
-      "ZIAA-PAT-2025-029",
-      "LOG-2025-057"
-    ],
-    "tags": [
-      "Signal",
-      "ZIAA-Archive",
-      "Field-Tested",
-      "Class-II"
-    ]
-  },
-  {
-    "id": "proto-030",
-    "code": "ZIAA-PR-030",
-    "name": "Decommissioned Radar Horn Resonator",
-    "domain": "Signal Archaeology",
-    "year": 2026,
-    "status": "Archived",
+    "code": "GPC-PR-028",
+    "name": "After-Action Replay Engine",
+    "domain": "Scenario Architecture",
+    "year": 1998,
+    "status": "Client Deployment",
     "clearance": "Level I (Public)",
-    "lead": "Marcus Holloway",
-    "summary": "Experimental apparatus developed under ZIAA Directive ZIAA-PR-030. Investigates signal archaeology through high-precision physical prototyping, speculative boundary conditions, and real-time acoustic signal transduction.",
+    "lead": "Ingrid Sahl",
+    "summary": "Program initiated under GPC Directive GPC-PR-028. Advances scenario architecture for the Division A: Strategic Forecasting through anticipatory calibration, controlled procedural exposure, and real-time institutional signal conditioning. Built to client-grade tolerances in the Geneva Annex workshops and certified against Charter Standard ES-77.",
     "specifications": {
-      "Operational Bandwidth": "1.3 Hz — 22.6 kHz",
-      "Acoustic Impedance": "1067 Rayls (air/substate matched)",
-      "Signal-to-Noise Floor": "-82.0 dBV",
-      "Primary Transducer": "Ultra-Low Induction Cryogenic Coils",
+      "Operational Bandwidth": "3.0 Hz — 21.1 kHz",
+      "Ambient Floor Target": "-75.0 dBV (room-tone referenced)",
+      "Signal-to-Noise Floor": "-81.0 dBV",
+      "Primary Transducer": "Tannoy Dual-Concentric Driver in Sealed Governance Baffle",
       "Power / Drive Rail": "±24V Dual Linear Laboratory Rail",
-      "Containment Protocol": "Standard Laboratory B-12 Safety Shielding"
+      "Continuity Protocol": "Standard Annex B-4 Safe Storage"
     },
     "schematicType": "matrix",
     "audioEnginePreset": "archaeology",
     "crossReferences": [
-      "ZIAA-PAT-2026-030",
-      "LOG-2026-059"
+      "GPC-PAT-2001-003",
+      "LOG-1998-020"
     ],
     "tags": [
-      "Signal",
-      "ZIAA-Archive",
-      "Archived",
-      "Class-I ("
+      "GPC-Archive",
+      "Scenario",
+      "FY-1998",
+      "Class-I"
     ]
   },
   {
-    "id": "proto-031",
-    "code": "ZIAA-PR-031",
-    "name": "Shortwave Multipath Doppler Reconstructor",
-    "domain": "Signal Archaeology",
-    "year": 2021,
-    "status": "Active Lab Stage",
-    "clearance": "Level II (Internal)",
-    "lead": "Dr. Christine Abele",
-    "summary": "Experimental apparatus developed under ZIAA Directive ZIAA-PR-031. Investigates signal archaeology through high-precision physical prototyping, speculative boundary conditions, and real-time acoustic signal transduction.",
+    "id": "proto-029",
+    "code": "GPC-PR-029",
+    "name": "Consensus Reality Rehearsal Suite",
+    "domain": "Scenario Architecture",
+    "year": 1999,
+    "status": "Field Verified",
+    "clearance": "Level IV (Continuity Vault)",
+    "lead": "Dr. Margarethe Voll",
+    "summary": "Program initiated under GPC Directive GPC-PR-029. Advances scenario architecture for the Division A: Strategic Forecasting through anticipatory calibration, controlled procedural exposure, and real-time institutional signal conditioning. Built to client-grade tolerances in the Geneva Annex workshops and certified against Charter Standard ES-77.",
     "specifications": {
-      "Operational Bandwidth": "3.0 Hz — 26.0 kHz",
-      "Acoustic Impedance": "1090 Rayls (air/substate matched)",
-      "Signal-to-Noise Floor": "-84.0 dBV",
-      "Primary Transducer": "Beryllium Copper Bimorph Cantilever",
-      "Power / Drive Rail": "±36V Dual Linear Laboratory Rail",
-      "Containment Protocol": "Standard Laboratory B-12 Safety Shielding"
+      "Operational Bandwidth": "3.7 Hz — 16.4 kHz",
+      "Ambient Floor Target": "-76.0 dBV (room-tone referenced)",
+      "Signal-to-Noise Floor": "-70.0 dBV",
+      "Primary Transducer": "Bone-Contact Exciter Panel, Lacquered Birch Substrate",
+      "Power / Drive Rail": "±12V Dual Linear Laboratory Rail",
+      "Continuity Protocol": "Vault Seal Procedure D-99 (irrevocable)"
     },
-    "schematicType": "transducer",
+    "schematicType": "waveguide",
     "audioEnginePreset": "archaeology",
     "crossReferences": [
-      "ZIAA-PAT-2021-031",
-      "LOG-2021-061"
+      "GPC-PAT-2001-004",
+      "LOG-1999-025"
     ],
     "tags": [
-      "Signal",
-      "ZIAA-Archive",
-      "Active-Lab Stage",
-      "Class-II"
+      "GPC-Archive",
+      "Scenario",
+      "FY-1999",
+      "Class-IV"
     ]
   },
   {
-    "id": "proto-032",
-    "code": "ZIAA-PR-032",
-    "name": "Cosmic Hydrogen 21cm Audio Down-Converter",
-    "domain": "Signal Archaeology",
-    "year": 2022,
-    "status": "Field Tested",
-    "clearance": "Level I (Public)",
-    "lead": "Renata Osei",
-    "summary": "Experimental apparatus developed under ZIAA Directive ZIAA-PR-032. Investigates signal archaeology through high-precision physical prototyping, speculative boundary conditions, and real-time acoustic signal transduction.",
+    "id": "proto-030",
+    "code": "GPC-PR-030",
+    "name": "Policy Shock Absorption Model",
+    "domain": "Scenario Architecture",
+    "year": 2000,
+    "status": "Active Program",
+    "clearance": "Level II (Internal)",
+    "lead": "Elias Brandt",
+    "summary": "Program initiated under GPC Directive GPC-PR-030. Advances scenario architecture for the Division A: Strategic Forecasting through anticipatory calibration, controlled procedural exposure, and real-time institutional signal conditioning. Built to client-grade tolerances in the Geneva Annex workshops and certified against Charter Standard ES-77.",
     "specifications": {
-      "Operational Bandwidth": "4.7 Hz — 29.4 kHz",
-      "Acoustic Impedance": "1113 Rayls (air/substate matched)",
-      "Signal-to-Noise Floor": "-86.0 dBV",
-      "Primary Transducer": "Non-Linear Ferroelectric Metamaterial Film",
-      "Power / Drive Rail": "±48V Dual Linear Laboratory Rail",
-      "Containment Protocol": "Standard Laboratory B-12 Safety Shielding"
+      "Operational Bandwidth": "0.4 Hz — 17.7 kHz",
+      "Ambient Floor Target": "-77.0 dBV (room-tone referenced)",
+      "Signal-to-Noise Floor": "-73.0 dBV",
+      "Primary Transducer": "Sennheiser MD 421 Element in Transit Housing",
+      "Power / Drive Rail": "±24V Dual Linear Laboratory Rail",
+      "Continuity Protocol": "Standard Annex B-4 Safe Storage"
     },
     "schematicType": "resonator",
     "audioEnginePreset": "archaeology",
     "crossReferences": [
-      "ZIAA-PAT-2022-032",
-      "LOG-2022-063"
+      "GPC-PAT-2001-005",
+      "LOG-2000-001"
     ],
     "tags": [
-      "Signal",
-      "ZIAA-Archive",
-      "Field-Tested",
-      "Class-I ("
-    ]
-  },
-  {
-    "id": "proto-033",
-    "code": "ZIAA-PR-033",
-    "name": "Binaural Spiral Glissando Engine",
-    "domain": "Perceptual Interfaces",
-    "year": 2023,
-    "status": "Active Lab Stage",
-    "clearance": "Level I (Public)",
-    "lead": "Joon-Ho Park",
-    "summary": "Experimental apparatus developed under ZIAA Directive ZIAA-PR-033. Investigates perceptual interfaces through high-precision physical prototyping, speculative boundary conditions, and real-time acoustic signal transduction.",
-    "specifications": {
-      "Operational Bandwidth": "6.4 Hz — 32.8 kHz",
-      "Acoustic Impedance": "1136 Rayls (air/substate matched)",
-      "Signal-to-Noise Floor": "-88.0 dBV",
-      "Primary Transducer": "Ultra-Low Induction Cryogenic Coils",
-      "Power / Drive Rail": "±12V Dual Linear Laboratory Rail",
-      "Containment Protocol": "Standard Laboratory B-12 Safety Shielding"
-    },
-    "schematicType": "interferometer",
-    "audioEnginePreset": "shepard",
-    "crossReferences": [
-      "ZIAA-PAT-2023-033",
-      "LOG-2023-065"
-    ],
-    "tags": [
-      "Perceptual",
-      "ZIAA-Archive",
-      "Active-Lab Stage",
-      "Class-I ("
-    ]
-  },
-  {
-    "id": "proto-034",
-    "code": "ZIAA-PR-034",
-    "name": "Bone-Conduction Cranial Harmonic Array",
-    "domain": "Perceptual Interfaces",
-    "year": 2024,
-    "status": "Field Tested",
-    "clearance": "Level II (Internal)",
-    "lead": "Dr. Lyra Sterling",
-    "summary": "Experimental apparatus developed under ZIAA Directive ZIAA-PR-034. Investigates perceptual interfaces through high-precision physical prototyping, speculative boundary conditions, and real-time acoustic signal transduction.",
-    "specifications": {
-      "Operational Bandwidth": "8.1 Hz — 36.2 kHz",
-      "Acoustic Impedance": "1159 Rayls (air/substate matched)",
-      "Signal-to-Noise Floor": "-90.0 dBV",
-      "Primary Transducer": "Beryllium Copper Bimorph Cantilever",
-      "Power / Drive Rail": "±24V Dual Linear Laboratory Rail",
-      "Containment Protocol": "Standard Laboratory B-12 Safety Shielding"
-    },
-    "schematicType": "circuit",
-    "audioEnginePreset": "shepard",
-    "crossReferences": [
-      "ZIAA-PAT-2024-034",
-      "LOG-2024-067"
-    ],
-    "tags": [
-      "Perceptual",
-      "ZIAA-Archive",
-      "Field-Tested",
+      "GPC-Archive",
+      "Scenario",
+      "FY-2000",
       "Class-II"
     ]
   },
   {
-    "id": "proto-035",
-    "code": "ZIAA-PR-035",
-    "name": "Saccadic Eye-Movement Audio Tracker",
-    "domain": "Perceptual Interfaces",
-    "year": 2025,
-    "status": "Active Lab Stage",
-    "clearance": "Level II (Internal)",
-    "lead": "Dr. Alexei Voronov",
-    "summary": "Experimental apparatus developed under ZIAA Directive ZIAA-PR-035. Investigates perceptual interfaces through high-precision physical prototyping, speculative boundary conditions, and real-time acoustic signal transduction.",
+    "id": "proto-031",
+    "code": "GPC-PR-031",
+    "name": "Dual-Track Futures Splitter",
+    "domain": "Scenario Architecture",
+    "year": 2001,
+    "status": "Archived",
+    "clearance": "Level III (Restricted)",
+    "lead": "Ingrid Sahl",
+    "summary": "Program initiated under GPC Directive GPC-PR-031. Advances scenario architecture for the Division A: Strategic Forecasting through anticipatory calibration, controlled procedural exposure, and real-time institutional signal conditioning. Built to client-grade tolerances in the Geneva Annex workshops and certified against Charter Standard ES-77.",
     "specifications": {
-      "Operational Bandwidth": "9.8 Hz — 39.6 kHz",
-      "Acoustic Impedance": "1182 Rayls (air/substate matched)",
-      "Signal-to-Noise Floor": "-92.0 dBV",
-      "Primary Transducer": "Non-Linear Ferroelectric Metamaterial Film",
-      "Power / Drive Rail": "±36V Dual Linear Laboratory Rail",
-      "Containment Protocol": "Standard Laboratory B-12 Safety Shielding"
+      "Operational Bandwidth": "1.1 Hz — 19.0 kHz",
+      "Ambient Floor Target": "-78.0 dBV (room-tone referenced)",
+      "Signal-to-Noise Floor": "-76.0 dBV",
+      "Primary Transducer": "Electro-Voice RE20 Dynamic Element, Impedance Matched",
+      "Power / Drive Rail": "±12V Dual Linear Laboratory Rail",
+      "Continuity Protocol": "Standard Annex B-4 Safe Storage"
+    },
+    "schematicType": "interferometer",
+    "audioEnginePreset": "archaeology",
+    "crossReferences": [
+      "GPC-PAT-2001-006",
+      "LOG-2001-006"
+    ],
+    "tags": [
+      "GPC-Archive",
+      "Scenario",
+      "FY-2001",
+      "Class-III"
+    ]
+  },
+  {
+    "id": "proto-032",
+    "code": "GPC-PR-032",
+    "name": "Horizon Scanning Periscope Array",
+    "domain": "Scenario Architecture",
+    "year": 2002,
+    "status": "Client Deployment",
+    "clearance": "Level II (Internal)",
+    "lead": "Dr. Margarethe Voll",
+    "summary": "Program initiated under GPC Directive GPC-PR-032. Advances scenario architecture for the Division A: Strategic Forecasting through anticipatory calibration, controlled procedural exposure, and real-time institutional signal conditioning. Built to client-grade tolerances in the Geneva Annex workshops and certified against Charter Standard ES-77.",
+    "specifications": {
+      "Operational Bandwidth": "1.8 Hz — 20.3 kHz",
+      "Ambient Floor Target": "-79.0 dBV (room-tone referenced)",
+      "Signal-to-Noise Floor": "-79.0 dBV",
+      "Primary Transducer": "Neumann KK-105 Capsule on Custom Geneva Flange",
+      "Power / Drive Rail": "±24V Dual Linear Laboratory Rail",
+      "Continuity Protocol": "Standard Annex B-4 Safe Storage"
+    },
+    "schematicType": "waveguide",
+    "audioEnginePreset": "archaeology",
+    "crossReferences": [
+      "GPC-PAT-2001-007",
+      "LOG-2002-011"
+    ],
+    "tags": [
+      "GPC-Archive",
+      "Scenario",
+      "FY-2002",
+      "Class-II"
+    ]
+  },
+  {
+    "id": "proto-033",
+    "code": "GPC-PR-033",
+    "name": "Perpetual Hold-Tone Sustainer",
+    "domain": "Continuity Logistics",
+    "year": 2003,
+    "status": "Client Deployment",
+    "clearance": "Level II (Internal)",
+    "lead": "Cassius Wren",
+    "summary": "Program initiated under GPC Directive GPC-PR-033. Advances continuity logistics for the Division B: Civic Continuity through anticipatory calibration, controlled procedural exposure, and real-time institutional signal conditioning. Built to client-grade tolerances in the Geneva Annex workshops and certified against Charter Standard ES-77.",
+    "specifications": {
+      "Operational Bandwidth": "2.5 Hz — 21.6 kHz",
+      "Ambient Floor Target": "-80.0 dBV (room-tone referenced)",
+      "Signal-to-Noise Floor": "-82.0 dBV",
+      "Primary Transducer": "Piezo-Ceramic Bimorph Cantilever, Beryllium Copper Shim",
+      "Power / Drive Rail": "±12V Dual Linear Laboratory Rail",
+      "Continuity Protocol": "Standard Annex B-4 Safe Storage"
     },
     "schematicType": "waveguide",
     "audioEnginePreset": "shepard",
     "crossReferences": [
-      "ZIAA-PAT-2025-035",
-      "LOG-2025-069"
+      "GPC-PAT-2001-008",
+      "LOG-2003-016"
     ],
     "tags": [
-      "Perceptual",
-      "ZIAA-Archive",
-      "Active-Lab Stage",
+      "GPC-Archive",
+      "Continuity",
+      "FY-2003",
+      "Class-II"
+    ]
+  },
+  {
+    "id": "proto-034",
+    "code": "GPC-PR-034",
+    "name": "Shelter Occupancy Acoustic Calibrator",
+    "domain": "Continuity Logistics",
+    "year": 2004,
+    "status": "Field Verified",
+    "clearance": "Level III (Restricted)",
+    "lead": "Marta Ilves",
+    "summary": "Program initiated under GPC Directive GPC-PR-034. Advances continuity logistics for the Division B: Civic Continuity through anticipatory calibration, controlled procedural exposure, and real-time institutional signal conditioning. Built to client-grade tolerances in the Geneva Annex workshops and certified against Charter Standard ES-77.",
+    "specifications": {
+      "Operational Bandwidth": "3.2 Hz — 16.9 kHz",
+      "Ambient Floor Target": "-81.0 dBV (room-tone referenced)",
+      "Signal-to-Noise Floor": "-71.0 dBV",
+      "Primary Transducer": "Tannoy Dual-Concentric Driver in Sealed Governance Baffle",
+      "Power / Drive Rail": "±24V Dual Linear Laboratory Rail",
+      "Continuity Protocol": "Standard Annex B-4 Safe Storage"
+    },
+    "schematicType": "resonator",
+    "audioEnginePreset": "shepard",
+    "crossReferences": [
+      "GPC-PAT-2001-009",
+      "LOG-2004-021"
+    ],
+    "tags": [
+      "GPC-Archive",
+      "Continuity",
+      "FY-2004",
+      "Class-III"
+    ]
+  },
+  {
+    "id": "proto-035",
+    "code": "GPC-PR-035",
+    "name": "Ration Distribution Cadence Metronome",
+    "domain": "Continuity Logistics",
+    "year": 2005,
+    "status": "Active Program",
+    "clearance": "Level II (Internal)",
+    "lead": "Elias Brandt",
+    "summary": "Program initiated under GPC Directive GPC-PR-035. Advances continuity logistics for the Division B: Civic Continuity through anticipatory calibration, controlled procedural exposure, and real-time institutional signal conditioning. Built to client-grade tolerances in the Geneva Annex workshops and certified against Charter Standard ES-77.",
+    "specifications": {
+      "Operational Bandwidth": "3.9 Hz — 18.2 kHz",
+      "Ambient Floor Target": "-82.0 dBV (room-tone referenced)",
+      "Signal-to-Noise Floor": "-74.0 dBV",
+      "Primary Transducer": "Bone-Contact Exciter Panel, Lacquered Birch Substrate",
+      "Power / Drive Rail": "±12V Dual Linear Laboratory Rail",
+      "Continuity Protocol": "Standard Annex B-4 Safe Storage"
+    },
+    "schematicType": "circuit",
+    "audioEnginePreset": "shepard",
+    "crossReferences": [
+      "GPC-PAT-2002-001",
+      "LOG-2005-026"
+    ],
+    "tags": [
+      "GPC-Archive",
+      "Continuity",
+      "FY-2005",
       "Class-II"
     ]
   },
   {
     "id": "proto-036",
-    "code": "ZIAA-PR-036",
-    "name": "Psychoacoustic Threshold Deprivation Pod",
-    "domain": "Perceptual Interfaces",
-    "year": 2026,
-    "status": "Field Tested",
-    "clearance": "Level III (Restricted)",
-    "lead": "Beatrix Thorne",
-    "summary": "Experimental apparatus developed under ZIAA Directive ZIAA-PR-036. Investigates perceptual interfaces through high-precision physical prototyping, speculative boundary conditions, and real-time acoustic signal transduction.",
+    "code": "GPC-PR-036",
+    "name": "Backup Capital Relocation Router",
+    "domain": "Continuity Logistics",
+    "year": 2006,
+    "status": "Archived",
+    "clearance": "Level I (Public)",
+    "lead": "Cassius Wren",
+    "summary": "Program initiated under GPC Directive GPC-PR-036. Advances continuity logistics for the Division B: Civic Continuity through anticipatory calibration, controlled procedural exposure, and real-time institutional signal conditioning. Built to client-grade tolerances in the Geneva Annex workshops and certified against Charter Standard ES-77.",
     "specifications": {
-      "Operational Bandwidth": "11.5 Hz — 43.0 kHz",
-      "Acoustic Impedance": "1205 Rayls (air/substate matched)",
-      "Signal-to-Noise Floor": "-94.0 dBV",
-      "Primary Transducer": "Ultra-Low Induction Cryogenic Coils",
-      "Power / Drive Rail": "±48V Dual Linear Laboratory Rail",
-      "Containment Protocol": "Standard Laboratory B-12 Safety Shielding"
+      "Operational Bandwidth": "0.6 Hz — 19.5 kHz",
+      "Ambient Floor Target": "-83.0 dBV (room-tone referenced)",
+      "Signal-to-Noise Floor": "-77.0 dBV",
+      "Primary Transducer": "Sennheiser MD 421 Element in Transit Housing",
+      "Power / Drive Rail": "±24V Dual Linear Laboratory Rail",
+      "Continuity Protocol": "Standard Annex B-4 Safe Storage"
     },
-    "schematicType": "matrix",
+    "schematicType": "circuit",
     "audioEnginePreset": "shepard",
     "crossReferences": [
-      "ZIAA-PAT-2026-036",
-      "LOG-2026-071"
+      "GPC-PAT-2002-002",
+      "LOG-2006-002"
     ],
     "tags": [
-      "Perceptual",
-      "ZIAA-Archive",
-      "Field-Tested",
-      "Class-III"
+      "GPC-Archive",
+      "Continuity",
+      "FY-2006",
+      "Class-I"
     ]
   },
   {
     "id": "proto-037",
-    "code": "ZIAA-PR-037",
-    "name": "Focal Ultrasonic Spatial Auditory Projector",
-    "domain": "Perceptual Interfaces",
-    "year": 2021,
-    "status": "Public Installation",
-    "clearance": "Level I (Public)",
-    "lead": "Dr. Elena Rostova",
-    "summary": "Experimental apparatus developed under ZIAA Directive ZIAA-PR-037. Investigates perceptual interfaces through high-precision physical prototyping, speculative boundary conditions, and real-time acoustic signal transduction.",
+    "code": "GPC-PR-037",
+    "name": "Personnel Muster Tone Generator",
+    "domain": "Continuity Logistics",
+    "year": 1998,
+    "status": "Client Deployment",
+    "clearance": "Level III (Restricted)",
+    "lead": "Marta Ilves",
+    "summary": "Program initiated under GPC Directive GPC-PR-037. Advances continuity logistics for the Division B: Civic Continuity through anticipatory calibration, controlled procedural exposure, and real-time institutional signal conditioning. Built to client-grade tolerances in the Geneva Annex workshops and certified against Charter Standard ES-77.",
     "specifications": {
-      "Operational Bandwidth": "13.2 Hz — 46.4 kHz",
-      "Acoustic Impedance": "1228 Rayls (air/substate matched)",
-      "Signal-to-Noise Floor": "-96.0 dBV",
-      "Primary Transducer": "Beryllium Copper Bimorph Cantilever",
+      "Operational Bandwidth": "1.3 Hz — 20.8 kHz",
+      "Ambient Floor Target": "-72.0 dBV (room-tone referenced)",
+      "Signal-to-Noise Floor": "-80.0 dBV",
+      "Primary Transducer": "Electro-Voice RE20 Dynamic Element, Impedance Matched",
       "Power / Drive Rail": "±12V Dual Linear Laboratory Rail",
-      "Containment Protocol": "Standard Laboratory B-12 Safety Shielding"
+      "Continuity Protocol": "Standard Annex B-4 Safe Storage"
     },
     "schematicType": "transducer",
     "audioEnginePreset": "shepard",
     "crossReferences": [
-      "ZIAA-PAT-2021-037",
-      "LOG-2021-073"
+      "GPC-PAT-2002-003",
+      "LOG-1998-007"
     ],
     "tags": [
-      "Perceptual",
-      "ZIAA-Archive",
-      "Public-Installation",
-      "Class-I ("
+      "GPC-Archive",
+      "Continuity",
+      "FY-1998",
+      "Class-III"
     ]
   },
   {
     "id": "proto-038",
-    "code": "ZIAA-PR-038",
-    "name": "Tactile Mechanoreceptor Vibration Glove",
-    "domain": "Perceptual Interfaces",
-    "year": 2022,
-    "status": "Active Lab Stage",
+    "code": "GPC-PR-038",
+    "name": "Continuity Paging Encoder CG-7",
+    "domain": "Continuity Logistics",
+    "year": 1999,
+    "status": "Field Verified",
     "clearance": "Level II (Internal)",
-    "lead": "Dr. Kieran Vance",
-    "summary": "Experimental apparatus developed under ZIAA Directive ZIAA-PR-038. Investigates perceptual interfaces through high-precision physical prototyping, speculative boundary conditions, and real-time acoustic signal transduction.",
+    "lead": "Elias Brandt",
+    "summary": "Program initiated under GPC Directive GPC-PR-038. Advances continuity logistics for the Division B: Civic Continuity through anticipatory calibration, controlled procedural exposure, and real-time institutional signal conditioning. Built to client-grade tolerances in the Geneva Annex workshops and certified against Charter Standard ES-77.",
     "specifications": {
-      "Operational Bandwidth": "14.9 Hz — 49.8 kHz",
-      "Acoustic Impedance": "1251 Rayls (air/substate matched)",
-      "Signal-to-Noise Floor": "-98.0 dBV",
-      "Primary Transducer": "Non-Linear Ferroelectric Metamaterial Film",
+      "Operational Bandwidth": "2.0 Hz — 16.1 kHz",
+      "Ambient Floor Target": "-73.0 dBV (room-tone referenced)",
+      "Signal-to-Noise Floor": "-83.0 dBV",
+      "Primary Transducer": "Neumann KK-105 Capsule on Custom Geneva Flange",
       "Power / Drive Rail": "±24V Dual Linear Laboratory Rail",
-      "Containment Protocol": "Standard Laboratory B-12 Safety Shielding"
+      "Continuity Protocol": "Standard Annex B-4 Safe Storage"
     },
-    "schematicType": "resonator",
+    "schematicType": "circuit",
     "audioEnginePreset": "shepard",
     "crossReferences": [
-      "ZIAA-PAT-2022-038",
-      "LOG-2022-075"
+      "GPC-PAT-2002-004",
+      "LOG-1999-012"
     ],
     "tags": [
-      "Perceptual",
-      "ZIAA-Archive",
-      "Active-Lab Stage",
+      "GPC-Archive",
+      "Continuity",
+      "FY-1999",
       "Class-II"
     ]
   },
   {
     "id": "proto-039",
-    "code": "ZIAA-PR-039",
-    "name": "Vestibular Acoustic Balance Perturbator",
-    "domain": "Perceptual Interfaces",
-    "year": 2023,
-    "status": "Active Lab Stage",
+    "code": "GPC-PR-039",
+    "name": "Deep Archive Climate Sonifier",
+    "domain": "Continuity Logistics",
+    "year": 2000,
+    "status": "Active Program",
     "clearance": "Level III (Restricted)",
-    "lead": "Maya Lindqvist",
-    "summary": "Experimental apparatus developed under ZIAA Directive ZIAA-PR-039. Investigates perceptual interfaces through high-precision physical prototyping, speculative boundary conditions, and real-time acoustic signal transduction.",
+    "lead": "Cassius Wren",
+    "summary": "Program initiated under GPC Directive GPC-PR-039. Advances continuity logistics for the Division B: Civic Continuity through anticipatory calibration, controlled procedural exposure, and real-time institutional signal conditioning. Built to client-grade tolerances in the Geneva Annex workshops and certified against Charter Standard ES-77.",
     "specifications": {
-      "Operational Bandwidth": "16.6 Hz — 53.2 kHz",
-      "Acoustic Impedance": "1274 Rayls (air/substate matched)",
-      "Signal-to-Noise Floor": "-100.0 dBV",
-      "Primary Transducer": "Ultra-Low Induction Cryogenic Coils",
-      "Power / Drive Rail": "±36V Dual Linear Laboratory Rail",
-      "Containment Protocol": "Standard Laboratory B-12 Safety Shielding"
+      "Operational Bandwidth": "2.7 Hz — 17.4 kHz",
+      "Ambient Floor Target": "-74.0 dBV (room-tone referenced)",
+      "Signal-to-Noise Floor": "-72.0 dBV",
+      "Primary Transducer": "Piezo-Ceramic Bimorph Cantilever, Beryllium Copper Shim",
+      "Power / Drive Rail": "±12V Dual Linear Laboratory Rail",
+      "Continuity Protocol": "Standard Annex B-4 Safe Storage"
     },
-    "schematicType": "interferometer",
+    "schematicType": "transducer",
     "audioEnginePreset": "shepard",
     "crossReferences": [
-      "ZIAA-PAT-2023-039",
-      "LOG-2023-077"
+      "GPC-PAT-2002-005",
+      "LOG-2000-017"
     ],
     "tags": [
-      "Perceptual",
-      "ZIAA-Archive",
-      "Active-Lab Stage",
+      "GPC-Archive",
+      "Continuity",
+      "FY-2000",
       "Class-III"
     ]
   },
   {
     "id": "proto-040",
-    "code": "ZIAA-PR-040",
-    "name": "Haas Effect Phantom Spatial Relocator",
-    "domain": "Perceptual Interfaces",
-    "year": 2024,
-    "status": "Field Tested",
+    "code": "GPC-PR-040",
+    "name": "Alternate Site Handshake Beacon",
+    "domain": "Continuity Logistics",
+    "year": 2001,
+    "status": "Archived",
     "clearance": "Level I (Public)",
-    "lead": "Dr. Tariq Al-Mansoor",
-    "summary": "Experimental apparatus developed under ZIAA Directive ZIAA-PR-040. Investigates perceptual interfaces through high-precision physical prototyping, speculative boundary conditions, and real-time acoustic signal transduction.",
+    "lead": "Marta Ilves",
+    "summary": "Program initiated under GPC Directive GPC-PR-040. Advances continuity logistics for the Division B: Civic Continuity through anticipatory calibration, controlled procedural exposure, and real-time institutional signal conditioning. Built to client-grade tolerances in the Geneva Annex workshops and certified against Charter Standard ES-77.",
     "specifications": {
-      "Operational Bandwidth": "18.3 Hz — 56.6 kHz",
-      "Acoustic Impedance": "1297 Rayls (air/substate matched)",
-      "Signal-to-Noise Floor": "-102.0 dBV",
-      "Primary Transducer": "Beryllium Copper Bimorph Cantilever",
-      "Power / Drive Rail": "±48V Dual Linear Laboratory Rail",
-      "Containment Protocol": "Standard Laboratory B-12 Safety Shielding"
+      "Operational Bandwidth": "3.4 Hz — 18.7 kHz",
+      "Ambient Floor Target": "-75.0 dBV (room-tone referenced)",
+      "Signal-to-Noise Floor": "-75.0 dBV",
+      "Primary Transducer": "Tannoy Dual-Concentric Driver in Sealed Governance Baffle",
+      "Power / Drive Rail": "±24V Dual Linear Laboratory Rail",
+      "Continuity Protocol": "Standard Annex B-4 Safe Storage"
     },
-    "schematicType": "circuit",
+    "schematicType": "transducer",
     "audioEnginePreset": "shepard",
     "crossReferences": [
-      "ZIAA-PAT-2024-040",
-      "LOG-2024-079"
+      "GPC-PAT-2002-006",
+      "LOG-2001-022"
     ],
     "tags": [
-      "Perceptual",
-      "ZIAA-Archive",
-      "Field-Tested",
-      "Class-I ("
+      "GPC-Archive",
+      "Continuity",
+      "FY-2001",
+      "Class-I"
     ]
   },
   {
     "id": "proto-041",
-    "code": "ZIAA-PR-041",
-    "name": "Otoacoustic Emission Echo-Response Scanner",
-    "domain": "Perceptual Interfaces",
-    "year": 2025,
-    "status": "Active Lab Stage",
+    "code": "GPC-PR-041",
+    "name": "Crisis Shift Rotation Scheduler CIRCADIAN",
+    "domain": "Continuity Logistics",
+    "year": 2002,
+    "status": "Client Deployment",
     "clearance": "Level II (Internal)",
-    "lead": "Svenja Dahl",
-    "summary": "Experimental apparatus developed under ZIAA Directive ZIAA-PR-041. Investigates perceptual interfaces through high-precision physical prototyping, speculative boundary conditions, and real-time acoustic signal transduction.",
+    "lead": "Elias Brandt",
+    "summary": "Program initiated under GPC Directive GPC-PR-041. Advances continuity logistics for the Division B: Civic Continuity through anticipatory calibration, controlled procedural exposure, and real-time institutional signal conditioning. Built to client-grade tolerances in the Geneva Annex workshops and certified against Charter Standard ES-77.",
     "specifications": {
-      "Operational Bandwidth": "20.0 Hz — 60.0 kHz",
-      "Acoustic Impedance": "1320 Rayls (air/substate matched)",
-      "Signal-to-Noise Floor": "-104.0 dBV",
-      "Primary Transducer": "Non-Linear Ferroelectric Metamaterial Film",
+      "Operational Bandwidth": "0.1 Hz — 20.0 kHz",
+      "Ambient Floor Target": "-76.0 dBV (room-tone referenced)",
+      "Signal-to-Noise Floor": "-78.0 dBV",
+      "Primary Transducer": "Bone-Contact Exciter Panel, Lacquered Birch Substrate",
       "Power / Drive Rail": "±12V Dual Linear Laboratory Rail",
-      "Containment Protocol": "Standard Laboratory B-12 Safety Shielding"
+      "Continuity Protocol": "Standard Annex B-4 Safe Storage"
     },
-    "schematicType": "waveguide",
+    "schematicType": "matrix",
     "audioEnginePreset": "shepard",
     "crossReferences": [
-      "ZIAA-PAT-2025-041",
-      "LOG-2025-081"
+      "GPC-PAT-2002-007",
+      "LOG-2002-027"
     ],
     "tags": [
-      "Perceptual",
-      "ZIAA-Archive",
-      "Active-Lab Stage",
+      "GPC-Archive",
+      "Continuity",
+      "FY-2002",
       "Class-II"
     ]
   },
   {
     "id": "proto-042",
-    "code": "ZIAA-PR-042",
-    "name": "Virtual Cocktail Party Audio Demixer",
-    "domain": "Perceptual Interfaces",
-    "year": 2026,
-    "status": "Active Lab Stage",
-    "clearance": "Level II (Internal)",
-    "lead": "Marcus Holloway",
-    "summary": "Experimental apparatus developed under ZIAA Directive ZIAA-PR-042. Investigates perceptual interfaces through high-precision physical prototyping, speculative boundary conditions, and real-time acoustic signal transduction.",
+    "code": "GPC-PR-042",
+    "name": "Emergency Ledger Microfilm Sonar",
+    "domain": "Continuity Logistics",
+    "year": 2003,
+    "status": "Field Verified",
+    "clearance": "Level III (Restricted)",
+    "lead": "Cassius Wren",
+    "summary": "Program initiated under GPC Directive GPC-PR-042. Advances continuity logistics for the Division B: Civic Continuity through anticipatory calibration, controlled procedural exposure, and real-time institutional signal conditioning. Built to client-grade tolerances in the Geneva Annex workshops and certified against Charter Standard ES-77.",
     "specifications": {
-      "Operational Bandwidth": "21.7 Hz — 63.4 kHz",
-      "Acoustic Impedance": "1343 Rayls (air/substate matched)",
-      "Signal-to-Noise Floor": "-106.0 dBV",
-      "Primary Transducer": "Ultra-Low Induction Cryogenic Coils",
+      "Operational Bandwidth": "0.8 Hz — 21.3 kHz",
+      "Ambient Floor Target": "-77.0 dBV (room-tone referenced)",
+      "Signal-to-Noise Floor": "-81.0 dBV",
+      "Primary Transducer": "Sennheiser MD 421 Element in Transit Housing",
       "Power / Drive Rail": "±24V Dual Linear Laboratory Rail",
-      "Containment Protocol": "Standard Laboratory B-12 Safety Shielding"
-    },
-    "schematicType": "matrix",
-    "audioEnginePreset": "shepard",
-    "crossReferences": [
-      "ZIAA-PAT-2026-042",
-      "LOG-2026-083"
-    ],
-    "tags": [
-      "Perceptual",
-      "ZIAA-Archive",
-      "Active-Lab Stage",
-      "Class-II"
-    ]
-  },
-  {
-    "id": "proto-043",
-    "code": "ZIAA-PR-043",
-    "name": "Cross-Modal Synesthetic Visual Sonifier",
-    "domain": "Perceptual Interfaces",
-    "year": 2021,
-    "status": "Field Tested",
-    "clearance": "Level I (Public)",
-    "lead": "Dr. Christine Abele",
-    "summary": "Experimental apparatus developed under ZIAA Directive ZIAA-PR-043. Investigates perceptual interfaces through high-precision physical prototyping, speculative boundary conditions, and real-time acoustic signal transduction.",
-    "specifications": {
-      "Operational Bandwidth": "23.4 Hz — 66.8 kHz",
-      "Acoustic Impedance": "1366 Rayls (air/substate matched)",
-      "Signal-to-Noise Floor": "-108.0 dBV",
-      "Primary Transducer": "Beryllium Copper Bimorph Cantilever",
-      "Power / Drive Rail": "±36V Dual Linear Laboratory Rail",
-      "Containment Protocol": "Standard Laboratory B-12 Safety Shielding"
-    },
-    "schematicType": "transducer",
-    "audioEnginePreset": "shepard",
-    "crossReferences": [
-      "ZIAA-PAT-2021-043",
-      "LOG-2021-085"
-    ],
-    "tags": [
-      "Perceptual",
-      "ZIAA-Archive",
-      "Field-Tested",
-      "Class-I ("
-    ]
-  },
-  {
-    "id": "proto-044",
-    "code": "ZIAA-PR-044",
-    "name": "Sub-Threshold Infrasonic Anxiety Emitter",
-    "domain": "Perceptual Interfaces",
-    "year": 2022,
-    "status": "Decommissioned",
-    "clearance": "Level IV (Black Vault)",
-    "lead": "Renata Osei",
-    "summary": "Experimental apparatus developed under ZIAA Directive ZIAA-PR-044. Investigates perceptual interfaces through high-precision physical prototyping, speculative boundary conditions, and real-time acoustic signal transduction.",
-    "specifications": {
-      "Operational Bandwidth": "1.1 Hz — 70.2 kHz",
-      "Acoustic Impedance": "1389 Rayls (air/substate matched)",
-      "Signal-to-Noise Floor": "-110.0 dBV",
-      "Primary Transducer": "Non-Linear Ferroelectric Metamaterial Film",
-      "Power / Drive Rail": "±48V Dual Linear Laboratory Rail",
-      "Containment Protocol": "ZIAA-SEC-IV Vault Enclosure with Acoustic Damping Gel"
-    },
-    "schematicType": "resonator",
-    "audioEnginePreset": "shepard",
-    "crossReferences": [
-      "ZIAA-PAT-2022-044",
-      "LOG-2022-087"
-    ],
-    "tags": [
-      "Perceptual",
-      "ZIAA-Archive",
-      "Decommissioned",
-      "Class-IV"
-    ]
-  },
-  {
-    "id": "proto-045",
-    "code": "ZIAA-PR-045",
-    "name": "Continuous Pitch Spiral Illusion Console",
-    "domain": "Perceptual Interfaces",
-    "year": 2023,
-    "status": "Active Lab Stage",
-    "clearance": "Level I (Public)",
-    "lead": "Joon-Ho Park",
-    "summary": "Experimental apparatus developed under ZIAA Directive ZIAA-PR-045. Investigates perceptual interfaces through high-precision physical prototyping, speculative boundary conditions, and real-time acoustic signal transduction.",
-    "specifications": {
-      "Operational Bandwidth": "2.8 Hz — 73.6 kHz",
-      "Acoustic Impedance": "1412 Rayls (air/substate matched)",
-      "Signal-to-Noise Floor": "-112.0 dBV",
-      "Primary Transducer": "Ultra-Low Induction Cryogenic Coils",
-      "Power / Drive Rail": "±12V Dual Linear Laboratory Rail",
-      "Containment Protocol": "Standard Laboratory B-12 Safety Shielding"
+      "Continuity Protocol": "Standard Annex B-4 Safe Storage"
     },
     "schematicType": "interferometer",
     "audioEnginePreset": "shepard",
     "crossReferences": [
-      "ZIAA-PAT-2023-045",
-      "LOG-2023-089"
+      "GPC-PAT-2002-008",
+      "LOG-2003-003"
     ],
     "tags": [
-      "Perceptual",
-      "ZIAA-Archive",
-      "Active-Lab Stage",
-      "Class-I ("
+      "GPC-Archive",
+      "Continuity",
+      "FY-2003",
+      "Class-III"
     ]
   },
   {
-    "id": "proto-046",
-    "code": "ZIAA-PR-046",
-    "name": "Dichotic Pitch Disconnect Separator",
-    "domain": "Perceptual Interfaces",
-    "year": 2024,
-    "status": "Field Tested",
+    "id": "proto-043",
+    "code": "GPC-PR-043",
+    "name": "Family Reunification Announcement Console",
+    "domain": "Continuity Logistics",
+    "year": 2004,
+    "status": "Active Program",
     "clearance": "Level II (Internal)",
-    "lead": "Dr. Lyra Sterling",
-    "summary": "Experimental apparatus developed under ZIAA Directive ZIAA-PR-046. Investigates perceptual interfaces through high-precision physical prototyping, speculative boundary conditions, and real-time acoustic signal transduction.",
+    "lead": "Marta Ilves",
+    "summary": "Program initiated under GPC Directive GPC-PR-043. Advances continuity logistics for the Division B: Civic Continuity through anticipatory calibration, controlled procedural exposure, and real-time institutional signal conditioning. Built to client-grade tolerances in the Geneva Annex workshops and certified against Charter Standard ES-77.",
     "specifications": {
-      "Operational Bandwidth": "4.5 Hz — 77.0 kHz",
-      "Acoustic Impedance": "1435 Rayls (air/substate matched)",
-      "Signal-to-Noise Floor": "-114.0 dBV",
-      "Primary Transducer": "Beryllium Copper Bimorph Cantilever",
+      "Operational Bandwidth": "1.5 Hz — 16.6 kHz",
+      "Ambient Floor Target": "-78.0 dBV (room-tone referenced)",
+      "Signal-to-Noise Floor": "-70.0 dBV",
+      "Primary Transducer": "Electro-Voice RE20 Dynamic Element, Impedance Matched",
+      "Power / Drive Rail": "±12V Dual Linear Laboratory Rail",
+      "Continuity Protocol": "Standard Annex B-4 Safe Storage"
+    },
+    "schematicType": "waveguide",
+    "audioEnginePreset": "shepard",
+    "crossReferences": [
+      "GPC-PAT-2002-009",
+      "LOG-2004-008"
+    ],
+    "tags": [
+      "GPC-Archive",
+      "Continuity",
+      "FY-2004",
+      "Class-II"
+    ]
+  },
+  {
+    "id": "proto-044",
+    "code": "GPC-PR-044",
+    "name": "Stockpile Inventory Ping Rack",
+    "domain": "Continuity Logistics",
+    "year": 2005,
+    "status": "Archived",
+    "clearance": "Level I (Public)",
+    "lead": "Elias Brandt",
+    "summary": "Program initiated under GPC Directive GPC-PR-044. Advances continuity logistics for the Division B: Civic Continuity through anticipatory calibration, controlled procedural exposure, and real-time institutional signal conditioning. Built to client-grade tolerances in the Geneva Annex workshops and certified against Charter Standard ES-77.",
+    "specifications": {
+      "Operational Bandwidth": "2.2 Hz — 17.9 kHz",
+      "Ambient Floor Target": "-79.0 dBV (room-tone referenced)",
+      "Signal-to-Noise Floor": "-73.0 dBV",
+      "Primary Transducer": "Neumann KK-105 Capsule on Custom Geneva Flange",
       "Power / Drive Rail": "±24V Dual Linear Laboratory Rail",
-      "Containment Protocol": "Standard Laboratory B-12 Safety Shielding"
+      "Continuity Protocol": "Standard Annex B-4 Safe Storage"
+    },
+    "schematicType": "resonator",
+    "audioEnginePreset": "shepard",
+    "crossReferences": [
+      "GPC-PAT-2003-001",
+      "LOG-2005-013"
+    ],
+    "tags": [
+      "GPC-Archive",
+      "Continuity",
+      "FY-2005",
+      "Class-I"
+    ]
+  },
+  {
+    "id": "proto-045",
+    "code": "GPC-PR-045",
+    "name": "Evacuation Corridor Flow Metronome",
+    "domain": "Continuity Logistics",
+    "year": 2006,
+    "status": "Client Deployment",
+    "clearance": "Level IV (Continuity Vault)",
+    "lead": "Cassius Wren",
+    "summary": "Program initiated under GPC Directive GPC-PR-045. Advances continuity logistics for the Division B: Civic Continuity through anticipatory calibration, controlled procedural exposure, and real-time institutional signal conditioning. Built to client-grade tolerances in the Geneva Annex workshops and certified against Charter Standard ES-77.",
+    "specifications": {
+      "Operational Bandwidth": "2.9 Hz — 19.2 kHz",
+      "Ambient Floor Target": "-80.0 dBV (room-tone referenced)",
+      "Signal-to-Noise Floor": "-76.0 dBV",
+      "Primary Transducer": "Piezo-Ceramic Bimorph Cantilever, Beryllium Copper Shim",
+      "Power / Drive Rail": "±12V Dual Linear Laboratory Rail",
+      "Continuity Protocol": "Vault Seal Procedure D-99 (irrevocable)"
     },
     "schematicType": "circuit",
     "audioEnginePreset": "shepard",
     "crossReferences": [
-      "ZIAA-PAT-2024-046",
-      "LOG-2024-091"
+      "GPC-PAT-2003-002",
+      "LOG-2006-018"
     ],
     "tags": [
-      "Perceptual",
-      "ZIAA-Archive",
-      "Field-Tested",
+      "GPC-Archive",
+      "Continuity",
+      "FY-2006",
+      "Class-IV"
+    ]
+  },
+  {
+    "id": "proto-046",
+    "code": "GPC-PR-046",
+    "name": "Recovery Time Objective Chronometer",
+    "domain": "Continuity Logistics",
+    "year": 1998,
+    "status": "Field Verified",
+    "clearance": "Level II (Internal)",
+    "lead": "Marta Ilves",
+    "summary": "Program initiated under GPC Directive GPC-PR-046. Advances continuity logistics for the Division B: Civic Continuity through anticipatory calibration, controlled procedural exposure, and real-time institutional signal conditioning. Built to client-grade tolerances in the Geneva Annex workshops and certified against Charter Standard ES-77.",
+    "specifications": {
+      "Operational Bandwidth": "3.6 Hz — 20.5 kHz",
+      "Ambient Floor Target": "-81.0 dBV (room-tone referenced)",
+      "Signal-to-Noise Floor": "-79.0 dBV",
+      "Primary Transducer": "Tannoy Dual-Concentric Driver in Sealed Governance Baffle",
+      "Power / Drive Rail": "±24V Dual Linear Laboratory Rail",
+      "Continuity Protocol": "Standard Annex B-4 Safe Storage"
+    },
+    "schematicType": "circuit",
+    "audioEnginePreset": "shepard",
+    "crossReferences": [
+      "GPC-PAT-2003-003",
+      "LOG-1998-023"
+    ],
+    "tags": [
+      "GPC-Archive",
+      "Continuity",
+      "FY-1998",
       "Class-II"
     ]
   },
   {
     "id": "proto-047",
-    "code": "ZIAA-PR-047",
-    "name": "Phantom Fundamental Frequency Injector",
-    "domain": "Perceptual Interfaces",
-    "year": 2025,
-    "status": "Active Lab Stage",
-    "clearance": "Level I (Public)",
-    "lead": "Dr. Alexei Voronov",
-    "summary": "Experimental apparatus developed under ZIAA Directive ZIAA-PR-047. Investigates perceptual interfaces through high-precision physical prototyping, speculative boundary conditions, and real-time acoustic signal transduction.",
+    "code": "GPC-PR-047",
+    "name": "Succession Line Roll-Call Recorder",
+    "domain": "Continuity Logistics",
+    "year": 1999,
+    "status": "Active Program",
+    "clearance": "Level III (Restricted)",
+    "lead": "Elias Brandt",
+    "summary": "Program initiated under GPC Directive GPC-PR-047. Advances continuity logistics for the Division B: Civic Continuity through anticipatory calibration, controlled procedural exposure, and real-time institutional signal conditioning. Built to client-grade tolerances in the Geneva Annex workshops and certified against Charter Standard ES-77.",
     "specifications": {
-      "Operational Bandwidth": "6.2 Hz — 80.4 kHz",
-      "Acoustic Impedance": "1458 Rayls (air/substate matched)",
-      "Signal-to-Noise Floor": "-116.0 dBV",
-      "Primary Transducer": "Non-Linear Ferroelectric Metamaterial Film",
-      "Power / Drive Rail": "±36V Dual Linear Laboratory Rail",
-      "Containment Protocol": "Standard Laboratory B-12 Safety Shielding"
+      "Operational Bandwidth": "0.3 Hz — 21.8 kHz",
+      "Ambient Floor Target": "-82.0 dBV (room-tone referenced)",
+      "Signal-to-Noise Floor": "-82.0 dBV",
+      "Primary Transducer": "Bone-Contact Exciter Panel, Lacquered Birch Substrate",
+      "Power / Drive Rail": "±12V Dual Linear Laboratory Rail",
+      "Continuity Protocol": "Standard Annex B-4 Safe Storage"
     },
-    "schematicType": "waveguide",
+    "schematicType": "transducer",
     "audioEnginePreset": "shepard",
     "crossReferences": [
-      "ZIAA-PAT-2025-047",
-      "LOG-2025-093"
+      "GPC-PAT-2003-004",
+      "LOG-1999-028"
     ],
     "tags": [
-      "Perceptual",
-      "ZIAA-Archive",
-      "Active-Lab Stage",
-      "Class-I ("
+      "GPC-Archive",
+      "Continuity",
+      "FY-1999",
+      "Class-III"
     ]
   },
   {
     "id": "proto-048",
-    "code": "ZIAA-PR-048",
-    "name": "Temporal Fine-Structure Sensation Probe",
-    "domain": "Perceptual Interfaces",
-    "year": 2026,
-    "status": "Active Lab Stage",
+    "code": "GPC-PR-048",
+    "name": "Continuity Drill Whistle Cluster",
+    "domain": "Continuity Logistics",
+    "year": 2000,
+    "status": "Archived",
     "clearance": "Level II (Internal)",
-    "lead": "Beatrix Thorne",
-    "summary": "Experimental apparatus developed under ZIAA Directive ZIAA-PR-048. Investigates perceptual interfaces through high-precision physical prototyping, speculative boundary conditions, and real-time acoustic signal transduction.",
+    "lead": "Cassius Wren",
+    "summary": "Program initiated under GPC Directive GPC-PR-048. Advances continuity logistics for the Division B: Civic Continuity through anticipatory calibration, controlled procedural exposure, and real-time institutional signal conditioning. Built to client-grade tolerances in the Geneva Annex workshops and certified against Charter Standard ES-77.",
     "specifications": {
-      "Operational Bandwidth": "7.9 Hz — 83.8 kHz",
-      "Acoustic Impedance": "1481 Rayls (air/substate matched)",
-      "Signal-to-Noise Floor": "-118.0 dBV",
-      "Primary Transducer": "Ultra-Low Induction Cryogenic Coils",
-      "Power / Drive Rail": "±48V Dual Linear Laboratory Rail",
-      "Containment Protocol": "Standard Laboratory B-12 Safety Shielding"
+      "Operational Bandwidth": "1.0 Hz — 17.1 kHz",
+      "Ambient Floor Target": "-83.0 dBV (room-tone referenced)",
+      "Signal-to-Noise Floor": "-71.0 dBV",
+      "Primary Transducer": "Sennheiser MD 421 Element in Transit Housing",
+      "Power / Drive Rail": "±24V Dual Linear Laboratory Rail",
+      "Continuity Protocol": "Standard Annex B-4 Safe Storage"
     },
-    "schematicType": "matrix",
+    "schematicType": "transducer",
     "audioEnginePreset": "shepard",
     "crossReferences": [
-      "ZIAA-PAT-2026-048",
-      "LOG-2026-095"
+      "GPC-PAT-2003-005",
+      "LOG-2000-004"
     ],
     "tags": [
-      "Perceptual",
-      "ZIAA-Archive",
-      "Active-Lab Stage",
+      "GPC-Archive",
+      "Continuity",
+      "FY-2000",
       "Class-II"
     ]
   },
   {
     "id": "proto-049",
-    "code": "ZIAA-PR-049",
-    "name": "Markov Cellular Acoustic Automata Matrix",
-    "domain": "Generative Composition",
-    "year": 2021,
-    "status": "Active Lab Stage",
-    "clearance": "Level I (Public)",
-    "lead": "Dr. Elena Rostova",
-    "summary": "Experimental apparatus developed under ZIAA Directive ZIAA-PR-049. Investigates generative composition through high-precision physical prototyping, speculative boundary conditions, and real-time acoustic signal transduction.",
+    "code": "GPC-PR-049",
+    "name": "Emergency Band Carrier Demodulator",
+    "domain": "Emergency Broadcast Systems",
+    "year": 2001,
+    "status": "Archived",
+    "clearance": "Level II (Internal)",
+    "lead": "Dr. Renzo Malavasi",
+    "summary": "Program initiated under GPC Directive GPC-PR-049. Advances emergency broadcast systems for the Division B: Civic Continuity through anticipatory calibration, controlled procedural exposure, and real-time institutional signal conditioning. Built to client-grade tolerances in the Geneva Annex workshops and certified against Charter Standard ES-77.",
     "specifications": {
-      "Operational Bandwidth": "9.6 Hz — 87.2 kHz",
-      "Acoustic Impedance": "1504 Rayls (air/substate matched)",
-      "Signal-to-Noise Floor": "-72.0 dBV",
-      "Primary Transducer": "Beryllium Copper Bimorph Cantilever",
+      "Operational Bandwidth": "1.7 Hz — 18.4 kHz",
+      "Ambient Floor Target": "-72.0 dBV (room-tone referenced)",
+      "Signal-to-Noise Floor": "-74.0 dBV",
+      "Primary Transducer": "Electro-Voice RE20 Dynamic Element, Impedance Matched",
       "Power / Drive Rail": "±12V Dual Linear Laboratory Rail",
-      "Containment Protocol": "Standard Laboratory B-12 Safety Shielding"
+      "Continuity Protocol": "Standard Annex B-4 Safe Storage"
     },
-    "schematicType": "transducer",
-    "audioEnginePreset": "markov",
+    "schematicType": "circuit",
+    "audioEnginePreset": "archaeology",
     "crossReferences": [
-      "ZIAA-PAT-2021-049",
-      "LOG-2021-097"
+      "GPC-PAT-2003-006",
+      "LOG-2001-009"
     ],
     "tags": [
-      "Generative",
-      "ZIAA-Archive",
-      "Active-Lab Stage",
-      "Class-I ("
+      "GPC-Archive",
+      "Emergency",
+      "FY-2001",
+      "Class-II"
     ]
   },
   {
     "id": "proto-050",
-    "code": "ZIAA-PR-050",
-    "name": "L-System Branching Micro-Harmonic Flora",
-    "domain": "Generative Composition",
-    "year": 2022,
-    "status": "Field Tested",
-    "clearance": "Level I (Public)",
-    "lead": "Dr. Kieran Vance",
-    "summary": "Experimental apparatus developed under ZIAA Directive ZIAA-PR-050. Investigates generative composition through high-precision physical prototyping, speculative boundary conditions, and real-time acoustic signal transduction.",
+    "code": "GPC-PR-050",
+    "name": "Specific Area Message Encoding Terminal",
+    "domain": "Emergency Broadcast Systems",
+    "year": 2002,
+    "status": "Client Deployment",
+    "clearance": "Level III (Restricted)",
+    "lead": "Elias Brandt",
+    "summary": "Program initiated under GPC Directive GPC-PR-050. Advances emergency broadcast systems for the Division B: Civic Continuity through anticipatory calibration, controlled procedural exposure, and real-time institutional signal conditioning. Built to client-grade tolerances in the Geneva Annex workshops and certified against Charter Standard ES-77.",
     "specifications": {
-      "Operational Bandwidth": "11.3 Hz — 90.6 kHz",
-      "Acoustic Impedance": "1527 Rayls (air/substate matched)",
-      "Signal-to-Noise Floor": "-74.0 dBV",
-      "Primary Transducer": "Non-Linear Ferroelectric Metamaterial Film",
+      "Operational Bandwidth": "2.4 Hz — 19.7 kHz",
+      "Ambient Floor Target": "-73.0 dBV (room-tone referenced)",
+      "Signal-to-Noise Floor": "-77.0 dBV",
+      "Primary Transducer": "Neumann KK-105 Capsule on Custom Geneva Flange",
       "Power / Drive Rail": "±24V Dual Linear Laboratory Rail",
-      "Containment Protocol": "Standard Laboratory B-12 Safety Shielding"
+      "Continuity Protocol": "Standard Annex B-4 Safe Storage"
     },
-    "schematicType": "resonator",
-    "audioEnginePreset": "markov",
+    "schematicType": "circuit",
+    "audioEnginePreset": "archaeology",
     "crossReferences": [
-      "ZIAA-PAT-2022-050",
-      "LOG-2022-099"
+      "GPC-PAT-2003-007",
+      "LOG-2002-014"
     ],
     "tags": [
-      "Generative",
-      "ZIAA-Archive",
-      "Field-Tested",
-      "Class-I ("
+      "GPC-Archive",
+      "Emergency",
+      "FY-2002",
+      "Class-III"
     ]
   },
   {
     "id": "proto-051",
-    "code": "ZIAA-PR-051",
-    "name": "Stochastic Granular Cloud Engine Z-8",
-    "domain": "Generative Composition",
-    "year": 2023,
-    "status": "Active Lab Stage",
+    "code": "GPC-PR-051",
+    "name": "Siren Grid Harmonic Synchronizer",
+    "domain": "Emergency Broadcast Systems",
+    "year": 2003,
+    "status": "Field Verified",
     "clearance": "Level II (Internal)",
-    "lead": "Maya Lindqvist",
-    "summary": "Experimental apparatus developed under ZIAA Directive ZIAA-PR-051. Investigates generative composition through high-precision physical prototyping, speculative boundary conditions, and real-time acoustic signal transduction.",
+    "lead": "Marta Ilves",
+    "summary": "Program initiated under GPC Directive GPC-PR-051. Advances emergency broadcast systems for the Division B: Civic Continuity through anticipatory calibration, controlled procedural exposure, and real-time institutional signal conditioning. Built to client-grade tolerances in the Geneva Annex workshops and certified against Charter Standard ES-77.",
     "specifications": {
-      "Operational Bandwidth": "13.0 Hz — 94.0 kHz",
-      "Acoustic Impedance": "1550 Rayls (air/substate matched)",
-      "Signal-to-Noise Floor": "-76.0 dBV",
-      "Primary Transducer": "Ultra-Low Induction Cryogenic Coils",
-      "Power / Drive Rail": "±36V Dual Linear Laboratory Rail",
-      "Containment Protocol": "Standard Laboratory B-12 Safety Shielding"
+      "Operational Bandwidth": "3.1 Hz — 21.0 kHz",
+      "Ambient Floor Target": "-74.0 dBV (room-tone referenced)",
+      "Signal-to-Noise Floor": "-80.0 dBV",
+      "Primary Transducer": "Piezo-Ceramic Bimorph Cantilever, Beryllium Copper Shim",
+      "Power / Drive Rail": "±12V Dual Linear Laboratory Rail",
+      "Continuity Protocol": "Standard Annex B-4 Safe Storage"
     },
-    "schematicType": "interferometer",
-    "audioEnginePreset": "markov",
+    "schematicType": "transducer",
+    "audioEnginePreset": "archaeology",
     "crossReferences": [
-      "ZIAA-PAT-2023-051",
-      "LOG-2023-101"
+      "GPC-PAT-2003-008",
+      "LOG-2003-019"
     ],
     "tags": [
-      "Generative",
-      "ZIAA-Archive",
-      "Active-Lab Stage",
+      "GPC-Archive",
+      "Emergency",
+      "FY-2003",
       "Class-II"
     ]
   },
   {
     "id": "proto-052",
-    "code": "ZIAA-PR-052",
-    "name": "Dynamic Strange-Attractor Polyphonic Core",
-    "domain": "Generative Composition",
-    "year": 2024,
-    "status": "Active Lab Stage",
-    "clearance": "Level II (Internal)",
-    "lead": "Dr. Tariq Al-Mansoor",
-    "summary": "Experimental apparatus developed under ZIAA Directive ZIAA-PR-052. Investigates generative composition through high-precision physical prototyping, speculative boundary conditions, and real-time acoustic signal transduction.",
+    "code": "GPC-PR-052",
+    "name": "Dead-Air Sentinel Monitor",
+    "domain": "Emergency Broadcast Systems",
+    "year": 2004,
+    "status": "Active Program",
+    "clearance": "Level I (Public)",
+    "lead": "Dr. Renzo Malavasi",
+    "summary": "Program initiated under GPC Directive GPC-PR-052. Advances emergency broadcast systems for the Division B: Civic Continuity through anticipatory calibration, controlled procedural exposure, and real-time institutional signal conditioning. Built to client-grade tolerances in the Geneva Annex workshops and certified against Charter Standard ES-77.",
     "specifications": {
-      "Operational Bandwidth": "14.7 Hz — 97.4 kHz",
-      "Acoustic Impedance": "1573 Rayls (air/substate matched)",
-      "Signal-to-Noise Floor": "-78.0 dBV",
-      "Primary Transducer": "Beryllium Copper Bimorph Cantilever",
-      "Power / Drive Rail": "±48V Dual Linear Laboratory Rail",
-      "Containment Protocol": "Standard Laboratory B-12 Safety Shielding"
+      "Operational Bandwidth": "3.8 Hz — 16.3 kHz",
+      "Ambient Floor Target": "-75.0 dBV (room-tone referenced)",
+      "Signal-to-Noise Floor": "-83.0 dBV",
+      "Primary Transducer": "Tannoy Dual-Concentric Driver in Sealed Governance Baffle",
+      "Power / Drive Rail": "±24V Dual Linear Laboratory Rail",
+      "Continuity Protocol": "Standard Annex B-4 Safe Storage"
     },
-    "schematicType": "circuit",
-    "audioEnginePreset": "markov",
+    "schematicType": "interferometer",
+    "audioEnginePreset": "archaeology",
     "crossReferences": [
-      "ZIAA-PAT-2024-052",
-      "LOG-2024-103"
+      "GPC-PAT-2003-009",
+      "LOG-2004-024"
     ],
     "tags": [
-      "Generative",
-      "ZIAA-Archive",
-      "Active-Lab Stage",
-      "Class-II"
+      "GPC-Archive",
+      "Emergency",
+      "FY-2004",
+      "Class-I"
     ]
   },
   {
     "id": "proto-053",
-    "code": "ZIAA-PR-053",
-    "name": "Non-Euclidean Rhythm Tessellation Wheel",
-    "domain": "Generative Composition",
-    "year": 2025,
-    "status": "Public Installation",
-    "clearance": "Level I (Public)",
-    "lead": "Svenja Dahl",
-    "summary": "Experimental apparatus developed under ZIAA Directive ZIAA-PR-053. Investigates generative composition through high-precision physical prototyping, speculative boundary conditions, and real-time acoustic signal transduction.",
+    "code": "GPC-PR-053",
+    "name": "Attention Signal Variant Composer",
+    "domain": "Emergency Broadcast Systems",
+    "year": 2005,
+    "status": "Archived",
+    "clearance": "Level III (Restricted)",
+    "lead": "Elias Brandt",
+    "summary": "Program initiated under GPC Directive GPC-PR-053. Advances emergency broadcast systems for the Division B: Civic Continuity through anticipatory calibration, controlled procedural exposure, and real-time institutional signal conditioning. Built to client-grade tolerances in the Geneva Annex workshops and certified against Charter Standard ES-77.",
     "specifications": {
-      "Operational Bandwidth": "16.4 Hz — 100.8 kHz",
-      "Acoustic Impedance": "1596 Rayls (air/substate matched)",
-      "Signal-to-Noise Floor": "-80.0 dBV",
-      "Primary Transducer": "Non-Linear Ferroelectric Metamaterial Film",
+      "Operational Bandwidth": "0.5 Hz — 17.6 kHz",
+      "Ambient Floor Target": "-76.0 dBV (room-tone referenced)",
+      "Signal-to-Noise Floor": "-72.0 dBV",
+      "Primary Transducer": "Bone-Contact Exciter Panel, Lacquered Birch Substrate",
       "Power / Drive Rail": "±12V Dual Linear Laboratory Rail",
-      "Containment Protocol": "Standard Laboratory B-12 Safety Shielding"
+      "Continuity Protocol": "Standard Annex B-4 Safe Storage"
     },
-    "schematicType": "waveguide",
-    "audioEnginePreset": "markov",
+    "schematicType": "circuit",
+    "audioEnginePreset": "archaeology",
     "crossReferences": [
-      "ZIAA-PAT-2025-053",
-      "LOG-2025-105"
+      "GPC-PAT-2004-001",
+      "LOG-2005-029"
     ],
     "tags": [
-      "Generative",
-      "ZIAA-Archive",
-      "Public-Installation",
-      "Class-I ("
+      "GPC-Archive",
+      "Emergency",
+      "FY-2005",
+      "Class-III"
     ]
   },
   {
     "id": "proto-054",
-    "code": "ZIAA-PR-054",
-    "name": "Generative Cantus Firmus Cipher Organ",
-    "domain": "Generative Composition",
-    "year": 2026,
-    "status": "Field Tested",
+    "code": "GPC-PR-054",
+    "name": "Two-Tone Sequential Paging Decoder",
+    "domain": "Emergency Broadcast Systems",
+    "year": 2006,
+    "status": "Client Deployment",
     "clearance": "Level II (Internal)",
-    "lead": "Marcus Holloway",
-    "summary": "Experimental apparatus developed under ZIAA Directive ZIAA-PR-054. Investigates generative composition through high-precision physical prototyping, speculative boundary conditions, and real-time acoustic signal transduction.",
+    "lead": "Marta Ilves",
+    "summary": "Program initiated under GPC Directive GPC-PR-054. Advances emergency broadcast systems for the Division B: Civic Continuity through anticipatory calibration, controlled procedural exposure, and real-time institutional signal conditioning. Built to client-grade tolerances in the Geneva Annex workshops and certified against Charter Standard ES-77.",
     "specifications": {
-      "Operational Bandwidth": "18.1 Hz — 104.2 kHz",
-      "Acoustic Impedance": "1619 Rayls (air/substate matched)",
-      "Signal-to-Noise Floor": "-82.0 dBV",
-      "Primary Transducer": "Ultra-Low Induction Cryogenic Coils",
+      "Operational Bandwidth": "1.2 Hz — 18.9 kHz",
+      "Ambient Floor Target": "-77.0 dBV (room-tone referenced)",
+      "Signal-to-Noise Floor": "-75.0 dBV",
+      "Primary Transducer": "Sennheiser MD 421 Element in Transit Housing",
       "Power / Drive Rail": "±24V Dual Linear Laboratory Rail",
-      "Containment Protocol": "Standard Laboratory B-12 Safety Shielding"
+      "Continuity Protocol": "Standard Annex B-4 Safe Storage"
     },
-    "schematicType": "matrix",
-    "audioEnginePreset": "markov",
+    "schematicType": "circuit",
+    "audioEnginePreset": "archaeology",
     "crossReferences": [
-      "ZIAA-PAT-2026-054",
-      "LOG-2026-107"
+      "GPC-PAT-2004-002",
+      "LOG-2006-005"
     ],
     "tags": [
-      "Generative",
-      "ZIAA-Archive",
-      "Field-Tested",
+      "GPC-Archive",
+      "Emergency",
+      "FY-2006",
       "Class-II"
     ]
   },
   {
     "id": "proto-055",
-    "code": "ZIAA-PR-055",
-    "name": "Self-Evolving Acoustic Neural Lattice",
-    "domain": "Generative Composition",
-    "year": 2021,
-    "status": "Active Lab Stage",
+    "code": "GPC-PR-055",
+    "name": "Broadcast Interruption Relay HIJACK-NULL",
+    "domain": "Emergency Broadcast Systems",
+    "year": 1998,
+    "status": "Field Verified",
     "clearance": "Level III (Restricted)",
-    "lead": "Dr. Christine Abele",
-    "summary": "Experimental apparatus developed under ZIAA Directive ZIAA-PR-055. Investigates generative composition through high-precision physical prototyping, speculative boundary conditions, and real-time acoustic signal transduction.",
+    "lead": "Dr. Renzo Malavasi",
+    "summary": "Program initiated under GPC Directive GPC-PR-055. Advances emergency broadcast systems for the Division B: Civic Continuity through anticipatory calibration, controlled procedural exposure, and real-time institutional signal conditioning. Built to client-grade tolerances in the Geneva Annex workshops and certified against Charter Standard ES-77.",
     "specifications": {
-      "Operational Bandwidth": "19.8 Hz — 107.6 kHz",
-      "Acoustic Impedance": "1642 Rayls (air/substate matched)",
-      "Signal-to-Noise Floor": "-84.0 dBV",
-      "Primary Transducer": "Beryllium Copper Bimorph Cantilever",
-      "Power / Drive Rail": "±36V Dual Linear Laboratory Rail",
-      "Containment Protocol": "Standard Laboratory B-12 Safety Shielding"
+      "Operational Bandwidth": "1.9 Hz — 20.2 kHz",
+      "Ambient Floor Target": "-78.0 dBV (room-tone referenced)",
+      "Signal-to-Noise Floor": "-78.0 dBV",
+      "Primary Transducer": "Electro-Voice RE20 Dynamic Element, Impedance Matched",
+      "Power / Drive Rail": "±12V Dual Linear Laboratory Rail",
+      "Continuity Protocol": "Standard Annex B-4 Safe Storage"
     },
-    "schematicType": "transducer",
-    "audioEnginePreset": "markov",
+    "schematicType": "circuit",
+    "audioEnginePreset": "archaeology",
     "crossReferences": [
-      "ZIAA-PAT-2021-055",
-      "LOG-2021-109"
+      "GPC-PAT-2004-003",
+      "LOG-1998-010"
     ],
     "tags": [
-      "Generative",
-      "ZIAA-Archive",
-      "Active-Lab Stage",
+      "GPC-Archive",
+      "Emergency",
+      "FY-1998",
       "Class-III"
     ]
   },
   {
     "id": "proto-056",
-    "code": "ZIAA-PR-056",
-    "name": "Thermal Entropy True-Random Gate Sequencer",
-    "domain": "Generative Composition",
-    "year": 2022,
-    "status": "Active Lab Stage",
-    "clearance": "Level II (Internal)",
-    "lead": "Renata Osei",
-    "summary": "Experimental apparatus developed under ZIAA Directive ZIAA-PR-056. Investigates generative composition through high-precision physical prototyping, speculative boundary conditions, and real-time acoustic signal transduction.",
+    "code": "GPC-PR-056",
+    "name": "Alert Compliance Phantom Test Bench",
+    "domain": "Emergency Broadcast Systems",
+    "year": 1999,
+    "status": "Active Program",
+    "clearance": "Level I (Public)",
+    "lead": "Elias Brandt",
+    "summary": "Program initiated under GPC Directive GPC-PR-056. Advances emergency broadcast systems for the Division B: Civic Continuity through anticipatory calibration, controlled procedural exposure, and real-time institutional signal conditioning. Built to client-grade tolerances in the Geneva Annex workshops and certified against Charter Standard ES-77.",
     "specifications": {
-      "Operational Bandwidth": "21.5 Hz — 111.0 kHz",
-      "Acoustic Impedance": "1665 Rayls (air/substate matched)",
-      "Signal-to-Noise Floor": "-86.0 dBV",
-      "Primary Transducer": "Non-Linear Ferroelectric Metamaterial Film",
-      "Power / Drive Rail": "±48V Dual Linear Laboratory Rail",
-      "Containment Protocol": "Standard Laboratory B-12 Safety Shielding"
+      "Operational Bandwidth": "2.6 Hz — 21.5 kHz",
+      "Ambient Floor Target": "-79.0 dBV (room-tone referenced)",
+      "Signal-to-Noise Floor": "-81.0 dBV",
+      "Primary Transducer": "Neumann KK-105 Capsule on Custom Geneva Flange",
+      "Power / Drive Rail": "±24V Dual Linear Laboratory Rail",
+      "Continuity Protocol": "Standard Annex B-4 Safe Storage"
     },
-    "schematicType": "resonator",
-    "audioEnginePreset": "markov",
+    "schematicType": "matrix",
+    "audioEnginePreset": "archaeology",
     "crossReferences": [
-      "ZIAA-PAT-2022-056",
-      "LOG-2022-111"
+      "GPC-PAT-2004-004",
+      "LOG-1999-015"
     ],
     "tags": [
-      "Generative",
-      "ZIAA-Archive",
-      "Active-Lab Stage",
-      "Class-II"
+      "GPC-Archive",
+      "Emergency",
+      "FY-1999",
+      "Class-I"
     ]
   },
   {
     "id": "proto-057",
-    "code": "ZIAA-PR-057",
-    "name": "Chaotic Double-Pendulum Tone Exciter",
-    "domain": "Generative Composition",
-    "year": 2023,
-    "status": "Field Tested",
-    "clearance": "Level I (Public)",
-    "lead": "Joon-Ho Park",
-    "summary": "Experimental apparatus developed under ZIAA Directive ZIAA-PR-057. Investigates generative composition through high-precision physical prototyping, speculative boundary conditions, and real-time acoustic signal transduction.",
+    "code": "GPC-PR-057",
+    "name": "Mediumwave Groundwave Coverage Plotter",
+    "domain": "Emergency Broadcast Systems",
+    "year": 2000,
+    "status": "Archived",
+    "clearance": "Level II (Internal)",
+    "lead": "Marta Ilves",
+    "summary": "Program initiated under GPC Directive GPC-PR-057. Advances emergency broadcast systems for the Division B: Civic Continuity through anticipatory calibration, controlled procedural exposure, and real-time institutional signal conditioning. Built to client-grade tolerances in the Geneva Annex workshops and certified against Charter Standard ES-77.",
     "specifications": {
-      "Operational Bandwidth": "23.2 Hz — 114.4 kHz",
-      "Acoustic Impedance": "1688 Rayls (air/substate matched)",
-      "Signal-to-Noise Floor": "-88.0 dBV",
-      "Primary Transducer": "Ultra-Low Induction Cryogenic Coils",
+      "Operational Bandwidth": "3.3 Hz — 16.8 kHz",
+      "Ambient Floor Target": "-80.0 dBV (room-tone referenced)",
+      "Signal-to-Noise Floor": "-70.0 dBV",
+      "Primary Transducer": "Piezo-Ceramic Bimorph Cantilever, Beryllium Copper Shim",
       "Power / Drive Rail": "±12V Dual Linear Laboratory Rail",
-      "Containment Protocol": "Standard Laboratory B-12 Safety Shielding"
+      "Continuity Protocol": "Standard Annex B-4 Safe Storage"
     },
     "schematicType": "interferometer",
-    "audioEnginePreset": "markov",
+    "audioEnginePreset": "archaeology",
     "crossReferences": [
-      "ZIAA-PAT-2023-057",
-      "LOG-2023-113"
+      "GPC-PAT-2004-005",
+      "LOG-2000-020"
     ],
     "tags": [
-      "Generative",
-      "ZIAA-Archive",
-      "Field-Tested",
-      "Class-I ("
+      "GPC-Archive",
+      "Emergency",
+      "FY-2000",
+      "Class-II"
     ]
   },
   {
     "id": "proto-058",
-    "code": "ZIAA-PR-058",
-    "name": "Percolation Theory Sonic Phase Transition Engine",
-    "domain": "Generative Composition",
-    "year": 2024,
-    "status": "Active Lab Stage",
-    "clearance": "Level II (Internal)",
-    "lead": "Dr. Lyra Sterling",
-    "summary": "Experimental apparatus developed under ZIAA Directive ZIAA-PR-058. Investigates generative composition through high-precision physical prototyping, speculative boundary conditions, and real-time acoustic signal transduction.",
+    "code": "GPC-PR-058",
+    "name": "Civil Defense Tape Loop Archive",
+    "domain": "Emergency Broadcast Systems",
+    "year": 2001,
+    "status": "Client Deployment",
+    "clearance": "Level III (Restricted)",
+    "lead": "Dr. Renzo Malavasi",
+    "summary": "Program initiated under GPC Directive GPC-PR-058. Advances emergency broadcast systems for the Division B: Civic Continuity through anticipatory calibration, controlled procedural exposure, and real-time institutional signal conditioning. Built to client-grade tolerances in the Geneva Annex workshops and certified against Charter Standard ES-77.",
     "specifications": {
-      "Operational Bandwidth": "0.9 Hz — 21.8 kHz",
-      "Acoustic Impedance": "1711 Rayls (air/substate matched)",
-      "Signal-to-Noise Floor": "-90.0 dBV",
-      "Primary Transducer": "Beryllium Copper Bimorph Cantilever",
+      "Operational Bandwidth": "4.0 Hz — 18.1 kHz",
+      "Ambient Floor Target": "-81.0 dBV (room-tone referenced)",
+      "Signal-to-Noise Floor": "-73.0 dBV",
+      "Primary Transducer": "Tannoy Dual-Concentric Driver in Sealed Governance Baffle",
       "Power / Drive Rail": "±24V Dual Linear Laboratory Rail",
-      "Containment Protocol": "Standard Laboratory B-12 Safety Shielding"
+      "Continuity Protocol": "Standard Annex B-4 Safe Storage"
     },
-    "schematicType": "circuit",
-    "audioEnginePreset": "markov",
+    "schematicType": "transducer",
+    "audioEnginePreset": "archaeology",
     "crossReferences": [
-      "ZIAA-PAT-2024-058",
-      "LOG-2024-115"
+      "GPC-PAT-2004-006",
+      "LOG-2001-025"
     ],
     "tags": [
-      "Generative",
-      "ZIAA-Archive",
-      "Active-Lab Stage",
-      "Class-II"
+      "GPC-Archive",
+      "Emergency",
+      "FY-2001",
+      "Class-III"
     ]
   },
   {
     "id": "proto-059",
-    "code": "ZIAA-PR-059",
-    "name": "Recursive Fibonacci Delay Loop Matrix",
-    "domain": "Generative Composition",
-    "year": 2025,
-    "status": "Field Tested",
-    "clearance": "Level I (Public)",
-    "lead": "Dr. Alexei Voronov",
-    "summary": "Experimental apparatus developed under ZIAA Directive ZIAA-PR-059. Investigates generative composition through high-precision physical prototyping, speculative boundary conditions, and real-time acoustic signal transduction.",
+    "code": "GPC-PR-059",
+    "name": "Alert Latency Stopwatch Rack",
+    "domain": "Emergency Broadcast Systems",
+    "year": 2002,
+    "status": "Field Verified",
+    "clearance": "Level II (Internal)",
+    "lead": "Elias Brandt",
+    "summary": "Program initiated under GPC Directive GPC-PR-059. Advances emergency broadcast systems for the Division B: Civic Continuity through anticipatory calibration, controlled procedural exposure, and real-time institutional signal conditioning. Built to client-grade tolerances in the Geneva Annex workshops and certified against Charter Standard ES-77.",
     "specifications": {
-      "Operational Bandwidth": "2.6 Hz — 25.2 kHz",
-      "Acoustic Impedance": "1734 Rayls (air/substate matched)",
-      "Signal-to-Noise Floor": "-92.0 dBV",
-      "Primary Transducer": "Non-Linear Ferroelectric Metamaterial Film",
-      "Power / Drive Rail": "±36V Dual Linear Laboratory Rail",
-      "Containment Protocol": "Standard Laboratory B-12 Safety Shielding"
+      "Operational Bandwidth": "0.7 Hz — 19.4 kHz",
+      "Ambient Floor Target": "-82.0 dBV (room-tone referenced)",
+      "Signal-to-Noise Floor": "-76.0 dBV",
+      "Primary Transducer": "Bone-Contact Exciter Panel, Lacquered Birch Substrate",
+      "Power / Drive Rail": "±12V Dual Linear Laboratory Rail",
+      "Continuity Protocol": "Standard Annex B-4 Safe Storage"
     },
-    "schematicType": "waveguide",
-    "audioEnginePreset": "markov",
+    "schematicType": "circuit",
+    "audioEnginePreset": "archaeology",
     "crossReferences": [
-      "ZIAA-PAT-2025-059",
-      "LOG-2025-117"
+      "GPC-PAT-2004-007",
+      "LOG-2002-001"
     ],
     "tags": [
-      "Generative",
-      "ZIAA-Archive",
-      "Field-Tested",
-      "Class-I ("
+      "GPC-Archive",
+      "Emergency",
+      "FY-2002",
+      "Class-II"
     ]
   },
   {
     "id": "proto-060",
-    "code": "ZIAA-PR-060",
-    "name": "Reaction-Diffusion Turing Pattern Synthesizer",
-    "domain": "Generative Composition",
-    "year": 2026,
-    "status": "Active Lab Stage",
-    "clearance": "Level II (Internal)",
-    "lead": "Beatrix Thorne",
-    "summary": "Experimental apparatus developed under ZIAA Directive ZIAA-PR-060. Investigates generative composition through high-precision physical prototyping, speculative boundary conditions, and real-time acoustic signal transduction.",
+    "code": "GPC-PR-060",
+    "name": "Message Authentication Tone Verifier",
+    "domain": "Emergency Broadcast Systems",
+    "year": 2003,
+    "status": "Active Program",
+    "clearance": "Level I (Public)",
+    "lead": "Marta Ilves",
+    "summary": "Program initiated under GPC Directive GPC-PR-060. Advances emergency broadcast systems for the Division B: Civic Continuity through anticipatory calibration, controlled procedural exposure, and real-time institutional signal conditioning. Built to client-grade tolerances in the Geneva Annex workshops and certified against Charter Standard ES-77.",
     "specifications": {
-      "Operational Bandwidth": "4.3 Hz — 28.6 kHz",
-      "Acoustic Impedance": "1757 Rayls (air/substate matched)",
-      "Signal-to-Noise Floor": "-94.0 dBV",
-      "Primary Transducer": "Ultra-Low Induction Cryogenic Coils",
-      "Power / Drive Rail": "±48V Dual Linear Laboratory Rail",
-      "Containment Protocol": "Standard Laboratory B-12 Safety Shielding"
+      "Operational Bandwidth": "1.4 Hz — 20.7 kHz",
+      "Ambient Floor Target": "-83.0 dBV (room-tone referenced)",
+      "Signal-to-Noise Floor": "-79.0 dBV",
+      "Primary Transducer": "Sennheiser MD 421 Element in Transit Housing",
+      "Power / Drive Rail": "±24V Dual Linear Laboratory Rail",
+      "Continuity Protocol": "Standard Annex B-4 Safe Storage"
     },
-    "schematicType": "matrix",
-    "audioEnginePreset": "markov",
+    "schematicType": "circuit",
+    "audioEnginePreset": "archaeology",
     "crossReferences": [
-      "ZIAA-PAT-2026-060",
-      "LOG-2026-119"
+      "GPC-PAT-2004-008",
+      "LOG-2003-006"
     ],
     "tags": [
-      "Generative",
-      "ZIAA-Archive",
-      "Active-Lab Stage",
-      "Class-II"
+      "GPC-Archive",
+      "Emergency",
+      "FY-2003",
+      "Class-I"
     ]
   },
   {
     "id": "proto-061",
-    "code": "ZIAA-PR-061",
-    "name": "Microtonal Bohlen-Pierce Generative Organ",
-    "domain": "Generative Composition",
-    "year": 2021,
-    "status": "Active Lab Stage",
-    "clearance": "Level I (Public)",
-    "lead": "Dr. Elena Rostova",
-    "summary": "Experimental apparatus developed under ZIAA Directive ZIAA-PR-061. Investigates generative composition through high-precision physical prototyping, speculative boundary conditions, and real-time acoustic signal transduction.",
+    "code": "GPC-PR-061",
+    "name": "Last Resort Message Vault Player",
+    "domain": "Emergency Broadcast Systems",
+    "year": 2004,
+    "status": "Archived",
+    "clearance": "Level IV (Continuity Vault)",
+    "lead": "Dr. Renzo Malavasi",
+    "summary": "Program initiated under GPC Directive GPC-PR-061. Advances emergency broadcast systems for the Division B: Civic Continuity through anticipatory calibration, controlled procedural exposure, and real-time institutional signal conditioning. Built to client-grade tolerances in the Geneva Annex workshops and certified against Charter Standard ES-77.",
     "specifications": {
-      "Operational Bandwidth": "6.0 Hz — 32.0 kHz",
-      "Acoustic Impedance": "1780 Rayls (air/substate matched)",
-      "Signal-to-Noise Floor": "-96.0 dBV",
-      "Primary Transducer": "Beryllium Copper Bimorph Cantilever",
+      "Operational Bandwidth": "2.1 Hz — 16.0 kHz",
+      "Ambient Floor Target": "-72.0 dBV (room-tone referenced)",
+      "Signal-to-Noise Floor": "-82.0 dBV",
+      "Primary Transducer": "Electro-Voice RE20 Dynamic Element, Impedance Matched",
       "Power / Drive Rail": "±12V Dual Linear Laboratory Rail",
-      "Containment Protocol": "Standard Laboratory B-12 Safety Shielding"
+      "Continuity Protocol": "Vault Seal Procedure D-99 (irrevocable)"
     },
-    "schematicType": "transducer",
-    "audioEnginePreset": "markov",
+    "schematicType": "waveguide",
+    "audioEnginePreset": "archaeology",
     "crossReferences": [
-      "ZIAA-PAT-2021-061",
-      "LOG-2021-121"
+      "GPC-PAT-2004-009",
+      "LOG-2004-011"
     ],
     "tags": [
-      "Generative",
-      "ZIAA-Archive",
-      "Active-Lab Stage",
-      "Class-I ("
+      "GPC-Archive",
+      "Emergency",
+      "FY-2004",
+      "Class-IV"
     ]
   },
   {
     "id": "proto-062",
-    "code": "ZIAA-PR-062",
-    "name": "Autonomous Algorithmic Drone Sump",
-    "domain": "Generative Composition",
-    "year": 2022,
-    "status": "Field Tested",
-    "clearance": "Level I (Public)",
-    "lead": "Dr. Kieran Vance",
-    "summary": "Experimental apparatus developed under ZIAA Directive ZIAA-PR-062. Investigates generative composition through high-precision physical prototyping, speculative boundary conditions, and real-time acoustic signal transduction.",
-    "specifications": {
-      "Operational Bandwidth": "7.7 Hz — 35.4 kHz",
-      "Acoustic Impedance": "1803 Rayls (air/substate matched)",
-      "Signal-to-Noise Floor": "-98.0 dBV",
-      "Primary Transducer": "Non-Linear Ferroelectric Metamaterial Film",
-      "Power / Drive Rail": "±24V Dual Linear Laboratory Rail",
-      "Containment Protocol": "Standard Laboratory B-12 Safety Shielding"
-    },
-    "schematicType": "resonator",
-    "audioEnginePreset": "markov",
-    "crossReferences": [
-      "ZIAA-PAT-2022-062",
-      "LOG-2022-123"
-    ],
-    "tags": [
-      "Generative",
-      "ZIAA-Archive",
-      "Field-Tested",
-      "Class-I ("
-    ]
-  },
-  {
-    "id": "proto-063",
-    "code": "ZIAA-PR-063",
-    "name": "Ergodic Markov State Spatial Diffuser",
-    "domain": "Generative Composition",
-    "year": 2023,
-    "status": "Active Lab Stage",
+    "code": "GPC-PR-062",
+    "name": "Ionospheric Skip Prediction Board",
+    "domain": "Emergency Broadcast Systems",
+    "year": 2005,
+    "status": "Client Deployment",
     "clearance": "Level II (Internal)",
-    "lead": "Maya Lindqvist",
-    "summary": "Experimental apparatus developed under ZIAA Directive ZIAA-PR-063. Investigates generative composition through high-precision physical prototyping, speculative boundary conditions, and real-time acoustic signal transduction.",
+    "lead": "Elias Brandt",
+    "summary": "Program initiated under GPC Directive GPC-PR-062. Advances emergency broadcast systems for the Division B: Civic Continuity through anticipatory calibration, controlled procedural exposure, and real-time institutional signal conditioning. Built to client-grade tolerances in the Geneva Annex workshops and certified against Charter Standard ES-77.",
     "specifications": {
-      "Operational Bandwidth": "9.4 Hz — 38.8 kHz",
-      "Acoustic Impedance": "1826 Rayls (air/substate matched)",
-      "Signal-to-Noise Floor": "-100.0 dBV",
-      "Primary Transducer": "Ultra-Low Induction Cryogenic Coils",
-      "Power / Drive Rail": "±36V Dual Linear Laboratory Rail",
-      "Containment Protocol": "Standard Laboratory B-12 Safety Shielding"
+      "Operational Bandwidth": "2.8 Hz — 17.3 kHz",
+      "Ambient Floor Target": "-73.0 dBV (room-tone referenced)",
+      "Signal-to-Noise Floor": "-71.0 dBV",
+      "Primary Transducer": "Neumann KK-105 Capsule on Custom Geneva Flange",
+      "Power / Drive Rail": "±24V Dual Linear Laboratory Rail",
+      "Continuity Protocol": "Standard Annex B-4 Safe Storage"
     },
     "schematicType": "interferometer",
-    "audioEnginePreset": "markov",
+    "audioEnginePreset": "archaeology",
     "crossReferences": [
-      "ZIAA-PAT-2023-063",
-      "LOG-2023-125"
+      "GPC-PAT-2005-001",
+      "LOG-2005-016"
     ],
     "tags": [
-      "Generative",
-      "ZIAA-Archive",
-      "Active-Lab Stage",
+      "GPC-Archive",
+      "Emergency",
+      "FY-2005",
       "Class-II"
     ]
   },
   {
-    "id": "proto-064",
-    "code": "ZIAA-PR-064",
-    "name": "Cellular Glider Collision Acoustic Synthesizer",
-    "domain": "Generative Composition",
-    "year": 2024,
-    "status": "Field Tested",
-    "clearance": "Level I (Public)",
-    "lead": "Dr. Tariq Al-Mansoor",
-    "summary": "Experimental apparatus developed under ZIAA Directive ZIAA-PR-064. Investigates generative composition through high-precision physical prototyping, speculative boundary conditions, and real-time acoustic signal transduction.",
+    "id": "proto-063",
+    "code": "GPC-PR-063",
+    "name": "Multilingual Alert Phoneme Bank",
+    "domain": "Emergency Broadcast Systems",
+    "year": 2006,
+    "status": "Field Verified",
+    "clearance": "Level III (Restricted)",
+    "lead": "Marta Ilves",
+    "summary": "Program initiated under GPC Directive GPC-PR-063. Advances emergency broadcast systems for the Division B: Civic Continuity through anticipatory calibration, controlled procedural exposure, and real-time institutional signal conditioning. Built to client-grade tolerances in the Geneva Annex workshops and certified against Charter Standard ES-77.",
     "specifications": {
-      "Operational Bandwidth": "11.1 Hz — 42.2 kHz",
-      "Acoustic Impedance": "1849 Rayls (air/substate matched)",
-      "Signal-to-Noise Floor": "-102.0 dBV",
-      "Primary Transducer": "Beryllium Copper Bimorph Cantilever",
-      "Power / Drive Rail": "±48V Dual Linear Laboratory Rail",
-      "Containment Protocol": "Standard Laboratory B-12 Safety Shielding"
+      "Operational Bandwidth": "3.5 Hz — 18.6 kHz",
+      "Ambient Floor Target": "-74.0 dBV (room-tone referenced)",
+      "Signal-to-Noise Floor": "-74.0 dBV",
+      "Primary Transducer": "Piezo-Ceramic Bimorph Cantilever, Beryllium Copper Shim",
+      "Power / Drive Rail": "±12V Dual Linear Laboratory Rail",
+      "Continuity Protocol": "Standard Annex B-4 Safe Storage"
     },
-    "schematicType": "circuit",
-    "audioEnginePreset": "markov",
+    "schematicType": "transducer",
+    "audioEnginePreset": "archaeology",
     "crossReferences": [
-      "ZIAA-PAT-2024-064",
-      "LOG-2024-127"
+      "GPC-PAT-2005-002",
+      "LOG-2006-021"
     ],
     "tags": [
-      "Generative",
-      "ZIAA-Archive",
-      "Field-Tested",
-      "Class-I ("
+      "GPC-Archive",
+      "Emergency",
+      "FY-2006",
+      "Class-III"
+    ]
+  },
+  {
+    "id": "proto-064",
+    "code": "GPC-PR-064",
+    "name": "Broadcast Chain Failure Trainer",
+    "domain": "Emergency Broadcast Systems",
+    "year": 1998,
+    "status": "Active Program",
+    "clearance": "Level II (Internal)",
+    "lead": "Dr. Renzo Malavasi",
+    "summary": "Program initiated under GPC Directive GPC-PR-064. Advances emergency broadcast systems for the Division B: Civic Continuity through anticipatory calibration, controlled procedural exposure, and real-time institutional signal conditioning. Built to client-grade tolerances in the Geneva Annex workshops and certified against Charter Standard ES-77.",
+    "specifications": {
+      "Operational Bandwidth": "0.2 Hz — 19.9 kHz",
+      "Ambient Floor Target": "-75.0 dBV (room-tone referenced)",
+      "Signal-to-Noise Floor": "-77.0 dBV",
+      "Primary Transducer": "Tannoy Dual-Concentric Driver in Sealed Governance Baffle",
+      "Power / Drive Rail": "±24V Dual Linear Laboratory Rail",
+      "Continuity Protocol": "Standard Annex B-4 Safe Storage"
+    },
+    "schematicType": "matrix",
+    "audioEnginePreset": "archaeology",
+    "crossReferences": [
+      "GPC-PAT-2005-003",
+      "LOG-1998-026"
+    ],
+    "tags": [
+      "GPC-Archive",
+      "Emergency",
+      "FY-1998",
+      "Class-II"
     ]
   },
   {
     "id": "proto-065",
-    "code": "ZIAA-PR-065",
-    "name": "Subterranean Cistern Resonant Horn Alpha",
-    "domain": "Public Infrastructure",
-    "year": 2025,
-    "status": "Public Installation",
-    "clearance": "Level I (Public)",
-    "lead": "Svenja Dahl",
-    "summary": "Experimental apparatus developed under ZIAA Directive ZIAA-PR-065. Investigates public infrastructure through high-precision physical prototyping, speculative boundary conditions, and real-time acoustic signal transduction.",
+    "code": "GPC-PR-065",
+    "name": "Terminal Crowd-Flow Automata Matrix",
+    "domain": "Behavioral Compliance",
+    "year": 1999,
+    "status": "Active Program",
+    "clearance": "Level II (Internal)",
+    "lead": "Petra Lindmark",
+    "summary": "Program initiated under GPC Directive GPC-PR-065. Advances behavioral compliance for the Division C: Behavioral Research through anticipatory calibration, controlled procedural exposure, and real-time institutional signal conditioning. Built to client-grade tolerances in the Geneva Annex workshops and certified against Charter Standard ES-77.",
     "specifications": {
-      "Operational Bandwidth": "12.8 Hz — 45.6 kHz",
-      "Acoustic Impedance": "1872 Rayls (air/substate matched)",
-      "Signal-to-Noise Floor": "-104.0 dBV",
-      "Primary Transducer": "Non-Linear Ferroelectric Metamaterial Film",
+      "Operational Bandwidth": "0.9 Hz — 21.2 kHz",
+      "Ambient Floor Target": "-76.0 dBV (room-tone referenced)",
+      "Signal-to-Noise Floor": "-80.0 dBV",
+      "Primary Transducer": "Bone-Contact Exciter Panel, Lacquered Birch Substrate",
       "Power / Drive Rail": "±12V Dual Linear Laboratory Rail",
-      "Containment Protocol": "Standard Laboratory B-12 Safety Shielding"
+      "Continuity Protocol": "Standard Annex B-4 Safe Storage"
     },
-    "schematicType": "waveguide",
-    "audioEnginePreset": "raytracer",
+    "schematicType": "matrix",
+    "audioEnginePreset": "markov",
     "crossReferences": [
-      "ZIAA-PAT-2025-065",
-      "LOG-2025-129"
+      "GPC-PAT-2005-004",
+      "LOG-1999-002"
     ],
     "tags": [
-      "Public",
-      "ZIAA-Archive",
-      "Public-Installation",
-      "Class-I ("
+      "GPC-Archive",
+      "Behavioral",
+      "FY-1999",
+      "Class-II"
     ]
   },
   {
     "id": "proto-066",
-    "code": "ZIAA-PR-066",
-    "name": "Urban Acoustic Shadow Sanctuary Bench",
-    "domain": "Public Infrastructure",
-    "year": 2026,
-    "status": "Public Installation",
-    "clearance": "Level I (Public)",
-    "lead": "Marcus Holloway",
-    "summary": "Experimental apparatus developed under ZIAA Directive ZIAA-PR-066. Investigates public infrastructure through high-precision physical prototyping, speculative boundary conditions, and real-time acoustic signal transduction.",
+    "code": "GPC-PR-066",
+    "name": "Queue Patience Tone Injector",
+    "domain": "Behavioral Compliance",
+    "year": 2000,
+    "status": "Archived",
+    "clearance": "Level III (Restricted)",
+    "lead": "Tomas Ferrand",
+    "summary": "Program initiated under GPC Directive GPC-PR-066. Advances behavioral compliance for the Division C: Behavioral Research through anticipatory calibration, controlled procedural exposure, and real-time institutional signal conditioning. Built to client-grade tolerances in the Geneva Annex workshops and certified against Charter Standard ES-77.",
     "specifications": {
-      "Operational Bandwidth": "14.5 Hz — 49.0 kHz",
-      "Acoustic Impedance": "1895 Rayls (air/substate matched)",
-      "Signal-to-Noise Floor": "-106.0 dBV",
-      "Primary Transducer": "Ultra-Low Induction Cryogenic Coils",
+      "Operational Bandwidth": "1.6 Hz — 16.5 kHz",
+      "Ambient Floor Target": "-77.0 dBV (room-tone referenced)",
+      "Signal-to-Noise Floor": "-83.0 dBV",
+      "Primary Transducer": "Sennheiser MD 421 Element in Transit Housing",
       "Power / Drive Rail": "±24V Dual Linear Laboratory Rail",
-      "Containment Protocol": "Standard Laboratory B-12 Safety Shielding"
+      "Continuity Protocol": "Standard Annex B-4 Safe Storage"
     },
-    "schematicType": "matrix",
-    "audioEnginePreset": "raytracer",
+    "schematicType": "transducer",
+    "audioEnginePreset": "markov",
     "crossReferences": [
-      "ZIAA-PAT-2026-066",
-      "LOG-2026-131"
+      "GPC-PAT-2005-005",
+      "LOG-2000-007"
     ],
     "tags": [
-      "Public",
-      "ZIAA-Archive",
-      "Public-Installation",
-      "Class-I ("
+      "GPC-Archive",
+      "Behavioral",
+      "FY-2000",
+      "Class-III"
     ]
   },
   {
     "id": "proto-067",
-    "code": "ZIAA-PR-067",
-    "name": "Civic Infrasonic Traffic-Wave Dissipator",
-    "domain": "Public Infrastructure",
-    "year": 2021,
-    "status": "Field Tested",
+    "code": "GPC-PR-067",
+    "name": "Loitering Deterrent Frequency Emitter",
+    "domain": "Behavioral Compliance",
+    "year": 2001,
+    "status": "Client Deployment",
     "clearance": "Level II (Internal)",
-    "lead": "Dr. Christine Abele",
-    "summary": "Experimental apparatus developed under ZIAA Directive ZIAA-PR-067. Investigates public infrastructure through high-precision physical prototyping, speculative boundary conditions, and real-time acoustic signal transduction.",
+    "lead": "Dr. Anouk Deslauriers",
+    "summary": "Program initiated under GPC Directive GPC-PR-067. Advances behavioral compliance for the Division C: Behavioral Research through anticipatory calibration, controlled procedural exposure, and real-time institutional signal conditioning. Built to client-grade tolerances in the Geneva Annex workshops and certified against Charter Standard ES-77.",
     "specifications": {
-      "Operational Bandwidth": "16.2 Hz — 52.4 kHz",
-      "Acoustic Impedance": "1918 Rayls (air/substate matched)",
-      "Signal-to-Noise Floor": "-108.0 dBV",
-      "Primary Transducer": "Beryllium Copper Bimorph Cantilever",
-      "Power / Drive Rail": "±36V Dual Linear Laboratory Rail",
-      "Containment Protocol": "Standard Laboratory B-12 Safety Shielding"
+      "Operational Bandwidth": "2.3 Hz — 17.8 kHz",
+      "Ambient Floor Target": "-78.0 dBV (room-tone referenced)",
+      "Signal-to-Noise Floor": "-72.0 dBV",
+      "Primary Transducer": "Electro-Voice RE20 Dynamic Element, Impedance Matched",
+      "Power / Drive Rail": "±12V Dual Linear Laboratory Rail",
+      "Continuity Protocol": "Standard Annex B-4 Safe Storage"
     },
     "schematicType": "transducer",
-    "audioEnginePreset": "raytracer",
+    "audioEnginePreset": "markov",
     "crossReferences": [
-      "ZIAA-PAT-2021-067",
-      "LOG-2021-133"
+      "GPC-PAT-2005-006",
+      "LOG-2001-012"
     ],
     "tags": [
-      "Public",
-      "ZIAA-Archive",
-      "Field-Tested",
+      "GPC-Archive",
+      "Behavioral",
+      "FY-2001",
       "Class-II"
     ]
   },
   {
     "id": "proto-068",
-    "code": "ZIAA-PR-068",
-    "name": "Venetian Lagoon Hydrophone Listening Pillar",
-    "domain": "Public Infrastructure",
-    "year": 2022,
-    "status": "Public Installation",
+    "code": "GPC-PR-068",
+    "name": "Compliance Gesture Observation Booth",
+    "domain": "Behavioral Compliance",
+    "year": 2002,
+    "status": "Field Verified",
     "clearance": "Level I (Public)",
-    "lead": "Renata Osei",
-    "summary": "Experimental apparatus developed under ZIAA Directive ZIAA-PR-068. Investigates public infrastructure through high-precision physical prototyping, speculative boundary conditions, and real-time acoustic signal transduction.",
+    "lead": "Petra Lindmark",
+    "summary": "Program initiated under GPC Directive GPC-PR-068. Advances behavioral compliance for the Division C: Behavioral Research through anticipatory calibration, controlled procedural exposure, and real-time institutional signal conditioning. Built to client-grade tolerances in the Geneva Annex workshops and certified against Charter Standard ES-77.",
     "specifications": {
-      "Operational Bandwidth": "17.9 Hz — 55.8 kHz",
-      "Acoustic Impedance": "1941 Rayls (air/substate matched)",
-      "Signal-to-Noise Floor": "-110.0 dBV",
-      "Primary Transducer": "Non-Linear Ferroelectric Metamaterial Film",
-      "Power / Drive Rail": "±48V Dual Linear Laboratory Rail",
-      "Containment Protocol": "Standard Laboratory B-12 Safety Shielding"
+      "Operational Bandwidth": "3.0 Hz — 19.1 kHz",
+      "Ambient Floor Target": "-79.0 dBV (room-tone referenced)",
+      "Signal-to-Noise Floor": "-75.0 dBV",
+      "Primary Transducer": "Neumann KK-105 Capsule on Custom Geneva Flange",
+      "Power / Drive Rail": "±24V Dual Linear Laboratory Rail",
+      "Continuity Protocol": "Standard Annex B-4 Safe Storage"
     },
-    "schematicType": "resonator",
-    "audioEnginePreset": "raytracer",
+    "schematicType": "interferometer",
+    "audioEnginePreset": "markov",
     "crossReferences": [
-      "ZIAA-PAT-2022-068",
-      "LOG-2022-135"
+      "GPC-PAT-2005-007",
+      "LOG-2002-017"
     ],
     "tags": [
-      "Public",
-      "ZIAA-Archive",
-      "Public-Installation",
-      "Class-I ("
+      "GPC-Archive",
+      "Behavioral",
+      "FY-2002",
+      "Class-I"
     ]
   },
   {
     "id": "proto-069",
-    "code": "ZIAA-PR-069",
-    "name": "Rotterdam Metro Reverberation Harvester",
-    "domain": "Public Infrastructure",
-    "year": 2023,
-    "status": "Field Tested",
-    "clearance": "Level II (Internal)",
-    "lead": "Joon-Ho Park",
-    "summary": "Experimental apparatus developed under ZIAA Directive ZIAA-PR-069. Investigates public infrastructure through high-precision physical prototyping, speculative boundary conditions, and real-time acoustic signal transduction.",
+    "code": "GPC-PR-069",
+    "name": "Turnstile Rhythm Conditioning Gate",
+    "domain": "Behavioral Compliance",
+    "year": 2003,
+    "status": "Active Program",
+    "clearance": "Level III (Restricted)",
+    "lead": "Tomas Ferrand",
+    "summary": "Program initiated under GPC Directive GPC-PR-069. Advances behavioral compliance for the Division C: Behavioral Research through anticipatory calibration, controlled procedural exposure, and real-time institutional signal conditioning. Built to client-grade tolerances in the Geneva Annex workshops and certified against Charter Standard ES-77.",
     "specifications": {
-      "Operational Bandwidth": "19.6 Hz — 59.2 kHz",
-      "Acoustic Impedance": "1964 Rayls (air/substate matched)",
-      "Signal-to-Noise Floor": "-112.0 dBV",
-      "Primary Transducer": "Ultra-Low Induction Cryogenic Coils",
+      "Operational Bandwidth": "3.7 Hz — 20.4 kHz",
+      "Ambient Floor Target": "-80.0 dBV (room-tone referenced)",
+      "Signal-to-Noise Floor": "-78.0 dBV",
+      "Primary Transducer": "Piezo-Ceramic Bimorph Cantilever, Beryllium Copper Shim",
       "Power / Drive Rail": "±12V Dual Linear Laboratory Rail",
-      "Containment Protocol": "Standard Laboratory B-12 Safety Shielding"
+      "Continuity Protocol": "Standard Annex B-4 Safe Storage"
     },
-    "schematicType": "interferometer",
-    "audioEnginePreset": "raytracer",
+    "schematicType": "circuit",
+    "audioEnginePreset": "markov",
     "crossReferences": [
-      "ZIAA-PAT-2023-069",
-      "LOG-2023-137"
+      "GPC-PAT-2005-008",
+      "LOG-2003-022"
     ],
     "tags": [
-      "Public",
-      "ZIAA-Archive",
-      "Field-Tested",
-      "Class-II"
+      "GPC-Archive",
+      "Behavioral",
+      "FY-2003",
+      "Class-III"
     ]
   },
   {
     "id": "proto-070",
-    "code": "ZIAA-PR-070",
-    "name": "Public Whispering Archway Concentrator",
-    "domain": "Public Infrastructure",
-    "year": 2024,
-    "status": "Public Installation",
-    "clearance": "Level I (Public)",
-    "lead": "Dr. Lyra Sterling",
-    "summary": "Experimental apparatus developed under ZIAA Directive ZIAA-PR-070. Investigates public infrastructure through high-precision physical prototyping, speculative boundary conditions, and real-time acoustic signal transduction.",
+    "code": "GPC-PR-070",
+    "name": "Escalator Dwell Time Pacifier",
+    "domain": "Behavioral Compliance",
+    "year": 2004,
+    "status": "Archived",
+    "clearance": "Level II (Internal)",
+    "lead": "Dr. Anouk Deslauriers",
+    "summary": "Program initiated under GPC Directive GPC-PR-070. Advances behavioral compliance for the Division C: Behavioral Research through anticipatory calibration, controlled procedural exposure, and real-time institutional signal conditioning. Built to client-grade tolerances in the Geneva Annex workshops and certified against Charter Standard ES-77.",
     "specifications": {
-      "Operational Bandwidth": "21.3 Hz — 62.6 kHz",
-      "Acoustic Impedance": "1987 Rayls (air/substate matched)",
-      "Signal-to-Noise Floor": "-114.0 dBV",
-      "Primary Transducer": "Beryllium Copper Bimorph Cantilever",
+      "Operational Bandwidth": "0.4 Hz — 21.7 kHz",
+      "Ambient Floor Target": "-81.0 dBV (room-tone referenced)",
+      "Signal-to-Noise Floor": "-81.0 dBV",
+      "Primary Transducer": "Tannoy Dual-Concentric Driver in Sealed Governance Baffle",
       "Power / Drive Rail": "±24V Dual Linear Laboratory Rail",
-      "Containment Protocol": "Standard Laboratory B-12 Safety Shielding"
-    },
-    "schematicType": "circuit",
-    "audioEnginePreset": "raytracer",
-    "crossReferences": [
-      "ZIAA-PAT-2024-070",
-      "LOG-2024-139"
-    ],
-    "tags": [
-      "Public",
-      "ZIAA-Archive",
-      "Public-Installation",
-      "Class-I ("
-    ]
-  },
-  {
-    "id": "proto-071",
-    "code": "ZIAA-PR-071",
-    "name": "Rain-Activated Kinetic Acoustic Pavilion",
-    "domain": "Public Infrastructure",
-    "year": 2025,
-    "status": "Public Installation",
-    "clearance": "Level I (Public)",
-    "lead": "Dr. Alexei Voronov",
-    "summary": "Experimental apparatus developed under ZIAA Directive ZIAA-PR-071. Investigates public infrastructure through high-precision physical prototyping, speculative boundary conditions, and real-time acoustic signal transduction.",
-    "specifications": {
-      "Operational Bandwidth": "23.0 Hz — 66.0 kHz",
-      "Acoustic Impedance": "2010 Rayls (air/substate matched)",
-      "Signal-to-Noise Floor": "-116.0 dBV",
-      "Primary Transducer": "Non-Linear Ferroelectric Metamaterial Film",
-      "Power / Drive Rail": "±36V Dual Linear Laboratory Rail",
-      "Containment Protocol": "Standard Laboratory B-12 Safety Shielding"
+      "Continuity Protocol": "Standard Annex B-4 Safe Storage"
     },
     "schematicType": "waveguide",
-    "audioEnginePreset": "raytracer",
+    "audioEnginePreset": "markov",
     "crossReferences": [
-      "ZIAA-PAT-2025-071",
-      "LOG-2025-141"
+      "GPC-PAT-2005-009",
+      "LOG-2004-027"
     ],
     "tags": [
-      "Public",
-      "ZIAA-Archive",
-      "Public-Installation",
-      "Class-I ("
-    ]
-  },
-  {
-    "id": "proto-072",
-    "code": "ZIAA-PR-072",
-    "name": "Wind-Turbine Harmonic Tonal Balancer",
-    "domain": "Public Infrastructure",
-    "year": 2026,
-    "status": "Field Tested",
-    "clearance": "Level II (Internal)",
-    "lead": "Beatrix Thorne",
-    "summary": "Experimental apparatus developed under ZIAA Directive ZIAA-PR-072. Investigates public infrastructure through high-precision physical prototyping, speculative boundary conditions, and real-time acoustic signal transduction.",
-    "specifications": {
-      "Operational Bandwidth": "0.7 Hz — 69.4 kHz",
-      "Acoustic Impedance": "2033 Rayls (air/substate matched)",
-      "Signal-to-Noise Floor": "-118.0 dBV",
-      "Primary Transducer": "Ultra-Low Induction Cryogenic Coils",
-      "Power / Drive Rail": "±48V Dual Linear Laboratory Rail",
-      "Containment Protocol": "Standard Laboratory B-12 Safety Shielding"
-    },
-    "schematicType": "matrix",
-    "audioEnginePreset": "raytracer",
-    "crossReferences": [
-      "ZIAA-PAT-2026-072",
-      "LOG-2026-143"
-    ],
-    "tags": [
-      "Public",
-      "ZIAA-Archive",
-      "Field-Tested",
+      "GPC-Archive",
+      "Behavioral",
+      "FY-2004",
       "Class-II"
     ]
   },
   {
-    "id": "proto-073",
-    "code": "ZIAA-PR-073",
-    "name": "Subway Tunnel Helmholtz Noise Suppressor",
-    "domain": "Public Infrastructure",
-    "year": 2021,
-    "status": "Archived",
-    "clearance": "Level II (Internal)",
-    "lead": "Dr. Elena Rostova",
-    "summary": "Experimental apparatus developed under ZIAA Directive ZIAA-PR-073. Investigates public infrastructure through high-precision physical prototyping, speculative boundary conditions, and real-time acoustic signal transduction.",
+    "id": "proto-071",
+    "code": "GPC-PR-071",
+    "name": "Waiting Room Anxiety Modulation Suite",
+    "domain": "Behavioral Compliance",
+    "year": 2005,
+    "status": "Client Deployment",
+    "clearance": "Level III (Restricted)",
+    "lead": "Petra Lindmark",
+    "summary": "Program initiated under GPC Directive GPC-PR-071. Advances behavioral compliance for the Division C: Behavioral Research through anticipatory calibration, controlled procedural exposure, and real-time institutional signal conditioning. Built to client-grade tolerances in the Geneva Annex workshops and certified against Charter Standard ES-77.",
     "specifications": {
-      "Operational Bandwidth": "2.4 Hz — 72.8 kHz",
-      "Acoustic Impedance": "2056 Rayls (air/substate matched)",
-      "Signal-to-Noise Floor": "-72.0 dBV",
-      "Primary Transducer": "Beryllium Copper Bimorph Cantilever",
+      "Operational Bandwidth": "1.1 Hz — 17.0 kHz",
+      "Ambient Floor Target": "-82.0 dBV (room-tone referenced)",
+      "Signal-to-Noise Floor": "-70.0 dBV",
+      "Primary Transducer": "Bone-Contact Exciter Panel, Lacquered Birch Substrate",
       "Power / Drive Rail": "±12V Dual Linear Laboratory Rail",
-      "Containment Protocol": "Standard Laboratory B-12 Safety Shielding"
+      "Continuity Protocol": "Standard Annex B-4 Safe Storage"
     },
-    "schematicType": "transducer",
-    "audioEnginePreset": "raytracer",
+    "schematicType": "waveguide",
+    "audioEnginePreset": "markov",
     "crossReferences": [
-      "ZIAA-PAT-2021-073",
-      "LOG-2021-145"
+      "GPC-PAT-2006-001",
+      "LOG-2005-003"
     ],
     "tags": [
-      "Public",
-      "ZIAA-Archive",
-      "Archived",
+      "GPC-Archive",
+      "Behavioral",
+      "FY-2005",
+      "Class-III"
+    ]
+  },
+  {
+    "id": "proto-072",
+    "code": "GPC-PR-072",
+    "name": "Focus Group One-Way Acoustic Mirror",
+    "domain": "Behavioral Compliance",
+    "year": 2006,
+    "status": "Field Verified",
+    "clearance": "Level I (Public)",
+    "lead": "Tomas Ferrand",
+    "summary": "Program initiated under GPC Directive GPC-PR-072. Advances behavioral compliance for the Division C: Behavioral Research through anticipatory calibration, controlled procedural exposure, and real-time institutional signal conditioning. Built to client-grade tolerances in the Geneva Annex workshops and certified against Charter Standard ES-77.",
+    "specifications": {
+      "Operational Bandwidth": "1.8 Hz — 18.3 kHz",
+      "Ambient Floor Target": "-83.0 dBV (room-tone referenced)",
+      "Signal-to-Noise Floor": "-73.0 dBV",
+      "Primary Transducer": "Sennheiser MD 421 Element in Transit Housing",
+      "Power / Drive Rail": "±24V Dual Linear Laboratory Rail",
+      "Continuity Protocol": "Standard Annex B-4 Safe Storage"
+    },
+    "schematicType": "resonator",
+    "audioEnginePreset": "markov",
+    "crossReferences": [
+      "GPC-PAT-2006-002",
+      "LOG-2006-008"
+    ],
+    "tags": [
+      "GPC-Archive",
+      "Behavioral",
+      "FY-2006",
+      "Class-I"
+    ]
+  },
+  {
+    "id": "proto-073",
+    "code": "GPC-PR-073",
+    "name": "Obedience Interval Timer OBED-77",
+    "domain": "Behavioral Compliance",
+    "year": 1998,
+    "status": "Active Program",
+    "clearance": "Level II (Internal)",
+    "lead": "Dr. Anouk Deslauriers",
+    "summary": "Program initiated under GPC Directive GPC-PR-073. Advances behavioral compliance for the Division C: Behavioral Research through anticipatory calibration, controlled procedural exposure, and real-time institutional signal conditioning. Built to client-grade tolerances in the Geneva Annex workshops and certified against Charter Standard ES-77.",
+    "specifications": {
+      "Operational Bandwidth": "2.5 Hz — 19.6 kHz",
+      "Ambient Floor Target": "-72.0 dBV (room-tone referenced)",
+      "Signal-to-Noise Floor": "-76.0 dBV",
+      "Primary Transducer": "Electro-Voice RE20 Dynamic Element, Impedance Matched",
+      "Power / Drive Rail": "±12V Dual Linear Laboratory Rail",
+      "Continuity Protocol": "Standard Annex B-4 Safe Storage"
+    },
+    "schematicType": "circuit",
+    "audioEnginePreset": "markov",
+    "crossReferences": [
+      "GPC-PAT-2006-003",
+      "LOG-1998-013"
+    ],
+    "tags": [
+      "GPC-Archive",
+      "Behavioral",
+      "FY-1998",
       "Class-II"
     ]
   },
   {
     "id": "proto-074",
-    "code": "ZIAA-PR-074",
-    "name": "Mass MoCA Long-Decay Silo Resonator",
-    "domain": "Public Infrastructure",
-    "year": 2022,
-    "status": "Public Installation",
-    "clearance": "Level I (Public)",
-    "lead": "Dr. Kieran Vance",
-    "summary": "Experimental apparatus developed under ZIAA Directive ZIAA-PR-074. Investigates public infrastructure through high-precision physical prototyping, speculative boundary conditions, and real-time acoustic signal transduction.",
+    "code": "GPC-PR-074",
+    "name": "Purchase Intent Priming Diffuser",
+    "domain": "Behavioral Compliance",
+    "year": 1999,
+    "status": "Archived",
+    "clearance": "Level III (Restricted)",
+    "lead": "Petra Lindmark",
+    "summary": "Program initiated under GPC Directive GPC-PR-074. Advances behavioral compliance for the Division C: Behavioral Research through anticipatory calibration, controlled procedural exposure, and real-time institutional signal conditioning. Built to client-grade tolerances in the Geneva Annex workshops and certified against Charter Standard ES-77.",
     "specifications": {
-      "Operational Bandwidth": "4.1 Hz — 76.2 kHz",
-      "Acoustic Impedance": "2079 Rayls (air/substate matched)",
-      "Signal-to-Noise Floor": "-74.0 dBV",
-      "Primary Transducer": "Non-Linear Ferroelectric Metamaterial Film",
+      "Operational Bandwidth": "3.2 Hz — 20.9 kHz",
+      "Ambient Floor Target": "-73.0 dBV (room-tone referenced)",
+      "Signal-to-Noise Floor": "-79.0 dBV",
+      "Primary Transducer": "Neumann KK-105 Capsule on Custom Geneva Flange",
       "Power / Drive Rail": "±24V Dual Linear Laboratory Rail",
-      "Containment Protocol": "Standard Laboratory B-12 Safety Shielding"
+      "Continuity Protocol": "Standard Annex B-4 Safe Storage"
     },
-    "schematicType": "resonator",
-    "audioEnginePreset": "raytracer",
+    "schematicType": "transducer",
+    "audioEnginePreset": "markov",
     "crossReferences": [
-      "ZIAA-PAT-2022-074",
-      "LOG-2022-147"
+      "GPC-PAT-2006-004",
+      "LOG-1999-018"
     ],
     "tags": [
-      "Public",
-      "ZIAA-Archive",
-      "Public-Installation",
-      "Class-I ("
+      "GPC-Archive",
+      "Behavioral",
+      "FY-1999",
+      "Class-III"
     ]
   },
   {
     "id": "proto-075",
-    "code": "ZIAA-PR-075",
-    "name": "Atmospheric Acoustic Windharp Monolith",
-    "domain": "Public Infrastructure",
-    "year": 2023,
-    "status": "Public Installation",
-    "clearance": "Level I (Public)",
-    "lead": "Maya Lindqvist",
-    "summary": "Experimental apparatus developed under ZIAA Directive ZIAA-PR-075. Investigates public infrastructure through high-precision physical prototyping, speculative boundary conditions, and real-time acoustic signal transduction.",
+    "code": "GPC-PR-075",
+    "name": "Seat Belt Reminder Chime Sequencer",
+    "domain": "Behavioral Compliance",
+    "year": 2000,
+    "status": "Client Deployment",
+    "clearance": "Level II (Internal)",
+    "lead": "Tomas Ferrand",
+    "summary": "Program initiated under GPC Directive GPC-PR-075. Advances behavioral compliance for the Division C: Behavioral Research through anticipatory calibration, controlled procedural exposure, and real-time institutional signal conditioning. Built to client-grade tolerances in the Geneva Annex workshops and certified against Charter Standard ES-77.",
     "specifications": {
-      "Operational Bandwidth": "5.8 Hz — 79.6 kHz",
-      "Acoustic Impedance": "2102 Rayls (air/substate matched)",
-      "Signal-to-Noise Floor": "-76.0 dBV",
-      "Primary Transducer": "Ultra-Low Induction Cryogenic Coils",
-      "Power / Drive Rail": "±36V Dual Linear Laboratory Rail",
-      "Containment Protocol": "Standard Laboratory B-12 Safety Shielding"
+      "Operational Bandwidth": "3.9 Hz — 16.2 kHz",
+      "Ambient Floor Target": "-74.0 dBV (room-tone referenced)",
+      "Signal-to-Noise Floor": "-82.0 dBV",
+      "Primary Transducer": "Piezo-Ceramic Bimorph Cantilever, Beryllium Copper Shim",
+      "Power / Drive Rail": "±12V Dual Linear Laboratory Rail",
+      "Continuity Protocol": "Standard Annex B-4 Safe Storage"
     },
-    "schematicType": "interferometer",
-    "audioEnginePreset": "raytracer",
+    "schematicType": "circuit",
+    "audioEnginePreset": "markov",
     "crossReferences": [
-      "ZIAA-PAT-2023-075",
-      "LOG-2023-149"
+      "GPC-PAT-2006-005",
+      "LOG-2000-023"
     ],
     "tags": [
-      "Public",
-      "ZIAA-Archive",
-      "Public-Installation",
-      "Class-I ("
+      "GPC-Archive",
+      "Behavioral",
+      "FY-2000",
+      "Class-II"
     ]
   },
   {
     "id": "proto-076",
-    "code": "ZIAA-PR-076",
-    "name": "Highway Parapet Sonic Refraction Wall",
-    "domain": "Public Infrastructure",
-    "year": 2024,
-    "status": "Field Tested",
+    "code": "GPC-PR-076",
+    "name": "Anti-Panic Announcement Compressor",
+    "domain": "Behavioral Compliance",
+    "year": 2001,
+    "status": "Field Verified",
     "clearance": "Level I (Public)",
-    "lead": "Dr. Tariq Al-Mansoor",
-    "summary": "Experimental apparatus developed under ZIAA Directive ZIAA-PR-076. Investigates public infrastructure through high-precision physical prototyping, speculative boundary conditions, and real-time acoustic signal transduction.",
+    "lead": "Dr. Anouk Deslauriers",
+    "summary": "Program initiated under GPC Directive GPC-PR-076. Advances behavioral compliance for the Division C: Behavioral Research through anticipatory calibration, controlled procedural exposure, and real-time institutional signal conditioning. Built to client-grade tolerances in the Geneva Annex workshops and certified against Charter Standard ES-77.",
     "specifications": {
-      "Operational Bandwidth": "7.5 Hz — 83.0 kHz",
-      "Acoustic Impedance": "2125 Rayls (air/substate matched)",
-      "Signal-to-Noise Floor": "-78.0 dBV",
-      "Primary Transducer": "Beryllium Copper Bimorph Cantilever",
-      "Power / Drive Rail": "±48V Dual Linear Laboratory Rail",
-      "Containment Protocol": "Standard Laboratory B-12 Safety Shielding"
+      "Operational Bandwidth": "0.6 Hz — 17.5 kHz",
+      "Ambient Floor Target": "-75.0 dBV (room-tone referenced)",
+      "Signal-to-Noise Floor": "-71.0 dBV",
+      "Primary Transducer": "Tannoy Dual-Concentric Driver in Sealed Governance Baffle",
+      "Power / Drive Rail": "±24V Dual Linear Laboratory Rail",
+      "Continuity Protocol": "Standard Annex B-4 Safe Storage"
     },
     "schematicType": "circuit",
-    "audioEnginePreset": "raytracer",
+    "audioEnginePreset": "markov",
     "crossReferences": [
-      "ZIAA-PAT-2024-076",
-      "LOG-2024-151"
+      "GPC-PAT-2006-006",
+      "LOG-2001-028"
     ],
     "tags": [
-      "Public",
-      "ZIAA-Archive",
-      "Field-Tested",
-      "Class-I ("
+      "GPC-Archive",
+      "Behavioral",
+      "FY-2001",
+      "Class-I"
     ]
   },
   {
     "id": "proto-077",
-    "code": "ZIAA-PR-077",
-    "name": "Industrial Harbor Foghorn Tuning Array",
-    "domain": "Public Infrastructure",
-    "year": 2025,
-    "status": "Archived",
-    "clearance": "Level II (Internal)",
-    "lead": "Svenja Dahl",
-    "summary": "Experimental apparatus developed under ZIAA Directive ZIAA-PR-077. Investigates public infrastructure through high-precision physical prototyping, speculative boundary conditions, and real-time acoustic signal transduction.",
+    "code": "GPC-PR-077",
+    "name": "Stairwell Pace Governor",
+    "domain": "Behavioral Compliance",
+    "year": 2002,
+    "status": "Active Program",
+    "clearance": "Level IV (Continuity Vault)",
+    "lead": "Petra Lindmark",
+    "summary": "Program initiated under GPC Directive GPC-PR-077. Advances behavioral compliance for the Division C: Behavioral Research through anticipatory calibration, controlled procedural exposure, and real-time institutional signal conditioning. Built to client-grade tolerances in the Geneva Annex workshops and certified against Charter Standard ES-77.",
     "specifications": {
-      "Operational Bandwidth": "9.2 Hz — 86.4 kHz",
-      "Acoustic Impedance": "2148 Rayls (air/substate matched)",
-      "Signal-to-Noise Floor": "-80.0 dBV",
-      "Primary Transducer": "Non-Linear Ferroelectric Metamaterial Film",
+      "Operational Bandwidth": "1.3 Hz — 18.8 kHz",
+      "Ambient Floor Target": "-76.0 dBV (room-tone referenced)",
+      "Signal-to-Noise Floor": "-74.0 dBV",
+      "Primary Transducer": "Bone-Contact Exciter Panel, Lacquered Birch Substrate",
       "Power / Drive Rail": "±12V Dual Linear Laboratory Rail",
-      "Containment Protocol": "Standard Laboratory B-12 Safety Shielding"
+      "Continuity Protocol": "Vault Seal Procedure D-99 (irrevocable)"
     },
-    "schematicType": "waveguide",
-    "audioEnginePreset": "raytracer",
+    "schematicType": "resonator",
+    "audioEnginePreset": "markov",
     "crossReferences": [
-      "ZIAA-PAT-2025-077",
-      "LOG-2025-153"
+      "GPC-PAT-2006-007",
+      "LOG-2002-004"
     ],
     "tags": [
-      "Public",
-      "ZIAA-Archive",
-      "Archived",
-      "Class-II"
+      "GPC-Archive",
+      "Behavioral",
+      "FY-2002",
+      "Class-IV"
     ]
   },
   {
     "id": "proto-078",
-    "code": "ZIAA-PR-078",
-    "name": "Civic Micro-Acoustic Flora Tree Pod",
-    "domain": "Public Infrastructure",
-    "year": 2026,
-    "status": "Field Tested",
-    "clearance": "Level I (Public)",
-    "lead": "Marcus Holloway",
-    "summary": "Experimental apparatus developed under ZIAA Directive ZIAA-PR-078. Investigates public infrastructure through high-precision physical prototyping, speculative boundary conditions, and real-time acoustic signal transduction.",
-    "specifications": {
-      "Operational Bandwidth": "10.9 Hz — 89.8 kHz",
-      "Acoustic Impedance": "2171 Rayls (air/substate matched)",
-      "Signal-to-Noise Floor": "-82.0 dBV",
-      "Primary Transducer": "Ultra-Low Induction Cryogenic Coils",
-      "Power / Drive Rail": "±24V Dual Linear Laboratory Rail",
-      "Containment Protocol": "Standard Laboratory B-12 Safety Shielding"
-    },
-    "schematicType": "matrix",
-    "audioEnginePreset": "raytracer",
-    "crossReferences": [
-      "ZIAA-PAT-2026-078",
-      "LOG-2026-155"
-    ],
-    "tags": [
-      "Public",
-      "ZIAA-Archive",
-      "Field-Tested",
-      "Class-I ("
-    ]
-  },
-  {
-    "id": "proto-079",
-    "code": "ZIAA-PR-079",
-    "name": "Nighttime Infrasound Mitigation Bollard",
-    "domain": "Public Infrastructure",
-    "year": 2021,
-    "status": "Active Lab Stage",
+    "code": "GPC-PR-078",
+    "name": "Hand-Washing Duration Jingle Engine",
+    "domain": "Behavioral Compliance",
+    "year": 2003,
+    "status": "Archived",
     "clearance": "Level II (Internal)",
-    "lead": "Dr. Christine Abele",
-    "summary": "Experimental apparatus developed under ZIAA Directive ZIAA-PR-079. Investigates public infrastructure through high-precision physical prototyping, speculative boundary conditions, and real-time acoustic signal transduction.",
+    "lead": "Tomas Ferrand",
+    "summary": "Program initiated under GPC Directive GPC-PR-078. Advances behavioral compliance for the Division C: Behavioral Research through anticipatory calibration, controlled procedural exposure, and real-time institutional signal conditioning. Built to client-grade tolerances in the Geneva Annex workshops and certified against Charter Standard ES-77.",
     "specifications": {
-      "Operational Bandwidth": "12.6 Hz — 93.2 kHz",
-      "Acoustic Impedance": "2194 Rayls (air/substate matched)",
-      "Signal-to-Noise Floor": "-84.0 dBV",
-      "Primary Transducer": "Beryllium Copper Bimorph Cantilever",
-      "Power / Drive Rail": "±36V Dual Linear Laboratory Rail",
-      "Containment Protocol": "Standard Laboratory B-12 Safety Shielding"
+      "Operational Bandwidth": "2.0 Hz — 20.1 kHz",
+      "Ambient Floor Target": "-77.0 dBV (room-tone referenced)",
+      "Signal-to-Noise Floor": "-77.0 dBV",
+      "Primary Transducer": "Sennheiser MD 421 Element in Transit Housing",
+      "Power / Drive Rail": "±24V Dual Linear Laboratory Rail",
+      "Continuity Protocol": "Standard Annex B-4 Safe Storage"
     },
-    "schematicType": "transducer",
-    "audioEnginePreset": "raytracer",
+    "schematicType": "circuit",
+    "audioEnginePreset": "markov",
     "crossReferences": [
-      "ZIAA-PAT-2021-001",
-      "LOG-2021-157"
+      "GPC-PAT-2006-008",
+      "LOG-2003-009"
     ],
     "tags": [
-      "Public",
-      "ZIAA-Archive",
-      "Active-Lab Stage",
+      "GPC-Archive",
+      "Behavioral",
+      "FY-2003",
       "Class-II"
     ]
   },
   {
-    "id": "proto-080",
-    "code": "ZIAA-PR-080",
-    "name": "Autonomous Solar-Powered Sea Siren Beacon",
-    "domain": "Public Infrastructure",
-    "year": 2022,
-    "status": "Field Tested",
-    "clearance": "Level I (Public)",
-    "lead": "Renata Osei",
-    "summary": "Experimental apparatus developed under ZIAA Directive ZIAA-PR-080. Investigates public infrastructure through high-precision physical prototyping, speculative boundary conditions, and real-time acoustic signal transduction.",
+    "id": "proto-079",
+    "code": "GPC-PR-079",
+    "name": "Queue Fairness Arbitration Speaker",
+    "domain": "Behavioral Compliance",
+    "year": 2004,
+    "status": "Client Deployment",
+    "clearance": "Level III (Restricted)",
+    "lead": "Dr. Anouk Deslauriers",
+    "summary": "Program initiated under GPC Directive GPC-PR-079. Advances behavioral compliance for the Division C: Behavioral Research through anticipatory calibration, controlled procedural exposure, and real-time institutional signal conditioning. Built to client-grade tolerances in the Geneva Annex workshops and certified against Charter Standard ES-77.",
     "specifications": {
-      "Operational Bandwidth": "14.3 Hz — 96.6 kHz",
-      "Acoustic Impedance": "417 Rayls (air/substate matched)",
-      "Signal-to-Noise Floor": "-86.0 dBV",
-      "Primary Transducer": "Non-Linear Ferroelectric Metamaterial Film",
-      "Power / Drive Rail": "±48V Dual Linear Laboratory Rail",
-      "Containment Protocol": "Standard Laboratory B-12 Safety Shielding"
+      "Operational Bandwidth": "2.7 Hz — 21.4 kHz",
+      "Ambient Floor Target": "-78.0 dBV (room-tone referenced)",
+      "Signal-to-Noise Floor": "-80.0 dBV",
+      "Primary Transducer": "Electro-Voice RE20 Dynamic Element, Impedance Matched",
+      "Power / Drive Rail": "±12V Dual Linear Laboratory Rail",
+      "Continuity Protocol": "Standard Annex B-4 Safe Storage"
     },
-    "schematicType": "resonator",
-    "audioEnginePreset": "raytracer",
+    "schematicType": "transducer",
+    "audioEnginePreset": "markov",
     "crossReferences": [
-      "ZIAA-PAT-2022-002",
-      "LOG-2022-159"
+      "GPC-PAT-1998-001",
+      "LOG-2004-014"
     ],
     "tags": [
-      "Public",
-      "ZIAA-Archive",
-      "Field-Tested",
-      "Class-I ("
+      "GPC-Archive",
+      "Behavioral",
+      "FY-2004",
+      "Class-III"
+    ]
+  },
+  {
+    "id": "proto-080",
+    "code": "GPC-PR-080",
+    "name": "Defection Symptom Voice Logger",
+    "domain": "Behavioral Compliance",
+    "year": 2005,
+    "status": "Field Verified",
+    "clearance": "Level II (Internal)",
+    "lead": "Petra Lindmark",
+    "summary": "Program initiated under GPC Directive GPC-PR-080. Advances behavioral compliance for the Division C: Behavioral Research through anticipatory calibration, controlled procedural exposure, and real-time institutional signal conditioning. Built to client-grade tolerances in the Geneva Annex workshops and certified against Charter Standard ES-77.",
+    "specifications": {
+      "Operational Bandwidth": "3.4 Hz — 16.7 kHz",
+      "Ambient Floor Target": "-79.0 dBV (room-tone referenced)",
+      "Signal-to-Noise Floor": "-83.0 dBV",
+      "Primary Transducer": "Neumann KK-105 Capsule on Custom Geneva Flange",
+      "Power / Drive Rail": "±24V Dual Linear Laboratory Rail",
+      "Continuity Protocol": "Standard Annex B-4 Safe Storage"
+    },
+    "schematicType": "interferometer",
+    "audioEnginePreset": "markov",
+    "crossReferences": [
+      "GPC-PAT-1998-002",
+      "LOG-2005-019"
+    ],
+    "tags": [
+      "GPC-Archive",
+      "Behavioral",
+      "FY-2005",
+      "Class-II"
     ]
   },
   {
     "id": "proto-081",
-    "code": "ZIAA-PR-081",
-    "name": "Mycelial Network Hyphae Action-Potential Pickup",
-    "domain": "Bio-Magnetic Transduction",
-    "year": 2023,
-    "status": "Active Lab Stage",
+    "code": "GPC-PR-081",
+    "name": "Compliance Interval Keyboard",
+    "domain": "Opinion Topology",
+    "year": 2006,
+    "status": "Field Verified",
     "clearance": "Level II (Internal)",
-    "lead": "Joon-Ho Park",
-    "summary": "Experimental apparatus developed under ZIAA Directive ZIAA-PR-081. Investigates bio-magnetic transduction through high-precision physical prototyping, speculative boundary conditions, and real-time acoustic signal transduction.",
+    "lead": "Dr. Viktor Hale",
+    "summary": "Program initiated under GPC Directive GPC-PR-081. Advances opinion topology for the Division C: Behavioral Research through anticipatory calibration, controlled procedural exposure, and real-time institutional signal conditioning. Built to client-grade tolerances in the Geneva Annex workshops and certified against Charter Standard ES-77.",
     "specifications": {
-      "Operational Bandwidth": "16.0 Hz — 100.0 kHz",
-      "Acoustic Impedance": "440 Rayls (air/substate matched)",
-      "Signal-to-Noise Floor": "-88.0 dBV",
-      "Primary Transducer": "Ultra-Low Induction Cryogenic Coils",
+      "Operational Bandwidth": "0.1 Hz — 18.0 kHz",
+      "Ambient Floor Target": "-80.0 dBV (room-tone referenced)",
+      "Signal-to-Noise Floor": "-72.0 dBV",
+      "Primary Transducer": "Piezo-Ceramic Bimorph Cantilever, Beryllium Copper Shim",
       "Power / Drive Rail": "±12V Dual Linear Laboratory Rail",
-      "Containment Protocol": "Standard Laboratory B-12 Safety Shielding"
+      "Continuity Protocol": "Standard Annex B-4 Safe Storage"
     },
-    "schematicType": "interferometer",
+    "schematicType": "circuit",
     "audioEnginePreset": "microtonal",
     "crossReferences": [
-      "ZIAA-PAT-2023-003",
-      "LOG-2023-161"
+      "GPC-PAT-1998-003",
+      "LOG-2006-024"
     ],
     "tags": [
-      "Bio-Magnetic",
-      "ZIAA-Archive",
-      "Active-Lab Stage",
+      "GPC-Archive",
+      "Opinion",
+      "FY-2006",
       "Class-II"
     ]
   },
   {
     "id": "proto-082",
-    "code": "ZIAA-PR-082",
-    "name": "Ferrofluid Dynamic Membrane Transducer",
-    "domain": "Bio-Magnetic Transduction",
-    "year": 2024,
-    "status": "Active Lab Stage",
+    "code": "GPC-PR-082",
+    "name": "Sentiment Manifold Plotter",
+    "domain": "Opinion Topology",
+    "year": 1998,
+    "status": "Active Program",
     "clearance": "Level III (Restricted)",
-    "lead": "Dr. Lyra Sterling",
-    "summary": "Experimental apparatus developed under ZIAA Directive ZIAA-PR-082. Investigates bio-magnetic transduction through high-precision physical prototyping, speculative boundary conditions, and real-time acoustic signal transduction.",
+    "lead": "Petra Lindmark",
+    "summary": "Program initiated under GPC Directive GPC-PR-082. Advances opinion topology for the Division C: Behavioral Research through anticipatory calibration, controlled procedural exposure, and real-time institutional signal conditioning. Built to client-grade tolerances in the Geneva Annex workshops and certified against Charter Standard ES-77.",
     "specifications": {
-      "Operational Bandwidth": "17.7 Hz — 103.4 kHz",
-      "Acoustic Impedance": "463 Rayls (air/substate matched)",
-      "Signal-to-Noise Floor": "-90.0 dBV",
-      "Primary Transducer": "Beryllium Copper Bimorph Cantilever",
+      "Operational Bandwidth": "0.8 Hz — 19.3 kHz",
+      "Ambient Floor Target": "-81.0 dBV (room-tone referenced)",
+      "Signal-to-Noise Floor": "-75.0 dBV",
+      "Primary Transducer": "Tannoy Dual-Concentric Driver in Sealed Governance Baffle",
       "Power / Drive Rail": "±24V Dual Linear Laboratory Rail",
-      "Containment Protocol": "Standard Laboratory B-12 Safety Shielding"
+      "Continuity Protocol": "Standard Annex B-4 Safe Storage"
     },
-    "schematicType": "circuit",
+    "schematicType": "matrix",
     "audioEnginePreset": "microtonal",
     "crossReferences": [
-      "ZIAA-PAT-2024-004",
-      "LOG-2024-163"
+      "GPC-PAT-1998-004",
+      "LOG-1998-029"
     ],
     "tags": [
-      "Bio-Magnetic",
-      "ZIAA-Archive",
-      "Active-Lab Stage",
+      "GPC-Archive",
+      "Opinion",
+      "FY-1998",
       "Class-III"
     ]
   },
   {
     "id": "proto-083",
-    "code": "ZIAA-PR-083",
-    "name": "Plant Vascular Xylem Micro-Cavitation Sensor",
-    "domain": "Bio-Magnetic Transduction",
-    "year": 2025,
-    "status": "Field Tested",
-    "clearance": "Level I (Public)",
-    "lead": "Dr. Alexei Voronov",
-    "summary": "Experimental apparatus developed under ZIAA Directive ZIAA-PR-083. Investigates bio-magnetic transduction through high-precision physical prototyping, speculative boundary conditions, and real-time acoustic signal transduction.",
+    "code": "GPC-PR-083",
+    "name": "Rumor Propagation Wind Tunnel",
+    "domain": "Opinion Topology",
+    "year": 1999,
+    "status": "Archived",
+    "clearance": "Level II (Internal)",
+    "lead": "Dr. Anouk Deslauriers",
+    "summary": "Program initiated under GPC Directive GPC-PR-083. Advances opinion topology for the Division C: Behavioral Research through anticipatory calibration, controlled procedural exposure, and real-time institutional signal conditioning. Built to client-grade tolerances in the Geneva Annex workshops and certified against Charter Standard ES-77.",
     "specifications": {
-      "Operational Bandwidth": "19.4 Hz — 106.8 kHz",
-      "Acoustic Impedance": "486 Rayls (air/substate matched)",
-      "Signal-to-Noise Floor": "-92.0 dBV",
-      "Primary Transducer": "Non-Linear Ferroelectric Metamaterial Film",
-      "Power / Drive Rail": "±36V Dual Linear Laboratory Rail",
-      "Containment Protocol": "Standard Laboratory B-12 Safety Shielding"
+      "Operational Bandwidth": "1.5 Hz — 20.6 kHz",
+      "Ambient Floor Target": "-82.0 dBV (room-tone referenced)",
+      "Signal-to-Noise Floor": "-78.0 dBV",
+      "Primary Transducer": "Bone-Contact Exciter Panel, Lacquered Birch Substrate",
+      "Power / Drive Rail": "±12V Dual Linear Laboratory Rail",
+      "Continuity Protocol": "Standard Annex B-4 Safe Storage"
     },
     "schematicType": "waveguide",
     "audioEnginePreset": "microtonal",
     "crossReferences": [
-      "ZIAA-PAT-2025-005",
-      "LOG-2025-165"
+      "GPC-PAT-1998-005",
+      "LOG-1999-005"
     ],
     "tags": [
-      "Bio-Magnetic",
-      "ZIAA-Archive",
-      "Field-Tested",
-      "Class-I ("
-    ]
-  },
-  {
-    "id": "proto-084",
-    "code": "ZIAA-PR-084",
-    "name": "Geomagnetic Micropulsation Induction Coil",
-    "domain": "Bio-Magnetic Transduction",
-    "year": 2026,
-    "status": "Field Tested",
-    "clearance": "Level II (Internal)",
-    "lead": "Beatrix Thorne",
-    "summary": "Experimental apparatus developed under ZIAA Directive ZIAA-PR-084. Investigates bio-magnetic transduction through high-precision physical prototyping, speculative boundary conditions, and real-time acoustic signal transduction.",
-    "specifications": {
-      "Operational Bandwidth": "21.1 Hz — 110.2 kHz",
-      "Acoustic Impedance": "509 Rayls (air/substate matched)",
-      "Signal-to-Noise Floor": "-94.0 dBV",
-      "Primary Transducer": "Ultra-Low Induction Cryogenic Coils",
-      "Power / Drive Rail": "±48V Dual Linear Laboratory Rail",
-      "Containment Protocol": "Standard Laboratory B-12 Safety Shielding"
-    },
-    "schematicType": "matrix",
-    "audioEnginePreset": "microtonal",
-    "crossReferences": [
-      "ZIAA-PAT-2026-006",
-      "LOG-2026-167"
-    ],
-    "tags": [
-      "Bio-Magnetic",
-      "ZIAA-Archive",
-      "Field-Tested",
+      "GPC-Archive",
+      "Opinion",
+      "FY-1999",
       "Class-II"
     ]
   },
   {
-    "id": "proto-085",
-    "code": "ZIAA-PR-085",
-    "name": "Human Cortical Alpha-Wave Acoustic Shifter",
-    "domain": "Bio-Magnetic Transduction",
-    "year": 2021,
-    "status": "Active Lab Stage",
-    "clearance": "Level III (Restricted)",
-    "lead": "Dr. Elena Rostova",
-    "summary": "Experimental apparatus developed under ZIAA Directive ZIAA-PR-085. Investigates bio-magnetic transduction through high-precision physical prototyping, speculative boundary conditions, and real-time acoustic signal transduction.",
+    "id": "proto-084",
+    "code": "GPC-PR-084",
+    "name": "Talking Point Attractor Basin Map",
+    "domain": "Opinion Topology",
+    "year": 2000,
+    "status": "Client Deployment",
+    "clearance": "Level I (Public)",
+    "lead": "Dr. Viktor Hale",
+    "summary": "Program initiated under GPC Directive GPC-PR-084. Advances opinion topology for the Division C: Behavioral Research through anticipatory calibration, controlled procedural exposure, and real-time institutional signal conditioning. Built to client-grade tolerances in the Geneva Annex workshops and certified against Charter Standard ES-77.",
     "specifications": {
-      "Operational Bandwidth": "22.8 Hz — 113.6 kHz",
-      "Acoustic Impedance": "532 Rayls (air/substate matched)",
-      "Signal-to-Noise Floor": "-96.0 dBV",
-      "Primary Transducer": "Beryllium Copper Bimorph Cantilever",
-      "Power / Drive Rail": "±12V Dual Linear Laboratory Rail",
-      "Containment Protocol": "Standard Laboratory B-12 Safety Shielding"
+      "Operational Bandwidth": "2.2 Hz — 21.9 kHz",
+      "Ambient Floor Target": "-83.0 dBV (room-tone referenced)",
+      "Signal-to-Noise Floor": "-81.0 dBV",
+      "Primary Transducer": "Sennheiser MD 421 Element in Transit Housing",
+      "Power / Drive Rail": "±24V Dual Linear Laboratory Rail",
+      "Continuity Protocol": "Standard Annex B-4 Safe Storage"
     },
-    "schematicType": "transducer",
+    "schematicType": "matrix",
     "audioEnginePreset": "microtonal",
     "crossReferences": [
-      "ZIAA-PAT-2021-007",
-      "LOG-2021-169"
+      "GPC-PAT-1998-006",
+      "LOG-2000-010"
     ],
     "tags": [
-      "Bio-Magnetic",
-      "ZIAA-Archive",
-      "Active-Lab Stage",
+      "GPC-Archive",
+      "Opinion",
+      "FY-2000",
+      "Class-I"
+    ]
+  },
+  {
+    "id": "proto-085",
+    "code": "GPC-PR-085",
+    "name": "Focus Group Harmony Resolver",
+    "domain": "Opinion Topology",
+    "year": 2001,
+    "status": "Field Verified",
+    "clearance": "Level III (Restricted)",
+    "lead": "Petra Lindmark",
+    "summary": "Program initiated under GPC Directive GPC-PR-085. Advances opinion topology for the Division C: Behavioral Research through anticipatory calibration, controlled procedural exposure, and real-time institutional signal conditioning. Built to client-grade tolerances in the Geneva Annex workshops and certified against Charter Standard ES-77.",
+    "specifications": {
+      "Operational Bandwidth": "2.9 Hz — 17.2 kHz",
+      "Ambient Floor Target": "-72.0 dBV (room-tone referenced)",
+      "Signal-to-Noise Floor": "-70.0 dBV",
+      "Primary Transducer": "Electro-Voice RE20 Dynamic Element, Impedance Matched",
+      "Power / Drive Rail": "±12V Dual Linear Laboratory Rail",
+      "Continuity Protocol": "Standard Annex B-4 Safe Storage"
+    },
+    "schematicType": "resonator",
+    "audioEnginePreset": "microtonal",
+    "crossReferences": [
+      "GPC-PAT-1998-007",
+      "LOG-2001-015"
+    ],
+    "tags": [
+      "GPC-Archive",
+      "Opinion",
+      "FY-2001",
       "Class-III"
     ]
   },
   {
     "id": "proto-086",
-    "code": "ZIAA-PR-086",
-    "name": "Liquid Metal Magnetohydrodynamic Loudspeaker",
-    "domain": "Bio-Magnetic Transduction",
-    "year": 2022,
-    "status": "Active Lab Stage",
-    "clearance": "Level III (Restricted)",
-    "lead": "Dr. Kieran Vance",
-    "summary": "Experimental apparatus developed under ZIAA Directive ZIAA-PR-086. Investigates bio-magnetic transduction through high-precision physical prototyping, speculative boundary conditions, and real-time acoustic signal transduction.",
+    "code": "GPC-PR-086",
+    "name": "Dissent Clustering Spectrometer",
+    "domain": "Opinion Topology",
+    "year": 2002,
+    "status": "Active Program",
+    "clearance": "Level II (Internal)",
+    "lead": "Dr. Anouk Deslauriers",
+    "summary": "Program initiated under GPC Directive GPC-PR-086. Advances opinion topology for the Division C: Behavioral Research through anticipatory calibration, controlled procedural exposure, and real-time institutional signal conditioning. Built to client-grade tolerances in the Geneva Annex workshops and certified against Charter Standard ES-77.",
     "specifications": {
-      "Operational Bandwidth": "0.5 Hz — 21.0 kHz",
-      "Acoustic Impedance": "555 Rayls (air/substate matched)",
-      "Signal-to-Noise Floor": "-98.0 dBV",
-      "Primary Transducer": "Non-Linear Ferroelectric Metamaterial Film",
+      "Operational Bandwidth": "3.6 Hz — 18.5 kHz",
+      "Ambient Floor Target": "-73.0 dBV (room-tone referenced)",
+      "Signal-to-Noise Floor": "-73.0 dBV",
+      "Primary Transducer": "Neumann KK-105 Capsule on Custom Geneva Flange",
       "Power / Drive Rail": "±24V Dual Linear Laboratory Rail",
-      "Containment Protocol": "Standard Laboratory B-12 Safety Shielding"
-    },
-    "schematicType": "resonator",
-    "audioEnginePreset": "microtonal",
-    "crossReferences": [
-      "ZIAA-PAT-2022-008",
-      "LOG-2022-171"
-    ],
-    "tags": [
-      "Bio-Magnetic",
-      "ZIAA-Archive",
-      "Active-Lab Stage",
-      "Class-III"
-    ]
-  },
-  {
-    "id": "proto-087",
-    "code": "ZIAA-PR-087",
-    "name": "Coral Reef Larval Bio-Acoustic Lure",
-    "domain": "Bio-Magnetic Transduction",
-    "year": 2023,
-    "status": "Field Tested",
-    "clearance": "Level I (Public)",
-    "lead": "Maya Lindqvist",
-    "summary": "Experimental apparatus developed under ZIAA Directive ZIAA-PR-087. Investigates bio-magnetic transduction through high-precision physical prototyping, speculative boundary conditions, and real-time acoustic signal transduction.",
-    "specifications": {
-      "Operational Bandwidth": "2.2 Hz — 24.4 kHz",
-      "Acoustic Impedance": "578 Rayls (air/substate matched)",
-      "Signal-to-Noise Floor": "-100.0 dBV",
-      "Primary Transducer": "Ultra-Low Induction Cryogenic Coils",
-      "Power / Drive Rail": "±36V Dual Linear Laboratory Rail",
-      "Containment Protocol": "Standard Laboratory B-12 Safety Shielding"
+      "Continuity Protocol": "Standard Annex B-4 Safe Storage"
     },
     "schematicType": "interferometer",
     "audioEnginePreset": "microtonal",
     "crossReferences": [
-      "ZIAA-PAT-2023-009",
-      "LOG-2023-173"
+      "GPC-PAT-1998-008",
+      "LOG-2002-020"
     ],
     "tags": [
-      "Bio-Magnetic",
-      "ZIAA-Archive",
-      "Field-Tested",
-      "Class-I ("
+      "GPC-Archive",
+      "Opinion",
+      "FY-2002",
+      "Class-II"
     ]
   },
   {
-    "id": "proto-088",
-    "code": "ZIAA-PR-088",
-    "name": "Electrolytic Nerve-Bundle Acoustic Coupler",
-    "domain": "Bio-Magnetic Transduction",
-    "year": 2024,
-    "status": "Decommissioned",
-    "clearance": "Level IV (Black Vault)",
-    "lead": "Dr. Tariq Al-Mansoor",
-    "summary": "Experimental apparatus developed under ZIAA Directive ZIAA-PR-088. Investigates bio-magnetic transduction through high-precision physical prototyping, speculative boundary conditions, and real-time acoustic signal transduction.",
+    "id": "proto-087",
+    "code": "GPC-PR-087",
+    "name": "Overton Window Slide Rule",
+    "domain": "Opinion Topology",
+    "year": 2003,
+    "status": "Archived",
+    "clearance": "Level III (Restricted)",
+    "lead": "Dr. Viktor Hale",
+    "summary": "Program initiated under GPC Directive GPC-PR-087. Advances opinion topology for the Division C: Behavioral Research through anticipatory calibration, controlled procedural exposure, and real-time institutional signal conditioning. Built to client-grade tolerances in the Geneva Annex workshops and certified against Charter Standard ES-77.",
     "specifications": {
-      "Operational Bandwidth": "3.9 Hz — 27.8 kHz",
-      "Acoustic Impedance": "601 Rayls (air/substate matched)",
-      "Signal-to-Noise Floor": "-102.0 dBV",
-      "Primary Transducer": "Beryllium Copper Bimorph Cantilever",
-      "Power / Drive Rail": "±48V Dual Linear Laboratory Rail",
-      "Containment Protocol": "ZIAA-SEC-IV Vault Enclosure with Acoustic Damping Gel"
+      "Operational Bandwidth": "0.3 Hz — 19.8 kHz",
+      "Ambient Floor Target": "-74.0 dBV (room-tone referenced)",
+      "Signal-to-Noise Floor": "-76.0 dBV",
+      "Primary Transducer": "Piezo-Ceramic Bimorph Cantilever, Beryllium Copper Shim",
+      "Power / Drive Rail": "±12V Dual Linear Laboratory Rail",
+      "Continuity Protocol": "Standard Annex B-4 Safe Storage"
     },
     "schematicType": "circuit",
     "audioEnginePreset": "microtonal",
     "crossReferences": [
-      "ZIAA-PAT-2024-010",
-      "LOG-2024-175"
+      "GPC-PAT-1999-001",
+      "LOG-2003-025"
     ],
     "tags": [
-      "Bio-Magnetic",
-      "ZIAA-Archive",
-      "Decommissioned",
-      "Class-IV"
+      "GPC-Archive",
+      "Opinion",
+      "FY-2003",
+      "Class-III"
+    ]
+  },
+  {
+    "id": "proto-088",
+    "code": "GPC-PR-088",
+    "name": "Echo Chamber Calibration Rig",
+    "domain": "Opinion Topology",
+    "year": 2004,
+    "status": "Client Deployment",
+    "clearance": "Level I (Public)",
+    "lead": "Petra Lindmark",
+    "summary": "Program initiated under GPC Directive GPC-PR-088. Advances opinion topology for the Division C: Behavioral Research through anticipatory calibration, controlled procedural exposure, and real-time institutional signal conditioning. Built to client-grade tolerances in the Geneva Annex workshops and certified against Charter Standard ES-77.",
+    "specifications": {
+      "Operational Bandwidth": "1.0 Hz — 21.1 kHz",
+      "Ambient Floor Target": "-75.0 dBV (room-tone referenced)",
+      "Signal-to-Noise Floor": "-79.0 dBV",
+      "Primary Transducer": "Tannoy Dual-Concentric Driver in Sealed Governance Baffle",
+      "Power / Drive Rail": "±24V Dual Linear Laboratory Rail",
+      "Continuity Protocol": "Standard Annex B-4 Safe Storage"
+    },
+    "schematicType": "resonator",
+    "audioEnginePreset": "microtonal",
+    "crossReferences": [
+      "GPC-PAT-1999-002",
+      "LOG-2004-001"
+    ],
+    "tags": [
+      "GPC-Archive",
+      "Opinion",
+      "FY-2004",
+      "Class-I"
     ]
   },
   {
     "id": "proto-089",
-    "code": "ZIAA-PR-089",
-    "name": "Bio-Piezoelectric Collagen Hydrogel Actuator",
-    "domain": "Bio-Magnetic Transduction",
-    "year": 2025,
-    "status": "Active Lab Stage",
+    "code": "GPC-PR-089",
+    "name": "Poll Error Surface Interpolator",
+    "domain": "Opinion Topology",
+    "year": 2005,
+    "status": "Field Verified",
     "clearance": "Level II (Internal)",
-    "lead": "Svenja Dahl",
-    "summary": "Experimental apparatus developed under ZIAA Directive ZIAA-PR-089. Investigates bio-magnetic transduction through high-precision physical prototyping, speculative boundary conditions, and real-time acoustic signal transduction.",
+    "lead": "Dr. Anouk Deslauriers",
+    "summary": "Program initiated under GPC Directive GPC-PR-089. Advances opinion topology for the Division C: Behavioral Research through anticipatory calibration, controlled procedural exposure, and real-time institutional signal conditioning. Built to client-grade tolerances in the Geneva Annex workshops and certified against Charter Standard ES-77.",
     "specifications": {
-      "Operational Bandwidth": "5.6 Hz — 31.2 kHz",
-      "Acoustic Impedance": "624 Rayls (air/substate matched)",
-      "Signal-to-Noise Floor": "-104.0 dBV",
-      "Primary Transducer": "Non-Linear Ferroelectric Metamaterial Film",
+      "Operational Bandwidth": "1.7 Hz — 16.4 kHz",
+      "Ambient Floor Target": "-76.0 dBV (room-tone referenced)",
+      "Signal-to-Noise Floor": "-82.0 dBV",
+      "Primary Transducer": "Bone-Contact Exciter Panel, Lacquered Birch Substrate",
       "Power / Drive Rail": "±12V Dual Linear Laboratory Rail",
-      "Containment Protocol": "Standard Laboratory B-12 Safety Shielding"
+      "Continuity Protocol": "Standard Annex B-4 Safe Storage"
     },
-    "schematicType": "waveguide",
+    "schematicType": "matrix",
     "audioEnginePreset": "microtonal",
     "crossReferences": [
-      "ZIAA-PAT-2025-011",
-      "LOG-2025-177"
+      "GPC-PAT-1999-003",
+      "LOG-2005-006"
     ],
     "tags": [
-      "Bio-Magnetic",
-      "ZIAA-Archive",
-      "Active-Lab Stage",
+      "GPC-Archive",
+      "Opinion",
+      "FY-2005",
       "Class-II"
     ]
   },
   {
     "id": "proto-090",
-    "code": "ZIAA-PR-090",
-    "name": "Avian Magnetic Navigation Tone Synthesizer",
-    "domain": "Bio-Magnetic Transduction",
-    "year": 2026,
-    "status": "Field Tested",
-    "clearance": "Level II (Internal)",
-    "lead": "Marcus Holloway",
-    "summary": "Experimental apparatus developed under ZIAA Directive ZIAA-PR-090. Investigates bio-magnetic transduction through high-precision physical prototyping, speculative boundary conditions, and real-time acoustic signal transduction.",
+    "code": "GPC-PR-090",
+    "name": "Memetic Contagion Petri Tone",
+    "domain": "Opinion Topology",
+    "year": 2006,
+    "status": "Active Program",
+    "clearance": "Level III (Restricted)",
+    "lead": "Dr. Viktor Hale",
+    "summary": "Program initiated under GPC Directive GPC-PR-090. Advances opinion topology for the Division C: Behavioral Research through anticipatory calibration, controlled procedural exposure, and real-time institutional signal conditioning. Built to client-grade tolerances in the Geneva Annex workshops and certified against Charter Standard ES-77.",
     "specifications": {
-      "Operational Bandwidth": "7.3 Hz — 34.6 kHz",
-      "Acoustic Impedance": "647 Rayls (air/substate matched)",
-      "Signal-to-Noise Floor": "-106.0 dBV",
-      "Primary Transducer": "Ultra-Low Induction Cryogenic Coils",
+      "Operational Bandwidth": "2.4 Hz — 17.7 kHz",
+      "Ambient Floor Target": "-77.0 dBV (room-tone referenced)",
+      "Signal-to-Noise Floor": "-71.0 dBV",
+      "Primary Transducer": "Sennheiser MD 421 Element in Transit Housing",
       "Power / Drive Rail": "±24V Dual Linear Laboratory Rail",
-      "Containment Protocol": "Standard Laboratory B-12 Safety Shielding"
-    },
-    "schematicType": "matrix",
-    "audioEnginePreset": "microtonal",
-    "crossReferences": [
-      "ZIAA-PAT-2026-012",
-      "LOG-2026-179"
-    ],
-    "tags": [
-      "Bio-Magnetic",
-      "ZIAA-Archive",
-      "Field-Tested",
-      "Class-II"
-    ]
-  },
-  {
-    "id": "proto-091",
-    "code": "ZIAA-PR-091",
-    "name": "Stigmergic Ant Colony Piezomicrophone Matrix",
-    "domain": "Bio-Magnetic Transduction",
-    "year": 2021,
-    "status": "Active Lab Stage",
-    "clearance": "Level I (Public)",
-    "lead": "Dr. Christine Abele",
-    "summary": "Experimental apparatus developed under ZIAA Directive ZIAA-PR-091. Investigates bio-magnetic transduction through high-precision physical prototyping, speculative boundary conditions, and real-time acoustic signal transduction.",
-    "specifications": {
-      "Operational Bandwidth": "9.0 Hz — 38.0 kHz",
-      "Acoustic Impedance": "670 Rayls (air/substate matched)",
-      "Signal-to-Noise Floor": "-108.0 dBV",
-      "Primary Transducer": "Beryllium Copper Bimorph Cantilever",
-      "Power / Drive Rail": "±36V Dual Linear Laboratory Rail",
-      "Containment Protocol": "Standard Laboratory B-12 Safety Shielding"
+      "Continuity Protocol": "Standard Annex B-4 Safe Storage"
     },
     "schematicType": "transducer",
     "audioEnginePreset": "microtonal",
     "crossReferences": [
-      "ZIAA-PAT-2021-013",
-      "LOG-2021-181"
+      "GPC-PAT-1999-004",
+      "LOG-2006-011"
     ],
     "tags": [
-      "Bio-Magnetic",
-      "ZIAA-Archive",
-      "Active-Lab Stage",
-      "Class-I ("
+      "GPC-Archive",
+      "Opinion",
+      "FY-2006",
+      "Class-III"
     ]
   },
   {
-    "id": "proto-092",
-    "code": "ZIAA-PR-092",
-    "name": "Blood Flow Micro-Doppler Hemodynamic Sonifier",
-    "domain": "Bio-Magnetic Transduction",
-    "year": 2022,
-    "status": "Active Lab Stage",
+    "id": "proto-091",
+    "code": "GPC-PR-091",
+    "name": "Consensus Crystallization Chamber",
+    "domain": "Opinion Topology",
+    "year": 1998,
+    "status": "Archived",
     "clearance": "Level II (Internal)",
-    "lead": "Renata Osei",
-    "summary": "Experimental apparatus developed under ZIAA Directive ZIAA-PR-092. Investigates bio-magnetic transduction through high-precision physical prototyping, speculative boundary conditions, and real-time acoustic signal transduction.",
+    "lead": "Petra Lindmark",
+    "summary": "Program initiated under GPC Directive GPC-PR-091. Advances opinion topology for the Division C: Behavioral Research through anticipatory calibration, controlled procedural exposure, and real-time institutional signal conditioning. Built to client-grade tolerances in the Geneva Annex workshops and certified against Charter Standard ES-77.",
     "specifications": {
-      "Operational Bandwidth": "10.7 Hz — 41.4 kHz",
-      "Acoustic Impedance": "693 Rayls (air/substate matched)",
-      "Signal-to-Noise Floor": "-110.0 dBV",
-      "Primary Transducer": "Non-Linear Ferroelectric Metamaterial Film",
-      "Power / Drive Rail": "±48V Dual Linear Laboratory Rail",
-      "Containment Protocol": "Standard Laboratory B-12 Safety Shielding"
+      "Operational Bandwidth": "3.1 Hz — 19.0 kHz",
+      "Ambient Floor Target": "-78.0 dBV (room-tone referenced)",
+      "Signal-to-Noise Floor": "-74.0 dBV",
+      "Primary Transducer": "Electro-Voice RE20 Dynamic Element, Impedance Matched",
+      "Power / Drive Rail": "±12V Dual Linear Laboratory Rail",
+      "Continuity Protocol": "Standard Annex B-4 Safe Storage"
     },
     "schematicType": "resonator",
     "audioEnginePreset": "microtonal",
     "crossReferences": [
-      "ZIAA-PAT-2022-014",
-      "LOG-2022-183"
+      "GPC-PAT-1999-005",
+      "LOG-1998-016"
     ],
     "tags": [
-      "Bio-Magnetic",
-      "ZIAA-Archive",
-      "Active-Lab Stage",
+      "GPC-Archive",
+      "Opinion",
+      "FY-1998",
       "Class-II"
     ]
   },
   {
-    "id": "proto-093",
-    "code": "ZIAA-PR-093",
-    "name": "Photosynthetic Electron Transfer Acoustic Sensor",
-    "domain": "Bio-Magnetic Transduction",
-    "year": 2023,
-    "status": "Field Tested",
-    "clearance": "Level II (Internal)",
-    "lead": "Joon-Ho Park",
-    "summary": "Experimental apparatus developed under ZIAA Directive ZIAA-PR-093. Investigates bio-magnetic transduction through high-precision physical prototyping, speculative boundary conditions, and real-time acoustic signal transduction.",
+    "id": "proto-092",
+    "code": "GPC-PR-092",
+    "name": "Narrative Arc Tension Gauge",
+    "domain": "Opinion Topology",
+    "year": 1999,
+    "status": "Client Deployment",
+    "clearance": "Level I (Public)",
+    "lead": "Dr. Anouk Deslauriers",
+    "summary": "Program initiated under GPC Directive GPC-PR-092. Advances opinion topology for the Division C: Behavioral Research through anticipatory calibration, controlled procedural exposure, and real-time institutional signal conditioning. Built to client-grade tolerances in the Geneva Annex workshops and certified against Charter Standard ES-77.",
     "specifications": {
-      "Operational Bandwidth": "12.4 Hz — 44.8 kHz",
-      "Acoustic Impedance": "716 Rayls (air/substate matched)",
-      "Signal-to-Noise Floor": "-112.0 dBV",
-      "Primary Transducer": "Ultra-Low Induction Cryogenic Coils",
-      "Power / Drive Rail": "±12V Dual Linear Laboratory Rail",
-      "Containment Protocol": "Standard Laboratory B-12 Safety Shielding"
+      "Operational Bandwidth": "3.8 Hz — 20.3 kHz",
+      "Ambient Floor Target": "-79.0 dBV (room-tone referenced)",
+      "Signal-to-Noise Floor": "-77.0 dBV",
+      "Primary Transducer": "Neumann KK-105 Capsule on Custom Geneva Flange",
+      "Power / Drive Rail": "±24V Dual Linear Laboratory Rail",
+      "Continuity Protocol": "Standard Annex B-4 Safe Storage"
     },
     "schematicType": "interferometer",
     "audioEnginePreset": "microtonal",
     "crossReferences": [
-      "ZIAA-PAT-2023-015",
-      "LOG-2023-185"
+      "GPC-PAT-1999-006",
+      "LOG-1999-021"
     ],
     "tags": [
-      "Bio-Magnetic",
-      "ZIAA-Archive",
-      "Field-Tested",
-      "Class-II"
+      "GPC-Archive",
+      "Opinion",
+      "FY-1999",
+      "Class-I"
     ]
   },
   {
-    "id": "proto-094",
-    "code": "ZIAA-PR-094",
-    "name": "Electromagnetic Insect Cuticle Resonator",
-    "domain": "Bio-Magnetic Transduction",
-    "year": 2024,
-    "status": "Archived",
-    "clearance": "Level I (Public)",
-    "lead": "Dr. Lyra Sterling",
-    "summary": "Experimental apparatus developed under ZIAA Directive ZIAA-PR-094. Investigates bio-magnetic transduction through high-precision physical prototyping, speculative boundary conditions, and real-time acoustic signal transduction.",
+    "id": "proto-093",
+    "code": "GPC-PR-093",
+    "name": "Spin Decay Half-Life Counter",
+    "domain": "Opinion Topology",
+    "year": 2000,
+    "status": "Field Verified",
+    "clearance": "Level IV (Continuity Vault)",
+    "lead": "Dr. Viktor Hale",
+    "summary": "Program initiated under GPC Directive GPC-PR-093. Advances opinion topology for the Division C: Behavioral Research through anticipatory calibration, controlled procedural exposure, and real-time institutional signal conditioning. Built to client-grade tolerances in the Geneva Annex workshops and certified against Charter Standard ES-77.",
     "specifications": {
-      "Operational Bandwidth": "14.1 Hz — 48.2 kHz",
-      "Acoustic Impedance": "739 Rayls (air/substate matched)",
-      "Signal-to-Noise Floor": "-114.0 dBV",
-      "Primary Transducer": "Beryllium Copper Bimorph Cantilever",
-      "Power / Drive Rail": "±24V Dual Linear Laboratory Rail",
-      "Containment Protocol": "Standard Laboratory B-12 Safety Shielding"
+      "Operational Bandwidth": "0.5 Hz — 21.6 kHz",
+      "Ambient Floor Target": "-80.0 dBV (room-tone referenced)",
+      "Signal-to-Noise Floor": "-80.0 dBV",
+      "Primary Transducer": "Piezo-Ceramic Bimorph Cantilever, Beryllium Copper Shim",
+      "Power / Drive Rail": "±12V Dual Linear Laboratory Rail",
+      "Continuity Protocol": "Vault Seal Procedure D-99 (irrevocable)"
     },
     "schematicType": "circuit",
     "audioEnginePreset": "microtonal",
     "crossReferences": [
-      "ZIAA-PAT-2024-016",
-      "LOG-2024-187"
+      "GPC-PAT-1999-007",
+      "LOG-2000-026"
     ],
     "tags": [
-      "Bio-Magnetic",
-      "ZIAA-Archive",
-      "Archived",
-      "Class-I ("
+      "GPC-Archive",
+      "Opinion",
+      "FY-2000",
+      "Class-IV"
     ]
   },
   {
-    "id": "proto-095",
-    "code": "ZIAA-PR-095",
-    "name": "Micro-Fluidic Acoustic Vortex Levitator",
-    "domain": "Bio-Magnetic Transduction",
-    "year": 2025,
-    "status": "Active Lab Stage",
-    "clearance": "Level III (Restricted)",
-    "lead": "Dr. Alexei Voronov",
-    "summary": "Experimental apparatus developed under ZIAA Directive ZIAA-PR-095. Investigates bio-magnetic transduction through high-precision physical prototyping, speculative boundary conditions, and real-time acoustic signal transduction.",
+    "id": "proto-094",
+    "code": "GPC-PR-094",
+    "name": "Silent Majority Estimation Booth",
+    "domain": "Opinion Topology",
+    "year": 2001,
+    "status": "Active Program",
+    "clearance": "Level II (Internal)",
+    "lead": "Petra Lindmark",
+    "summary": "Program initiated under GPC Directive GPC-PR-094. Advances opinion topology for the Division C: Behavioral Research through anticipatory calibration, controlled procedural exposure, and real-time institutional signal conditioning. Built to client-grade tolerances in the Geneva Annex workshops and certified against Charter Standard ES-77.",
     "specifications": {
-      "Operational Bandwidth": "15.8 Hz — 51.6 kHz",
-      "Acoustic Impedance": "762 Rayls (air/substate matched)",
-      "Signal-to-Noise Floor": "-116.0 dBV",
-      "Primary Transducer": "Non-Linear Ferroelectric Metamaterial Film",
-      "Power / Drive Rail": "±36V Dual Linear Laboratory Rail",
-      "Containment Protocol": "Standard Laboratory B-12 Safety Shielding"
+      "Operational Bandwidth": "1.2 Hz — 16.9 kHz",
+      "Ambient Floor Target": "-81.0 dBV (room-tone referenced)",
+      "Signal-to-Noise Floor": "-83.0 dBV",
+      "Primary Transducer": "Tannoy Dual-Concentric Driver in Sealed Governance Baffle",
+      "Power / Drive Rail": "±24V Dual Linear Laboratory Rail",
+      "Continuity Protocol": "Standard Annex B-4 Safe Storage"
     },
     "schematicType": "waveguide",
     "audioEnginePreset": "microtonal",
     "crossReferences": [
-      "ZIAA-PAT-2025-017",
-      "LOG-2025-189"
+      "GPC-PAT-1999-008",
+      "LOG-2001-002"
     ],
     "tags": [
-      "Bio-Magnetic",
-      "ZIAA-Archive",
-      "Active-Lab Stage",
+      "GPC-Archive",
+      "Opinion",
+      "FY-2001",
+      "Class-II"
+    ]
+  },
+  {
+    "id": "proto-095",
+    "code": "GPC-PR-095",
+    "name": "Bandwagon Susceptibility Swing",
+    "domain": "Opinion Topology",
+    "year": 2002,
+    "status": "Archived",
+    "clearance": "Level III (Restricted)",
+    "lead": "Dr. Anouk Deslauriers",
+    "summary": "Program initiated under GPC Directive GPC-PR-095. Advances opinion topology for the Division C: Behavioral Research through anticipatory calibration, controlled procedural exposure, and real-time institutional signal conditioning. Built to client-grade tolerances in the Geneva Annex workshops and certified against Charter Standard ES-77.",
+    "specifications": {
+      "Operational Bandwidth": "1.9 Hz — 18.2 kHz",
+      "Ambient Floor Target": "-82.0 dBV (room-tone referenced)",
+      "Signal-to-Noise Floor": "-72.0 dBV",
+      "Primary Transducer": "Bone-Contact Exciter Panel, Lacquered Birch Substrate",
+      "Power / Drive Rail": "±12V Dual Linear Laboratory Rail",
+      "Continuity Protocol": "Standard Annex B-4 Safe Storage"
+    },
+    "schematicType": "resonator",
+    "audioEnginePreset": "microtonal",
+    "crossReferences": [
+      "GPC-PAT-2000-001",
+      "LOG-2002-007"
+    ],
+    "tags": [
+      "GPC-Archive",
+      "Opinion",
+      "FY-2002",
       "Class-III"
     ]
   },
   {
     "id": "proto-096",
-    "code": "ZIAA-PR-096",
-    "name": "Bacterial Bioluminescence Acoustic Modulator",
-    "domain": "Bio-Magnetic Transduction",
-    "year": 2026,
-    "status": "Active Lab Stage",
+    "code": "GPC-PR-096",
+    "name": "Groupthink Early Warning Bell",
+    "domain": "Opinion Topology",
+    "year": 2003,
+    "status": "Client Deployment",
     "clearance": "Level II (Internal)",
-    "lead": "Beatrix Thorne",
-    "summary": "Experimental apparatus developed under ZIAA Directive ZIAA-PR-096. Investigates bio-magnetic transduction through high-precision physical prototyping, speculative boundary conditions, and real-time acoustic signal transduction.",
+    "lead": "Dr. Viktor Hale",
+    "summary": "Program initiated under GPC Directive GPC-PR-096. Advances opinion topology for the Division C: Behavioral Research through anticipatory calibration, controlled procedural exposure, and real-time institutional signal conditioning. Built to client-grade tolerances in the Geneva Annex workshops and certified against Charter Standard ES-77.",
     "specifications": {
-      "Operational Bandwidth": "17.5 Hz — 55.0 kHz",
-      "Acoustic Impedance": "785 Rayls (air/substate matched)",
-      "Signal-to-Noise Floor": "-118.0 dBV",
-      "Primary Transducer": "Ultra-Low Induction Cryogenic Coils",
-      "Power / Drive Rail": "±48V Dual Linear Laboratory Rail",
-      "Containment Protocol": "Standard Laboratory B-12 Safety Shielding"
+      "Operational Bandwidth": "2.6 Hz — 19.5 kHz",
+      "Ambient Floor Target": "-83.0 dBV (room-tone referenced)",
+      "Signal-to-Noise Floor": "-75.0 dBV",
+      "Primary Transducer": "Sennheiser MD 421 Element in Transit Housing",
+      "Power / Drive Rail": "±24V Dual Linear Laboratory Rail",
+      "Continuity Protocol": "Standard Annex B-4 Safe Storage"
     },
-    "schematicType": "matrix",
+    "schematicType": "transducer",
     "audioEnginePreset": "microtonal",
     "crossReferences": [
-      "ZIAA-PAT-2026-018",
-      "LOG-2026-191"
+      "GPC-PAT-2000-002",
+      "LOG-2003-012"
     ],
     "tags": [
-      "Bio-Magnetic",
-      "ZIAA-Archive",
-      "Active-Lab Stage",
+      "GPC-Archive",
+      "Opinion",
+      "FY-2003",
       "Class-II"
     ]
   },
   {
     "id": "proto-097",
-    "code": "ZIAA-PR-097",
-    "name": "Deep Fault Seismo-Acoustic Monopole Sensor",
-    "domain": "Infrasonics & Seismology",
-    "year": 2021,
-    "status": "Field Tested",
+    "code": "GPC-PR-097",
+    "name": "Atrium Acoustic Ray-Tracer Convolver",
+    "domain": "Ambient Soundscaping",
+    "year": 2004,
+    "status": "Client Deployment",
     "clearance": "Level II (Internal)",
-    "lead": "Dr. Elena Rostova",
-    "summary": "Experimental apparatus developed under ZIAA Directive ZIAA-PR-097. Investigates infrasonics & seismology through high-precision physical prototyping, speculative boundary conditions, and real-time acoustic signal transduction.",
+    "lead": "Sylvia Okafor",
+    "summary": "Program initiated under GPC Directive GPC-PR-097. Advances ambient soundscaping for the Division D: Environmental Audio through anticipatory calibration, controlled procedural exposure, and real-time institutional signal conditioning. Built to client-grade tolerances in the Geneva Annex workshops and certified against Charter Standard ES-77.",
     "specifications": {
-      "Operational Bandwidth": "19.2 Hz — 58.4 kHz",
-      "Acoustic Impedance": "808 Rayls (air/substate matched)",
-      "Signal-to-Noise Floor": "-72.0 dBV",
-      "Primary Transducer": "Beryllium Copper Bimorph Cantilever",
+      "Operational Bandwidth": "3.3 Hz — 20.8 kHz",
+      "Ambient Floor Target": "-72.0 dBV (room-tone referenced)",
+      "Signal-to-Noise Floor": "-78.0 dBV",
+      "Primary Transducer": "Electro-Voice RE20 Dynamic Element, Impedance Matched",
       "Power / Drive Rail": "±12V Dual Linear Laboratory Rail",
-      "Containment Protocol": "Standard Laboratory B-12 Safety Shielding"
+      "Continuity Protocol": "Standard Annex B-4 Safe Storage"
     },
-    "schematicType": "transducer",
+    "schematicType": "waveguide",
     "audioEnginePreset": "raytracer",
     "crossReferences": [
-      "ZIAA-PAT-2021-019",
-      "LOG-2021-193"
+      "GPC-PAT-2000-003",
+      "LOG-2004-017"
     ],
     "tags": [
-      "Infrasonics",
-      "ZIAA-Archive",
-      "Field-Tested",
+      "GPC-Archive",
+      "Ambient",
+      "FY-2004",
       "Class-II"
     ]
   },
   {
     "id": "proto-098",
-    "code": "ZIAA-PR-098",
-    "name": "Micro-Barometric Volcanic Plume Interceptor",
-    "domain": "Infrasonics & Seismology",
-    "year": 2022,
-    "status": "Field Tested",
-    "clearance": "Level II (Internal)",
-    "lead": "Dr. Kieran Vance",
-    "summary": "Experimental apparatus developed under ZIAA Directive ZIAA-PR-098. Investigates infrasonics & seismology through high-precision physical prototyping, speculative boundary conditions, and real-time acoustic signal transduction.",
+    "code": "GPC-PR-098",
+    "name": "Mall Concourse Calming Canopy",
+    "domain": "Ambient Soundscaping",
+    "year": 2005,
+    "status": "Field Verified",
+    "clearance": "Level III (Restricted)",
+    "lead": "Tomas Ferrand",
+    "summary": "Program initiated under GPC Directive GPC-PR-098. Advances ambient soundscaping for the Division D: Environmental Audio through anticipatory calibration, controlled procedural exposure, and real-time institutional signal conditioning. Built to client-grade tolerances in the Geneva Annex workshops and certified against Charter Standard ES-77.",
     "specifications": {
-      "Operational Bandwidth": "20.9 Hz — 61.8 kHz",
-      "Acoustic Impedance": "831 Rayls (air/substate matched)",
-      "Signal-to-Noise Floor": "-74.0 dBV",
-      "Primary Transducer": "Non-Linear Ferroelectric Metamaterial Film",
+      "Operational Bandwidth": "4.0 Hz — 16.1 kHz",
+      "Ambient Floor Target": "-73.0 dBV (room-tone referenced)",
+      "Signal-to-Noise Floor": "-81.0 dBV",
+      "Primary Transducer": "Neumann KK-105 Capsule on Custom Geneva Flange",
       "Power / Drive Rail": "±24V Dual Linear Laboratory Rail",
-      "Containment Protocol": "Standard Laboratory B-12 Safety Shielding"
+      "Continuity Protocol": "Standard Annex B-4 Safe Storage"
     },
-    "schematicType": "resonator",
+    "schematicType": "transducer",
     "audioEnginePreset": "raytracer",
     "crossReferences": [
-      "ZIAA-PAT-2022-020",
-      "LOG-2022-195"
+      "GPC-PAT-2000-004",
+      "LOG-2005-022"
     ],
     "tags": [
-      "Infrasonics",
-      "ZIAA-Archive",
-      "Field-Tested",
-      "Class-II"
+      "GPC-Archive",
+      "Ambient",
+      "FY-2005",
+      "Class-III"
     ]
   },
   {
     "id": "proto-099",
-    "code": "ZIAA-PR-099",
-    "name": "Svalbard Permafrost Cracking Acoustic Array",
-    "domain": "Infrasonics & Seismology",
-    "year": 2023,
-    "status": "Field Tested",
-    "clearance": "Level I (Public)",
-    "lead": "Maya Lindqvist",
-    "summary": "Experimental apparatus developed under ZIAA Directive ZIAA-PR-099. Investigates infrasonics & seismology through high-precision physical prototyping, speculative boundary conditions, and real-time acoustic signal transduction.",
-    "specifications": {
-      "Operational Bandwidth": "22.6 Hz — 65.2 kHz",
-      "Acoustic Impedance": "854 Rayls (air/substate matched)",
-      "Signal-to-Noise Floor": "-76.0 dBV",
-      "Primary Transducer": "Ultra-Low Induction Cryogenic Coils",
-      "Power / Drive Rail": "±36V Dual Linear Laboratory Rail",
-      "Containment Protocol": "Standard Laboratory B-12 Safety Shielding"
-    },
-    "schematicType": "interferometer",
-    "audioEnginePreset": "raytracer",
-    "crossReferences": [
-      "ZIAA-PAT-2023-021",
-      "LOG-2023-197"
-    ],
-    "tags": [
-      "Infrasonics",
-      "ZIAA-Archive",
-      "Field-Tested",
-      "Class-I ("
-    ]
-  },
-  {
-    "id": "proto-100",
-    "code": "ZIAA-PR-100",
-    "name": "Ocean Microseism Infrasonic Synthesizer",
-    "domain": "Infrasonics & Seismology",
-    "year": 2024,
-    "status": "Active Lab Stage",
+    "code": "GPC-PR-099",
+    "name": "Hotel Lobby Arrival Chime Grid",
+    "domain": "Ambient Soundscaping",
+    "year": 2006,
+    "status": "Active Program",
     "clearance": "Level II (Internal)",
-    "lead": "Dr. Tariq Al-Mansoor",
-    "summary": "Experimental apparatus developed under ZIAA Directive ZIAA-PR-100. Investigates infrasonics & seismology through high-precision physical prototyping, speculative boundary conditions, and real-time acoustic signal transduction.",
+    "lead": "Dr. Viktor Hale",
+    "summary": "Program initiated under GPC Directive GPC-PR-099. Advances ambient soundscaping for the Division D: Environmental Audio through anticipatory calibration, controlled procedural exposure, and real-time institutional signal conditioning. Built to client-grade tolerances in the Geneva Annex workshops and certified against Charter Standard ES-77.",
     "specifications": {
-      "Operational Bandwidth": "0.3 Hz — 68.6 kHz",
-      "Acoustic Impedance": "877 Rayls (air/substate matched)",
-      "Signal-to-Noise Floor": "-78.0 dBV",
-      "Primary Transducer": "Beryllium Copper Bimorph Cantilever",
-      "Power / Drive Rail": "±48V Dual Linear Laboratory Rail",
-      "Containment Protocol": "Standard Laboratory B-12 Safety Shielding"
+      "Operational Bandwidth": "0.7 Hz — 17.4 kHz",
+      "Ambient Floor Target": "-74.0 dBV (room-tone referenced)",
+      "Signal-to-Noise Floor": "-70.0 dBV",
+      "Primary Transducer": "Piezo-Ceramic Bimorph Cantilever, Beryllium Copper Shim",
+      "Power / Drive Rail": "±12V Dual Linear Laboratory Rail",
+      "Continuity Protocol": "Standard Annex B-4 Safe Storage"
     },
-    "schematicType": "circuit",
+    "schematicType": "transducer",
     "audioEnginePreset": "raytracer",
     "crossReferences": [
-      "ZIAA-PAT-2024-022",
-      "LOG-2024-199"
+      "GPC-PAT-2000-005",
+      "LOG-2006-027"
     ],
     "tags": [
-      "Infrasonics",
-      "ZIAA-Archive",
-      "Active-Lab Stage",
+      "GPC-Archive",
+      "Ambient",
+      "FY-2006",
       "Class-II"
     ]
   },
   {
-    "id": "proto-101",
-    "code": "ZIAA-PR-101",
-    "name": "Decommissioned Borehole Geophone Tap B-9",
-    "domain": "Infrasonics & Seismology",
-    "year": 2025,
-    "status": "Field Tested",
-    "clearance": "Level III (Restricted)",
-    "lead": "Svenja Dahl",
-    "summary": "Experimental apparatus developed under ZIAA Directive ZIAA-PR-101. Investigates infrasonics & seismology through high-precision physical prototyping, speculative boundary conditions, and real-time acoustic signal transduction.",
+    "id": "proto-100",
+    "code": "GPC-PR-100",
+    "name": "Airport Gate Threshold Tone Fence",
+    "domain": "Ambient Soundscaping",
+    "year": 1998,
+    "status": "Archived",
+    "clearance": "Level I (Public)",
+    "lead": "Sylvia Okafor",
+    "summary": "Program initiated under GPC Directive GPC-PR-100. Advances ambient soundscaping for the Division D: Environmental Audio through anticipatory calibration, controlled procedural exposure, and real-time institutional signal conditioning. Built to client-grade tolerances in the Geneva Annex workshops and certified against Charter Standard ES-77.",
     "specifications": {
-      "Operational Bandwidth": "2.0 Hz — 72.0 kHz",
-      "Acoustic Impedance": "900 Rayls (air/substate matched)",
-      "Signal-to-Noise Floor": "-80.0 dBV",
-      "Primary Transducer": "Non-Linear Ferroelectric Metamaterial Film",
+      "Operational Bandwidth": "1.4 Hz — 18.7 kHz",
+      "Ambient Floor Target": "-75.0 dBV (room-tone referenced)",
+      "Signal-to-Noise Floor": "-73.0 dBV",
+      "Primary Transducer": "Tannoy Dual-Concentric Driver in Sealed Governance Baffle",
+      "Power / Drive Rail": "±24V Dual Linear Laboratory Rail",
+      "Continuity Protocol": "Standard Annex B-4 Safe Storage"
+    },
+    "schematicType": "transducer",
+    "audioEnginePreset": "raytracer",
+    "crossReferences": [
+      "GPC-PAT-2000-006",
+      "LOG-1998-003"
+    ],
+    "tags": [
+      "GPC-Archive",
+      "Ambient",
+      "FY-1998",
+      "Class-I"
+    ]
+  },
+  {
+    "id": "proto-101",
+    "code": "GPC-PR-101",
+    "name": "Restroom Privacy Noise Curtain",
+    "domain": "Ambient Soundscaping",
+    "year": 1999,
+    "status": "Client Deployment",
+    "clearance": "Level III (Restricted)",
+    "lead": "Tomas Ferrand",
+    "summary": "Program initiated under GPC Directive GPC-PR-101. Advances ambient soundscaping for the Division D: Environmental Audio through anticipatory calibration, controlled procedural exposure, and real-time institutional signal conditioning. Built to client-grade tolerances in the Geneva Annex workshops and certified against Charter Standard ES-77.",
+    "specifications": {
+      "Operational Bandwidth": "2.1 Hz — 20.0 kHz",
+      "Ambient Floor Target": "-76.0 dBV (room-tone referenced)",
+      "Signal-to-Noise Floor": "-76.0 dBV",
+      "Primary Transducer": "Bone-Contact Exciter Panel, Lacquered Birch Substrate",
       "Power / Drive Rail": "±12V Dual Linear Laboratory Rail",
-      "Containment Protocol": "Standard Laboratory B-12 Safety Shielding"
+      "Continuity Protocol": "Standard Annex B-4 Safe Storage"
     },
     "schematicType": "waveguide",
     "audioEnginePreset": "raytracer",
     "crossReferences": [
-      "ZIAA-PAT-2025-023",
-      "LOG-2025-201"
+      "GPC-PAT-2000-007",
+      "LOG-1999-008"
     ],
     "tags": [
-      "Infrasonics",
-      "ZIAA-Archive",
-      "Field-Tested",
+      "GPC-Archive",
+      "Ambient",
+      "FY-1999",
       "Class-III"
     ]
   },
   {
     "id": "proto-102",
-    "code": "ZIAA-PR-102",
-    "name": "Atmospheric Gravity Wave Micro-Interferometer",
-    "domain": "Infrasonics & Seismology",
-    "year": 2026,
-    "status": "Active Lab Stage",
+    "code": "GPC-PR-102",
+    "name": "Call Center Agent Recovery Grove",
+    "domain": "Ambient Soundscaping",
+    "year": 2000,
+    "status": "Field Verified",
     "clearance": "Level II (Internal)",
-    "lead": "Marcus Holloway",
-    "summary": "Experimental apparatus developed under ZIAA Directive ZIAA-PR-102. Investigates infrasonics & seismology through high-precision physical prototyping, speculative boundary conditions, and real-time acoustic signal transduction.",
+    "lead": "Dr. Viktor Hale",
+    "summary": "Program initiated under GPC Directive GPC-PR-102. Advances ambient soundscaping for the Division D: Environmental Audio through anticipatory calibration, controlled procedural exposure, and real-time institutional signal conditioning. Built to client-grade tolerances in the Geneva Annex workshops and certified against Charter Standard ES-77.",
     "specifications": {
-      "Operational Bandwidth": "3.7 Hz — 75.4 kHz",
-      "Acoustic Impedance": "923 Rayls (air/substate matched)",
-      "Signal-to-Noise Floor": "-82.0 dBV",
-      "Primary Transducer": "Ultra-Low Induction Cryogenic Coils",
+      "Operational Bandwidth": "2.8 Hz — 21.3 kHz",
+      "Ambient Floor Target": "-77.0 dBV (room-tone referenced)",
+      "Signal-to-Noise Floor": "-79.0 dBV",
+      "Primary Transducer": "Sennheiser MD 421 Element in Transit Housing",
       "Power / Drive Rail": "±24V Dual Linear Laboratory Rail",
-      "Containment Protocol": "Standard Laboratory B-12 Safety Shielding"
+      "Continuity Protocol": "Standard Annex B-4 Safe Storage"
     },
-    "schematicType": "matrix",
+    "schematicType": "waveguide",
     "audioEnginePreset": "raytracer",
     "crossReferences": [
-      "ZIAA-PAT-2026-024",
-      "LOG-2026-203"
+      "GPC-PAT-2000-008",
+      "LOG-2000-013"
     ],
     "tags": [
-      "Infrasonics",
-      "ZIAA-Archive",
-      "Active-Lab Stage",
+      "GPC-Archive",
+      "Ambient",
+      "FY-2000",
       "Class-II"
     ]
   },
   {
     "id": "proto-103",
-    "code": "ZIAA-PR-103",
-    "name": "Glacial Calving Hydro-Acoustic Array",
-    "domain": "Infrasonics & Seismology",
-    "year": 2021,
-    "status": "Field Tested",
-    "clearance": "Level I (Public)",
-    "lead": "Dr. Christine Abele",
-    "summary": "Experimental apparatus developed under ZIAA Directive ZIAA-PR-103. Investigates infrasonics & seismology through high-precision physical prototyping, speculative boundary conditions, and real-time acoustic signal transduction.",
+    "code": "GPC-PR-103",
+    "name": "Subway Platform Edge Hum Masker",
+    "domain": "Ambient Soundscaping",
+    "year": 2001,
+    "status": "Active Program",
+    "clearance": "Level III (Restricted)",
+    "lead": "Sylvia Okafor",
+    "summary": "Program initiated under GPC Directive GPC-PR-103. Advances ambient soundscaping for the Division D: Environmental Audio through anticipatory calibration, controlled procedural exposure, and real-time institutional signal conditioning. Built to client-grade tolerances in the Geneva Annex workshops and certified against Charter Standard ES-77.",
     "specifications": {
-      "Operational Bandwidth": "5.4 Hz — 78.8 kHz",
-      "Acoustic Impedance": "946 Rayls (air/substate matched)",
-      "Signal-to-Noise Floor": "-84.0 dBV",
-      "Primary Transducer": "Beryllium Copper Bimorph Cantilever",
-      "Power / Drive Rail": "±36V Dual Linear Laboratory Rail",
-      "Containment Protocol": "Standard Laboratory B-12 Safety Shielding"
+      "Operational Bandwidth": "3.5 Hz — 16.6 kHz",
+      "Ambient Floor Target": "-78.0 dBV (room-tone referenced)",
+      "Signal-to-Noise Floor": "-82.0 dBV",
+      "Primary Transducer": "Electro-Voice RE20 Dynamic Element, Impedance Matched",
+      "Power / Drive Rail": "±12V Dual Linear Laboratory Rail",
+      "Continuity Protocol": "Standard Annex B-4 Safe Storage"
     },
     "schematicType": "transducer",
     "audioEnginePreset": "raytracer",
     "crossReferences": [
-      "ZIAA-PAT-2021-025",
-      "LOG-2021-205"
+      "GPC-PAT-2000-009",
+      "LOG-2001-018"
     ],
     "tags": [
-      "Infrasonics",
-      "ZIAA-Archive",
-      "Field-Tested",
-      "Class-I ("
-    ]
-  },
-  {
-    "id": "proto-104",
-    "code": "ZIAA-PR-104",
-    "name": "Deep Cavity Helmholtz Infrasound Resonator",
-    "domain": "Infrasonics & Seismology",
-    "year": 2022,
-    "status": "Active Lab Stage",
-    "clearance": "Level III (Restricted)",
-    "lead": "Renata Osei",
-    "summary": "Experimental apparatus developed under ZIAA Directive ZIAA-PR-104. Investigates infrasonics & seismology through high-precision physical prototyping, speculative boundary conditions, and real-time acoustic signal transduction.",
-    "specifications": {
-      "Operational Bandwidth": "7.1 Hz — 82.2 kHz",
-      "Acoustic Impedance": "969 Rayls (air/substate matched)",
-      "Signal-to-Noise Floor": "-86.0 dBV",
-      "Primary Transducer": "Non-Linear Ferroelectric Metamaterial Film",
-      "Power / Drive Rail": "±48V Dual Linear Laboratory Rail",
-      "Containment Protocol": "Standard Laboratory B-12 Safety Shielding"
-    },
-    "schematicType": "resonator",
-    "audioEnginePreset": "raytracer",
-    "crossReferences": [
-      "ZIAA-PAT-2022-026",
-      "LOG-2022-207"
-    ],
-    "tags": [
-      "Infrasonics",
-      "ZIAA-Archive",
-      "Active-Lab Stage",
+      "GPC-Archive",
+      "Ambient",
+      "FY-2001",
       "Class-III"
     ]
   },
   {
-    "id": "proto-105",
-    "code": "ZIAA-PR-105",
-    "name": "Sub-Surface Tectonic Slip Auditory Transposer",
-    "domain": "Infrasonics & Seismology",
-    "year": 2023,
-    "status": "Active Lab Stage",
-    "clearance": "Level II (Internal)",
-    "lead": "Joon-Ho Park",
-    "summary": "Experimental apparatus developed under ZIAA Directive ZIAA-PR-105. Investigates infrasonics & seismology through high-precision physical prototyping, speculative boundary conditions, and real-time acoustic signal transduction.",
+    "id": "proto-104",
+    "code": "GPC-PR-104",
+    "name": "Elevator Transition Music Bed",
+    "domain": "Ambient Soundscaping",
+    "year": 2002,
+    "status": "Archived",
+    "clearance": "Level I (Public)",
+    "lead": "Tomas Ferrand",
+    "summary": "Program initiated under GPC Directive GPC-PR-104. Advances ambient soundscaping for the Division D: Environmental Audio through anticipatory calibration, controlled procedural exposure, and real-time institutional signal conditioning. Built to client-grade tolerances in the Geneva Annex workshops and certified against Charter Standard ES-77.",
     "specifications": {
-      "Operational Bandwidth": "8.8 Hz — 85.6 kHz",
-      "Acoustic Impedance": "992 Rayls (air/substate matched)",
-      "Signal-to-Noise Floor": "-88.0 dBV",
-      "Primary Transducer": "Ultra-Low Induction Cryogenic Coils",
-      "Power / Drive Rail": "±12V Dual Linear Laboratory Rail",
-      "Containment Protocol": "Standard Laboratory B-12 Safety Shielding"
+      "Operational Bandwidth": "0.2 Hz — 17.9 kHz",
+      "Ambient Floor Target": "-79.0 dBV (room-tone referenced)",
+      "Signal-to-Noise Floor": "-71.0 dBV",
+      "Primary Transducer": "Neumann KK-105 Capsule on Custom Geneva Flange",
+      "Power / Drive Rail": "±24V Dual Linear Laboratory Rail",
+      "Continuity Protocol": "Standard Annex B-4 Safe Storage"
     },
-    "schematicType": "interferometer",
+    "schematicType": "waveguide",
     "audioEnginePreset": "raytracer",
     "crossReferences": [
-      "ZIAA-PAT-2023-027",
-      "LOG-2023-209"
+      "GPC-PAT-2001-001",
+      "LOG-2002-023"
     ],
     "tags": [
-      "Infrasonics",
-      "ZIAA-Archive",
-      "Active-Lab Stage",
+      "GPC-Archive",
+      "Ambient",
+      "FY-2002",
+      "Class-I"
+    ]
+  },
+  {
+    "id": "proto-105",
+    "code": "GPC-PR-105",
+    "name": "Parking Structure Safety Echo Post",
+    "domain": "Ambient Soundscaping",
+    "year": 2003,
+    "status": "Client Deployment",
+    "clearance": "Level II (Internal)",
+    "lead": "Dr. Viktor Hale",
+    "summary": "Program initiated under GPC Directive GPC-PR-105. Advances ambient soundscaping for the Division D: Environmental Audio through anticipatory calibration, controlled procedural exposure, and real-time institutional signal conditioning. Built to client-grade tolerances in the Geneva Annex workshops and certified against Charter Standard ES-77.",
+    "specifications": {
+      "Operational Bandwidth": "0.9 Hz — 19.2 kHz",
+      "Ambient Floor Target": "-80.0 dBV (room-tone referenced)",
+      "Signal-to-Noise Floor": "-74.0 dBV",
+      "Primary Transducer": "Piezo-Ceramic Bimorph Cantilever, Beryllium Copper Shim",
+      "Power / Drive Rail": "±12V Dual Linear Laboratory Rail",
+      "Continuity Protocol": "Standard Annex B-4 Safe Storage"
+    },
+    "schematicType": "resonator",
+    "audioEnginePreset": "raytracer",
+    "crossReferences": [
+      "GPC-PAT-2001-002",
+      "LOG-2003-028"
+    ],
+    "tags": [
+      "GPC-Archive",
+      "Ambient",
+      "FY-2003",
       "Class-II"
     ]
   },
   {
     "id": "proto-106",
-    "code": "ZIAA-PR-106",
-    "name": "Tsunami Low-Frequency Acoustic Wave Beacon",
-    "domain": "Infrasonics & Seismology",
-    "year": 2024,
-    "status": "Field Tested",
-    "clearance": "Level I (Public)",
-    "lead": "Dr. Lyra Sterling",
-    "summary": "Experimental apparatus developed under ZIAA Directive ZIAA-PR-106. Investigates infrasonics & seismology through high-precision physical prototyping, speculative boundary conditions, and real-time acoustic signal transduction.",
+    "code": "GPC-PR-106",
+    "name": "Hospital Corridor Quiet Baffle Spine",
+    "domain": "Ambient Soundscaping",
+    "year": 2004,
+    "status": "Field Verified",
+    "clearance": "Level III (Restricted)",
+    "lead": "Sylvia Okafor",
+    "summary": "Program initiated under GPC Directive GPC-PR-106. Advances ambient soundscaping for the Division D: Environmental Audio through anticipatory calibration, controlled procedural exposure, and real-time institutional signal conditioning. Built to client-grade tolerances in the Geneva Annex workshops and certified against Charter Standard ES-77.",
     "specifications": {
-      "Operational Bandwidth": "10.5 Hz — 89.0 kHz",
-      "Acoustic Impedance": "1015 Rayls (air/substate matched)",
-      "Signal-to-Noise Floor": "-90.0 dBV",
-      "Primary Transducer": "Beryllium Copper Bimorph Cantilever",
+      "Operational Bandwidth": "1.6 Hz — 20.5 kHz",
+      "Ambient Floor Target": "-81.0 dBV (room-tone referenced)",
+      "Signal-to-Noise Floor": "-77.0 dBV",
+      "Primary Transducer": "Tannoy Dual-Concentric Driver in Sealed Governance Baffle",
       "Power / Drive Rail": "±24V Dual Linear Laboratory Rail",
-      "Containment Protocol": "Standard Laboratory B-12 Safety Shielding"
-    },
-    "schematicType": "circuit",
-    "audioEnginePreset": "raytracer",
-    "crossReferences": [
-      "ZIAA-PAT-2024-028",
-      "LOG-2024-211"
-    ],
-    "tags": [
-      "Infrasonics",
-      "ZIAA-Archive",
-      "Field-Tested",
-      "Class-I ("
-    ]
-  },
-  {
-    "id": "proto-107",
-    "code": "ZIAA-PR-107",
-    "name": "Abandoned Mine Shaft Standing-Wave Probe",
-    "domain": "Infrasonics & Seismology",
-    "year": 2025,
-    "status": "Field Tested",
-    "clearance": "Level II (Internal)",
-    "lead": "Dr. Alexei Voronov",
-    "summary": "Experimental apparatus developed under ZIAA Directive ZIAA-PR-107. Investigates infrasonics & seismology through high-precision physical prototyping, speculative boundary conditions, and real-time acoustic signal transduction.",
-    "specifications": {
-      "Operational Bandwidth": "12.2 Hz — 92.4 kHz",
-      "Acoustic Impedance": "1038 Rayls (air/substate matched)",
-      "Signal-to-Noise Floor": "-92.0 dBV",
-      "Primary Transducer": "Non-Linear Ferroelectric Metamaterial Film",
-      "Power / Drive Rail": "±36V Dual Linear Laboratory Rail",
-      "Containment Protocol": "Standard Laboratory B-12 Safety Shielding"
+      "Continuity Protocol": "Standard Annex B-4 Safe Storage"
     },
     "schematicType": "waveguide",
     "audioEnginePreset": "raytracer",
     "crossReferences": [
-      "ZIAA-PAT-2025-029",
-      "LOG-2025-213"
+      "GPC-PAT-2001-003",
+      "LOG-2004-004"
     ],
     "tags": [
-      "Infrasonics",
-      "ZIAA-Archive",
-      "Field-Tested",
+      "GPC-Archive",
+      "Ambient",
+      "FY-2004",
+      "Class-III"
+    ]
+  },
+  {
+    "id": "proto-107",
+    "code": "GPC-PR-107",
+    "name": "Casino Floor Time-Dilation Drift",
+    "domain": "Ambient Soundscaping",
+    "year": 2005,
+    "status": "Active Program",
+    "clearance": "Level II (Internal)",
+    "lead": "Tomas Ferrand",
+    "summary": "Program initiated under GPC Directive GPC-PR-107. Advances ambient soundscaping for the Division D: Environmental Audio through anticipatory calibration, controlled procedural exposure, and real-time institutional signal conditioning. Built to client-grade tolerances in the Geneva Annex workshops and certified against Charter Standard ES-77.",
+    "specifications": {
+      "Operational Bandwidth": "2.3 Hz — 21.8 kHz",
+      "Ambient Floor Target": "-82.0 dBV (room-tone referenced)",
+      "Signal-to-Noise Floor": "-80.0 dBV",
+      "Primary Transducer": "Bone-Contact Exciter Panel, Lacquered Birch Substrate",
+      "Power / Drive Rail": "±12V Dual Linear Laboratory Rail",
+      "Continuity Protocol": "Standard Annex B-4 Safe Storage"
+    },
+    "schematicType": "waveguide",
+    "audioEnginePreset": "raytracer",
+    "crossReferences": [
+      "GPC-PAT-2001-004",
+      "LOG-2005-009"
+    ],
+    "tags": [
+      "GPC-Archive",
+      "Ambient",
+      "FY-2005",
       "Class-II"
     ]
   },
   {
     "id": "proto-108",
-    "code": "ZIAA-PR-108",
-    "name": "Ionospheric Infrasonic Shockwave Monitor",
-    "domain": "Infrasonics & Seismology",
-    "year": 2026,
-    "status": "Active Lab Stage",
-    "clearance": "Level III (Restricted)",
-    "lead": "Beatrix Thorne",
-    "summary": "Experimental apparatus developed under ZIAA Directive ZIAA-PR-108. Investigates infrasonics & seismology through high-precision physical prototyping, speculative boundary conditions, and real-time acoustic signal transduction.",
+    "code": "GPC-PR-108",
+    "name": "Supermarket Produce Misting Percussion",
+    "domain": "Ambient Soundscaping",
+    "year": 2006,
+    "status": "Archived",
+    "clearance": "Level I (Public)",
+    "lead": "Dr. Viktor Hale",
+    "summary": "Program initiated under GPC Directive GPC-PR-108. Advances ambient soundscaping for the Division D: Environmental Audio through anticipatory calibration, controlled procedural exposure, and real-time institutional signal conditioning. Built to client-grade tolerances in the Geneva Annex workshops and certified against Charter Standard ES-77.",
     "specifications": {
-      "Operational Bandwidth": "13.9 Hz — 95.8 kHz",
-      "Acoustic Impedance": "1061 Rayls (air/substate matched)",
-      "Signal-to-Noise Floor": "-94.0 dBV",
-      "Primary Transducer": "Ultra-Low Induction Cryogenic Coils",
-      "Power / Drive Rail": "±48V Dual Linear Laboratory Rail",
-      "Containment Protocol": "Standard Laboratory B-12 Safety Shielding"
-    },
-    "schematicType": "matrix",
-    "audioEnginePreset": "raytracer",
-    "crossReferences": [
-      "ZIAA-PAT-2026-030",
-      "LOG-2026-215"
-    ],
-    "tags": [
-      "Infrasonics",
-      "ZIAA-Archive",
-      "Active-Lab Stage",
-      "Class-III"
-    ]
-  },
-  {
-    "id": "proto-109",
-    "code": "ZIAA-PR-109",
-    "name": "High-Altitude Stratospheric Acoustic Float",
-    "domain": "Infrasonics & Seismology",
-    "year": 2021,
-    "status": "Field Tested",
-    "clearance": "Level II (Internal)",
-    "lead": "Dr. Elena Rostova",
-    "summary": "Experimental apparatus developed under ZIAA Directive ZIAA-PR-109. Investigates infrasonics & seismology through high-precision physical prototyping, speculative boundary conditions, and real-time acoustic signal transduction.",
-    "specifications": {
-      "Operational Bandwidth": "15.6 Hz — 99.2 kHz",
-      "Acoustic Impedance": "1084 Rayls (air/substate matched)",
-      "Signal-to-Noise Floor": "-96.0 dBV",
-      "Primary Transducer": "Beryllium Copper Bimorph Cantilever",
-      "Power / Drive Rail": "±12V Dual Linear Laboratory Rail",
-      "Containment Protocol": "Standard Laboratory B-12 Safety Shielding"
+      "Operational Bandwidth": "3.0 Hz — 17.1 kHz",
+      "Ambient Floor Target": "-83.0 dBV (room-tone referenced)",
+      "Signal-to-Noise Floor": "-83.0 dBV",
+      "Primary Transducer": "Sennheiser MD 421 Element in Transit Housing",
+      "Power / Drive Rail": "±24V Dual Linear Laboratory Rail",
+      "Continuity Protocol": "Standard Annex B-4 Safe Storage"
     },
     "schematicType": "transducer",
     "audioEnginePreset": "raytracer",
     "crossReferences": [
-      "ZIAA-PAT-2021-031",
-      "LOG-2021-217"
+      "GPC-PAT-2001-005",
+      "LOG-2006-014"
     ],
     "tags": [
-      "Infrasonics",
-      "ZIAA-Archive",
-      "Field-Tested",
-      "Class-II"
+      "GPC-Archive",
+      "Ambient",
+      "FY-2006",
+      "Class-I"
     ]
   },
   {
-    "id": "proto-110",
-    "code": "ZIAA-PR-110",
-    "name": "Urban Structural Micro-Vibration Triangulator",
-    "domain": "Infrasonics & Seismology",
-    "year": 2022,
-    "status": "Active Lab Stage",
-    "clearance": "Level I (Public)",
-    "lead": "Dr. Kieran Vance",
-    "summary": "Experimental apparatus developed under ZIAA Directive ZIAA-PR-110. Investigates infrasonics & seismology through high-precision physical prototyping, speculative boundary conditions, and real-time acoustic signal transduction.",
+    "id": "proto-109",
+    "code": "GPC-PR-109",
+    "name": "Boardroom Gravity Hum Generator",
+    "domain": "Ambient Soundscaping",
+    "year": 1998,
+    "status": "Client Deployment",
+    "clearance": "Level IV (Continuity Vault)",
+    "lead": "Sylvia Okafor",
+    "summary": "Program initiated under GPC Directive GPC-PR-109. Advances ambient soundscaping for the Division D: Environmental Audio through anticipatory calibration, controlled procedural exposure, and real-time institutional signal conditioning. Built to client-grade tolerances in the Geneva Annex workshops and certified against Charter Standard ES-77.",
     "specifications": {
-      "Operational Bandwidth": "17.3 Hz — 102.6 kHz",
-      "Acoustic Impedance": "1107 Rayls (air/substate matched)",
-      "Signal-to-Noise Floor": "-98.0 dBV",
-      "Primary Transducer": "Non-Linear Ferroelectric Metamaterial Film",
-      "Power / Drive Rail": "±24V Dual Linear Laboratory Rail",
-      "Containment Protocol": "Standard Laboratory B-12 Safety Shielding"
+      "Operational Bandwidth": "3.7 Hz — 18.4 kHz",
+      "Ambient Floor Target": "-72.0 dBV (room-tone referenced)",
+      "Signal-to-Noise Floor": "-72.0 dBV",
+      "Primary Transducer": "Electro-Voice RE20 Dynamic Element, Impedance Matched",
+      "Power / Drive Rail": "±12V Dual Linear Laboratory Rail",
+      "Continuity Protocol": "Vault Seal Procedure D-99 (irrevocable)"
     },
     "schematicType": "resonator",
     "audioEnginePreset": "raytracer",
     "crossReferences": [
-      "ZIAA-PAT-2022-032",
-      "LOG-2022-219"
+      "GPC-PAT-2001-006",
+      "LOG-1998-019"
     ],
     "tags": [
-      "Infrasonics",
-      "ZIAA-Archive",
-      "Active-Lab Stage",
-      "Class-I ("
-    ]
-  },
-  {
-    "id": "proto-111",
-    "code": "ZIAA-PR-111",
-    "name": "Deep Mantle Shear-Wave Auditory Transcoder",
-    "domain": "Infrasonics & Seismology",
-    "year": 2023,
-    "status": "Decommissioned",
-    "clearance": "Level IV (Black Vault)",
-    "lead": "Maya Lindqvist",
-    "summary": "Experimental apparatus developed under ZIAA Directive ZIAA-PR-111. Investigates infrasonics & seismology through high-precision physical prototyping, speculative boundary conditions, and real-time acoustic signal transduction.",
-    "specifications": {
-      "Operational Bandwidth": "19.0 Hz — 106.0 kHz",
-      "Acoustic Impedance": "1130 Rayls (air/substate matched)",
-      "Signal-to-Noise Floor": "-100.0 dBV",
-      "Primary Transducer": "Ultra-Low Induction Cryogenic Coils",
-      "Power / Drive Rail": "±36V Dual Linear Laboratory Rail",
-      "Containment Protocol": "ZIAA-SEC-IV Vault Enclosure with Acoustic Damping Gel"
-    },
-    "schematicType": "interferometer",
-    "audioEnginePreset": "raytracer",
-    "crossReferences": [
-      "ZIAA-PAT-2023-033",
-      "LOG-2023-221"
-    ],
-    "tags": [
-      "Infrasonics",
-      "ZIAA-Archive",
-      "Decommissioned",
+      "GPC-Archive",
+      "Ambient",
+      "FY-1998",
       "Class-IV"
     ]
   },
   {
-    "id": "proto-112",
-    "code": "ZIAA-PR-112",
-    "name": "Sub-Acoustic Ground Resonance Thumper",
-    "domain": "Infrasonics & Seismology",
-    "year": 2024,
-    "status": "Active Lab Stage",
-    "clearance": "Level III (Restricted)",
-    "lead": "Dr. Tariq Al-Mansoor",
-    "summary": "Experimental apparatus developed under ZIAA Directive ZIAA-PR-112. Investigates infrasonics & seismology through high-precision physical prototyping, speculative boundary conditions, and real-time acoustic signal transduction.",
+    "id": "proto-110",
+    "code": "GPC-PR-110",
+    "name": "Rooftop Terrace Wind Sculpture Array",
+    "domain": "Ambient Soundscaping",
+    "year": 1999,
+    "status": "Field Verified",
+    "clearance": "Level II (Internal)",
+    "lead": "Tomas Ferrand",
+    "summary": "Program initiated under GPC Directive GPC-PR-110. Advances ambient soundscaping for the Division D: Environmental Audio through anticipatory calibration, controlled procedural exposure, and real-time institutional signal conditioning. Built to client-grade tolerances in the Geneva Annex workshops and certified against Charter Standard ES-77.",
     "specifications": {
-      "Operational Bandwidth": "20.7 Hz — 109.4 kHz",
-      "Acoustic Impedance": "1153 Rayls (air/substate matched)",
-      "Signal-to-Noise Floor": "-102.0 dBV",
-      "Primary Transducer": "Beryllium Copper Bimorph Cantilever",
-      "Power / Drive Rail": "±48V Dual Linear Laboratory Rail",
-      "Containment Protocol": "Standard Laboratory B-12 Safety Shielding"
+      "Operational Bandwidth": "0.4 Hz — 19.7 kHz",
+      "Ambient Floor Target": "-73.0 dBV (room-tone referenced)",
+      "Signal-to-Noise Floor": "-75.0 dBV",
+      "Primary Transducer": "Neumann KK-105 Capsule on Custom Geneva Flange",
+      "Power / Drive Rail": "±24V Dual Linear Laboratory Rail",
+      "Continuity Protocol": "Standard Annex B-4 Safe Storage"
     },
-    "schematicType": "circuit",
+    "schematicType": "waveguide",
     "audioEnginePreset": "raytracer",
     "crossReferences": [
-      "ZIAA-PAT-2024-034",
-      "LOG-2024-223"
+      "GPC-PAT-2001-007",
+      "LOG-1999-024"
     ],
     "tags": [
-      "Infrasonics",
-      "ZIAA-Archive",
-      "Active-Lab Stage",
+      "GPC-Archive",
+      "Ambient",
+      "FY-1999",
+      "Class-II"
+    ]
+  },
+  {
+    "id": "proto-111",
+    "code": "GPC-PR-111",
+    "name": "Chapel-of-the-Airport Meditation Niche",
+    "domain": "Ambient Soundscaping",
+    "year": 2000,
+    "status": "Active Program",
+    "clearance": "Level III (Restricted)",
+    "lead": "Dr. Viktor Hale",
+    "summary": "Program initiated under GPC Directive GPC-PR-111. Advances ambient soundscaping for the Division D: Environmental Audio through anticipatory calibration, controlled procedural exposure, and real-time institutional signal conditioning. Built to client-grade tolerances in the Geneva Annex workshops and certified against Charter Standard ES-77.",
+    "specifications": {
+      "Operational Bandwidth": "1.1 Hz — 21.0 kHz",
+      "Ambient Floor Target": "-74.0 dBV (room-tone referenced)",
+      "Signal-to-Noise Floor": "-78.0 dBV",
+      "Primary Transducer": "Piezo-Ceramic Bimorph Cantilever, Beryllium Copper Shim",
+      "Power / Drive Rail": "±12V Dual Linear Laboratory Rail",
+      "Continuity Protocol": "Standard Annex B-4 Safe Storage"
+    },
+    "schematicType": "resonator",
+    "audioEnginePreset": "raytracer",
+    "crossReferences": [
+      "GPC-PAT-2001-008",
+      "LOG-2000-029"
+    ],
+    "tags": [
+      "GPC-Archive",
+      "Ambient",
+      "FY-2000",
       "Class-III"
+    ]
+  },
+  {
+    "id": "proto-112",
+    "code": "GPC-PR-112",
+    "name": "Fountain Courtyard Water Score Player",
+    "domain": "Ambient Soundscaping",
+    "year": 2001,
+    "status": "Archived",
+    "clearance": "Level II (Internal)",
+    "lead": "Sylvia Okafor",
+    "summary": "Program initiated under GPC Directive GPC-PR-112. Advances ambient soundscaping for the Division D: Environmental Audio through anticipatory calibration, controlled procedural exposure, and real-time institutional signal conditioning. Built to client-grade tolerances in the Geneva Annex workshops and certified against Charter Standard ES-77.",
+    "specifications": {
+      "Operational Bandwidth": "1.8 Hz — 16.3 kHz",
+      "Ambient Floor Target": "-75.0 dBV (room-tone referenced)",
+      "Signal-to-Noise Floor": "-81.0 dBV",
+      "Primary Transducer": "Tannoy Dual-Concentric Driver in Sealed Governance Baffle",
+      "Power / Drive Rail": "±24V Dual Linear Laboratory Rail",
+      "Continuity Protocol": "Standard Annex B-4 Safe Storage"
+    },
+    "schematicType": "transducer",
+    "audioEnginePreset": "raytracer",
+    "crossReferences": [
+      "GPC-PAT-2001-009",
+      "LOG-2001-005"
+    ],
+    "tags": [
+      "GPC-Archive",
+      "Ambient",
+      "FY-2001",
+      "Class-II"
     ]
   },
   {
     "id": "proto-113",
-    "code": "ZIAA-PR-113",
-    "name": "Cavity Optomechanical Phonon Interrogator",
-    "domain": "Quantum-Stochastic Acoustics",
-    "year": 2025,
-    "status": "Active Lab Stage",
-    "clearance": "Level III (Restricted)",
-    "lead": "Svenja Dahl",
-    "summary": "Experimental apparatus developed under ZIAA Directive ZIAA-PR-113. Investigates quantum-stochastic acoustics through high-precision physical prototyping, speculative boundary conditions, and real-time acoustic signal transduction.",
+    "code": "GPC-PR-113",
+    "name": "Threshold Masking Carrier Loom",
+    "domain": "Subliminal Acoustics",
+    "year": 2002,
+    "status": "Archived",
+    "clearance": "Level II (Internal)",
+    "lead": "Tomas Ferrand",
+    "summary": "Program initiated under GPC Directive GPC-PR-113. Advances subliminal acoustics for the Division D: Environmental Audio through anticipatory calibration, controlled procedural exposure, and real-time institutional signal conditioning. Built to client-grade tolerances in the Geneva Annex workshops and certified against Charter Standard ES-77.",
     "specifications": {
-      "Operational Bandwidth": "22.4 Hz — 112.8 kHz",
-      "Acoustic Impedance": "1176 Rayls (air/substate matched)",
-      "Signal-to-Noise Floor": "-104.0 dBV",
-      "Primary Transducer": "Non-Linear Ferroelectric Metamaterial Film",
+      "Operational Bandwidth": "2.5 Hz — 17.6 kHz",
+      "Ambient Floor Target": "-76.0 dBV (room-tone referenced)",
+      "Signal-to-Noise Floor": "-70.0 dBV",
+      "Primary Transducer": "Bone-Contact Exciter Panel, Lacquered Birch Substrate",
       "Power / Drive Rail": "±12V Dual Linear Laboratory Rail",
-      "Containment Protocol": "Standard Laboratory B-12 Safety Shielding"
+      "Continuity Protocol": "Standard Annex B-4 Safe Storage"
     },
     "schematicType": "waveguide",
-    "audioEnginePreset": "cavitation",
+    "audioEnginePreset": "shepard",
     "crossReferences": [
-      "ZIAA-PAT-2025-035",
-      "LOG-2025-225"
+      "GPC-PAT-2002-001",
+      "LOG-2002-010"
     ],
     "tags": [
-      "Quantum-Stochastic",
-      "ZIAA-Archive",
-      "Active-Lab Stage",
-      "Class-III"
+      "GPC-Archive",
+      "Subliminal",
+      "FY-2002",
+      "Class-II"
     ]
   },
   {
     "id": "proto-114",
-    "code": "ZIAA-PR-114",
-    "name": "Squeezed-State Acoustic Noise Nullifier",
-    "domain": "Quantum-Stochastic Acoustics",
-    "year": 2026,
-    "status": "Active Lab Stage",
+    "code": "GPC-PR-114",
+    "name": "Sleep-Learning Pillow Transducer",
+    "domain": "Subliminal Acoustics",
+    "year": 2003,
+    "status": "Client Deployment",
     "clearance": "Level III (Restricted)",
-    "lead": "Marcus Holloway",
-    "summary": "Experimental apparatus developed under ZIAA Directive ZIAA-PR-114. Investigates quantum-stochastic acoustics through high-precision physical prototyping, speculative boundary conditions, and real-time acoustic signal transduction.",
+    "lead": "Dr. Anouk Deslauriers",
+    "summary": "Program initiated under GPC Directive GPC-PR-114. Advances subliminal acoustics for the Division D: Environmental Audio through anticipatory calibration, controlled procedural exposure, and real-time institutional signal conditioning. Built to client-grade tolerances in the Geneva Annex workshops and certified against Charter Standard ES-77.",
     "specifications": {
-      "Operational Bandwidth": "0.1 Hz — 20.2 kHz",
-      "Acoustic Impedance": "1199 Rayls (air/substate matched)",
-      "Signal-to-Noise Floor": "-106.0 dBV",
-      "Primary Transducer": "Ultra-Low Induction Cryogenic Coils",
+      "Operational Bandwidth": "3.2 Hz — 18.9 kHz",
+      "Ambient Floor Target": "-77.0 dBV (room-tone referenced)",
+      "Signal-to-Noise Floor": "-73.0 dBV",
+      "Primary Transducer": "Sennheiser MD 421 Element in Transit Housing",
       "Power / Drive Rail": "±24V Dual Linear Laboratory Rail",
-      "Containment Protocol": "Standard Laboratory B-12 Safety Shielding"
+      "Continuity Protocol": "Standard Annex B-4 Safe Storage"
     },
-    "schematicType": "matrix",
-    "audioEnginePreset": "cavitation",
+    "schematicType": "transducer",
+    "audioEnginePreset": "shepard",
     "crossReferences": [
-      "ZIAA-PAT-2026-036",
-      "LOG-2026-227"
+      "GPC-PAT-2002-002",
+      "LOG-2003-015"
     ],
     "tags": [
-      "Quantum-Stochastic",
-      "ZIAA-Archive",
-      "Active-Lab Stage",
+      "GPC-Archive",
+      "Subliminal",
+      "FY-2003",
       "Class-III"
     ]
   },
   {
     "id": "proto-115",
-    "code": "ZIAA-PR-115",
-    "name": "Macroscopic Phononic Entanglement Bridge",
-    "domain": "Quantum-Stochastic Acoustics",
-    "year": 2021,
-    "status": "Active Lab Stage",
-    "clearance": "Level IV (Black Vault)",
-    "lead": "Dr. Christine Abele",
-    "summary": "Experimental apparatus developed under ZIAA Directive ZIAA-PR-115. Investigates quantum-stochastic acoustics through high-precision physical prototyping, speculative boundary conditions, and real-time acoustic signal transduction.",
-    "specifications": {
-      "Operational Bandwidth": "1.8 Hz — 23.6 kHz",
-      "Acoustic Impedance": "1222 Rayls (air/substate matched)",
-      "Signal-to-Noise Floor": "-108.0 dBV",
-      "Primary Transducer": "Beryllium Copper Bimorph Cantilever",
-      "Power / Drive Rail": "±36V Dual Linear Laboratory Rail",
-      "Containment Protocol": "ZIAA-SEC-IV Vault Enclosure with Acoustic Damping Gel"
-    },
-    "schematicType": "transducer",
-    "audioEnginePreset": "cavitation",
-    "crossReferences": [
-      "ZIAA-PAT-2021-037",
-      "LOG-2021-229"
-    ],
-    "tags": [
-      "Quantum-Stochastic",
-      "ZIAA-Archive",
-      "Active-Lab Stage",
-      "Class-IV"
-    ]
-  },
-  {
-    "id": "proto-116",
-    "code": "ZIAA-PR-116",
-    "name": "Casimir Acoustic Force Sensor Micro-Bar",
-    "domain": "Quantum-Stochastic Acoustics",
-    "year": 2022,
-    "status": "Active Lab Stage",
-    "clearance": "Level III (Restricted)",
-    "lead": "Renata Osei",
-    "summary": "Experimental apparatus developed under ZIAA Directive ZIAA-PR-116. Investigates quantum-stochastic acoustics through high-precision physical prototyping, speculative boundary conditions, and real-time acoustic signal transduction.",
-    "specifications": {
-      "Operational Bandwidth": "3.5 Hz — 27.0 kHz",
-      "Acoustic Impedance": "1245 Rayls (air/substate matched)",
-      "Signal-to-Noise Floor": "-110.0 dBV",
-      "Primary Transducer": "Non-Linear Ferroelectric Metamaterial Film",
-      "Power / Drive Rail": "±48V Dual Linear Laboratory Rail",
-      "Containment Protocol": "Standard Laboratory B-12 Safety Shielding"
-    },
-    "schematicType": "resonator",
-    "audioEnginePreset": "cavitation",
-    "crossReferences": [
-      "ZIAA-PAT-2022-038",
-      "LOG-2022-231"
-    ],
-    "tags": [
-      "Quantum-Stochastic",
-      "ZIAA-Archive",
-      "Active-Lab Stage",
-      "Class-III"
-    ]
-  },
-  {
-    "id": "proto-117",
-    "code": "ZIAA-PR-117",
-    "name": "Stochastic Resonance Weak-Signal Amplifier",
-    "domain": "Quantum-Stochastic Acoustics",
-    "year": 2023,
-    "status": "Field Tested",
+    "code": "GPC-PR-115",
+    "name": "Nineteen-Kilohertz Inaudible Cue Injector",
+    "domain": "Subliminal Acoustics",
+    "year": 2004,
+    "status": "Field Verified",
     "clearance": "Level II (Internal)",
-    "lead": "Joon-Ho Park",
-    "summary": "Experimental apparatus developed under ZIAA Directive ZIAA-PR-117. Investigates quantum-stochastic acoustics through high-precision physical prototyping, speculative boundary conditions, and real-time acoustic signal transduction.",
+    "lead": "Dr. Viktor Hale",
+    "summary": "Program initiated under GPC Directive GPC-PR-115. Advances subliminal acoustics for the Division D: Environmental Audio through anticipatory calibration, controlled procedural exposure, and real-time institutional signal conditioning. Built to client-grade tolerances in the Geneva Annex workshops and certified against Charter Standard ES-77.",
     "specifications": {
-      "Operational Bandwidth": "5.2 Hz — 30.4 kHz",
-      "Acoustic Impedance": "1268 Rayls (air/substate matched)",
-      "Signal-to-Noise Floor": "-112.0 dBV",
-      "Primary Transducer": "Ultra-Low Induction Cryogenic Coils",
+      "Operational Bandwidth": "3.9 Hz — 20.2 kHz",
+      "Ambient Floor Target": "-78.0 dBV (room-tone referenced)",
+      "Signal-to-Noise Floor": "-76.0 dBV",
+      "Primary Transducer": "Electro-Voice RE20 Dynamic Element, Impedance Matched",
       "Power / Drive Rail": "±12V Dual Linear Laboratory Rail",
-      "Containment Protocol": "Standard Laboratory B-12 Safety Shielding"
+      "Continuity Protocol": "Standard Annex B-4 Safe Storage"
     },
-    "schematicType": "interferometer",
-    "audioEnginePreset": "cavitation",
+    "schematicType": "circuit",
+    "audioEnginePreset": "shepard",
     "crossReferences": [
-      "ZIAA-PAT-2023-039",
-      "LOG-2023-233"
+      "GPC-PAT-2002-003",
+      "LOG-2004-020"
     ],
     "tags": [
-      "Quantum-Stochastic",
-      "ZIAA-Archive",
-      "Field-Tested",
+      "GPC-Archive",
+      "Subliminal",
+      "FY-2004",
       "Class-II"
     ]
   },
   {
-    "id": "proto-118",
-    "code": "ZIAA-PR-118",
-    "name": "Non-Markovian Acoustic Decoherence Chamber",
-    "domain": "Quantum-Stochastic Acoustics",
-    "year": 2024,
-    "status": "Active Lab Stage",
-    "clearance": "Level III (Restricted)",
-    "lead": "Dr. Lyra Sterling",
-    "summary": "Experimental apparatus developed under ZIAA Directive ZIAA-PR-118. Investigates quantum-stochastic acoustics through high-precision physical prototyping, speculative boundary conditions, and real-time acoustic signal transduction.",
+    "id": "proto-116",
+    "code": "GPC-PR-116",
+    "name": "Backmasking Reversal Auditor",
+    "domain": "Subliminal Acoustics",
+    "year": 2005,
+    "status": "Active Program",
+    "clearance": "Level I (Public)",
+    "lead": "Tomas Ferrand",
+    "summary": "Program initiated under GPC Directive GPC-PR-116. Advances subliminal acoustics for the Division D: Environmental Audio through anticipatory calibration, controlled procedural exposure, and real-time institutional signal conditioning. Built to client-grade tolerances in the Geneva Annex workshops and certified against Charter Standard ES-77.",
     "specifications": {
-      "Operational Bandwidth": "6.9 Hz — 33.8 kHz",
-      "Acoustic Impedance": "1291 Rayls (air/substate matched)",
-      "Signal-to-Noise Floor": "-114.0 dBV",
-      "Primary Transducer": "Beryllium Copper Bimorph Cantilever",
+      "Operational Bandwidth": "0.6 Hz — 21.5 kHz",
+      "Ambient Floor Target": "-79.0 dBV (room-tone referenced)",
+      "Signal-to-Noise Floor": "-79.0 dBV",
+      "Primary Transducer": "Neumann KK-105 Capsule on Custom Geneva Flange",
       "Power / Drive Rail": "±24V Dual Linear Laboratory Rail",
-      "Containment Protocol": "Standard Laboratory B-12 Safety Shielding"
+      "Continuity Protocol": "Standard Annex B-4 Safe Storage"
     },
     "schematicType": "circuit",
-    "audioEnginePreset": "cavitation",
+    "audioEnginePreset": "shepard",
     "crossReferences": [
-      "ZIAA-PAT-2024-040",
-      "LOG-2024-235"
+      "GPC-PAT-2002-004",
+      "LOG-2005-025"
     ],
     "tags": [
-      "Quantum-Stochastic",
-      "ZIAA-Archive",
-      "Active-Lab Stage",
+      "GPC-Archive",
+      "Subliminal",
+      "FY-2005",
+      "Class-I"
+    ]
+  },
+  {
+    "id": "proto-117",
+    "code": "GPC-PR-117",
+    "name": "Affirmation Embedding Console WHISPERGRID",
+    "domain": "Subliminal Acoustics",
+    "year": 2006,
+    "status": "Archived",
+    "clearance": "Level III (Restricted)",
+    "lead": "Dr. Anouk Deslauriers",
+    "summary": "Program initiated under GPC Directive GPC-PR-117. Advances subliminal acoustics for the Division D: Environmental Audio through anticipatory calibration, controlled procedural exposure, and real-time institutional signal conditioning. Built to client-grade tolerances in the Geneva Annex workshops and certified against Charter Standard ES-77.",
+    "specifications": {
+      "Operational Bandwidth": "1.3 Hz — 16.8 kHz",
+      "Ambient Floor Target": "-80.0 dBV (room-tone referenced)",
+      "Signal-to-Noise Floor": "-82.0 dBV",
+      "Primary Transducer": "Piezo-Ceramic Bimorph Cantilever, Beryllium Copper Shim",
+      "Power / Drive Rail": "±12V Dual Linear Laboratory Rail",
+      "Continuity Protocol": "Standard Annex B-4 Safe Storage"
+    },
+    "schematicType": "waveguide",
+    "audioEnginePreset": "shepard",
+    "crossReferences": [
+      "GPC-PAT-2002-005",
+      "LOG-2006-001"
+    ],
+    "tags": [
+      "GPC-Archive",
+      "Subliminal",
+      "FY-2006",
       "Class-III"
     ]
   },
   {
-    "id": "proto-119",
-    "code": "ZIAA-PR-119",
-    "name": "Single-Phonon Counting Nanomechanical Resonator",
-    "domain": "Quantum-Stochastic Acoustics",
-    "year": 2025,
-    "status": "Active Lab Stage",
-    "clearance": "Level III (Restricted)",
-    "lead": "Dr. Alexei Voronov",
-    "summary": "Experimental apparatus developed under ZIAA Directive ZIAA-PR-119. Investigates quantum-stochastic acoustics through high-precision physical prototyping, speculative boundary conditions, and real-time acoustic signal transduction.",
+    "id": "proto-118",
+    "code": "GPC-PR-118",
+    "name": "Infrasound Suggestion Floor Panel",
+    "domain": "Subliminal Acoustics",
+    "year": 1998,
+    "status": "Client Deployment",
+    "clearance": "Level II (Internal)",
+    "lead": "Dr. Viktor Hale",
+    "summary": "Program initiated under GPC Directive GPC-PR-118. Advances subliminal acoustics for the Division D: Environmental Audio through anticipatory calibration, controlled procedural exposure, and real-time institutional signal conditioning. Built to client-grade tolerances in the Geneva Annex workshops and certified against Charter Standard ES-77.",
     "specifications": {
-      "Operational Bandwidth": "8.6 Hz — 37.2 kHz",
-      "Acoustic Impedance": "1314 Rayls (air/substate matched)",
-      "Signal-to-Noise Floor": "-116.0 dBV",
-      "Primary Transducer": "Non-Linear Ferroelectric Metamaterial Film",
-      "Power / Drive Rail": "±36V Dual Linear Laboratory Rail",
-      "Containment Protocol": "Standard Laboratory B-12 Safety Shielding"
+      "Operational Bandwidth": "2.0 Hz — 18.1 kHz",
+      "Ambient Floor Target": "-81.0 dBV (room-tone referenced)",
+      "Signal-to-Noise Floor": "-71.0 dBV",
+      "Primary Transducer": "Tannoy Dual-Concentric Driver in Sealed Governance Baffle",
+      "Power / Drive Rail": "±24V Dual Linear Laboratory Rail",
+      "Continuity Protocol": "Standard Annex B-4 Safe Storage"
     },
-    "schematicType": "waveguide",
-    "audioEnginePreset": "cavitation",
+    "schematicType": "resonator",
+    "audioEnginePreset": "shepard",
     "crossReferences": [
-      "ZIAA-PAT-2025-041",
-      "LOG-2025-237"
+      "GPC-PAT-2002-006",
+      "LOG-1998-006"
     ],
     "tags": [
-      "Quantum-Stochastic",
-      "ZIAA-Archive",
-      "Active-Lab Stage",
+      "GPC-Archive",
+      "Subliminal",
+      "FY-1998",
+      "Class-II"
+    ]
+  },
+  {
+    "id": "proto-119",
+    "code": "GPC-PR-119",
+    "name": "Appetite Modulation Dinner Chime",
+    "domain": "Subliminal Acoustics",
+    "year": 1999,
+    "status": "Field Verified",
+    "clearance": "Level III (Restricted)",
+    "lead": "Tomas Ferrand",
+    "summary": "Program initiated under GPC Directive GPC-PR-119. Advances subliminal acoustics for the Division D: Environmental Audio through anticipatory calibration, controlled procedural exposure, and real-time institutional signal conditioning. Built to client-grade tolerances in the Geneva Annex workshops and certified against Charter Standard ES-77.",
+    "specifications": {
+      "Operational Bandwidth": "2.7 Hz — 19.4 kHz",
+      "Ambient Floor Target": "-82.0 dBV (room-tone referenced)",
+      "Signal-to-Noise Floor": "-74.0 dBV",
+      "Primary Transducer": "Bone-Contact Exciter Panel, Lacquered Birch Substrate",
+      "Power / Drive Rail": "±12V Dual Linear Laboratory Rail",
+      "Continuity Protocol": "Standard Annex B-4 Safe Storage"
+    },
+    "schematicType": "transducer",
+    "audioEnginePreset": "shepard",
+    "crossReferences": [
+      "GPC-PAT-2002-007",
+      "LOG-1999-011"
+    ],
+    "tags": [
+      "GPC-Archive",
+      "Subliminal",
+      "FY-1999",
       "Class-III"
     ]
   },
   {
     "id": "proto-120",
-    "code": "ZIAA-PR-120",
-    "name": "Zero-Point Acoustic Vacuum Fluctuations Tap",
-    "domain": "Quantum-Stochastic Acoustics",
-    "year": 2026,
-    "status": "Decommissioned",
-    "clearance": "Level IV (Black Vault)",
-    "lead": "Beatrix Thorne",
-    "summary": "Experimental apparatus developed under ZIAA Directive ZIAA-PR-120. Investigates quantum-stochastic acoustics through high-precision physical prototyping, speculative boundary conditions, and real-time acoustic signal transduction.",
+    "code": "GPC-PR-120",
+    "name": "Brand Recall Subharmonic Tag",
+    "domain": "Subliminal Acoustics",
+    "year": 2000,
+    "status": "Active Program",
+    "clearance": "Level I (Public)",
+    "lead": "Dr. Anouk Deslauriers",
+    "summary": "Program initiated under GPC Directive GPC-PR-120. Advances subliminal acoustics for the Division D: Environmental Audio through anticipatory calibration, controlled procedural exposure, and real-time institutional signal conditioning. Built to client-grade tolerances in the Geneva Annex workshops and certified against Charter Standard ES-77.",
     "specifications": {
-      "Operational Bandwidth": "10.3 Hz — 40.6 kHz",
-      "Acoustic Impedance": "1337 Rayls (air/substate matched)",
-      "Signal-to-Noise Floor": "-118.0 dBV",
-      "Primary Transducer": "Ultra-Low Induction Cryogenic Coils",
-      "Power / Drive Rail": "±48V Dual Linear Laboratory Rail",
-      "Containment Protocol": "ZIAA-SEC-IV Vault Enclosure with Acoustic Damping Gel"
+      "Operational Bandwidth": "3.4 Hz — 20.7 kHz",
+      "Ambient Floor Target": "-83.0 dBV (room-tone referenced)",
+      "Signal-to-Noise Floor": "-77.0 dBV",
+      "Primary Transducer": "Sennheiser MD 421 Element in Transit Housing",
+      "Power / Drive Rail": "±24V Dual Linear Laboratory Rail",
+      "Continuity Protocol": "Standard Annex B-4 Safe Storage"
     },
-    "schematicType": "matrix",
-    "audioEnginePreset": "cavitation",
+    "schematicType": "circuit",
+    "audioEnginePreset": "shepard",
     "crossReferences": [
-      "ZIAA-PAT-2026-042",
-      "LOG-2026-239"
+      "GPC-PAT-2002-008",
+      "LOG-2000-016"
     ],
     "tags": [
-      "Quantum-Stochastic",
-      "ZIAA-Archive",
-      "Decommissioned",
-      "Class-IV"
+      "GPC-Archive",
+      "Subliminal",
+      "FY-2000",
+      "Class-I"
     ]
   },
   {
     "id": "proto-121",
-    "code": "ZIAA-PR-121",
-    "name": "Parametric Phonon Down-Conversion Crystal",
-    "domain": "Quantum-Stochastic Acoustics",
-    "year": 2021,
-    "status": "Active Lab Stage",
-    "clearance": "Level III (Restricted)",
-    "lead": "Dr. Elena Rostova",
-    "summary": "Experimental apparatus developed under ZIAA Directive ZIAA-PR-121. Investigates quantum-stochastic acoustics through high-precision physical prototyping, speculative boundary conditions, and real-time acoustic signal transduction.",
-    "specifications": {
-      "Operational Bandwidth": "12.0 Hz — 44.0 kHz",
-      "Acoustic Impedance": "1360 Rayls (air/substate matched)",
-      "Signal-to-Noise Floor": "-72.0 dBV",
-      "Primary Transducer": "Beryllium Copper Bimorph Cantilever",
-      "Power / Drive Rail": "±12V Dual Linear Laboratory Rail",
-      "Containment Protocol": "Standard Laboratory B-12 Safety Shielding"
-    },
-    "schematicType": "transducer",
-    "audioEnginePreset": "cavitation",
-    "crossReferences": [
-      "ZIAA-PAT-2021-043",
-      "LOG-2021-241"
-    ],
-    "tags": [
-      "Quantum-Stochastic",
-      "ZIAA-Archive",
-      "Active-Lab Stage",
-      "Class-III"
-    ]
-  },
-  {
-    "id": "proto-122",
-    "code": "ZIAA-PR-122",
-    "name": "Quantum Acoustic Random Number Key Ingest",
-    "domain": "Quantum-Stochastic Acoustics",
-    "year": 2022,
-    "status": "Field Tested",
+    "code": "GPC-PR-121",
+    "name": "Peripheral Attention Hook Weaver",
+    "domain": "Subliminal Acoustics",
+    "year": 2001,
+    "status": "Archived",
     "clearance": "Level II (Internal)",
-    "lead": "Dr. Kieran Vance",
-    "summary": "Experimental apparatus developed under ZIAA Directive ZIAA-PR-122. Investigates quantum-stochastic acoustics through high-precision physical prototyping, speculative boundary conditions, and real-time acoustic signal transduction.",
+    "lead": "Dr. Viktor Hale",
+    "summary": "Program initiated under GPC Directive GPC-PR-121. Advances subliminal acoustics for the Division D: Environmental Audio through anticipatory calibration, controlled procedural exposure, and real-time institutional signal conditioning. Built to client-grade tolerances in the Geneva Annex workshops and certified against Charter Standard ES-77.",
     "specifications": {
-      "Operational Bandwidth": "13.7 Hz — 47.4 kHz",
-      "Acoustic Impedance": "1383 Rayls (air/substate matched)",
-      "Signal-to-Noise Floor": "-74.0 dBV",
-      "Primary Transducer": "Non-Linear Ferroelectric Metamaterial Film",
-      "Power / Drive Rail": "±24V Dual Linear Laboratory Rail",
-      "Containment Protocol": "Standard Laboratory B-12 Safety Shielding"
+      "Operational Bandwidth": "0.1 Hz — 16.0 kHz",
+      "Ambient Floor Target": "-72.0 dBV (room-tone referenced)",
+      "Signal-to-Noise Floor": "-80.0 dBV",
+      "Primary Transducer": "Electro-Voice RE20 Dynamic Element, Impedance Matched",
+      "Power / Drive Rail": "±12V Dual Linear Laboratory Rail",
+      "Continuity Protocol": "Standard Annex B-4 Safe Storage"
     },
-    "schematicType": "resonator",
-    "audioEnginePreset": "cavitation",
+    "schematicType": "waveguide",
+    "audioEnginePreset": "shepard",
     "crossReferences": [
-      "ZIAA-PAT-2022-044",
-      "LOG-2022-243"
+      "GPC-PAT-2002-009",
+      "LOG-2001-021"
     ],
     "tags": [
-      "Quantum-Stochastic",
-      "ZIAA-Archive",
-      "Field-Tested",
+      "GPC-Archive",
+      "Subliminal",
+      "FY-2001",
       "Class-II"
     ]
   },
   {
-    "id": "proto-123",
-    "code": "ZIAA-PR-123",
-    "name": "Phonon-Polariton Superfluid Acoustic Laser",
-    "domain": "Quantum-Stochastic Acoustics",
-    "year": 2023,
-    "status": "Active Lab Stage",
-    "clearance": "Level IV (Black Vault)",
-    "lead": "Maya Lindqvist",
-    "summary": "Experimental apparatus developed under ZIAA Directive ZIAA-PR-123. Investigates quantum-stochastic acoustics through high-precision physical prototyping, speculative boundary conditions, and real-time acoustic signal transduction.",
-    "specifications": {
-      "Operational Bandwidth": "15.4 Hz — 50.8 kHz",
-      "Acoustic Impedance": "1406 Rayls (air/substate matched)",
-      "Signal-to-Noise Floor": "-76.0 dBV",
-      "Primary Transducer": "Ultra-Low Induction Cryogenic Coils",
-      "Power / Drive Rail": "±36V Dual Linear Laboratory Rail",
-      "Containment Protocol": "ZIAA-SEC-IV Vault Enclosure with Acoustic Damping Gel"
-    },
-    "schematicType": "interferometer",
-    "audioEnginePreset": "cavitation",
-    "crossReferences": [
-      "ZIAA-PAT-2023-045",
-      "LOG-2023-245"
-    ],
-    "tags": [
-      "Quantum-Stochastic",
-      "ZIAA-Archive",
-      "Active-Lab Stage",
-      "Class-IV"
-    ]
-  },
-  {
-    "id": "proto-124",
-    "code": "ZIAA-PR-124",
-    "name": "Superconducting Quantum Interference Microphone",
-    "domain": "Quantum-Stochastic Acoustics",
-    "year": 2024,
-    "status": "Active Lab Stage",
+    "id": "proto-122",
+    "code": "GPC-PR-122",
+    "name": "Déjà Vu Induction Feedback Room",
+    "domain": "Subliminal Acoustics",
+    "year": 2002,
+    "status": "Client Deployment",
     "clearance": "Level III (Restricted)",
-    "lead": "Dr. Tariq Al-Mansoor",
-    "summary": "Experimental apparatus developed under ZIAA Directive ZIAA-PR-124. Investigates quantum-stochastic acoustics through high-precision physical prototyping, speculative boundary conditions, and real-time acoustic signal transduction.",
+    "lead": "Tomas Ferrand",
+    "summary": "Program initiated under GPC Directive GPC-PR-122. Advances subliminal acoustics for the Division D: Environmental Audio through anticipatory calibration, controlled procedural exposure, and real-time institutional signal conditioning. Built to client-grade tolerances in the Geneva Annex workshops and certified against Charter Standard ES-77.",
     "specifications": {
-      "Operational Bandwidth": "17.1 Hz — 54.2 kHz",
-      "Acoustic Impedance": "1429 Rayls (air/substate matched)",
-      "Signal-to-Noise Floor": "-78.0 dBV",
-      "Primary Transducer": "Beryllium Copper Bimorph Cantilever",
-      "Power / Drive Rail": "±48V Dual Linear Laboratory Rail",
-      "Containment Protocol": "Standard Laboratory B-12 Safety Shielding"
+      "Operational Bandwidth": "0.8 Hz — 17.3 kHz",
+      "Ambient Floor Target": "-73.0 dBV (room-tone referenced)",
+      "Signal-to-Noise Floor": "-83.0 dBV",
+      "Primary Transducer": "Neumann KK-105 Capsule on Custom Geneva Flange",
+      "Power / Drive Rail": "±24V Dual Linear Laboratory Rail",
+      "Continuity Protocol": "Standard Annex B-4 Safe Storage"
     },
-    "schematicType": "circuit",
-    "audioEnginePreset": "cavitation",
+    "schematicType": "resonator",
+    "audioEnginePreset": "shepard",
     "crossReferences": [
-      "ZIAA-PAT-2024-046",
-      "LOG-2024-247"
+      "GPC-PAT-2003-001",
+      "LOG-2002-026"
     ],
     "tags": [
-      "Quantum-Stochastic",
-      "ZIAA-Archive",
-      "Active-Lab Stage",
+      "GPC-Archive",
+      "Subliminal",
+      "FY-2002",
       "Class-III"
     ]
   },
   {
-    "id": "proto-125",
-    "code": "ZIAA-PR-125",
-    "name": "Bose-Einstein Condensate Sound-Velocity Sump",
-    "domain": "Quantum-Stochastic Acoustics",
-    "year": 2025,
-    "status": "Active Lab Stage",
-    "clearance": "Level IV (Black Vault)",
-    "lead": "Svenja Dahl",
-    "summary": "Experimental apparatus developed under ZIAA Directive ZIAA-PR-125. Investigates quantum-stochastic acoustics through high-precision physical prototyping, speculative boundary conditions, and real-time acoustic signal transduction.",
+    "id": "proto-123",
+    "code": "GPC-PR-123",
+    "name": "Relaxation Command Watermark Deck",
+    "domain": "Subliminal Acoustics",
+    "year": 2003,
+    "status": "Field Verified",
+    "clearance": "Level II (Internal)",
+    "lead": "Dr. Anouk Deslauriers",
+    "summary": "Program initiated under GPC Directive GPC-PR-123. Advances subliminal acoustics for the Division D: Environmental Audio through anticipatory calibration, controlled procedural exposure, and real-time institutional signal conditioning. Built to client-grade tolerances in the Geneva Annex workshops and certified against Charter Standard ES-77.",
     "specifications": {
-      "Operational Bandwidth": "18.8 Hz — 57.6 kHz",
-      "Acoustic Impedance": "1452 Rayls (air/substate matched)",
-      "Signal-to-Noise Floor": "-80.0 dBV",
-      "Primary Transducer": "Non-Linear Ferroelectric Metamaterial Film",
+      "Operational Bandwidth": "1.5 Hz — 18.6 kHz",
+      "Ambient Floor Target": "-74.0 dBV (room-tone referenced)",
+      "Signal-to-Noise Floor": "-72.0 dBV",
+      "Primary Transducer": "Piezo-Ceramic Bimorph Cantilever, Beryllium Copper Shim",
       "Power / Drive Rail": "±12V Dual Linear Laboratory Rail",
-      "Containment Protocol": "ZIAA-SEC-IV Vault Enclosure with Acoustic Damping Gel"
+      "Continuity Protocol": "Standard Annex B-4 Safe Storage"
     },
-    "schematicType": "waveguide",
-    "audioEnginePreset": "cavitation",
+    "schematicType": "circuit",
+    "audioEnginePreset": "shepard",
     "crossReferences": [
-      "ZIAA-PAT-2025-047",
-      "LOG-2025-249"
+      "GPC-PAT-2003-002",
+      "LOG-2003-002"
     ],
     "tags": [
-      "Quantum-Stochastic",
-      "ZIAA-Archive",
-      "Active-Lab Stage",
+      "GPC-Archive",
+      "Subliminal",
+      "FY-2003",
+      "Class-II"
+    ]
+  },
+  {
+    "id": "proto-124",
+    "code": "GPC-PR-124",
+    "name": "Impulse Purchase Proximity Warble",
+    "domain": "Subliminal Acoustics",
+    "year": 2004,
+    "status": "Active Program",
+    "clearance": "Level I (Public)",
+    "lead": "Dr. Viktor Hale",
+    "summary": "Program initiated under GPC Directive GPC-PR-124. Advances subliminal acoustics for the Division D: Environmental Audio through anticipatory calibration, controlled procedural exposure, and real-time institutional signal conditioning. Built to client-grade tolerances in the Geneva Annex workshops and certified against Charter Standard ES-77.",
+    "specifications": {
+      "Operational Bandwidth": "2.2 Hz — 19.9 kHz",
+      "Ambient Floor Target": "-75.0 dBV (room-tone referenced)",
+      "Signal-to-Noise Floor": "-75.0 dBV",
+      "Primary Transducer": "Tannoy Dual-Concentric Driver in Sealed Governance Baffle",
+      "Power / Drive Rail": "±24V Dual Linear Laboratory Rail",
+      "Continuity Protocol": "Standard Annex B-4 Safe Storage"
+    },
+    "schematicType": "transducer",
+    "audioEnginePreset": "shepard",
+    "crossReferences": [
+      "GPC-PAT-2003-003",
+      "LOG-2004-007"
+    ],
+    "tags": [
+      "GPC-Archive",
+      "Subliminal",
+      "FY-2004",
+      "Class-I"
+    ]
+  },
+  {
+    "id": "proto-125",
+    "code": "GPC-PR-125",
+    "name": "Deep-State Hum Attribution Probe",
+    "domain": "Subliminal Acoustics",
+    "year": 2005,
+    "status": "Archived",
+    "clearance": "Level IV (Continuity Vault)",
+    "lead": "Tomas Ferrand",
+    "summary": "Program initiated under GPC Directive GPC-PR-125. Advances subliminal acoustics for the Division D: Environmental Audio through anticipatory calibration, controlled procedural exposure, and real-time institutional signal conditioning. Built to client-grade tolerances in the Geneva Annex workshops and certified against Charter Standard ES-77.",
+    "specifications": {
+      "Operational Bandwidth": "2.9 Hz — 21.2 kHz",
+      "Ambient Floor Target": "-76.0 dBV (room-tone referenced)",
+      "Signal-to-Noise Floor": "-78.0 dBV",
+      "Primary Transducer": "Bone-Contact Exciter Panel, Lacquered Birch Substrate",
+      "Power / Drive Rail": "±12V Dual Linear Laboratory Rail",
+      "Continuity Protocol": "Vault Seal Procedure D-99 (irrevocable)"
+    },
+    "schematicType": "interferometer",
+    "audioEnginePreset": "shepard",
+    "crossReferences": [
+      "GPC-PAT-2003-004",
+      "LOG-2005-012"
+    ],
+    "tags": [
+      "GPC-Archive",
+      "Subliminal",
+      "FY-2005",
       "Class-IV"
     ]
   },
   {
     "id": "proto-126",
-    "code": "ZIAA-PR-126",
-    "name": "Acoustic Casimir-Polder Phase Modulator",
-    "domain": "Quantum-Stochastic Acoustics",
-    "year": 2026,
-    "status": "Field Tested",
-    "clearance": "Level III (Restricted)",
-    "lead": "Marcus Holloway",
-    "summary": "Experimental apparatus developed under ZIAA Directive ZIAA-PR-126. Investigates quantum-stochastic acoustics through high-precision physical prototyping, speculative boundary conditions, and real-time acoustic signal transduction.",
-    "specifications": {
-      "Operational Bandwidth": "20.5 Hz — 61.0 kHz",
-      "Acoustic Impedance": "1475 Rayls (air/substate matched)",
-      "Signal-to-Noise Floor": "-82.0 dBV",
-      "Primary Transducer": "Ultra-Low Induction Cryogenic Coils",
-      "Power / Drive Rail": "±24V Dual Linear Laboratory Rail",
-      "Containment Protocol": "Standard Laboratory B-12 Safety Shielding"
-    },
-    "schematicType": "matrix",
-    "audioEnginePreset": "cavitation",
-    "crossReferences": [
-      "ZIAA-PAT-2026-048",
-      "LOG-2026-001"
-    ],
-    "tags": [
-      "Quantum-Stochastic",
-      "ZIAA-Archive",
-      "Field-Tested",
-      "Class-III"
-    ]
-  },
-  {
-    "id": "proto-127",
-    "code": "ZIAA-PR-127",
-    "name": "Phonon Hall Effect Anomaly Separator",
-    "domain": "Quantum-Stochastic Acoustics",
-    "year": 2021,
-    "status": "Active Lab Stage",
+    "code": "GPC-PR-126",
+    "name": "Cognitive Load Reduction Whisper Bed",
+    "domain": "Subliminal Acoustics",
+    "year": 2006,
+    "status": "Client Deployment",
     "clearance": "Level II (Internal)",
-    "lead": "Dr. Christine Abele",
-    "summary": "Experimental apparatus developed under ZIAA Directive ZIAA-PR-127. Investigates quantum-stochastic acoustics through high-precision physical prototyping, speculative boundary conditions, and real-time acoustic signal transduction.",
+    "lead": "Dr. Anouk Deslauriers",
+    "summary": "Program initiated under GPC Directive GPC-PR-126. Advances subliminal acoustics for the Division D: Environmental Audio through anticipatory calibration, controlled procedural exposure, and real-time institutional signal conditioning. Built to client-grade tolerances in the Geneva Annex workshops and certified against Charter Standard ES-77.",
     "specifications": {
-      "Operational Bandwidth": "22.2 Hz — 64.4 kHz",
-      "Acoustic Impedance": "1498 Rayls (air/substate matched)",
-      "Signal-to-Noise Floor": "-84.0 dBV",
-      "Primary Transducer": "Beryllium Copper Bimorph Cantilever",
-      "Power / Drive Rail": "±36V Dual Linear Laboratory Rail",
-      "Containment Protocol": "Standard Laboratory B-12 Safety Shielding"
+      "Operational Bandwidth": "3.6 Hz — 16.5 kHz",
+      "Ambient Floor Target": "-77.0 dBV (room-tone referenced)",
+      "Signal-to-Noise Floor": "-81.0 dBV",
+      "Primary Transducer": "Sennheiser MD 421 Element in Transit Housing",
+      "Power / Drive Rail": "±24V Dual Linear Laboratory Rail",
+      "Continuity Protocol": "Standard Annex B-4 Safe Storage"
     },
-    "schematicType": "transducer",
-    "audioEnginePreset": "cavitation",
+    "schematicType": "waveguide",
+    "audioEnginePreset": "shepard",
     "crossReferences": [
-      "ZIAA-PAT-2021-049",
-      "LOG-2021-003"
+      "GPC-PAT-2003-005",
+      "LOG-2006-017"
     ],
     "tags": [
-      "Quantum-Stochastic",
-      "ZIAA-Archive",
-      "Active-Lab Stage",
+      "GPC-Archive",
+      "Subliminal",
+      "FY-2006",
       "Class-II"
     ]
   },
   {
-    "id": "proto-128",
-    "code": "ZIAA-PR-128",
-    "name": "Quantum Non-Demolition Phonon Probe Unit",
-    "domain": "Quantum-Stochastic Acoustics",
-    "year": 2022,
-    "status": "Active Lab Stage",
+    "id": "proto-127",
+    "code": "GPC-PR-127",
+    "name": "Memory Consolidation Night Bell",
+    "domain": "Subliminal Acoustics",
+    "year": 1998,
+    "status": "Field Verified",
     "clearance": "Level III (Restricted)",
-    "lead": "Renata Osei",
-    "summary": "Experimental apparatus developed under ZIAA Directive ZIAA-PR-128. Investigates quantum-stochastic acoustics through high-precision physical prototyping, speculative boundary conditions, and real-time acoustic signal transduction.",
+    "lead": "Dr. Viktor Hale",
+    "summary": "Program initiated under GPC Directive GPC-PR-127. Advances subliminal acoustics for the Division D: Environmental Audio through anticipatory calibration, controlled procedural exposure, and real-time institutional signal conditioning. Built to client-grade tolerances in the Geneva Annex workshops and certified against Charter Standard ES-77.",
     "specifications": {
-      "Operational Bandwidth": "23.9 Hz — 67.8 kHz",
-      "Acoustic Impedance": "1521 Rayls (air/substate matched)",
-      "Signal-to-Noise Floor": "-86.0 dBV",
-      "Primary Transducer": "Non-Linear Ferroelectric Metamaterial Film",
-      "Power / Drive Rail": "±48V Dual Linear Laboratory Rail",
-      "Containment Protocol": "Standard Laboratory B-12 Safety Shielding"
+      "Operational Bandwidth": "0.3 Hz — 17.8 kHz",
+      "Ambient Floor Target": "-78.0 dBV (room-tone referenced)",
+      "Signal-to-Noise Floor": "-70.0 dBV",
+      "Primary Transducer": "Electro-Voice RE20 Dynamic Element, Impedance Matched",
+      "Power / Drive Rail": "±12V Dual Linear Laboratory Rail",
+      "Continuity Protocol": "Standard Annex B-4 Safe Storage"
     },
-    "schematicType": "resonator",
-    "audioEnginePreset": "cavitation",
+    "schematicType": "transducer",
+    "audioEnginePreset": "shepard",
     "crossReferences": [
-      "ZIAA-PAT-2022-050",
-      "LOG-2022-005"
+      "GPC-PAT-2003-006",
+      "LOG-1998-022"
     ],
     "tags": [
-      "Quantum-Stochastic",
-      "ZIAA-Archive",
-      "Active-Lab Stage",
+      "GPC-Archive",
+      "Subliminal",
+      "FY-1998",
       "Class-III"
+    ]
+  },
+  {
+    "id": "proto-128",
+    "code": "GPC-PR-128",
+    "name": "The Unsolicited Voice",
+    "domain": "Subliminal Acoustics",
+    "year": 1999,
+    "status": "Decommissioned",
+    "clearance": "Level IV (Continuity Vault)",
+    "lead": "Tomas Ferrand",
+    "summary": "Program initiated under GPC Directive GPC-PR-128. Advances subliminal acoustics for the Division D: Environmental Audio through anticipatory calibration, controlled procedural exposure, and real-time institutional signal conditioning. Built to client-grade tolerances in the Geneva Annex workshops and certified against Charter Standard ES-77.",
+    "specifications": {
+      "Operational Bandwidth": "1.0 Hz — 19.1 kHz",
+      "Ambient Floor Target": "-79.0 dBV (room-tone referenced)",
+      "Signal-to-Noise Floor": "-73.0 dBV",
+      "Primary Transducer": "Neumann KK-105 Capsule on Custom Geneva Flange",
+      "Power / Drive Rail": "±24V Dual Linear Laboratory Rail",
+      "Continuity Protocol": "Vault Seal Procedure D-99 (irrevocable)"
+    },
+    "schematicType": "waveguide",
+    "audioEnginePreset": "shepard",
+    "crossReferences": [
+      "GPC-PAT-2003-007",
+      "LOG-1999-027"
+    ],
+    "tags": [
+      "GPC-Archive",
+      "Subliminal",
+      "FY-1999",
+      "Class-IV"
     ]
   }
 ];
