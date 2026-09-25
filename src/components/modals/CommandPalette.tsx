@@ -114,7 +114,9 @@ export const CommandPalette: React.FC<CommandPaletteProps> = ({
             { label: 'Ledger', tab: 'logs' },
             { label: 'Field Stations', tab: 'field' },
             { label: 'Continuity Vault', tab: 'vault' },
-            { label: 'White Papers', tab: 'essays' }
+            { label: 'White Papers', tab: 'essays' },
+            { label: 'Signal Intercepts', tab: 'intercepts' },
+            { label: 'Night-Watch', tab: 'nightwatch' }
           ].map((item) => (
             <button
               key={item.tab}

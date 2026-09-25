@@ -9,6 +9,8 @@ import { BlackVaultView } from './components/views/BlackVaultView';
 import { EssaysView } from './components/views/EssaysView';
 import { ExhibitionsView } from './components/views/ExhibitionsView';
 import { PersonnelView } from './components/views/PersonnelView';
+import { InterceptsView } from './components/views/InterceptsView';
+import { NightWatchView } from './components/views/NightWatchView';
 
 import { PrototypeModal } from './components/modals/PrototypeModal';
 import { PatentModal } from './components/modals/PatentModal';
@@ -23,7 +25,8 @@ import { audioService } from './audio/audioEngine';
 
 import { 
   Search, Volume2, VolumeX, Shield, Cpu, FileText, Activity, Radio, 
-  AlertOctagon, BookOpen, Globe, Users, Zap, Terminal, Sparkles, Layers
+  AlertOctagon, BookOpen, Globe, Users, Zap, Terminal, Sparkles, Layers,
+  KeyRound, TerminalSquare
 } from 'lucide-react';
 
 export function App() {
@@ -35,6 +38,24 @@ export function App() {
   const [selectedPatent, setSelectedPatent] = useState<PatentDossier | null>(null);
   const [selectedEssay, setSelectedEssay] = useState<TechnicalEssay | null>(null);
   const [isCommandOpen, setIsCommandOpen] = useState(false);
+
+  // The caretaker hears the word: type "identify" anywhere to reach the console.
+  useEffect(() => {
+    let buffer = '';
+    const onKey = (e: KeyboardEvent) => {
+      const target = e.target as HTMLElement | null;
+      if (target && (target.tagName === 'INPUT' || target.tagName === 'TEXTAREA' || target.tagName === 'SELECT')) return;
+      if (e.key.length !== 1) return;
+      buffer = (buffer + e.key.toLowerCase()).slice(-10);
+      if (buffer.endsWith('identify')) {
+        buffer = '';
+        setActiveTab('nightwatch');
+        window.scrollTo({ top: 0, behavior: 'smooth' });
+      }
+    };
+    window.addEventListener('keydown', onKey);
+    return () => window.removeEventListener('keydown', onKey);
+  }, []);
 
   // Audio Telemetry State
   const [isMuted, setIsMuted] = useState(false);
@@ -75,7 +96,9 @@ export function App() {
     { id: 'vault', label: '06 // Continuity Vault', icon: AlertOctagon, count: '18 SEALED' },
     { id: 'essays', label: '07 // White Papers', icon: BookOpen, count: '8' },
     { id: 'exhibitions', label: '08 // Client Installations', icon: Globe, count: '16' },
-    { id: 'personnel', label: '09 // Division Staff', icon: Users, count: '12' }
+    { id: 'personnel', label: '09 // Division Staff', icon: Users, count: '12' },
+    { id: 'intercepts', label: '10 // Signal Intercepts', icon: KeyRound, count: '3' },
+    { id: 'nightwatch', label: '11 // Night-Watch', icon: TerminalSquare, count: 'Ω' }
   ];
 
   return (
@@ -90,7 +113,7 @@ export function App() {
               GPC NETWORK TELEMETRY:
             </span>
             <span className="truncate text-slate-400">
-              GENEVA ANNEX PASSIVE // SNAPSHOTTED 2006-03-14 // 128 PROGRAMS PRESERVED // DIRECTIVE 99 UNREVOKED
+              GENEVA ANNEX PASSIVE // SNAPSHOTTED 2006-03-14 // GANDER BEACON: TRANSMITTING // 3 INTERCEPTS CATALOGED // DIRECTIVE 99 UNREVOKED
             </span>
           </div>
           <div className="hidden sm:flex items-center gap-3 shrink-0">
@@ -235,6 +258,14 @@ export function App() {
         {activeTab === 'exhibitions' && <ExhibitionsView />}
 
         {activeTab === 'personnel' && <PersonnelView />}
+
+        {activeTab === 'intercepts' && (
+          <InterceptsView onOpenNightWatch={() => { setActiveTab('nightwatch'); window.scrollTo({ top: 0, behavior: 'smooth' }); }} />
+        )}
+
+        {activeTab === 'nightwatch' && (
+          <NightWatchView onNavigateIntercepts={() => { setActiveTab('intercepts'); window.scrollTo({ top: 0, behavior: 'smooth' }); }} />
+        )}
       </main>
 
       {/* Institutional Archival Footer */}

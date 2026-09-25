@@ -1,11 +1,13 @@
 import React, { useState } from 'react';
 import { FAILED_PROJECTS_ARCHIVE } from '../../data/failedProjectsData';
 import { FailedProject } from '../../types/archive';
-import { AlertOctagon, ShieldAlert, Skull, FileWarning, Search, ExternalLink, Flame } from 'lucide-react';
+import { AlertOctagon, ShieldAlert, Skull, FileWarning, Search, ExternalLink, Flame, Unlock } from 'lucide-react';
+import { useArgState } from '../../arg/argState';
 
 export const BlackVaultView: React.FC = () => {
   const [selectedProject, setSelectedProject] = useState<FailedProject | null>(FAILED_PROJECTS_ARCHIVE[0]);
   const [searchQuery, setSearchQuery] = useState('');
+  const arg = useArgState();
 
   const filteredProjects = FAILED_PROJECTS_ARCHIVE.filter(
     (p) =>
