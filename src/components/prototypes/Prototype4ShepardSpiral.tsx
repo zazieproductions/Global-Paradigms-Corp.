@@ -5,7 +5,7 @@ import { Play, Square, Compass, Eye, ShieldAlert, Disc, Sliders } from 'lucide-r
 export const Prototype4ShepardSpiral: React.FC = () => {
   const [isPlaying, setIsPlaying] = useState(false);
   const [glissSpeed, setGlissSpeed] = useState(-0.35); // negative = falling forever, positive = rising forever
-  const [binauralDiff, setBinauralDiff] = useState(4.2); // 4.2 Hz ZIAA Infrasonic Anomaly
+  const [binauralDiff, setBinauralDiff] = useState(4.2); // 4.2 Hz retention beat — documented in Operations Ledger
   const [activeEntrainment, setActiveEntrainment] = useState('Sub-Audible 4.2Hz Anomaly');
   const [centerFreq, setCenterFreq] = useState(440);
   const [spectralSpread, setSpectralSpread] = useState(3.0); // octaves standard deviation
@@ -274,10 +274,10 @@ export const Prototype4ShepardSpiral: React.FC = () => {
         <div className="flex items-center gap-3">
           <div className="w-2.5 h-2.5 rounded-full bg-purple-400 animate-pulse" />
           <span className="font-insignia text-sm tracking-wider text-slate-100 font-bold">
-            PROTOTYPE BENCH 04 // CONTINUOUS SHEPARD-RISSET PITCH SPIRAL
+            SYSTEMS BENCH 04 // PERPETUAL HOLD-TONE SPIRAL
           </span>
           <span className="px-2 py-0.5 text-[10px] bg-purple-950 text-purple-300 border border-purple-800 rounded">
-            ZIAA-PR-033
+            GPC-PR-033
           </span>
         </div>
         <div className="flex items-center gap-2">
@@ -296,7 +296,7 @@ export const Prototype4ShepardSpiral: React.FC = () => {
             <div className="absolute top-2 left-2 text-[10px] text-purple-400/90 font-mono-code bg-black/60 px-1.5 py-0.5 rounded">
               PERPETUAL PITCH MANIFOLD // ARCHIMEDEAN SPIRAL
             </div>
-            <div className="absolute top-2 right-2 text-[10px] text-cyan-400 font-mono-code bg-black/60 px-1.5 py-0.5 rounded">
+            <div className="absolute top-2 right-2 text-[10px] text-amber-400 font-mono-code bg-black/60 px-1.5 py-0.5 rounded">
               BINAURAL OFFSET: Δf = {binauralDiff.toFixed(1)} Hz
             </div>
           </div>
@@ -330,7 +330,7 @@ export const Prototype4ShepardSpiral: React.FC = () => {
           <div>
             <div className="flex justify-between text-slate-300 mb-1">
               <span className="text-slate-400">GLISSANDO DRIFT RATE:</span>
-              <span className={`font-bold ${glissSpeed < 0 ? 'text-amber-400' : 'text-cyan-400'}`}>
+              <span className={`font-bold ${glissSpeed < 0 ? 'text-cyan-400' : 'text-amber-400'}`}>
                 {glissSpeed > 0 ? '+' : ''}{glissSpeed.toFixed(2)} octaves/sec
               </span>
             </div>

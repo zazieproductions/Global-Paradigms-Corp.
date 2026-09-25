@@ -13,15 +13,15 @@ export const PersonnelView: React.FC = () => {
       <div className="border border-slate-700 bg-[#0a0e16] p-5 rounded-sm flex flex-col md:flex-row md:items-center md:justify-between gap-4">
         <div>
           <div className="flex items-center gap-2 mb-1">
-            <span className="text-amber-400 font-bold uppercase tracking-widest text-[11px]">
-              GOVERNANCE & PROVENANCE // 12 FELLOWS & 34 LEDGER ENTRIES
+            <span className="text-cyan-400 font-bold uppercase tracking-widest text-[11px]">
+              GOVERNANCE & PROVENANCE // 12 STAFF & 35 LEDGER ENTRIES
             </span>
           </div>
           <h1 className="font-academic text-2xl sm:text-3xl font-bold text-slate-100">
-            Fellowship Faculty & Repository Provenance
+            Division Staff & Directive Ledger
           </h1>
           <p className="font-academic text-sm text-slate-400 mt-1 max-w-2xl">
-            Biographies of principal investigators directing ZIAA research benches, along with the complete 5-year cryptographic revision commit history (2021–2026).
+            Biographies of the twelve officers who ran the corporation's four divisions (1998–2006), with the complete directive ledger — including the silence of 7,319 days and the restoration entries written since 2026-09-14.
           </p>
         </div>
 
@@ -30,21 +30,21 @@ export const PersonnelView: React.FC = () => {
             onClick={() => setActiveTab('residents')}
             className={`py-1.5 px-3 rounded cursor-pointer transition-colors ${
               activeTab === 'residents'
-                ? 'bg-amber-600 text-slate-950 font-bold'
+                ? 'bg-cyan-600 text-slate-950 font-bold'
                 : 'text-slate-400 hover:text-white'
             }`}
           >
-            Resident Fellows (12)
+            Division Staff (12)
           </button>
           <button
             onClick={() => setActiveTab('ledger')}
             className={`py-1.5 px-3 rounded cursor-pointer transition-colors ${
               activeTab === 'ledger'
-                ? 'bg-amber-600 text-slate-950 font-bold'
+                ? 'bg-cyan-600 text-slate-950 font-bold'
                 : 'text-slate-400 hover:text-white'
             }`}
           >
-            Revision Ledger (34)
+            Directive Ledger (35)
           </button>
         </div>
       </div>
@@ -59,13 +59,13 @@ export const PersonnelView: React.FC = () => {
             >
               <div>
                 <div className="flex items-center justify-between text-[10px] mb-1">
-                  <span className="text-amber-400 font-bold">{res.division}</span>
+                  <span className="text-cyan-400 font-bold">{res.division}</span>
                   <span className={`px-2 py-0.5 rounded text-[9px] font-bold ${
-                    res.clearance.includes('Black Vault')
+                    res.clearance.includes('Continuity Vault')
                       ? 'bg-red-950 text-red-400 border border-red-800'
                       : res.clearance.includes('Restricted')
-                      ? 'bg-amber-950 text-amber-400 border border-amber-800'
-                      : 'bg-cyan-950 text-cyan-300 border border-cyan-800'
+                      ? 'bg-cyan-950 text-cyan-400 border border-cyan-800'
+                      : 'bg-amber-950 text-amber-300 border border-amber-800'
                   }`}>
                     {res.clearance}
                   </span>
@@ -75,7 +75,7 @@ export const PersonnelView: React.FC = () => {
                   {res.name}
                 </h2>
 
-                <div className="text-[11px] text-cyan-400 font-semibold mb-2">
+                <div className="text-[11px] text-amber-400 font-semibold mb-2">
                   {res.title}
                 </div>
 
@@ -99,7 +99,7 @@ export const PersonnelView: React.FC = () => {
 
               {/* Notable inventions */}
               <div className="pt-2 border-t border-slate-800 text-[10px]">
-                <span className="text-slate-400 font-bold block mb-1">NOTABLE PROTOTYPES & PATENTS:</span>
+                <span className="text-slate-400 font-bold block mb-1">NOTABLE PROGRAMS & FILINGS:</span>
                 <ul className="list-disc list-inside space-y-0.5 text-slate-300">
                   {res.notableInventions.map((inv, i) => (
                     <li key={i}>{inv}</li>
@@ -113,7 +113,7 @@ export const PersonnelView: React.FC = () => {
         /* Revision Commit Ledger */
         <div className="border border-slate-800 bg-[#090d14] rounded-sm p-4 space-y-3">
           <div className="text-[11px] text-slate-400 mb-2 font-bold">
-            CRYPTOGRAPHIC REPOSITORY COMMIT RECORD (2021.01.15 — 2026.09.14)
+            DIRECTIVE LEDGER (1998.02.11 — 2026.09.25) // SILENCE: 7,319 DAYS
           </div>
 
           <div className="space-y-2">
@@ -123,7 +123,7 @@ export const PersonnelView: React.FC = () => {
                 className="p-3 bg-[#0c1018] border border-slate-800/80 rounded flex flex-col sm:flex-row sm:items-center sm:justify-between gap-2 hover:border-slate-700 transition-colors"
               >
                 <div className="flex items-center gap-3">
-                  <div className="font-mono-code font-bold text-amber-400 text-xs w-20 shrink-0">
+                  <div className="font-mono-code font-bold text-cyan-400 text-xs w-20 shrink-0">
                     commit {entry.commitHash}
                   </div>
                   <div>
@@ -142,7 +142,7 @@ export const PersonnelView: React.FC = () => {
                     entry.impactScore === 'CRITICAL'
                       ? 'bg-red-950 text-red-400 border border-red-800'
                       : entry.impactScore === 'ELEVATED'
-                      ? 'bg-amber-950 text-amber-400 border border-amber-800'
+                      ? 'bg-cyan-950 text-cyan-400 border border-cyan-800'
                       : 'bg-emerald-950 text-emerald-400 border border-emerald-800'
                   }`}>
                     {entry.impactScore}

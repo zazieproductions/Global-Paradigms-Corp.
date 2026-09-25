@@ -240,7 +240,7 @@ export const Prototype5AcousticRayTracer: React.FC = () => {
     // Draw Receiver (R)
     ctx.beginPath();
     ctx.arc(mPixel.x, mPixel.y, 8, 0, Math.PI * 2);
-    ctx.fillStyle = '#00e5ff';
+    ctx.fillStyle = '#ffb000';
     ctx.fill();
     ctx.strokeStyle = '#ffffff';
     ctx.lineWidth = 2;
@@ -334,17 +334,17 @@ export const Prototype5AcousticRayTracer: React.FC = () => {
     <div className="border border-slate-800 bg-[#090d14] p-5 rounded-sm shadow-xl font-mono-code text-xs">
       <div className="flex flex-wrap items-center justify-between pb-3 mb-4 border-b border-slate-800 gap-2">
         <div className="flex items-center gap-3">
-          <div className="w-2.5 h-2.5 rounded-full bg-cyan-400 animate-pulse" />
+          <div className="w-2.5 h-2.5 rounded-full bg-amber-400 animate-pulse" />
           <span className="font-insignia text-sm tracking-wider text-slate-100 font-bold">
-            PROTOTYPE BENCH 05 // 2D ACOUSTIC RAY-TRACER & IMPULSE CONVOLVER
+            SYSTEMS BENCH 05 // ATRIUM RAY-TRACER & IMPULSE CONVOLVER
           </span>
-          <span className="px-2 py-0.5 text-[10px] bg-cyan-950 text-cyan-300 border border-cyan-800 rounded">
-            ZIAA-PR-065
+          <span className="px-2 py-0.5 text-[10px] bg-amber-950 text-amber-300 border border-amber-800 rounded">
+            GPC-PR-097
           </span>
         </div>
         <div className="flex items-center gap-2">
           <span className="text-slate-400">CHAMBER WALL:</span>
-          <span className="px-2 py-0.5 rounded text-[10px] font-bold bg-amber-950 text-amber-300 border border-amber-800 uppercase">
+          <span className="px-2 py-0.5 rounded text-[10px] font-bold bg-cyan-950 text-cyan-300 border border-cyan-800 uppercase">
             {wallMaterial} (α = {absorption})
           </span>
         </div>
@@ -364,10 +364,10 @@ export const Prototype5AcousticRayTracer: React.FC = () => {
               onMouseUp={() => setDraggingEntity(null)}
               onMouseLeave={() => setDraggingEntity(null)}
             />
-            <div className="absolute top-2 left-2 text-[10px] text-cyan-400 font-mono-code bg-black/60 px-1.5 py-0.5 rounded pointer-events-none">
+            <div className="absolute top-2 left-2 text-[10px] text-amber-400 font-mono-code bg-black/60 px-1.5 py-0.5 rounded pointer-events-none">
               DRAG [S] SOURCE / [R] RECEIVER TO RECALCULATE WAVEFRONT
             </div>
-            <div className="absolute bottom-2 right-2 text-[10px] text-amber-400 font-mono-code bg-black/60 px-1.5 py-0.5 rounded pointer-events-none">
+            <div className="absolute bottom-2 right-2 text-[10px] text-cyan-400 font-mono-code bg-black/60 px-1.5 py-0.5 rounded pointer-events-none">
               {simulatedHits.length} ARRIVALS DETECTED
             </div>
           </div>
@@ -385,7 +385,7 @@ export const Prototype5AcousticRayTracer: React.FC = () => {
                 onClick={() => setWallMaterial(m.id)}
                 className={`p-2 text-left rounded text-[11px] border transition-all ${
                   wallMaterial === m.id
-                    ? 'bg-cyan-500/20 text-cyan-300 border-cyan-500/70 font-semibold'
+                    ? 'bg-amber-500/20 text-amber-300 border-amber-500/70 font-semibold'
                     : 'bg-slate-900 text-slate-400 border-slate-800 hover:text-slate-200'
                 }`}
               >
@@ -401,7 +401,7 @@ export const Prototype5AcousticRayTracer: React.FC = () => {
           <div>
             <div className="flex justify-between text-slate-300 mb-1">
               <span className="text-slate-400">RAY DENSITY (k-vectors):</span>
-              <span className="text-cyan-400 font-bold">{numRays} RAYS</span>
+              <span className="text-amber-400 font-bold">{numRays} RAYS</span>
             </div>
             <input
               type="range"
@@ -410,14 +410,14 @@ export const Prototype5AcousticRayTracer: React.FC = () => {
               step="4"
               value={numRays}
               onChange={(e) => setNumRays(parseInt(e.target.value))}
-              className="w-full accent-cyan-400 cursor-pointer h-1.5 bg-slate-800 rounded"
+              className="w-full accent-amber-400 cursor-pointer h-1.5 bg-slate-800 rounded"
             />
           </div>
 
           <div>
             <div className="flex justify-between text-slate-300 mb-1">
               <span className="text-slate-400">MAX REFLECTION BOUNCES:</span>
-              <span className="text-amber-400 font-bold">{maxBounces} ORDERS</span>
+              <span className="text-cyan-400 font-bold">{maxBounces} ORDERS</span>
             </div>
             <input
               type="range"
@@ -425,7 +425,7 @@ export const Prototype5AcousticRayTracer: React.FC = () => {
               max="5"
               value={maxBounces}
               onChange={(e) => setMaxBounces(parseInt(e.target.value))}
-              className="w-full accent-amber-400 cursor-pointer h-1.5 bg-slate-800 rounded"
+              className="w-full accent-cyan-400 cursor-pointer h-1.5 bg-slate-800 rounded"
             />
           </div>
 
@@ -433,13 +433,13 @@ export const Prototype5AcousticRayTracer: React.FC = () => {
           <div className="border border-slate-800 p-2.5 rounded bg-black/60">
             <div className="text-[10px] text-slate-400 mb-1 flex justify-between">
               <span>IMPULSE RESPONSE HISTOGRAM (t = 0 to 180 ms):</span>
-              <span className="text-cyan-400 font-bold">{simulatedHits.length} TAPS</span>
+              <span className="text-amber-400 font-bold">{simulatedHits.length} TAPS</span>
             </div>
             <div className="h-14 flex items-end gap-1 px-1 bg-slate-950/60 rounded border border-slate-900">
               {simulatedHits.slice(0, 24).map((hit, idx) => (
                 <div
                   key={idx}
-                  className="w-2 rounded-t transition-all bg-gradient-to-t from-cyan-600 to-amber-300"
+                  className="w-2 rounded-t transition-all bg-gradient-to-t from-amber-600 to-cyan-300"
                   style={{
                     height: `${Math.max(12, Math.min(100, hit.energy * 95))}%`,
                     opacity: 0.4 + hit.energy * 0.6
@@ -454,7 +454,7 @@ export const Prototype5AcousticRayTracer: React.FC = () => {
           <div className="pt-2">
             <button
               onClick={fireAcousticImpulse}
-              className="w-full py-2.5 px-4 bg-gradient-to-r from-cyan-600 to-amber-600 hover:from-cyan-500 hover:to-amber-500 text-slate-950 font-bold rounded transition-all shadow-lg shadow-cyan-900/20 flex items-center justify-center gap-2 cursor-pointer text-xs"
+              className="w-full py-2.5 px-4 bg-gradient-to-r from-amber-600 to-cyan-600 hover:from-amber-500 hover:to-cyan-500 text-slate-950 font-bold rounded transition-all shadow-lg shadow-amber-900/20 flex items-center justify-center gap-2 cursor-pointer text-xs"
             >
               <Zap className="w-4 h-4 fill-slate-950" /> FIRE ACOUSTIC IMPULSE
             </button>

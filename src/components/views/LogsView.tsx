@@ -35,14 +35,14 @@ export const LogsView: React.FC = () => {
         <div>
           <div className="flex items-center gap-2 mb-1">
             <span className="text-emerald-400 font-bold uppercase tracking-widest text-[11px]">
-              CHRONOLOGICAL NOTEBOOK RUNS // 264 LAB LOGS (2021–2026)
+              OPERATIONS LEDGER // 264 ENTRIES (1998–2006, +3 RESTORATION)
             </span>
           </div>
           <h1 className="font-academic text-2xl sm:text-3xl font-bold text-slate-100">
-            Laboratory Observation Ledgers
+            Operations Ledger
           </h1>
           <p className="font-academic text-sm text-slate-400 mt-1 max-w-2xl">
-            Real-time technician notes, ambient temperature readouts, anomalous acoustic phase spikes, and safety interlock trigger events recorded across 5 years of daily laboratory bench operations.
+            Shift records, bench telemetry, deviation ratings, and interlock events from eight years of daily annex operations — followed by three entries written in 2026 by an author that appears on no staff list.
           </p>
         </div>
 
@@ -61,7 +61,7 @@ export const LogsView: React.FC = () => {
             <Search className="absolute left-3 top-2.5 w-4 h-4 text-slate-400" />
             <input
               type="text"
-              placeholder="Search logbook ID (e.g. LOG-2023-018), keyword, author..."
+              placeholder="Search ledger ID (e.g. LOG-2003-18), keyword, author..."
               value={searchQuery}
               onChange={(e) => setSearchQuery(e.target.value)}
               className="w-full bg-[#04060a] border border-slate-800 rounded pl-9 pr-4 py-2 text-slate-200 placeholder-slate-400 outline-none focus:border-emerald-500 text-xs"
@@ -74,8 +74,8 @@ export const LogsView: React.FC = () => {
               onChange={(e) => setSelectedYear(e.target.value)}
               className="bg-[#05080f] border border-slate-800 text-slate-200 rounded p-2 outline-none"
             >
-              <option value="all">All Years (2021–2026)</option>
-              {[2021, 2022, 2023, 2024, 2025, 2026].map((y) => (
+              <option value="all">All Years (1998–2006 + 2026)</option>
+              {[1998, 1999, 2000, 2001, 2002, 2003, 2004, 2005, 2006, 2026].map((y) => (
                 <option key={y} value={y.toString()}>{y}</option>
               ))}
             </select>
@@ -86,11 +86,11 @@ export const LogsView: React.FC = () => {
               className="bg-[#05080f] border border-slate-800 text-slate-200 rounded p-2 outline-none"
             >
               <option value="all">All Ratings (1 to 5)</option>
-              <option value="1">Rating 1: Baseline</option>
-              <option value="2">Rating 2: Nominal Drift</option>
-              <option value="3">Rating 3: Elevated</option>
-              <option value="4">Rating 4: Restricted Spike</option>
-              <option value="5">Rating 5: Containment Breach</option>
+              <option value="1">Rating 1: Within Tolerance</option>
+              <option value="2">Rating 2: Minor Drift</option>
+              <option value="3">Rating 3: Elevated Deviation</option>
+              <option value="4">Rating 4: Restricted Deviation</option>
+              <option value="5">Rating 5: Protocol Breach</option>
             </select>
 
             <select
@@ -99,14 +99,10 @@ export const LogsView: React.FC = () => {
               className="bg-[#05080f] border border-slate-800 text-slate-200 rounded p-2 outline-none"
             >
               <option value="all">All Divisions</option>
-              <option value="Division A">Div A: Metamaterials</option>
-              <option value="Division B">Div B: Archaeology</option>
-              <option value="Division C">Div C: Psychoacoustics</option>
-              <option value="Division D">Div D: Generative</option>
-              <option value="Division E">Div E: Infrastructure</option>
-              <option value="Division F">Div F: Bio-Magnetic</option>
-              <option value="Division G">Div G: Infrasonics</option>
-              <option value="Division H">Div H: Black Vault</option>
+              <option value="Division A">Div A: Strategic Forecasting</option>
+              <option value="Division B">Div B: Civic Continuity</option>
+              <option value="Division C">Div C: Behavioral Research</option>
+              <option value="Division D">Div D: Environmental Audio</option>
             </select>
           </div>
         </div>
@@ -126,7 +122,7 @@ export const LogsView: React.FC = () => {
                 isCritical
                   ? 'border-red-900/60 bg-gradient-to-r from-[#14080a] to-[#090d14]'
                   : isHigh
-                  ? 'border-amber-900/50'
+                  ? 'border-cyan-900/50'
                   : 'border-slate-800 hover:border-slate-700'
               }`}
             >
@@ -138,7 +134,7 @@ export const LogsView: React.FC = () => {
                 </div>
 
                 <div className="flex items-center gap-2">
-                  <span className="text-slate-400">ANOMALY LEVEL:</span>
+                  <span className="text-slate-400">DEVIATION RATING:</span>
                   <div className="flex items-center gap-1">
                     {Array.from({ length: 5 }).map((_, i) => (
                       <div
@@ -148,7 +144,7 @@ export const LogsView: React.FC = () => {
                             ? isCritical
                               ? 'bg-red-500 animate-pulse'
                               : isHigh
-                              ? 'bg-amber-400'
+                              ? 'bg-cyan-400'
                               : 'bg-emerald-400'
                             : 'bg-slate-800'
                         }`}
@@ -159,7 +155,7 @@ export const LogsView: React.FC = () => {
                     isCritical
                       ? 'bg-red-950 text-red-400 border border-red-800'
                       : isHigh
-                      ? 'bg-amber-950 text-amber-400 border border-amber-800'
+                      ? 'bg-cyan-950 text-cyan-400 border border-cyan-800'
                       : 'bg-slate-800 text-slate-300'
                   }`}>
                     {log.clearance}
@@ -181,7 +177,7 @@ export const LogsView: React.FC = () => {
                 </p>
 
                 {/* Spectrogram Note */}
-                <div className="p-2.5 bg-black/60 border border-slate-800 rounded text-[11px] text-cyan-300/90 font-mono-code mb-2">
+                <div className="p-2.5 bg-black/60 border border-slate-800 rounded text-[11px] text-amber-300/90 font-mono-code mb-2">
                   <span className="text-slate-400 font-bold block mb-0.5">SPECTRAL TELEMETRY OBSERVATION:</span>
                   {log.spectrogramNote}
                 </div>

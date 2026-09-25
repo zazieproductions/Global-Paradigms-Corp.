@@ -225,10 +225,10 @@ export const Prototype6MicrotonalScale: React.FC = () => {
         <div className="flex items-center gap-3">
           <div className="w-2.5 h-2.5 rounded-full bg-emerald-400 animate-pulse" />
           <span className="font-insignia text-sm tracking-wider text-slate-100 font-bold">
-            PROTOTYPE BENCH 06 // BIO-MAGNETIC MYOELECTRIC WAVEFORM TRANSDUCER
+            SYSTEMS BENCH 06 // COMPLIANCE INTERVAL KEYBOARD
           </span>
           <span className="px-2 py-0.5 text-[10px] bg-emerald-950 text-emerald-300 border border-emerald-800 rounded">
-            ZIAA-PR-081
+            GPC-PR-081
           </span>
         </div>
         <div className="flex items-center gap-2">
@@ -248,7 +248,7 @@ export const Prototype6MicrotonalScale: React.FC = () => {
             <div className="absolute top-2 left-2 text-[10px] text-emerald-400 font-mono-code bg-black/60 px-1.5 py-0.5 rounded">
               MYCELIAL HYPHAE ACTION POTENTIAL // ELECTROPHYSIOLOGY BUFFER
             </div>
-            <div className="absolute top-2 right-2 text-[10px] text-cyan-400 font-mono-code bg-black/60 px-1.5 py-0.5 rounded">
+            <div className="absolute top-2 right-2 text-[10px] text-amber-400 font-mono-code bg-black/60 px-1.5 py-0.5 rounded">
               BASE: {scale.baseFreq.toFixed(1)} Hz
             </div>
           </div>
@@ -345,10 +345,10 @@ export const Prototype6MicrotonalScale: React.FC = () => {
 
             <button
               onClick={injectSpike}
-              className="py-2 px-3 bg-amber-500/20 hover:bg-amber-500/30 text-amber-300 border border-amber-500/60 rounded font-semibold flex items-center gap-1.5 cursor-pointer"
+              className="py-2 px-3 bg-cyan-500/20 hover:bg-cyan-500/30 text-cyan-300 border border-cyan-500/60 rounded font-semibold flex items-center gap-1.5 cursor-pointer"
               title="Inject depolarizing current burst"
             >
-              <Zap className="w-3.5 h-3.5 text-amber-400" /> INJECT SPIKE
+              <Zap className="w-3.5 h-3.5 text-cyan-400" /> INJECT SPIKE
             </button>
           </div>
         </div>

@@ -9,22 +9,22 @@ export const ExhibitionsView: React.FC = () => {
       <div className="border border-slate-700 bg-[#0a0e16] p-5 rounded-sm flex flex-col md:flex-row md:items-center md:justify-between gap-4">
         <div>
           <div className="flex items-center gap-2 mb-1">
-            <span className="text-cyan-400 font-bold uppercase tracking-widest text-[11px]">
-              CIVIC DISSEMINATION // 16 INTERNATIONAL EXHIBITIONS
+            <span className="text-amber-400 font-bold uppercase tracking-widest text-[11px]">
+              CLIENT WORK // 16 INSTALLATIONS & DEPLOYMENTS
             </span>
           </div>
           <h1 className="font-academic text-2xl sm:text-3xl font-bold text-slate-100">
-            Public Listening Infrastructure & Exhibitions
+            Client Installations (1999–2006)
           </h1>
           <p className="font-academic text-sm text-slate-400 mt-1 max-w-2xl">
-            Large-scale architectural sound pavilions, civic acoustic shadow benches in Rotterdam, subterranean cistern installations at the Venice Biennale, and museum retrospectives across Europe, the Americas, and Asia.
+            Tuned atriums, calming canopies, siren harmonizations, boarding thresholds, muster certifications, and one public pavilion of probable tomorrows. Client names are as cataloged; several clients no longer exist, and several installations reportedly still run.
           </p>
         </div>
 
         <div className="text-right shrink-0">
           <div className="text-[10px] text-slate-400">GLOBAL INSTALLATIONS</div>
-          <div className="text-xl font-bold text-cyan-400 font-insignia">
-            16 COMMISSIONED
+          <div className="text-xl font-bold text-amber-400 font-insignia">
+            16 DEPLOYED
           </div>
         </div>
       </div>
@@ -34,10 +34,10 @@ export const ExhibitionsView: React.FC = () => {
         {EXHIBITIONS_ARCHIVE.map((exh) => (
           <div
             key={exh.id}
-            className="p-5 bg-[#090d14] border border-slate-800 rounded-sm space-y-4 hover:border-cyan-500/60 transition-colors"
+            className="p-5 bg-[#090d14] border border-slate-800 rounded-sm space-y-4 hover:border-amber-500/60 transition-colors"
           >
             <div>
-              <div className="flex items-center justify-between text-[10px] text-cyan-400 font-bold mb-1">
+              <div className="flex items-center justify-between text-[10px] text-amber-400 font-bold mb-1">
                 <span>{exh.venue}</span>
                 <span className="text-slate-400 font-mono-code">{exh.year}</span>
               </div>
@@ -47,7 +47,7 @@ export const ExhibitionsView: React.FC = () => {
               </h2>
 
               <div className="text-[11px] text-slate-400 flex items-center gap-1.5 mb-2">
-                <MapPin className="w-3.5 h-3.5 text-amber-400" />
+                <MapPin className="w-3.5 h-3.5 text-cyan-400" />
                 <span>{exh.city}</span> • <span className="text-slate-300">Curator: {exh.curator}</span>
               </div>
 

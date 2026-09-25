@@ -20,23 +20,23 @@ export const BlackVaultView: React.FC = () => {
       <div className="border border-red-900/60 bg-gradient-to-b from-[#1a080c] to-[#090507] p-5 rounded-sm flex flex-col md:flex-row md:items-center md:justify-between gap-4 shadow-2xl">
         <div>
           <div className="flex items-center gap-2 mb-1">
-            <span className="stamp-classified text-[10px]">LEVEL IV BLACK VAULT</span>
+            <span className="stamp-classified text-[10px]">LEVEL IV CONTINUITY VAULT</span>
             <span className="text-red-400 font-bold uppercase tracking-widest text-[11px]">
-              RESTRICTED DISCLOSURE // 18 DECOMMISSIONED EXPERIMENTS
+              RESTRICTED DISCLOSURE // 18 SEALED PROGRAMS
             </span>
           </div>
           <h1 className="font-academic text-2xl sm:text-3xl font-bold text-slate-100">
-            Anomaly Containment & Failure Forensics
+            Continuity Vault // Sealed Program Forensics
           </h1>
           <p className="font-academic text-sm text-red-200/80 mt-1 max-w-2xl">
-            Catastrophic structural ruptures, acoustic soil liquefaction events, irreversible biological stress, and somatic vertigo hazards. Decommissioned and physically quarantined under ZIAA Protocol Sec-IV.
+            Physiological overshoot, feedback runaway, emergent content, and instruments of record that preceded the institution they record. Sealed on their own authority under Vault procedure D-99 during the quiet termination of 2006-11-30.
           </p>
         </div>
 
         <div className="text-right shrink-0">
           <div className="text-[10px] text-red-400">SEALED IN VAULT</div>
           <div className="text-xl font-bold text-red-500 font-insignia">
-            18 DECOMMISSIONED
+            18 PROGRAMS
           </div>
         </div>
       </div>
@@ -49,7 +49,7 @@ export const BlackVaultView: React.FC = () => {
             <Search className="absolute left-3 top-2.5 w-4 h-4 text-red-400" />
             <input
               type="text"
-              placeholder="Search Black Vault failed code or incident..."
+              placeholder="Search Vault code (e.g. CV-04) or incident..."
               value={searchQuery}
               onChange={(e) => setSearchQuery(e.target.value)}
               className="w-full bg-[#050508] border border-red-900/60 rounded pl-9 pr-3 py-2 text-slate-200 placeholder-slate-400 outline-none focus:border-red-500 text-xs"
@@ -72,7 +72,7 @@ export const BlackVaultView: React.FC = () => {
                   <div className="flex items-center justify-between text-[10px] mb-1">
                     <span className="font-bold text-red-400">{p.code}</span>
                     <span className="px-1.5 py-0.5 rounded text-[9px] font-bold bg-red-950 text-red-400 border border-red-800">
-                      CONTAINED
+                      SEALED
                     </span>
                   </div>
 
@@ -96,7 +96,7 @@ export const BlackVaultView: React.FC = () => {
               <div className="border-b border-red-900/50 pb-4">
                 <div className="flex items-center justify-between text-[10px] text-red-400 font-bold mb-1">
                   <span>INCIDENT FORENSICS // {selectedProject.code}</span>
-                  <span>ACTIVE EMBARGO</span>
+                  <span>D-99 SEAL</span>
                 </div>
 
                 <h2 className="font-academic text-2xl font-bold text-slate-100 mb-2">
@@ -118,7 +118,7 @@ export const BlackVaultView: React.FC = () => {
               {/* Primary Failure Cause */}
               <div className="space-y-1.5">
                 <span className="font-insignia text-xs text-red-400 tracking-wider font-bold block">
-                  1.0 STRUCTURAL FAILURE MODE
+                  1.0 FAILURE MODE
                 </span>
                 <p className="font-academic text-base text-slate-200 leading-relaxed bg-[#12070a] p-4 rounded border border-red-900/40">
                   {selectedProject.failureMode}
@@ -137,7 +137,7 @@ export const BlackVaultView: React.FC = () => {
 
               {/* Containment Protocol */}
               <div className="space-y-1.5">
-                <span className="font-insignia text-xs text-amber-400 tracking-wider font-bold block">
+                <span className="font-insignia text-xs text-cyan-400 tracking-wider font-bold block">
                   2.0 EMERGENCY CONTAINMENT PROTOCOL
                 </span>
                 <p className="font-academic text-sm text-slate-300 leading-relaxed bg-black/60 p-3.5 rounded border border-slate-800">

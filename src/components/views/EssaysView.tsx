@@ -15,19 +15,19 @@ export const EssaysView: React.FC<EssaysViewProps> = ({ onSelectEssay }) => {
         <div>
           <div className="flex items-center gap-2 mb-1">
             <span className="text-purple-400 font-bold uppercase tracking-widest text-[11px]">
-              PEER-REVIEWED MONOGRAPHS // 8 TECHNICAL PAPERS
+              INTERNAL WHITE PAPERS // 8 MONOGRAPHS
             </span>
           </div>
           <h1 className="font-academic text-2xl sm:text-3xl font-bold text-slate-100">
-            Academic Research Monographs (2021–2026)
+            White Papers (1999–2006)
           </h1>
           <p className="font-academic text-sm text-slate-400 mt-1 max-w-2xl">
-            Dense technical treatises covering non-Hermitian parity-time acoustic crystals, quantum phononics at cryogenic millikelvins, telluric shortwave archaeology, and ergodic cellular composition algorithms.
+            The corporation's doctrinal record: the anticipatory enterprise, the muster doctrine, the unbroken voice, crowd arithmetic, the managed atrium, the floor of hearing, opinion surfaces — and the final paper, filed eight months before Directive 99, describing exactly how this archive would outlive its author.
           </p>
         </div>
 
         <div className="text-right shrink-0">
-          <div className="text-[10px] text-slate-400">PUBLISHED MONOGRAPHS</div>
+          <div className="text-[10px] text-slate-400">FILED MONOGRAPHS</div>
           <div className="text-xl font-bold text-purple-400 font-insignia">
             8 PAPERS
           </div>

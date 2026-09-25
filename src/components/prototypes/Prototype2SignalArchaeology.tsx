@@ -280,17 +280,17 @@ export const Prototype2SignalArchaeology: React.FC = () => {
     <div className="border border-slate-800 bg-[#090d13] p-5 rounded-sm shadow-xl font-mono-code text-xs">
       <div className="flex flex-wrap items-center justify-between pb-3 mb-4 border-b border-slate-800 gap-2">
         <div className="flex items-center gap-3">
-          <div className="w-2.5 h-2.5 rounded-full bg-amber-400 animate-pulse" />
+          <div className="w-2.5 h-2.5 rounded-full bg-cyan-400 animate-pulse" />
           <span className="font-insignia text-sm tracking-wider text-slate-100 font-bold">
-            PROTOTYPE BENCH 02 // SIGNAL ARCHAEOLOGY SPECTRAL DEMODULATOR
+            SYSTEMS BENCH 02 // EMERGENCY BAND CARRIER DEMODULATOR
           </span>
-          <span className="px-2 py-0.5 text-[10px] bg-amber-950 text-amber-300 border border-amber-800 rounded">
-            ZIAA-PR-017
+          <span className="px-2 py-0.5 text-[10px] bg-cyan-950 text-cyan-300 border border-cyan-800 rounded">
+            GPC-PR-049
           </span>
         </div>
         <div className="flex items-center gap-2">
           <span className="text-slate-400">TUNER LOCK:</span>
-          <span className={`px-2 py-0.5 rounded text-[10px] font-bold ${isPlaying ? 'bg-amber-950 text-amber-400 border border-amber-800' : 'bg-slate-800 text-slate-400'}`}>
+          <span className={`px-2 py-0.5 rounded text-[10px] font-bold ${isPlaying ? 'bg-cyan-950 text-cyan-400 border border-cyan-800' : 'bg-slate-800 text-slate-400'}`}>
             {isPlaying ? `${carrierFreq} kHz [LOCKED]` : 'UNLOCKED'}
           </span>
         </div>
@@ -301,10 +301,10 @@ export const Prototype2SignalArchaeology: React.FC = () => {
         <div className="lg:col-span-7 flex flex-col">
           <div className="relative border border-slate-800 bg-black rounded-sm overflow-hidden flex-1 min-h-[220px]">
             <canvas ref={canvasRef} width={500} height={230} className="w-full h-full block" />
-            <div className="absolute top-2 left-2 text-[10px] text-amber-400/90 font-mono-code bg-black/60 px-1.5 py-0.5 rounded">
+            <div className="absolute top-2 left-2 text-[10px] text-cyan-400/90 font-mono-code bg-black/60 px-1.5 py-0.5 rounded">
               WATERFALL SPECTROGRAM // RF DEMODULATION RACK
             </div>
-            <div className="absolute top-2 right-2 text-[10px] text-cyan-400 font-mono-code bg-black/60 px-1.5 py-0.5 rounded">
+            <div className="absolute top-2 right-2 text-[10px] text-amber-400 font-mono-code bg-black/60 px-1.5 py-0.5 rounded">
               MODE: {demodMode} // BFO: {bfoOffset} Hz
             </div>
             <div className="absolute bottom-2 left-2 text-[10px] text-slate-400 font-mono-code bg-black/60 px-1.5 py-0.5 rounded">
@@ -315,17 +315,17 @@ export const Prototype2SignalArchaeology: React.FC = () => {
           {/* Historic Radio Frequencies Presets */}
           <div className="mt-3 grid grid-cols-2 sm:grid-cols-4 gap-2">
             {[
-              { name: 'UVB-76 (The Buzzer)', freq: 4625, bfo: 750, mode: 'USB' as const },
-              { name: 'Lincolnshire Poacher', freq: 11545, bfo: 1120, mode: 'AM' as const },
-              { name: 'Svalbard VLF Sferics', freq: 820, bfo: 440, mode: 'TELLURIC' as const },
-              { name: 'Chernobyl Duga Radar', freq: 3260, bfo: 610, mode: 'USB' as const }
+              { name: 'CONELRAD 640 Drill', freq: 640, bfo: 750, mode: 'AM' as const },
+              { name: 'Ravensport Triad Test', freq: 1120, bfo: 440, mode: 'AM' as const },
+              { name: 'São Sebastião Relay', freq: 4820, bfo: 1120, mode: 'USB' as const },
+              { name: 'Gander Recovery Beacon', freq: 3260, bfo: 610, mode: 'USB' as const }
             ].map((st) => (
               <button
                 key={st.name}
                 onClick={() => selectStation(st.name, st.freq, st.bfo, st.mode)}
                 className={`p-2 text-left rounded text-[11px] transition-all border ${
                   activeStation === st.name
-                    ? 'bg-amber-500/20 text-amber-300 border-amber-500/70 font-semibold'
+                    ? 'bg-cyan-500/20 text-cyan-300 border-cyan-500/70 font-semibold'
                     : 'bg-slate-900/80 text-slate-400 border-slate-800 hover:text-slate-200'
                 }`}
               >
@@ -341,7 +341,7 @@ export const Prototype2SignalArchaeology: React.FC = () => {
           <div>
             <div className="flex justify-between text-slate-300 mb-1">
               <span className="text-slate-400">CARRIER TUNER FREQUENCY:</span>
-              <span className="text-amber-400 font-bold">{carrierFreq} kHz</span>
+              <span className="text-cyan-400 font-bold">{carrierFreq} kHz</span>
             </div>
             <input
               type="range"
@@ -350,14 +350,14 @@ export const Prototype2SignalArchaeology: React.FC = () => {
               step="5"
               value={carrierFreq}
               onChange={(e) => setCarrierFreq(parseInt(e.target.value))}
-              className="w-full accent-amber-400 cursor-pointer h-1.5 bg-slate-800 rounded"
+              className="w-full accent-cyan-400 cursor-pointer h-1.5 bg-slate-800 rounded"
             />
           </div>
 
           <div>
             <div className="flex justify-between text-slate-300 mb-1">
               <span className="text-slate-400">BFO HETERODYNE OFFSET:</span>
-              <span className="text-cyan-400 font-bold">{bfoOffset} Hz</span>
+              <span className="text-amber-400 font-bold">{bfoOffset} Hz</span>
             </div>
             <input
               type="range"
@@ -366,7 +366,7 @@ export const Prototype2SignalArchaeology: React.FC = () => {
               step="10"
               value={bfoOffset}
               onChange={(e) => setBfoOffset(parseInt(e.target.value))}
-              className="w-full accent-cyan-400 cursor-pointer h-1.5 bg-slate-800 rounded"
+              className="w-full accent-amber-400 cursor-pointer h-1.5 bg-slate-800 rounded"
             />
           </div>
 
@@ -396,7 +396,7 @@ export const Prototype2SignalArchaeology: React.FC = () => {
                   onClick={() => setDemodMode(mode)}
                   className={`py-1 text-center text-[10px] rounded border transition-all ${
                     demodMode === mode
-                      ? 'bg-amber-400/20 text-amber-300 border-amber-400 font-bold'
+                      ? 'bg-cyan-400/20 text-cyan-300 border-cyan-400 font-bold'
                       : 'bg-slate-900 text-slate-400 border-slate-800 hover:text-slate-200'
                   }`}
                 >
@@ -411,7 +411,7 @@ export const Prototype2SignalArchaeology: React.FC = () => {
             {!isPlaying ? (
               <button
                 onClick={startDemodulator}
-                className="flex-1 flex items-center justify-center gap-2 py-2 px-4 bg-amber-500 hover:bg-amber-400 text-slate-950 font-bold rounded transition-all shadow-lg shadow-amber-900/30 cursor-pointer"
+                className="flex-1 flex items-center justify-center gap-2 py-2 px-4 bg-cyan-500 hover:bg-cyan-400 text-slate-950 font-bold rounded transition-all shadow-lg shadow-cyan-900/30 cursor-pointer"
               >
                 <Radio className="w-4 h-4 fill-slate-950" /> RECEIVE CARRIER
               </button>
@@ -429,12 +429,12 @@ export const Prototype2SignalArchaeology: React.FC = () => {
               disabled={morseActive}
               className={`py-2 px-3 rounded border transition-colors flex items-center gap-1.5 ${
                 morseActive
-                  ? 'bg-amber-500 text-slate-950 font-bold border-amber-400 animate-pulse'
+                  ? 'bg-cyan-500 text-slate-950 font-bold border-cyan-400 animate-pulse'
                   : 'bg-slate-800 hover:bg-slate-700 text-slate-300 border-slate-700 cursor-pointer'
               }`}
               title="Transmit simulated Numbers Station Morse Code cipher"
             >
-              <Sparkles className="w-3.5 h-3.5 text-amber-400" />
+              <Sparkles className="w-3.5 h-3.5 text-cyan-400" />
               {morseActive ? 'BURST ACTIVE' : 'CW CIPHER'}
             </button>
           </div>

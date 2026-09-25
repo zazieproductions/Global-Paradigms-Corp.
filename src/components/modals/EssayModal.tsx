@@ -16,8 +16,8 @@ export const EssayModal: React.FC<EssayModalProps> = ({ essay, onClose }) => {
         {/* Top Header */}
         <div className="flex items-center justify-between px-6 py-4 bg-[#0d121c] border-b border-slate-800 print:hidden">
           <div className="flex items-center gap-3">
-            <span className="font-insignia text-sm text-amber-400 font-bold tracking-widest">
-              ZIAA TECHNICAL MONOGRAPH // {essay.doi}
+            <span className="font-insignia text-sm text-cyan-400 font-bold tracking-widest">
+              GPC WHITE PAPER // {essay.doi}
             </span>
           </div>
           <div className="flex items-center gap-2">
@@ -40,7 +40,7 @@ export const EssayModal: React.FC<EssayModalProps> = ({ essay, onClose }) => {
         <div className="p-8 max-h-[80vh] overflow-y-auto space-y-6 print:max-h-none print:p-4">
           {/* Header Metadata */}
           <div className="border-b border-slate-800 pb-6 print:border-black">
-            <div className="text-[10px] text-cyan-400 print:text-slate-600 tracking-wider uppercase font-bold mb-1">
+            <div className="text-[10px] text-amber-400 print:text-slate-600 tracking-wider uppercase font-bold mb-1">
               PEER-REVIEWED ARCHIVAL MONOGRAPH • {essay.date}
             </div>
             <h1 className="text-2xl sm:text-3xl font-academic font-bold text-slate-100 print:text-black leading-tight mb-3">
@@ -50,16 +50,16 @@ export const EssayModal: React.FC<EssayModalProps> = ({ essay, onClose }) => {
               {essay.authors.join('; ')}
             </div>
             <div className="text-[10px] text-slate-400 print:text-slate-600">
-              Department of Speculative Acoustics, Zazie Institute of Applied Anomalies, Rotterdam
+              Applied Futures Directorate, Global Paradigms Corp., Palais des Paradigmes, Geneva
             </div>
-            <div className="text-[10px] text-amber-400/90 font-mono-code mt-1">
+            <div className="text-[10px] text-cyan-400/90 font-mono-code mt-1">
               DOI: {essay.doi}
             </div>
           </div>
 
           {/* Abstract */}
-          <div className="p-4 bg-[#0c1018] print:bg-transparent border-l-2 border-amber-500/80 rounded-r">
-            <span className="font-insignia text-[11px] text-amber-400 font-bold block mb-1">
+          <div className="p-4 bg-[#0c1018] print:bg-transparent border-l-2 border-cyan-500/80 rounded-r">
+            <span className="font-insignia text-[11px] text-cyan-400 font-bold block mb-1">
               ABSTRACT
             </span>
             <p className="font-academic text-base text-slate-300 print:text-black leading-relaxed">
@@ -78,7 +78,7 @@ export const EssayModal: React.FC<EssayModalProps> = ({ essay, onClose }) => {
                   {section.content}
                 </p>
                 {section.equation && (
-                  <div className="my-3 p-3 bg-black/60 print:bg-slate-100 border border-slate-800 print:border-slate-300 text-center font-mono-code text-cyan-300 print:text-black text-sm rounded">
+                  <div className="my-3 p-3 bg-black/60 print:bg-slate-100 border border-slate-800 print:border-slate-300 text-center font-mono-code text-amber-300 print:text-black text-sm rounded">
                     {section.equation}
                   </div>
                 )}
@@ -102,7 +102,7 @@ export const EssayModal: React.FC<EssayModalProps> = ({ essay, onClose }) => {
         {/* Footer */}
         <div className="flex items-center justify-between px-6 py-4 bg-[#0d121c] border-t border-slate-800 print:hidden">
           <div className="text-[10px] text-slate-400">
-            ZAZIE INSTITUTE MONOGRAPH SERIES // OPEN ACADEMIC ARCHIVE
+            GLOBAL PARADIGMS WHITE PAPER SERIES // DECLASSIFIED 2026
           </div>
           <button
             onClick={onClose}

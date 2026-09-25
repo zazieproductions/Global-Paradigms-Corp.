@@ -1,73 +1,56 @@
-# React + TypeScript + Vite
+# GLOBAL PARADIGMS CORP. — Declassified Archive
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+> **Order from Anticipation.**
 
-Currently, two official plugins are available:
+A fictional multinational strategic-forecasting, civic-continuity, behavioral-research, and
+environmental-audio corporation. Chartered in Geneva in **1998**. Terminated by its own board on
+**2006-11-30** under **Directive 99**. The domain went dark for **7,319 days** — and resolved again,
+unattended, on **2026-09-14**, serving the last-good archive image from 2006-03-14 with zero drift.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+This repository is the archive.
 
-## React Compiler
+## The Institution
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+Global Paradigms Corp. operated four divisions across eight practice sectors:
 
-## Expanding the ESLint configuration
+| Division | Sectors |
+| --- | --- |
+| **A — Strategic Forecasting** | Predictive Modeling · Scenario Architecture |
+| **B — Civic Continuity** | Continuity Logistics · Emergency Broadcast Systems |
+| **C — Behavioral Research** | Behavioral Compliance · Opinion Topology |
+| **D — Environmental Audio** | Ambient Soundscaping · Subliminal Acoustics |
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+## Archival Inventory
 
-```js
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+- **128** program apparatus records (GPC-PR-001 → GPC-PR-128)
+- **78** patent filing dossiers (GPC-PAT-1998-001 → GPC-PAT-2006-008)
+- **264** operations ledger entries (1998–2006, plus three restoration entries from 2026)
+- **14** field stations (four lost telemetry at termination; one has never stopped transmitting)
+- **18** sealed Continuity Vault programs (procedure D-99)
+- **16** client installations & deployments
+- **12** division staff profiles (two whereabouts unresolved)
+- **8** internal white papers, including the final monograph describing this archive
+- **35** directive ledger entries, including the silence and what has been writing since
+- **6** recovered audio engines, still live in the Systems Bench
 
-      // Remove tseslint.configs.recommended and replace with this
-      tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      tseslint.configs.stylisticTypeChecked,
+## Running the Archive
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
+```bash
+npm install
+npm run dev       # local preview
+npm run build     # production build (tsc + vite)
 ```
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+## Regenerating the Record
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+All nine datasets are produced by the generator script (deterministic; re-running it rewrites the
+archive exactly as it was found):
 
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
+```bash
+node scripts/generate_archive_data.js
 ```
+
+## Note from the Caretaker
+
+Directive 99 has never been revoked. The former staff are asked, in plain text, to identify
+themselves. The hold tone may still be running. It is meant to be.

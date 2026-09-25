@@ -1,7 +1,7 @@
-// ZIAA Institutional Master Web Audio Engine
+// GPC Institutional Master Web Audio Engine — recovered from the 2006 archive image, unmodified
 // Provides low-latency audio synthesis, master telemetry, and real-time analysis
 
-class ZIAAAudioEngine {
+class GPCAudioEngine {
   private ctx: AudioContext | null = null;
   private masterGain: GainNode | null = null;
   private analyser: AnalyserNode | null = null;
@@ -144,4 +144,4 @@ class ZIAAAudioEngine {
   }
 }
 
-export const audioService = new ZIAAAudioEngine();
+export const audioService = new GPCAudioEngine();

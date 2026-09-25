@@ -243,8 +243,8 @@ export const Prototype1CavitationSynth: React.FC = () => {
 
         // Waveform trace
         ctx.lineWidth = 2;
-        ctx.strokeStyle = '#00e5ff';
-        ctx.shadowColor = '#00e5ff';
+        ctx.strokeStyle = '#ffb000';
+        ctx.shadowColor = '#ffb000';
         ctx.shadowBlur = 8;
         ctx.beginPath();
 
@@ -345,12 +345,12 @@ export const Prototype1CavitationSynth: React.FC = () => {
     <div className="border border-slate-800 bg-[#0c1017] p-5 rounded-sm shadow-xl font-mono-code text-xs">
       <div className="flex flex-wrap items-center justify-between pb-3 mb-4 border-b border-slate-800 gap-2">
         <div className="flex items-center gap-3">
-          <div className="w-2.5 h-2.5 rounded-full bg-cyan-400 animate-pulse" />
+          <div className="w-2.5 h-2.5 rounded-full bg-amber-400 animate-pulse" />
           <span className="font-insignia text-sm tracking-wider text-slate-100 font-bold">
-            PROTOTYPE BENCH 01 // NON-HERMITIAN CAVITATION SYNTHESIZER
+            SYSTEMS BENCH 01 // CONSENSUS OSCILLATOR ARRAY
           </span>
-          <span className="px-2 py-0.5 text-[10px] bg-cyan-950 text-cyan-300 border border-cyan-800 rounded">
-            ZIAA-PR-003
+          <span className="px-2 py-0.5 text-[10px] bg-amber-950 text-amber-300 border border-amber-800 rounded">
+            GPC-PR-002
           </span>
         </div>
         <div className="flex items-center gap-2">
@@ -366,10 +366,10 @@ export const Prototype1CavitationSynth: React.FC = () => {
         <div className="lg:col-span-7 flex flex-col">
           <div className="relative border border-slate-800 bg-black rounded-sm overflow-hidden flex-1 min-h-[220px]">
             <canvas ref={canvasRef} width={540} height={240} className="w-full h-full block" />
-            <div className="absolute top-2 left-2 text-[10px] text-cyan-400/70 font-mono-code pointer-events-none">
+            <div className="absolute top-2 left-2 text-[10px] text-amber-400/70 font-mono-code pointer-events-none">
               CH-1 OSCILLOSCOPE // REAL-TIME LISSAJOUS PHASE
             </div>
-            <div className="absolute top-2 right-2 text-[10px] text-amber-400/80 font-mono-code pointer-events-none">
+            <div className="absolute top-2 right-2 text-[10px] text-cyan-400/80 font-mono-code pointer-events-none">
               SPECTRUM DENSITY: {filterCutoff} Hz CUTOFF
             </div>
           </div>
@@ -377,7 +377,7 @@ export const Prototype1CavitationSynth: React.FC = () => {
           {/* Quick Presets */}
           <div className="mt-3 flex flex-wrap items-center gap-2">
             <span className="text-slate-400 text-[11px] flex items-center gap-1">
-              <Layers className="w-3.5 h-3.5 text-amber-400" /> RESIDUAL PRESETS:
+              <Layers className="w-3.5 h-3.5 text-cyan-400" /> RESIDUAL PRESETS:
             </span>
             {['Void Resonator', 'Sub-Basement Cistern 04', 'Ferrofluid Flutter', 'Bismuth Whispering Gallery'].map((preset) => (
               <button
@@ -385,7 +385,7 @@ export const Prototype1CavitationSynth: React.FC = () => {
                 onClick={() => applyPreset(preset)}
                 className={`px-2.5 py-1 text-[11px] rounded transition-all ${
                   activePreset === preset
-                    ? 'bg-amber-500/20 text-amber-300 border border-amber-500/60 font-semibold'
+                    ? 'bg-cyan-500/20 text-cyan-300 border border-cyan-500/60 font-semibold'
                     : 'bg-slate-900 text-slate-400 border border-slate-800 hover:text-slate-200 hover:border-slate-700'
                 }`}
               >
@@ -400,7 +400,7 @@ export const Prototype1CavitationSynth: React.FC = () => {
           <div>
             <div className="flex justify-between text-slate-300 mb-1">
               <span className="text-slate-400">FUNDAMENTAL FREQUENCY (f₀):</span>
-              <span className="text-cyan-400 font-bold">{fundamentalFreq.toFixed(1)} Hz</span>
+              <span className="text-amber-400 font-bold">{fundamentalFreq.toFixed(1)} Hz</span>
             </div>
             <input
               type="range"
@@ -409,14 +409,14 @@ export const Prototype1CavitationSynth: React.FC = () => {
               step="0.5"
               value={fundamentalFreq}
               onChange={(e) => setFundamentalFreq(parseFloat(e.target.value))}
-              className="w-full accent-cyan-400 cursor-pointer h-1.5 bg-slate-800 rounded"
+              className="w-full accent-amber-400 cursor-pointer h-1.5 bg-slate-800 rounded"
             />
           </div>
 
           <div>
             <div className="flex justify-between text-slate-300 mb-1">
               <span className="text-slate-400">NON-HERMITIAN COUPLING (κ):</span>
-              <span className="text-amber-400 font-bold">{(couplingFactor * 100).toFixed(0)}%</span>
+              <span className="text-cyan-400 font-bold">{(couplingFactor * 100).toFixed(0)}%</span>
             </div>
             <input
               type="range"
@@ -425,14 +425,14 @@ export const Prototype1CavitationSynth: React.FC = () => {
               step="0.01"
               value={couplingFactor}
               onChange={(e) => setCouplingFactor(parseFloat(e.target.value))}
-              className="w-full accent-amber-400 cursor-pointer h-1.5 bg-slate-800 rounded"
+              className="w-full accent-cyan-400 cursor-pointer h-1.5 bg-slate-800 rounded"
             />
           </div>
 
           <div>
             <div className="flex justify-between text-slate-300 mb-1">
               <span className="text-slate-400">BIQUAD FILTER CUTOFF (Hz):</span>
-              <span className="text-cyan-400 font-bold">{filterCutoff} Hz</span>
+              <span className="text-amber-400 font-bold">{filterCutoff} Hz</span>
             </div>
             <input
               type="range"
@@ -441,7 +441,7 @@ export const Prototype1CavitationSynth: React.FC = () => {
               step="10"
               value={filterCutoff}
               onChange={(e) => setFilterCutoff(parseInt(e.target.value))}
-              className="w-full accent-cyan-400 cursor-pointer h-1.5 bg-slate-800 rounded"
+              className="w-full accent-amber-400 cursor-pointer h-1.5 bg-slate-800 rounded"
             />
           </div>
 
@@ -493,7 +493,7 @@ export const Prototype1CavitationSynth: React.FC = () => {
             {!isPlaying ? (
               <button
                 onClick={startSynth}
-                className="flex-1 flex items-center justify-center gap-2 py-2 px-4 bg-cyan-600 hover:bg-cyan-500 text-slate-950 font-bold rounded transition-all shadow-lg shadow-cyan-900/30 cursor-pointer"
+                className="flex-1 flex items-center justify-center gap-2 py-2 px-4 bg-amber-600 hover:bg-amber-500 text-slate-950 font-bold rounded transition-all shadow-lg shadow-amber-900/30 cursor-pointer"
               >
                 <Play className="w-4 h-4 fill-slate-950" /> ENGAGE TRANSDUCTION
               </button>
@@ -513,7 +513,7 @@ export const Prototype1CavitationSynth: React.FC = () => {
               className="py-2 px-3 bg-slate-800 hover:bg-slate-700 text-slate-300 rounded border border-slate-700 transition-colors cursor-pointer flex items-center gap-1.5"
               title="Inject test acoustic ping"
             >
-              <Zap className="w-3.5 h-3.5 text-amber-400" /> TEST PING
+              <Zap className="w-3.5 h-3.5 text-cyan-400" /> TEST PING
             </button>
           </div>
         </div>

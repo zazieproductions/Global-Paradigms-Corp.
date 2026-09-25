@@ -67,35 +67,35 @@ export function App() {
 
   const navItems = [
     { id: 'overview', label: '00 // Dossier Overview', icon: Terminal, count: null },
-    { id: 'prototypes', label: '01 // Prototypes', icon: Cpu, count: '128' },
-    { id: 'patents', label: '02 // Speculative Patents', icon: FileText, count: '78' },
-    { id: 'bench', label: '03 // Interactive Audio Bench', icon: Zap, count: '6 LIVE' },
-    { id: 'logs', label: '04 // Lab Notebooks', icon: Activity, count: '264' },
-    { id: 'field', label: '05 // Remote Field Posts', icon: Radio, count: '14' },
-    { id: 'vault', label: '06 // Black Vault', icon: AlertOctagon, count: '18 HAZ' },
-    { id: 'essays', label: '07 // Technical Monographs', icon: BookOpen, count: '8' },
-    { id: 'exhibitions', label: '08 // Public Infrastructure', icon: Globe, count: '16' },
-    { id: 'personnel', label: '09 // Fellowship Faculty', icon: Users, count: '12' }
+    { id: 'prototypes', label: '01 // Programs', icon: Cpu, count: '128' },
+    { id: 'patents', label: '02 // Patent Filings', icon: FileText, count: '78' },
+    { id: 'bench', label: '03 // Audio Systems Bench', icon: Zap, count: '6 LIVE' },
+    { id: 'logs', label: '04 // Operations Ledger', icon: Activity, count: '264' },
+    { id: 'field', label: '05 // Field Stations', icon: Radio, count: '14' },
+    { id: 'vault', label: '06 // Continuity Vault', icon: AlertOctagon, count: '18 SEALED' },
+    { id: 'essays', label: '07 // White Papers', icon: BookOpen, count: '8' },
+    { id: 'exhibitions', label: '08 // Client Installations', icon: Globe, count: '16' },
+    { id: 'personnel', label: '09 // Division Staff', icon: Users, count: '12' }
   ];
 
   return (
-    <div className="min-h-screen bg-[#07090e] text-slate-300 font-mono-code flex flex-col selection:bg-cyan-500/30 selection:text-cyan-200">
+    <div className="min-h-screen bg-[#07090e] text-slate-300 font-mono-code flex flex-col selection:bg-amber-500/30 selection:text-amber-200">
       {/* Top Institutional Header */}
       <header className="border-b border-slate-800 bg-[#090d14]/95 backdrop-blur-md sticky top-0 z-40">
         {/* Urgent Telemetry Ticker Ribbon */}
         <div className="bg-[#05070b] border-b border-slate-800/80 px-4 py-1 text-[10px] flex items-center justify-between text-slate-400">
           <div className="flex items-center gap-3 overflow-hidden">
-            <span className="flex items-center gap-1.5 text-cyan-400 font-bold shrink-0">
-              <span className="w-1.5 h-1.5 rounded-full bg-cyan-400 animate-pulse" />
-              ZIAA ARCHIVAL TELEMETRY:
+            <span className="flex items-center gap-1.5 text-amber-400 font-bold shrink-0">
+              <span className="w-1.5 h-1.5 rounded-full bg-amber-400 animate-pulse" />
+              GPC NETWORK TELEMETRY:
             </span>
             <span className="truncate text-slate-400">
-              ROTTERDAM CLEANROOM PASSIVE // 48kHz SAMPLING // 128 PROTOTYPES PRESERVED // EMBARGO DIRECTIVE SEC-IV ACTIVE
+              GENEVA ANNEX PASSIVE // SNAPSHOTTED 2006-03-14 // 128 PROGRAMS PRESERVED // DIRECTIVE 99 UNREVOKED
             </span>
           </div>
           <div className="hidden sm:flex items-center gap-3 shrink-0">
             <span>PRESS <kbd className="px-1 py-0.5 bg-slate-800 border border-slate-700 rounded text-[9px] text-slate-300 font-bold">⌘K</kbd> OR <kbd className="px-1 py-0.5 bg-slate-800 border border-slate-700 rounded text-[9px] text-slate-300 font-bold">CTRL+K</kbd> TO SEARCH</span>
-            <span className="text-amber-400/90 font-bold">5-YEAR ARCHIVE (2021–2026)</span>
+            <span className="text-cyan-400/90 font-bold">RESTORED 2026-09-14 // OPERATED 1998–2006</span>
           </div>
         </div>
 
@@ -105,30 +105,31 @@ export function App() {
             onClick={() => setActiveTab('overview')}
             className="flex items-center gap-3.5 cursor-pointer group select-none"
           >
-            {/* Custom SVG Institutional Insignia Seal */}
-            <div className="w-10 h-10 shrink-0 relative flex items-center justify-center bg-[#0d1420] border border-cyan-500/50 rounded group-hover:border-cyan-400 transition-colors shadow-lg shadow-cyan-950/40">
+            {/* Custom SVG Corporate Insignia Seal */}
+            <div className="w-10 h-10 shrink-0 relative flex items-center justify-center bg-[#0d1420] border border-amber-500/50 rounded group-hover:border-amber-400 transition-colors shadow-lg shadow-amber-950/40">
               <svg viewBox="0 0 40 40" className="w-7 h-7">
-                <polygon points="20,2 36,11 36,29 20,38 4,29 4,11" fill="none" stroke="#00e5ff" strokeWidth="1.5" />
-                <circle cx="20" cy="20" r="9" fill="none" stroke="#d4a359" strokeWidth="1" strokeDasharray="2 2" />
-                <path d="M12 20 C15 13, 17 27, 20 20 C23 13, 25 27, 28 20" fill="none" stroke="#00e5ff" strokeWidth="1.5" strokeLinecap="round" />
+                <circle cx="20" cy="20" r="17" fill="none" stroke="#ffb000" strokeWidth="1.5" />
+                <ellipse cx="20" cy="20" rx="8" ry="17" fill="none" stroke="#d4a359" strokeWidth="1" />
+                <line x1="3" y1="20" x2="37" y2="20" stroke="#d4a359" strokeWidth="1" />
+                <path d="M10 20 C14 14, 16 26, 20 20 C24 14, 26 26, 30 20" fill="none" stroke="#ffb000" strokeWidth="1.5" strokeLinecap="round" />
                 <circle cx="20" cy="20" r="2" fill="#ff4d4d" />
               </svg>
             </div>
 
             <div>
               <div className="flex items-center gap-2">
-                <span className="font-insignia text-lg sm:text-xl font-bold tracking-wider text-slate-100 group-hover:text-cyan-300 transition-colors">
-                  ZIAA
+                <span className="font-insignia text-lg sm:text-xl font-bold tracking-wider text-slate-100 group-hover:text-amber-300 transition-colors">
+                  GLOBAL PARADIGMS
                 </span>
                 <span className="hidden sm:inline-block px-1.5 py-0.5 bg-slate-800 text-slate-300 text-[9px] rounded font-mono-code font-bold tracking-widest">
-                  SEC-IV
+                  CORP.
                 </span>
                 <span className="text-slate-400 text-xs hidden md:inline">
-                  // Zazie Institute of Applied Anomalies
+                  // Order From Anticipation
                 </span>
               </div>
               <div className="text-[10px] text-slate-400 tracking-wider">
-                R&D DIVISION OF <strong className="text-amber-400 font-normal">ZAZIE PRODUCTIONS LLC</strong> • SPECULATIVE ACOUSTICS
+                STRATEGIC FORECASTING • CIVIC CONTINUITY • BEHAVIORAL RESEARCH • <strong className="text-cyan-400 font-normal">ENVIRONMENTAL AUDIO</strong>
               </div>
             </div>
           </div>
@@ -138,10 +139,10 @@ export function App() {
             {/* Search Trigger Button */}
             <button
               onClick={() => setIsCommandOpen(true)}
-              className="py-1.5 px-3 bg-[#0d131f] hover:bg-slate-800 border border-slate-700/80 hover:border-cyan-500/60 text-slate-300 rounded flex items-center gap-2 transition-all cursor-pointer text-xs"
+              className="py-1.5 px-3 bg-[#0d131f] hover:bg-slate-800 border border-slate-700/80 hover:border-amber-500/60 text-slate-300 rounded flex items-center gap-2 transition-all cursor-pointer text-xs"
               title="Search entire archive"
             >
-              <Search className="w-3.5 h-3.5 text-cyan-400" />
+              <Search className="w-3.5 h-3.5 text-amber-400" />
               <span className="hidden sm:inline">Search Archive</span>
               <kbd className="hidden md:inline px-1 bg-slate-800 text-[10px] text-slate-400 rounded">⌘K</kbd>
             </button>
@@ -152,7 +153,7 @@ export function App() {
               className={`p-2 rounded border transition-colors cursor-pointer ${
                 isMuted
                   ? 'bg-red-950 border-red-800 text-red-400'
-                  : 'bg-[#0d131f] border-slate-700/80 text-cyan-400 hover:text-white'
+                  : 'bg-[#0d131f] border-slate-700/80 text-amber-400 hover:text-white'
               }`}
               title={isMuted ? 'Unmute Institutional Audio' : 'Mute Institutional Audio'}
             >
@@ -175,15 +176,15 @@ export function App() {
                 }}
                 className={`py-2.5 px-3 whitespace-nowrap text-xs flex items-center gap-2 border-b-2 transition-all cursor-pointer ${
                   isActive
-                    ? 'border-cyan-400 text-cyan-300 bg-cyan-950/20 font-bold'
+                    ? 'border-amber-400 text-amber-300 bg-amber-950/20 font-bold'
                     : 'border-transparent text-slate-400 hover:text-slate-200 hover:border-slate-700'
                 }`}
               >
-                <IconComp className={`w-3.5 h-3.5 ${isActive ? 'text-cyan-400' : 'text-slate-400'}`} />
+                <IconComp className={`w-3.5 h-3.5 ${isActive ? 'text-amber-400' : 'text-slate-400'}`} />
                 <span>{item.label}</span>
                 {item.count && (
                   <span className={`px-1.5 py-0.2 rounded text-[9px] ${
-                    isActive ? 'bg-cyan-900/60 text-cyan-200' : 'bg-slate-800/80 text-slate-400'
+                    isActive ? 'bg-amber-900/60 text-amber-200' : 'bg-slate-800/80 text-slate-400'
                   }`}>
                     {item.count}
                   </span>
@@ -243,43 +244,43 @@ export function App() {
             <div className="space-y-2 md:col-span-2">
               <div className="flex items-center gap-2">
                 <span className="font-insignia text-sm font-bold text-slate-200">
-                  ZAZIE INSTITUTE OF APPLIED ANOMALIES
+                  GLOBAL PARADIGMS CORP.
                 </span>
                 <span className="px-1.5 py-0.5 bg-slate-800 text-slate-300 text-[9px] rounded">
-                  EST. 2021
+                  EST. 1998 — TERMINATED 2006
                 </span>
               </div>
               <p className="font-academic text-xs text-slate-400 leading-relaxed max-w-lg">
-                Independent laboratory for experimental audio technologies, creative tools, speculative patents, perceptual interfaces, signal archaeology, material research, generative composition systems, and public listening infrastructure. The R&D division of <strong>Zazie Productions LLC</strong>.
+                Multinational consultancy for strategic forecasting, civic continuity, behavioral research, and environmental audio. Chartered in Geneva, 1998. Terminated by Directive 99, 2006-11-30. This archive is the complete declassified record, served unattended since 2026-09-14.
               </p>
             </div>
 
             <div className="space-y-1">
               <div className="font-bold text-slate-300 mb-1">ARCHIVAL INVENTORY</div>
-              <div>• 128 Physical Prototype Records</div>
-              <div>• 78 Speculative Patent Dossiers</div>
-              <div>• 264 Chronological Lab Notebooks</div>
-              <div>• 14 Global Remote Field Posts</div>
-              <div>• 18 Decommissioned Black Vault Anomalies</div>
+              <div>• 128 Program Apparatus Records</div>
+              <div>• 78 Patent Filing Dossiers</div>
+              <div>• 264 Operations Ledger Entries</div>
+              <div>• 14 Global Field Stations</div>
+              <div>• 18 Sealed Continuity Vault Programs</div>
             </div>
 
             <div className="space-y-1">
-              <div className="font-bold text-slate-300 mb-1">FACILITY LOCATIONS</div>
-              <div>• Main Lab Hangar: Rotterdam, Netherlands</div>
-              <div>• Infrasound Array: Svalbard Archipelago</div>
-              <div>• Cistern Acoustics Post: Venice, Italy</div>
-              <div>• Cleanroom CNC Facility: Zurich, Switzerland</div>
-              <div>• High-Pressure Tank: Mariana Abyssal Node</div>
+              <div className="font-bold text-slate-300 mb-1">REGISTERED ANNEXES</div>
+              <div>• Headquarters: Palais des Paradigmes, Geneva</div>
+              <div>• Continuity Bunker: Halcyon Ridge, Colorado</div>
+              <div>• Quiet Bay & Beacon: Gander, Newfoundland</div>
+              <div>• Broadcast Relay: São Sebastião, São Paulo</div>
+              <div>• Forecast Floor: Reykjanes, Iceland</div>
             </div>
           </div>
 
           <div className="flex flex-col sm:flex-row items-center justify-between gap-3 text-[10px]">
             <div>
-              © 2021–2026 Zazie Productions LLC. All speculative acoustic claims registered under ISO-10209.
+              © 1998–2006 Global Paradigms Corp. All claims registered under Charter Standard ES-77. Restored unattended 2026.
             </div>
             <div className="flex items-center gap-4 text-slate-400">
               <span>CLEARANCE: LEVEL I — IV</span>
-              <span>NO AI GENERATED ASSETS</span>
+              <span>DIRECTIVE 99 UNREVOKED</span>
               <span>WEB AUDIO ENGINE v5.4</span>
             </div>
           </div>
